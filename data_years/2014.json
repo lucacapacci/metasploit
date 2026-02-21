@@ -2,1141 +2,1141 @@
   {
     "cve": "CVE-2014-6041",
     "module": "auxiliary_admin/android/google_play_store_uxss_xframe_rce",
-    "path": "/modules/auxiliary/admin/android/google_play_store_uxss_xframe_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/android/google_play_store_uxss_xframe_rce.rb",
     "name": "Android Browser RCE Through Google Play Store XFO"
   },
   {
     "cve": "CVE-2014-9222",
     "module": "auxiliary_admin/http/allegro_rompager_auth_bypass",
-    "path": "/modules/auxiliary/admin/http/allegro_rompager_auth_bypass.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/allegro_rompager_auth_bypass.rb",
     "name": "Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Authentication Bypass"
   },
   {
     "cve": "CVE-2014-125122",
     "module": "auxiliary_admin/http/linksys_tmunblock_admin_reset_bof",
-    "path": "/modules/auxiliary/admin/http/linksys_tmunblock_admin_reset_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/linksys_tmunblock_admin_reset_bof.rb",
     "name": "Linksys WRT120N tmUnblock Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2014-7862",
     "module": "auxiliary_admin/http/manage_engine_dc_create_admin",
-    "path": "/modules/auxiliary/admin/http/manage_engine_dc_create_admin.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/manage_engine_dc_create_admin.rb",
     "name": "ManageEngine Desktop Central Administrator Account Creation"
   },
   {
     "cve": "CVE-2014-7863",
     "module": "auxiliary_admin/http/manageengine_dir_listing",
-    "path": "/modules/auxiliary/admin/http/manageengine_dir_listing.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/manageengine_dir_listing.rb",
     "name": "ManageEngine Multiple Products Arbitrary Directory Listing"
   },
   {
     "cve": "CVE-2014-7863",
     "module": "auxiliary_admin/http/manageengine_file_download",
-    "path": "/modules/auxiliary/admin/http/manageengine_file_download.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/manageengine_file_download.rb",
     "name": "ManageEngine Multiple Products Arbitrary File Download"
   },
   {
     "cve": "CVE-2014-8499",
     "module": "auxiliary_admin/http/manageengine_pmp_privesc",
-    "path": "/modules/auxiliary/admin/http/manageengine_pmp_privesc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/manageengine_pmp_privesc.rb",
     "name": "ManageEngine Password Manager SQLAdvancedALSearchResult.cc Pro SQL Injection"
   },
   {
     "cve": "CVE-2014-5445",
     "module": "auxiliary_admin/http/netflow_file_download",
-    "path": "/modules/auxiliary/admin/http/netflow_file_download.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/netflow_file_download.rb",
     "name": "ManageEngine NetFlow Analyzer Arbitrary File Download"
   },
   {
     "cve": "CVE-2014-6324",
     "module": "auxiliary_admin/kerberos/ms14_068_kerberos_checksum",
-    "path": "/modules/auxiliary/admin/kerberos/ms14_068_kerberos_checksum.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/kerberos/ms14_068_kerberos_checksum.rb",
     "name": "MS14-068 Microsoft Kerberos Checksum Validation Vulnerability"
   },
   {
     "cve": "CVE-2014-0763",
     "module": "auxiliary_admin/scada/advantech_webaccess_dbvisitor_sqli",
-    "path": "/modules/auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli.rb",
     "name": "Advantech WebAccess DBVisitor.dll ChartThemeConfig SQL Injection"
   },
   {
     "cve": "CVE-2014-9195",
     "module": "auxiliary_admin/scada/phoenix_command",
-    "path": "/modules/auxiliary/admin/scada/phoenix_command.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/scada/phoenix_command.rb",
     "name": "PhoenixContact PLC Remote START/STOP Command"
   },
   {
     "cve": "CVE-2014-5208",
     "module": "auxiliary_admin/scada/yokogawa_bkbcopyd_client",
-    "path": "/modules/auxiliary/admin/scada/yokogawa_bkbcopyd_client.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/scada/yokogawa_bkbcopyd_client.rb",
     "name": "Yokogawa BKBCopyD.exe Client"
   },
   {
     "cve": "CVE-2014-0050",
     "module": "auxiliary_dos/http/apache_commons_fileupload_dos",
-    "path": "/modules/auxiliary/dos/http/apache_commons_fileupload_dos.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/apache_commons_fileupload_dos.rb",
     "name": "Apache Commons FileUpload and Apache Tomcat DoS"
   },
   {
     "cve": "CVE-2014-9016",
     "module": "auxiliary_dos/http/wordpress_long_password_dos",
-    "path": "/modules/auxiliary/dos/http/wordpress_long_password_dos.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/wordpress_long_password_dos.rb",
     "name": "WordPress Long Password DoS"
   },
   {
     "cve": "CVE-2014-5266",
     "module": "auxiliary_dos/http/wordpress_xmlrpc_dos",
-    "path": "/modules/auxiliary/dos/http/wordpress_xmlrpc_dos.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/wordpress_xmlrpc_dos.rb",
     "name": "Wordpress XMLRPC DoS"
   },
   {
     "cve": "CVE-2014-0781",
     "module": "auxiliary_dos/scada/yokogawa_logsvr",
-    "path": "/modules/auxiliary/dos/scada/yokogawa_logsvr.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/scada/yokogawa_logsvr.rb",
     "name": "Yokogawa CENTUM CS 3000 BKCLogSvr.exe Heap Buffer Overflow"
   },
   {
     "cve": "CVE-2014-0195",
     "module": "auxiliary_dos/ssl/dtls_fragment_overflow",
-    "path": "/modules/auxiliary/dos/ssl/dtls_fragment_overflow.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/ssl/dtls_fragment_overflow.rb",
     "name": "OpenSSL DTLS Fragment Buffer Overflow DoS"
   },
   {
     "cve": "CVE-2014-5383",
     "module": "auxiliary_gather/alienvault_newpolicyform_sqli",
-    "path": "/modules/auxiliary/gather/alienvault_newpolicyform_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/alienvault_newpolicyform_sqli.rb",
     "name": "AlienVault Authenticated SQL Injection Arbitrary File Read"
   },
   {
     "cve": "CVE-2014-6041",
     "module": "auxiliary_gather/android_object_tag_webview_uxss",
-    "path": "/modules/auxiliary/gather/android_object_tag_webview_uxss.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/android_object_tag_webview_uxss.rb",
     "name": "Android Open Source Platform (AOSP) Browser UXSS"
   },
   {
     "cve": "CVE-2014-6041",
     "module": "auxiliary_gather/android_stock_browser_uxss",
-    "path": "/modules/auxiliary/gather/android_stock_browser_uxss.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/android_stock_browser_uxss.rb",
     "name": "Android Open Source Platform (AOSP) Browser UXSS"
   },
   {
     "cve": "CVE-2014-0644",
     "module": "auxiliary_gather/emc_cta_xxe",
-    "path": "/modules/auxiliary/gather/emc_cta_xxe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/emc_cta_xxe.rb",
     "name": "EMC CTA v10.0 Unauthenticated XXE Arbitrary File Read"
   },
   {
     "cve": "CVE-2014-6038",
     "module": "auxiliary_gather/eventlog_cred_disclosure",
-    "path": "/modules/auxiliary/gather/eventlog_cred_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/eventlog_cred_disclosure.rb",
     "name": "ManageEngine Eventlog Analyzer Managed Hosts Administrator Credential Disclosure"
   },
   {
     "cve": "CVE-2014-6039",
     "module": "auxiliary_gather/eventlog_cred_disclosure",
-    "path": "/modules/auxiliary/gather/eventlog_cred_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/eventlog_cred_disclosure.rb",
     "name": "ManageEngine Eventlog Analyzer Managed Hosts Administrator Credential Disclosure"
   },
   {
     "cve": "CVE-2014-4671",
     "module": "auxiliary_gather/flash_rosetta_jsonp_url_disclosure",
-    "path": "/modules/auxiliary/gather/flash_rosetta_jsonp_url_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/flash_rosetta_jsonp_url_disclosure.rb",
     "name": "Flash \"Rosetta\" JSONP GET/POST Response Disclosure"
   },
   {
     "cve": "CVE-2014-7981",
     "module": "auxiliary_gather/joomla_weblinks_sqli",
-    "path": "/modules/auxiliary/gather/joomla_weblinks_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/joomla_weblinks_sqli.rb",
     "name": "Joomla weblinks-categories Unauthenticated SQL Injection Arbitrary File Read"
   },
   {
     "cve": "CVE-2014-2238",
     "module": "auxiliary_gather/mantisbt_admin_sqli",
-    "path": "/modules/auxiliary/gather/mantisbt_admin_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/mantisbt_admin_sqli.rb",
     "name": "MantisBT Admin SQL Injection Arbitrary File Read"
   },
   {
     "cve": "CVE-2014-9566",
     "module": "auxiliary_gather/solarwinds_orion_sqli",
-    "path": "/modules/auxiliary/gather/solarwinds_orion_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/solarwinds_orion_sqli.rb",
     "name": "Solarwinds Orion AccountManagement.asmx GetAccounts Admin Creation"
   },
   {
     "cve": "CVE-2014-4872",
     "module": "auxiliary_gather/trackit_sql_domain_creds",
-    "path": "/modules/auxiliary/gather/trackit_sql_domain_creds.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/trackit_sql_domain_creds.rb",
     "name": "BMC / Numara Track-It! Domain Administrator and SQL Server User Password Disclosure"
   },
   {
     "cve": "CVE-2014-7992",
     "module": "auxiliary_scanner/dlsw/dlsw_leak_capture",
-    "path": "/modules/auxiliary/scanner/dlsw/dlsw_leak_capture.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/dlsw/dlsw_leak_capture.rb",
     "name": "Cisco DLSw Information Disclosure Scanner"
   },
   {
     "cve": "CVE-2014-125125",
     "module": "auxiliary_scanner/http/a10networks_ax_directory_traversal",
-    "path": "/modules/auxiliary/scanner/http/a10networks_ax_directory_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/a10networks_ax_directory_traversal.rb",
     "name": "A10 Networks AX Loadbalancer Directory Traversal"
   },
   {
     "cve": "CVE-2014-9222",
     "module": "auxiliary_scanner/http/allegro_rompager_misfortune_cookie",
-    "path": "/modules/auxiliary/scanner/http/allegro_rompager_misfortune_cookie.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/allegro_rompager_misfortune_cookie.rb",
     "name": "Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Scanner"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "auxiliary_scanner/http/apache_mod_cgi_bash_env",
-    "path": "/modules/auxiliary/scanner/http/apache_mod_cgi_bash_env.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/apache_mod_cgi_bash_env.rb",
     "name": "Apache mod_cgi Bash Environment Variable Injection (Shellshock) Scanner"
   },
   {
     "cve": "CVE-2014-6278",
     "module": "auxiliary_scanner/http/apache_mod_cgi_bash_env",
-    "path": "/modules/auxiliary/scanner/http/apache_mod_cgi_bash_env.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/apache_mod_cgi_bash_env.rb",
     "name": "Apache mod_cgi Bash Environment Variable Injection (Shellshock) Scanner"
   },
   {
     "cve": "CVE-2014-8270",
     "module": "auxiliary_scanner/http/bmc_trackit_passwd_reset",
-    "path": "/modules/auxiliary/scanner/http/bmc_trackit_passwd_reset.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/bmc_trackit_passwd_reset.rb",
     "name": "BMC TrackIt! Unauthenticated Arbitrary User Password Change"
   },
   {
     "cve": "CVE-2014-2127",
     "module": "auxiliary_scanner/http/cisco_ssl_vpn_priv_esc",
-    "path": "/modules/auxiliary/scanner/http/cisco_ssl_vpn_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/cisco_ssl_vpn_priv_esc.rb",
     "name": "Cisco ASA SSL VPN Privilege Escalation Vulnerability"
   },
   {
     "cve": "CVE-2014-9707",
     "module": "auxiliary_scanner/http/goahead_traversal",
-    "path": "/modules/auxiliary/scanner/http/goahead_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/goahead_traversal.rb",
     "name": "Embedthis GoAhead Embedded Web Server Directory Traversal"
   },
   {
     "cve": "CVE-2014-5377",
     "module": "auxiliary_scanner/http/manageengine_deviceexpert_user_creds",
-    "path": "/modules/auxiliary/scanner/http/manageengine_deviceexpert_user_creds.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/manageengine_deviceexpert_user_creds.rb",
     "name": "ManageEngine DeviceExpert User Credentials"
   },
   {
     "cve": "CVE-2014-100002",
     "module": "auxiliary_scanner/http/support_center_plus_directory_traversal",
-    "path": "/modules/auxiliary/scanner/http/support_center_plus_directory_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/support_center_plus_directory_traversal.rb",
     "name": "ManageEngine Support Center Plus Directory Traversal"
   },
   {
     "cve": "CVE-2014-7816",
     "module": "auxiliary_scanner/http/wildfly_traversal",
-    "path": "/modules/auxiliary/scanner/http/wildfly_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wildfly_traversal.rb",
     "name": "WildFly Directory Traversal"
   },
   {
     "cve": "CVE-2014-8586",
     "module": "auxiliary_scanner/http/wordpress_cp_calendar_sqli",
-    "path": "/modules/auxiliary/scanner/http/wordpress_cp_calendar_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wordpress_cp_calendar_sqli.rb",
     "name": "WordPress CP Multi-View Calendar Unauthenticated SQL Injection Scanner"
   },
   {
     "cve": "CVE-2014-8799",
     "module": "auxiliary_scanner/http/wp_dukapress_file_read",
-    "path": "/modules/auxiliary/scanner/http/wp_dukapress_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_dukapress_file_read.rb",
     "name": "WordPress DukaPress Plugin File Read Vulnerability"
   },
   {
     "cve": "CVE-2014-5337",
     "module": "auxiliary_scanner/http/wp_mobile_pack_info_disclosure",
-    "path": "/modules/auxiliary/scanner/http/wp_mobile_pack_info_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_mobile_pack_info_disclosure.rb",
     "name": "WordPress Mobile Pack Information Disclosure Vulnerability"
   },
   {
     "cve": "CVE-2014-0659",
     "module": "auxiliary_scanner/misc/sercomm_backdoor_scanner",
-    "path": "/modules/auxiliary/scanner/misc/sercomm_backdoor_scanner.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/misc/sercomm_backdoor_scanner.rb",
     "name": "SerComm Network Device Backdoor Detection"
   },
   {
     "cve": "CVE-2014-1812",
     "module": "auxiliary_scanner/smb/smb_enum_gpp",
-    "path": "/modules/auxiliary/scanner/smb/smb_enum_gpp.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/smb/smb_enum_gpp.rb",
     "name": "SMB Group Policy Preference Saved Passwords Enumeration"
   },
   {
     "cve": "CVE-2014-4863",
     "module": "auxiliary_scanner/snmp/arris_dg950",
-    "path": "/modules/auxiliary/scanner/snmp/arris_dg950.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/snmp/arris_dg950.rb",
     "name": "Arris DG950A Cable Modem Wifi Enumeration"
   },
   {
     "cve": "CVE-2014-0224",
     "module": "auxiliary_scanner/ssl/openssl_ccs",
-    "path": "/modules/auxiliary/scanner/ssl/openssl_ccs.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssl/openssl_ccs.rb",
     "name": "OpenSSL Server-Side ChangeCipherSpec Injection Scanner"
   },
   {
     "cve": "CVE-2014-0160",
     "module": "auxiliary_scanner/ssl/openssl_heartbleed",
-    "path": "/modules/auxiliary/scanner/ssl/openssl_heartbleed.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssl/openssl_heartbleed.rb",
     "name": "OpenSSL Heartbeat (Heartbleed) Information Leak"
   },
   {
     "cve": "CVE-2014-3566",
     "module": "auxiliary_scanner/ssl/ssl_version",
-    "path": "/modules/auxiliary/scanner/ssl/ssl_version.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssl/ssl_version.rb",
     "name": "SSL/TLS Version Detection"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "auxiliary_server/dhclient_bash_env",
-    "path": "/modules/auxiliary/server/dhclient_bash_env.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/dhclient_bash_env.rb",
     "name": "DHCP Client Bash Environment Variable Code Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-6593",
     "module": "auxiliary_server/jsse_skiptls_mitm_proxy",
-    "path": "/modules/auxiliary/server/jsse_skiptls_mitm_proxy.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/jsse_skiptls_mitm_proxy.rb",
     "name": "Java Secure Socket Extension (JSSE) SKIP-TLS MITM Proxy"
   },
   {
     "cve": "CVE-2014-0160",
     "module": "auxiliary_server/openssl_heartbeat_client_memory",
-    "path": "/modules/auxiliary/server/openssl_heartbeat_client_memory.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/openssl_heartbeat_client_memory.rb",
     "name": "OpenSSL Heartbeat (Heartbleed) Client Memory Exposure"
   },
   {
     "cve": "CVE-2014-4877",
     "module": "auxiliary_server/wget_symlink_file_write",
-    "path": "/modules/auxiliary/server/wget_symlink_file_write.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/wget_symlink_file_write.rb",
     "name": "GNU Wget FTP Symlink Arbitrary Filesystem Access"
   },
   {
     "cve": "CVE-2014-3300",
     "module": "auxiliary_voip/cisco_cucdm_call_forward",
-    "path": "/modules/auxiliary/voip/cisco_cucdm_call_forward.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/voip/cisco_cucdm_call_forward.rb",
     "name": "Viproy CUCDM IP Phone XML Services - Call Forwarding Tool"
   },
   {
     "cve": "CVE-2014-3300",
     "module": "auxiliary_voip/cisco_cucdm_speed_dials",
-    "path": "/modules/auxiliary/voip/cisco_cucdm_speed_dials.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/voip/cisco_cucdm_speed_dials.rb",
     "name": "Viproy CUCDM IP Phone XML Services - Speed Dial Attack Tool"
   },
   {
     "cve": "CVE-2014-0514",
     "module": "exploit_android/fileformat/adobe_reader_pdf_js_interface",
-    "path": "/modules/exploits/android/fileformat/adobe_reader_pdf_js_interface.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/android/fileformat/adobe_reader_pdf_js_interface.rb",
     "name": "Adobe Reader for Android addJavascriptInterface Exploit"
   },
   {
     "cve": "CVE-2014-3153",
     "module": "exploit_android/local/futex_requeue",
-    "path": "/modules/exploits/android/local/futex_requeue.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/android/local/futex_requeue.rb",
     "name": "Android 'Towelroot' Futex Requeue Kernel Exploit"
   },
   {
     "cve": "CVE-2014-125118",
     "module": "exploit_linux/antivirus/escan_password_exec",
-    "path": "/modules/exploits/linux/antivirus/escan_password_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/antivirus/escan_password_exec.rb",
     "name": "eScan Web Management Console Command Injection"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "exploit_linux/http/advantech_switch_bash_env_exec",
-    "path": "/modules/exploits/linux/http/advantech_switch_bash_env_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/advantech_switch_bash_env_exec.rb",
     "name": "Advantech Switch Bash Environment Variable Code Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-1635",
     "module": "exploit_linux/http/belkin_login_bof",
-    "path": "/modules/exploits/linux/http/belkin_login_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/belkin_login_bof.rb",
     "name": "Belkin Play N750 login.cgi Buffer Overflow"
   },
   {
     "cve": "CVE-2014-3828",
     "module": "exploit_linux/http/centreon_sqli_exec",
-    "path": "/modules/exploits/linux/http/centreon_sqli_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/centreon_sqli_exec.rb",
     "name": "Centreon SQL and Command Injection"
   },
   {
     "cve": "CVE-2014-3829",
     "module": "exploit_linux/http/centreon_sqli_exec",
-    "path": "/modules/exploits/linux/http/centreon_sqli_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/centreon_sqli_exec.rb",
     "name": "Centreon SQL and Command Injection"
   },
   {
     "cve": "CVE-2014-100005",
     "module": "exploit_linux/http/dlink_diagnostic_exec_noauth",
-    "path": "/modules/exploits/linux/http/dlink_diagnostic_exec_noauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/dlink_diagnostic_exec_noauth.rb",
     "name": "D-Link DIR-645 / DIR-815 diagnostic.php Command Execution"
   },
   {
     "cve": "CVE-2014-125117",
     "module": "exploit_linux/http/dlink_dspw215_info_cgi_bof",
-    "path": "/modules/exploits/linux/http/dlink_dspw215_info_cgi_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/dlink_dspw215_info_cgi_bof.rb",
     "name": "D-Link info.cgi POST Request Buffer Overflow"
   },
   {
     "cve": "CVE-2014-3936",
     "module": "exploit_linux/http/dlink_hnap_bof",
-    "path": "/modules/exploits/linux/http/dlink_hnap_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/dlink_hnap_bof.rb",
     "name": "D-Link HNAP Request Remote Buffer Overflow"
   },
   {
     "cve": "CVE-2014-8361",
     "module": "exploit_linux/http/dlink_upnp_exec_noauth",
-    "path": "/modules/exploits/linux/http/dlink_upnp_exec_noauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/dlink_upnp_exec_noauth.rb",
     "name": "D-Link Devices UPnP SOAP Command Execution"
   },
   {
     "cve": "CVE-2014-2928",
     "module": "exploit_linux/http/f5_icontrol_exec",
-    "path": "/modules/exploits/linux/http/f5_icontrol_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/f5_icontrol_exec.rb",
     "name": "F5 iControl Remote Root Command Execution"
   },
   {
     "cve": "CVE-2014-9727",
     "module": "exploit_linux/http/fritzbox_echo_exec",
-    "path": "/modules/exploits/linux/http/fritzbox_echo_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/fritzbox_echo_exec.rb",
     "name": "Fritz!Box Webcm Unauthenticated Command Injection"
   },
   {
     "cve": "CVE-2014-4511",
     "module": "exploit_linux/http/gitlist_exec",
-    "path": "/modules/exploits/linux/http/gitlist_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/gitlist_exec.rb",
     "name": "Gitlist Unauthenticated Remote Command Execution"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "exploit_linux/http/ipfire_bashbug_exec",
-    "path": "/modules/exploits/linux/http/ipfire_bashbug_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ipfire_bashbug_exec.rb",
     "name": "IPFire Bash Environment Variable Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-125123",
     "module": "exploit_linux/http/kloxo_sqli",
-    "path": "/modules/exploits/linux/http/kloxo_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/kloxo_sqli.rb",
     "name": "Kloxo SQL Injection and Remote Code Execution"
   },
   {
     "cve": "CVE-2014-125124",
     "module": "exploit_linux/http/pandora_fms_exec",
-    "path": "/modules/exploits/linux/http/pandora_fms_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/pandora_fms_exec.rb",
     "name": "Pandora FMS Remote Code Execution"
   },
   {
     "cve": "CVE-2014-125115",
     "module": "exploit_linux/http/pandora_fms_sqli",
-    "path": "/modules/exploits/linux/http/pandora_fms_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/pandora_fms_sqli.rb",
     "name": "Pandora FMS Default Credential / SQLi Remote Code Execution"
   },
   {
     "cve": "CVE-2014-5468",
     "module": "exploit_linux/http/railo_cfml_rfi",
-    "path": "/modules/exploits/linux/http/railo_cfml_rfi.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/railo_cfml_rfi.rb",
     "name": "Railo Remote File Include"
   },
   {
     "cve": "CVE-2014-8361",
     "module": "exploit_linux/http/realtek_miniigd_upnp_exec_noauth",
-    "path": "/modules/exploits/linux/http/realtek_miniigd_upnp_exec_noauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/realtek_miniigd_upnp_exec_noauth.rb",
     "name": "Realtek SDK Miniigd UPnP SOAP Command Execution"
   },
   {
     "cve": "CVE-2014-8684",
     "module": "exploit_linux/http/seagate_nas_php_exec_noauth",
-    "path": "/modules/exploits/linux/http/seagate_nas_php_exec_noauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/seagate_nas_php_exec_noauth.rb",
     "name": "Seagate Business NAS Unauthenticated Remote Command Execution"
   },
   {
     "cve": "CVE-2014-8686",
     "module": "exploit_linux/http/seagate_nas_php_exec_noauth",
-    "path": "/modules/exploits/linux/http/seagate_nas_php_exec_noauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/seagate_nas_php_exec_noauth.rb",
     "name": "Seagate Business NAS Unauthenticated Remote Command Execution"
   },
   {
     "cve": "CVE-2014-8687",
     "module": "exploit_linux/http/seagate_nas_php_exec_noauth",
-    "path": "/modules/exploits/linux/http/seagate_nas_php_exec_noauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/seagate_nas_php_exec_noauth.rb",
     "name": "Seagate Business NAS Unauthenticated Remote Command Execution"
   },
   {
     "cve": "CVE-2014-2849",
     "module": "exploit_linux/http/sophos_wpa_iface_exec",
-    "path": "/modules/exploits/linux/http/sophos_wpa_iface_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/sophos_wpa_iface_exec.rb",
     "name": "Sophos Web Protection Appliance Interface Authenticated Arbitrary Command Execution"
   },
   {
     "cve": "CVE-2014-2850",
     "module": "exploit_linux/http/sophos_wpa_iface_exec",
-    "path": "/modules/exploits/linux/http/sophos_wpa_iface_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/sophos_wpa_iface_exec.rb",
     "name": "Sophos Web Protection Appliance Interface Authenticated Arbitrary Command Execution"
   },
   {
     "cve": "CVE-2014-7285",
     "module": "exploit_linux/http/symantec_web_gateway_restore",
-    "path": "/modules/exploits/linux/http/symantec_web_gateway_restore.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/symantec_web_gateway_restore.rb",
     "name": "Symantec Web Gateway 5 restore.php Post Authentication Command Injection"
   },
   {
     "cve": "CVE-2014-8423",
     "module": "exploit_linux/http/vap2500_tools_command_exec",
-    "path": "/modules/exploits/linux/http/vap2500_tools_command_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/vap2500_tools_command_exec.rb",
     "name": "Arris VAP2500 tools_command.php Command Execution"
   },
   {
     "cve": "CVE-2014-8424",
     "module": "exploit_linux/http/vap2500_tools_command_exec",
-    "path": "/modules/exploits/linux/http/vap2500_tools_command_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/vap2500_tools_command_exec.rb",
     "name": "Arris VAP2500 tools_command.php Command Execution"
   },
   {
     "cve": "CVE-2014-3804",
     "module": "exploit_linux/ids/alienvault_centerd_soap_exec",
-    "path": "/modules/exploits/linux/ids/alienvault_centerd_soap_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/ids/alienvault_centerd_soap_exec.rb",
     "name": "AlienVault OSSIM av-centerd Command Injection"
   },
   {
     "cve": "CVE-2014-2630",
     "module": "exploit_linux/local/hp_xglance_priv_esc",
-    "path": "/modules/exploits/linux/local/hp_xglance_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/hp_xglance_priv_esc.rb",
     "name": "HP Performance Monitoring xglance Priv Esc"
   },
   {
     "cve": "CVE-2014-0038",
     "module": "exploit_linux/local/recvmmsg_priv_esc",
-    "path": "/modules/exploits/linux/local/recvmmsg_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/recvmmsg_priv_esc.rb",
     "name": "Linux Kernel recvmmsg Privilege Escalation"
   },
   {
     "cve": "CVE-2014-9583",
     "module": "exploit_linux/misc/asus_infosvr_auth_bypass_exec",
-    "path": "/modules/exploits/linux/misc/asus_infosvr_auth_bypass_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/asus_infosvr_auth_bypass_exec.rb",
     "name": "ASUS infosvr Auth Bypass Command Execution"
   },
   {
     "cve": "CVE-2014-4880",
     "module": "exploit_linux/misc/hikvision_rtsp_bof",
-    "path": "/modules/exploits/linux/misc/hikvision_rtsp_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/hikvision_rtsp_bof.rb",
     "name": "Hikvision DVR RTSP Request Remote Code Execution"
   },
   {
     "cve": "CVE-2014-2624",
     "module": "exploit_linux/misc/hp_nnmi_pmd_bof",
-    "path": "/modules/exploits/linux/misc/hp_nnmi_pmd_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/hp_nnmi_pmd_bof.rb",
     "name": "HP Network Node Manager I PMD Buffer Overflow"
   },
   {
     "cve": "CVE-2014-0659",
     "module": "exploit_linux/misc/sercomm_exec",
-    "path": "/modules/exploits/linux/misc/sercomm_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/sercomm_exec.rb",
     "name": "SerComm Device Remote Code Execution"
   },
   {
     "cve": "CVE-2014-0515",
     "module": "exploit_multi/browser/adobe_flash_pixel_bender_bof",
-    "path": "/modules/exploits/multi/browser/adobe_flash_pixel_bender_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_pixel_bender_bof.rb",
     "name": "Adobe Flash Player Shader Buffer Overflow"
   },
   {
     "cve": "CVE-2014-8636",
     "module": "exploit_multi/browser/firefox_proxy_prototype",
-    "path": "/modules/exploits/multi/browser/firefox_proxy_prototype.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/firefox_proxy_prototype.rb",
     "name": "Firefox Proxy Prototype Privileged Javascript Injection"
   },
   {
     "cve": "CVE-2014-1510",
     "module": "exploit_multi/browser/firefox_webidl_injection",
-    "path": "/modules/exploits/multi/browser/firefox_webidl_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/firefox_webidl_injection.rb",
     "name": "Firefox WebIDL Privileged Javascript Injection"
   },
   {
     "cve": "CVE-2014-1511",
     "module": "exploit_multi/browser/firefox_webidl_injection",
-    "path": "/modules/exploits/multi/browser/firefox_webidl_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/firefox_webidl_injection.rb",
     "name": "Firefox WebIDL Privileged Javascript Injection"
   },
   {
     "cve": "CVE-2014-3120",
     "module": "exploit_multi/elasticsearch/script_mvel_rce",
-    "path": "/modules/exploits/multi/elasticsearch/script_mvel_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/elasticsearch/script_mvel_rce.rb",
     "name": "ElasticSearch Dynamic Script Arbitrary Java Execution"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "exploit_multi/ftp/pureftpd_bash_env_exec",
-    "path": "/modules/exploits/multi/ftp/pureftpd_bash_env_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/ftp/pureftpd_bash_env_exec.rb",
     "name": "Pure-FTPd External Authentication Bash Environment Variable Code Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "exploit_multi/http/apache_mod_cgi_bash_env_exec",
-    "path": "/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb",
     "name": "Apache mod_cgi Bash Environment Variable Code Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-6278",
     "module": "exploit_multi/http/apache_mod_cgi_bash_env_exec",
-    "path": "/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb",
     "name": "Apache mod_cgi Bash Environment Variable Code Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-7205",
     "module": "exploit_multi/http/bassmaster_js_injection",
-    "path": "/modules/exploits/multi/http/bassmaster_js_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/bassmaster_js_injection.rb",
     "name": "Bassmaster Batch Arbitrary JavaScript Injection Remote Code Execution"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "exploit_multi/http/cups_bash_env_exec",
-    "path": "/modules/exploits/multi/http/cups_bash_env_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cups_bash_env_exec.rb",
     "name": "CUPS Filter Bash Environment Variable Code Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-6278",
     "module": "exploit_multi/http/cups_bash_env_exec",
-    "path": "/modules/exploits/multi/http/cups_bash_env_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cups_bash_env_exec.rb",
     "name": "CUPS Filter Bash Environment Variable Code Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-3704",
     "module": "exploit_multi/http/drupal_drupageddon",
-    "path": "/modules/exploits/multi/http/drupal_drupageddon.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/drupal_drupageddon.rb",
     "name": "Drupal HTTP Parameter Key/Value SQL Injection"
   },
   {
     "cve": "CVE-2014-6037",
     "module": "exploit_multi/http/eventlog_file_upload",
-    "path": "/modules/exploits/multi/http/eventlog_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/eventlog_file_upload.rb",
     "name": "ManageEngine Eventlog Analyzer Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-9390",
     "module": "exploit_multi/http/git_client_command_exec",
-    "path": "/modules/exploits/multi/http/git_client_command_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/git_client_command_exec.rb",
     "name": "Malicious Git and Mercurial HTTP Server For CVE-2014-9390"
   },
   {
     "cve": "CVE-2014-3996",
     "module": "exploit_multi/http/manage_engine_dc_pmp_sqli",
-    "path": "/modules/exploits/multi/http/manage_engine_dc_pmp_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/manage_engine_dc_pmp_sqli.rb",
     "name": "ManageEngine Desktop Central / Password Manager LinkViewFetchServlet.dat SQL Injection"
   },
   {
     "cve": "CVE-2014-5301",
     "module": "exploit_multi/http/manageengine_auth_upload",
-    "path": "/modules/exploits/multi/http/manageengine_auth_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/manageengine_auth_upload.rb",
     "name": "ManageEngine Multiple Products Authenticated File Upload"
   },
   {
     "cve": "CVE-2014-7146",
     "module": "exploit_multi/http/mantisbt_php_exec",
-    "path": "/modules/exploits/multi/http/mantisbt_php_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/mantisbt_php_exec.rb",
     "name": "MantisBT XmlImportExport Plugin PHP Code Injection Vulnerability"
   },
   {
     "cve": "CVE-2014-8598",
     "module": "exploit_multi/http/mantisbt_php_exec",
-    "path": "/modules/exploits/multi/http/mantisbt_php_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/mantisbt_php_exec.rb",
     "name": "MantisBT XmlImportExport Plugin PHP Code Injection Vulnerability"
   },
   {
     "cve": "CVE-2014-1610",
     "module": "exploit_multi/http/mediawiki_thumb",
-    "path": "/modules/exploits/multi/http/mediawiki_thumb.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/mediawiki_thumb.rb",
     "name": "MediaWiki Thumb.php Remote Command Execution"
   },
   {
     "cve": "CVE-2014-6034",
     "module": "exploit_multi/http/opmanager_socialit_file_upload",
-    "path": "/modules/exploits/multi/http/opmanager_socialit_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/opmanager_socialit_file_upload.rb",
     "name": "ManageEngine OpManager and Social IT Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-5519",
     "module": "exploit_multi/http/phpwiki_ploticus_exec",
-    "path": "/modules/exploits/multi/http/phpwiki_ploticus_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/phpwiki_ploticus_exec.rb",
     "name": "Phpwiki Ploticus Remote Code Execution"
   },
   {
     "cve": "CVE-2014-3914",
     "module": "exploit_multi/http/rocket_servergraph_file_requestor_rce",
-    "path": "/modules/exploits/multi/http/rocket_servergraph_file_requestor_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/rocket_servergraph_file_requestor_rce.rb",
     "name": "Rocket Servergraph Admin Center fileRequestor Remote Code Execution"
   },
   {
     "cve": "CVE-2014-4977",
     "module": "exploit_multi/http/sonicwall_scrutinizer_methoddetail_sqli",
-    "path": "/modules/exploits/multi/http/sonicwall_scrutinizer_methoddetail_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sonicwall_scrutinizer_methoddetail_sqli.rb",
     "name": "Dell SonicWALL Scrutinizer 11.01 methodDetail SQL Injection"
   },
   {
     "cve": "CVE-2014-0094",
     "module": "exploit_multi/http/struts_code_exec_classloader",
-    "path": "/modules/exploits/multi/http/struts_code_exec_classloader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/struts_code_exec_classloader.rb",
     "name": "Apache Struts ClassLoader Manipulation Remote Code Execution"
   },
   {
     "cve": "CVE-2014-0112",
     "module": "exploit_multi/http/struts_code_exec_classloader",
-    "path": "/modules/exploits/multi/http/struts_code_exec_classloader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/struts_code_exec_classloader.rb",
     "name": "Apache Struts ClassLoader Manipulation Remote Code Execution"
   },
   {
     "cve": "CVE-2014-0114",
     "module": "exploit_multi/http/struts_code_exec_classloader",
-    "path": "/modules/exploits/multi/http/struts_code_exec_classloader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/struts_code_exec_classloader.rb",
     "name": "Apache Struts ClassLoader Manipulation Remote Code Execution"
   },
   {
     "cve": "CVE-2014-8516",
     "module": "exploit_multi/http/visual_mining_netcharts_upload",
-    "path": "/modules/exploits/multi/http/visual_mining_netcharts_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/visual_mining_netcharts_upload.rb",
     "name": "Visual Mining NetCharts Server Remote Code Execution"
   },
   {
     "cve": "CVE-2014-2268",
     "module": "exploit_multi/http/vtiger_install_rce",
-    "path": "/modules/exploits/multi/http/vtiger_install_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/vtiger_install_rce.rb",
     "name": "Vtiger Install Unauthenticated Remote Command Execution"
   },
   {
     "cve": "CVE-2014-8998",
     "module": "exploit_multi/http/x7chat2_php_exec",
-    "path": "/modules/exploits/multi/http/x7chat2_php_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/x7chat2_php_exec.rb",
     "name": "X7 Chat 2.0.5 lib/message.php preg_replace() PHP Code Execution"
   },
   {
     "cve": "CVE-2014-4404",
     "module": "exploit_osx/local/iokit_keyboard_root",
-    "path": "/modules/exploits/osx/local/iokit_keyboard_root.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/iokit_keyboard_root.rb",
     "name": "Mac OS X IOKit Keyboard Driver Root Privilege Escalation"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "exploit_osx/local/vmware_bash_function_root",
-    "path": "/modules/exploits/osx/local/vmware_bash_function_root.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/vmware_bash_function_root.rb",
     "name": "OS X VMWare Fusion Privilege Escalation via Bash Environment Code Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-2533",
     "module": "exploit_qnx/local/ifwatchd_priv_esc",
-    "path": "/modules/exploits/qnx/local/ifwatchd_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/qnx/local/ifwatchd_priv_esc.rb",
     "name": "ifwatchd Privilege Escalation"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "exploit_unix/dhcp/bash_environment",
-    "path": "/modules/exploits/unix/dhcp/bash_environment.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/dhcp/bash_environment.rb",
     "name": "Dhclient Bash Environment Variable Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-125113",
     "module": "exploit_unix/http/dell_kace_k1000_upload",
-    "path": "/modules/exploits/unix/http/dell_kace_k1000_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/http/dell_kace_k1000_upload.rb",
     "name": "Dell KACE K1000 File Upload"
   },
   {
     "cve": "CVE-2014-8517",
     "module": "exploit_unix/http/tnftp_savefile",
-    "path": "/modules/exploits/unix/http/tnftp_savefile.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/http/tnftp_savefile.rb",
     "name": "tnftp \"savefile\" Arbitrary Command Execution"
   },
   {
     "cve": "CVE-2014-7236",
     "module": "exploit_unix/http/twiki_debug_plugins",
-    "path": "/modules/exploits/unix/http/twiki_debug_plugins.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/http/twiki_debug_plugins.rb",
     "name": "TWiki Debugenableplugins Remote Code Execution"
   },
   {
     "cve": "CVE-2014-5073",
     "module": "exploit_unix/http/vmturbo_vmtadmin_exec_noauth",
-    "path": "/modules/exploits/unix/http/vmturbo_vmtadmin_exec_noauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/http/vmturbo_vmtadmin_exec_noauth.rb",
     "name": "VMTurbo Operations Manager vmtadmin.cgi Remote Command Execution"
   },
   {
     "cve": "CVE-2014-0476",
     "module": "exploit_unix/local/chkrootkit",
-    "path": "/modules/exploits/unix/local/chkrootkit.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/local/chkrootkit.rb",
     "name": "Chkrootkit Local Privilege Escalation"
   },
   {
     "cve": "CVE-2014-6271",
     "module": "exploit_unix/smtp/qmail_bash_env_exec",
-    "path": "/modules/exploits/unix/smtp/qmail_bash_env_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/smtp/qmail_bash_env_exec.rb",
     "name": "Qmail SMTP Bash Environment Variable Injection (Shellshock)"
   },
   {
     "cve": "CVE-2014-8420",
     "module": "exploit_unix/sonicwall/sonicwall_xmlrpc_rce",
-    "path": "/modules/exploits/unix/sonicwall/sonicwall_xmlrpc_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/sonicwall/sonicwall_xmlrpc_rce.rb",
     "name": "SonicWall Global Management System XMLRPC set_time_zone Unauth RCE"
   },
   {
     "cve": "CVE-2014-125121",
     "module": "exploit_unix/ssh/array_vxag_vapv_privkey_privesc",
-    "path": "/modules/exploits/unix/ssh/array_vxag_vapv_privkey_privesc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/ssh/array_vxag_vapv_privkey_privesc.rb",
     "name": "Array Networks vAPV and vxAG Private Key Privilege Escalation Code Execution"
   },
   {
     "cve": "CVE-2014-5470",
     "module": "exploit_unix/webapp/actualanalyzer_ant_cookie_exec",
-    "path": "/modules/exploits/unix/webapp/actualanalyzer_ant_cookie_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/actualanalyzer_ant_cookie_exec.rb",
     "name": "ActualAnalyzer 'ant' Cookie Command Execution"
   },
   {
     "cve": "CVE-2014-1903",
     "module": "exploit_unix/webapp/freepbx_config_exec",
-    "path": "/modules/exploits/unix/webapp/freepbx_config_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/freepbx_config_exec.rb",
     "name": "FreePBX config.php Remote Code Execution"
   },
   {
     "cve": "CVE-2014-1691",
     "module": "exploit_unix/webapp/horde_unserialize_exec",
-    "path": "/modules/exploits/unix/webapp/horde_unserialize_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/horde_unserialize_exec.rb",
     "name": "Horde Framework Unserialize PHP Code Execution"
   },
   {
     "cve": "CVE-2014-125116",
     "module": "exploit_unix/webapp/hybridauth_install_php_exec",
-    "path": "/modules/exploits/unix/webapp/hybridauth_install_php_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/hybridauth_install_php_exec.rb",
     "name": "HybridAuth install.php PHP Code Execution"
   },
   {
     "cve": "CVE-2014-7228",
     "module": "exploit_unix/webapp/joomla_akeeba_unserialize",
-    "path": "/modules/exploits/unix/webapp/joomla_akeeba_unserialize.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/joomla_akeeba_unserialize.rb",
     "name": "Joomla Akeeba Kickstart Unserialize Remote Code Execution"
   },
   {
     "cve": "CVE-2014-9567",
     "module": "exploit_unix/webapp/projectsend_upload_exec",
-    "path": "/modules/exploits/unix/webapp/projectsend_upload_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/projectsend_upload_exec.rb",
     "name": "ProjectSend Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-125126",
     "module": "exploit_unix/webapp/simple_e_document_upload_exec",
-    "path": "/modules/exploits/unix/webapp/simple_e_document_upload_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/simple_e_document_upload_exec.rb",
     "name": "Simple E-Document Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-1683",
     "module": "exploit_unix/webapp/skybluecanvas_exec",
-    "path": "/modules/exploits/unix/webapp/skybluecanvas_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/skybluecanvas_exec.rb",
     "name": "SkyBlueCanvas CMS Remote Code Execution"
   },
   {
     "cve": "CVE-2014-8791",
     "module": "exploit_unix/webapp/tuleap_unserialize_exec",
-    "path": "/modules/exploits/unix/webapp/tuleap_unserialize_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/tuleap_unserialize_exec.rb",
     "name": "Tuleap PHP Unserialize Code Execution"
   },
   {
     "cve": "CVE-2014-8739",
     "module": "exploit_unix/webapp/wp_creativecontactform_file_upload",
-    "path": "/modules/exploits/unix/webapp/wp_creativecontactform_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_creativecontactform_file_upload.rb",
     "name": "Wordpress Creative Contact Form Upload Vulnerability"
   },
   {
     "cve": "CVE-2014-9308",
     "module": "exploit_unix/webapp/wp_easycart_unrestricted_file_upload",
-    "path": "/modules/exploits/unix/webapp/wp_easycart_unrestricted_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_easycart_unrestricted_file_upload.rb",
     "name": "WordPress WP EasyCart Unrestricted File Upload"
   },
   {
     "cve": "CVE-2014-6446",
     "module": "exploit_unix/webapp/wp_infusionsoft_upload",
-    "path": "/modules/exploits/unix/webapp/wp_infusionsoft_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_infusionsoft_upload.rb",
     "name": "Wordpress InfusionSoft Upload Vulnerability"
   },
   {
     "cve": "CVE-2014-9312",
     "module": "exploit_unix/webapp/wp_photo_gallery_unrestricted_file_upload",
-    "path": "/modules/exploits/unix/webapp/wp_photo_gallery_unrestricted_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_photo_gallery_unrestricted_file_upload.rb",
     "name": "WordPress Photo Gallery Unrestricted File Upload"
   },
   {
     "cve": "CVE-2014-9735",
     "module": "exploit_unix/webapp/wp_revslider_upload_execute",
-    "path": "/modules/exploits/unix/webapp/wp_revslider_upload_execute.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_revslider_upload_execute.rb",
     "name": "WordPress RevSlider File Upload and Execute Vulnerability"
   },
   {
     "cve": "CVE-2014-5460",
     "module": "exploit_unix/webapp/wp_slideshowgallery_upload",
-    "path": "/modules/exploits/unix/webapp/wp_slideshowgallery_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_slideshowgallery_upload.rb",
     "name": "Wordpress SlideShow Gallery Authenticated File Upload"
   },
   {
     "cve": "CVE-2014-10021",
     "module": "exploit_unix/webapp/wp_symposium_shell_upload",
-    "path": "/modules/exploits/unix/webapp/wp_symposium_shell_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_symposium_shell_upload.rb",
     "name": "WordPress WP Symposium 14.11 Shell Upload"
   },
   {
     "cve": "CVE-2014-4725",
     "module": "exploit_unix/webapp/wp_wysija_newsletters_upload",
-    "path": "/modules/exploits/unix/webapp/wp_wysija_newsletters_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_wysija_newsletters_upload.rb",
     "name": "Wordpress MailPoet Newsletters (wysija-newsletters) Unauthenticated File Upload"
   },
   {
     "cve": "CVE-2014-1649",
     "module": "exploit_windows/antivirus/symantec_workspace_streaming_exec",
-    "path": "/modules/exploits/windows/antivirus/symantec_workspace_streaming_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/antivirus/symantec_workspace_streaming_exec.rb",
     "name": "Symantec Workspace Streaming ManagementAgentServer.putFile XMLRPC Request Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-0497",
     "module": "exploit_windows/browser/adobe_flash_avm2",
-    "path": "/modules/exploits/windows/browser/adobe_flash_avm2.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flash_avm2.rb",
     "name": "Adobe Flash Player Integer Underflow Remote Code Execution"
   },
   {
     "cve": "CVE-2014-0569",
     "module": "exploit_windows/browser/adobe_flash_casi32_int_overflow",
-    "path": "/modules/exploits/windows/browser/adobe_flash_casi32_int_overflow.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flash_casi32_int_overflow.rb",
     "name": "Adobe Flash Player casi32 Integer Overflow"
   },
   {
     "cve": "CVE-2014-0556",
     "module": "exploit_windows/browser/adobe_flash_copy_pixels_to_byte_array",
-    "path": "/modules/exploits/windows/browser/adobe_flash_copy_pixels_to_byte_array.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flash_copy_pixels_to_byte_array.rb",
     "name": "Adobe Flash Player copyPixelsToByteArray Method Integer Overflow"
   },
   {
     "cve": "CVE-2014-8440",
     "module": "exploit_windows/browser/adobe_flash_uncompress_zlib_uninitialized",
-    "path": "/modules/exploits/windows/browser/adobe_flash_uncompress_zlib_uninitialized.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flash_uncompress_zlib_uninitialized.rb",
     "name": "Adobe Flash Player UncompressViaZlibVariant Uninitialized Memory"
   },
   {
     "cve": "CVE-2014-2364",
     "module": "exploit_windows/browser/advantech_webaccess_dvs_getcolor",
-    "path": "/modules/exploits/windows/browser/advantech_webaccess_dvs_getcolor.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/advantech_webaccess_dvs_getcolor.rb",
     "name": "Advantech WebAccess dvs.ocx GetColor Buffer Overflow"
   },
   {
     "cve": "CVE-2014-2206",
     "module": "exploit_windows/browser/getgodm_http_response_bof",
-    "path": "/modules/exploits/windows/browser/getgodm_http_response_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/getgodm_http_response_bof.rb",
     "name": "GetGo Download Manager HTTP Response Buffer Overflow"
   },
   {
     "cve": "CVE-2014-4936",
     "module": "exploit_windows/browser/malwarebytes_update_exec",
-    "path": "/modules/exploits/windows/browser/malwarebytes_update_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/malwarebytes_update_exec.rb",
     "name": "Malwarebytes Anti-Malware and Anti-Exploit Update Remote Code Execution"
   },
   {
     "cve": "CVE-2014-0322",
     "module": "exploit_windows/browser/ms14_012_cmarkup_uaf",
-    "path": "/modules/exploits/windows/browser/ms14_012_cmarkup_uaf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms14_012_cmarkup_uaf.rb",
     "name": "MS14-012 Microsoft Internet Explorer CMarkup Use-After-Free"
   },
   {
     "cve": "CVE-2014-0307",
     "module": "exploit_windows/browser/ms14_012_textrange",
-    "path": "/modules/exploits/windows/browser/ms14_012_textrange.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms14_012_textrange.rb",
     "name": "MS14-012 Microsoft Internet Explorer TextRange Use-After-Free"
   },
   {
     "cve": "CVE-2014-6332",
     "module": "exploit_windows/browser/ms14_064_ole_code_execution",
-    "path": "/modules/exploits/windows/browser/ms14_064_ole_code_execution.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms14_064_ole_code_execution.rb",
     "name": "MS14-064 Microsoft Internet Explorer Windows OLE Automation Array Remote Code Execution"
   },
   {
     "cve": "CVE-2014-2973",
     "module": "exploit_windows/fileformat/bpftp_client_bps_bof",
-    "path": "/modules/exploits/windows/fileformat/bpftp_client_bps_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/bpftp_client_bps_bof.rb",
     "name": "BulletProof FTP Client BPS Buffer Overflow"
   },
   {
     "cve": "CVE-2014-125114",
     "module": "exploit_windows/fileformat/iftp_schedule_bof",
-    "path": "/modules/exploits/windows/fileformat/iftp_schedule_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/iftp_schedule_bof.rb",
     "name": "i-FTP Schedule Buffer Overflow"
   },
   {
     "cve": "CVE-2014-1761",
     "module": "exploit_windows/fileformat/ms14_017_rtf",
-    "path": "/modules/exploits/windows/fileformat/ms14_017_rtf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms14_017_rtf.rb",
     "name": "MS14-017 Microsoft Word RTF Object Confusion"
   },
   {
     "cve": "CVE-2014-4114",
     "module": "exploit_windows/fileformat/ms14_060_sandworm",
-    "path": "/modules/exploits/windows/fileformat/ms14_060_sandworm.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms14_060_sandworm.rb",
     "name": "MS14-060 Microsoft Windows OLE Package Manager Code Execution"
   },
   {
     "cve": "CVE-2014-6352",
     "module": "exploit_windows/fileformat/ms14_064_packager_python",
-    "path": "/modules/exploits/windows/fileformat/ms14_064_packager_python.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms14_064_packager_python.rb",
     "name": "MS14-064 Microsoft Windows OLE Package Manager Code Execution Through Python"
   },
   {
     "cve": "CVE-2014-6352",
     "module": "exploit_windows/fileformat/ms14_064_packager_run_as_admin",
-    "path": "/modules/exploits/windows/fileformat/ms14_064_packager_run_as_admin.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms14_064_packager_run_as_admin.rb",
     "name": "MS14-064 Microsoft Windows OLE Package Manager Code Execution"
   },
   {
     "cve": "CVE-2014-0980",
     "module": "exploit_windows/fileformat/publishit_pui",
-    "path": "/modules/exploits/windows/fileformat/publishit_pui.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/publishit_pui.rb",
     "name": "Publish-It PUI Buffer Overflow (SEH)"
   },
   {
     "cve": "CVE-2014-125119",
     "module": "exploit_windows/fileformat/winrar_name_spoofing",
-    "path": "/modules/exploits/windows/fileformat/winrar_name_spoofing.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/winrar_name_spoofing.rb",
     "name": "WinRAR Filename Spoofing"
   },
   {
     "cve": "CVE-2014-2299",
     "module": "exploit_windows/fileformat/wireshark_mpeg_overflow",
-    "path": "/modules/exploits/windows/fileformat/wireshark_mpeg_overflow.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/wireshark_mpeg_overflow.rb",
     "name": "Wireshark wiretap/mpeg.c Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2014-3789",
     "module": "exploit_windows/http/cogent_datahub_command",
-    "path": "/modules/exploits/windows/http/cogent_datahub_command.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/cogent_datahub_command.rb",
     "name": "Cogent DataHub Command Injection"
   },
   {
     "cve": "CVE-2014-5005",
     "module": "exploit_windows/http/desktopcentral_statusupdate_upload",
-    "path": "/modules/exploits/windows/http/desktopcentral_statusupdate_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/desktopcentral_statusupdate_upload.rb",
     "name": "ManageEngine Desktop Central StatusUpdate Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-3791",
     "module": "exploit_windows/http/efs_fmws_userid_bof",
-    "path": "/modules/exploits/windows/http/efs_fmws_userid_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/efs_fmws_userid_bof.rb",
     "name": "Easy File Management Web Server Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2014-3913",
     "module": "exploit_windows/http/ericom_access_now_bof",
-    "path": "/modules/exploits/windows/http/ericom_access_now_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/ericom_access_now_bof.rb",
     "name": "Ericom AccessNow Server Buffer Overflow"
   },
   {
     "cve": "CVE-2014-2314",
     "module": "exploit_windows/http/jira_collector_traversal",
-    "path": "/modules/exploits/windows/http/jira_collector_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/jira_collector_traversal.rb",
     "name": "JIRA Issues Collector Directory Traversal"
   },
   {
     "cve": "CVE-2014-8741",
     "module": "exploit_windows/http/lexmark_markvision_gfd_upload",
-    "path": "/modules/exploits/windows/http/lexmark_markvision_gfd_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/lexmark_markvision_gfd_upload.rb",
     "name": "Lexmark MarkVision Enterprise Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-2424",
     "module": "exploit_windows/http/oracle_event_processing_upload",
-    "path": "/modules/exploits/windows/http/oracle_event_processing_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oracle_event_processing_upload.rb",
     "name": "Oracle Event Processing FileUploadServlet Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-6287",
     "module": "exploit_windows/http/rejetto_hfs_exec",
-    "path": "/modules/exploits/windows/http/rejetto_hfs_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/rejetto_hfs_exec.rb",
     "name": "Rejetto HttpFileServer Remote Command Execution"
   },
   {
     "cve": "CVE-2014-4872",
     "module": "exploit_windows/http/trackit_file_upload",
-    "path": "/modules/exploits/windows/http/trackit_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/trackit_file_upload.rb",
     "name": "Numara / BMC Track-It! FileStorageService Arbitrary File Upload"
   },
   {
     "cve": "CVE-2014-4971",
     "module": "exploit_windows/local/bthpan",
-    "path": "/modules/exploits/windows/local/bthpan.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/bthpan.rb",
     "name": "MS14-062 Microsoft Bluetooth Personal Area Networking (BthPan.sys) Privilege Escalation"
   },
   {
     "cve": "CVE-2014-4971",
     "module": "exploit_windows/local/mqac_write",
-    "path": "/modules/exploits/windows/local/mqac_write.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/mqac_write.rb",
     "name": "MQAC.sys Arbitrary Write Privilege Escalation"
   },
   {
     "cve": "CVE-2014-0257",
     "module": "exploit_windows/local/ms14_009_ie_dfsvc",
-    "path": "/modules/exploits/windows/local/ms14_009_ie_dfsvc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms14_009_ie_dfsvc.rb",
     "name": "MS14-009 .NET Deployment Service IE Sandbox Escape"
   },
   {
     "cve": "CVE-2014-4113",
     "module": "exploit_windows/local/ms14_058_track_popup_menu",
-    "path": "/modules/exploits/windows/local/ms14_058_track_popup_menu.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms14_058_track_popup_menu.rb",
     "name": "Windows TrackPopupMenu Win32k NULL Pointer Dereference"
   },
   {
     "cve": "CVE-2014-4076",
     "module": "exploit_windows/local/ms14_070_tcpip_ioctl",
-    "path": "/modules/exploits/windows/local/ms14_070_tcpip_ioctl.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms14_070_tcpip_ioctl.rb",
     "name": "MS14-070 Windows tcpip!SetAddrOptions NULL Pointer Dereference"
   },
   {
     "cve": "CVE-2014-2477",
     "module": "exploit_windows/local/virtual_box_guest_additions",
-    "path": "/modules/exploits/windows/local/virtual_box_guest_additions.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/virtual_box_guest_additions.rb",
     "name": "VirtualBox Guest Additions VBoxGuest.sys Privilege Escalation"
   },
   {
     "cve": "CVE-2014-0983",
     "module": "exploit_windows/local/virtual_box_opengl_escape",
-    "path": "/modules/exploits/windows/local/virtual_box_opengl_escape.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/virtual_box_opengl_escape.rb",
     "name": "VirtualBox 3D Acceleration Virtual Machine Escape"
   },
   {
     "cve": "CVE-2014-2623",
     "module": "exploit_windows/misc/hp_dataprotector_cmd_exec",
-    "path": "/modules/exploits/windows/misc/hp_dataprotector_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/hp_dataprotector_cmd_exec.rb",
     "name": "HP Data Protector 8.10 Remote Command Execution"
   },
   {
     "cve": "CVE-2014-100015",
     "module": "exploit_windows/misc/solidworks_workgroup_pdmwservice_file_write",
-    "path": "/modules/exploits/windows/misc/solidworks_workgroup_pdmwservice_file_write.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/solidworks_workgroup_pdmwservice_file_write.rb",
     "name": "SolidWorks Workgroup PDM 2014 pdmwService.exe Arbitrary File Write"
   },
   {
     "cve": "CVE-2014-0750",
     "module": "exploit_windows/scada/ge_proficy_cimplicity_gefebt",
-    "path": "/modules/exploits/windows/scada/ge_proficy_cimplicity_gefebt.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/ge_proficy_cimplicity_gefebt.rb",
     "name": "GE Proficy CIMPLICITY gefebt.exe Remote Code Execution"
   },
   {
     "cve": "CVE-2014-0784",
     "module": "exploit_windows/scada/yokogawa_bkbcopyd_bof",
-    "path": "/modules/exploits/windows/scada/yokogawa_bkbcopyd_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/yokogawa_bkbcopyd_bof.rb",
     "name": "Yokogawa CENTUM CS 3000 BKBCopyD.exe Buffer Overflow"
   },
   {
     "cve": "CVE-2014-0782",
     "module": "exploit_windows/scada/yokogawa_bkesimmgr_bof",
-    "path": "/modules/exploits/windows/scada/yokogawa_bkesimmgr_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/yokogawa_bkesimmgr_bof.rb",
     "name": "Yokogawa CS3000 BKESimmgr.exe Buffer Overflow"
   },
   {
     "cve": "CVE-2014-3888",
     "module": "exploit_windows/scada/yokogawa_bkfsim_vhfd",
-    "path": "/modules/exploits/windows/scada/yokogawa_bkfsim_vhfd.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/yokogawa_bkfsim_vhfd.rb",
     "name": "Yokogawa CS3000 BKFSim_vhfd.exe Buffer Overflow"
   },
   {
     "cve": "CVE-2014-0783",
     "module": "exploit_windows/scada/yokogawa_bkhodeq_bof",
-    "path": "/modules/exploits/windows/scada/yokogawa_bkhodeq_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/yokogawa_bkhodeq_bof.rb",
     "name": "Yokogawa CENTUM CS 3000 BKHOdeq.exe Buffer Overflow"
   }
 ]

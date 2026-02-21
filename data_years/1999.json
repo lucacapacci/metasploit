@@ -2,355 +2,355 @@
   {
     "cve": "CVE-1999-0920",
     "module": "auxiliary_admin/pop2/uw_fileretrieval",
-    "path": "/modules/auxiliary/admin/pop2/uw_fileretrieval.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/pop2/uw_fileretrieval.rb",
     "name": "UoW pop2d Remote File Retrieval Vulnerability"
   },
   {
     "cve": "CVE-1999-0532",
     "module": "auxiliary_gather/enum_dns",
-    "path": "/modules/auxiliary/gather/enum_dns.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/enum_dns.rb",
     "name": "DNS Record Scanner and Enumerator"
   },
   {
     "cve": "CVE-1999-0526",
     "module": "auxiliary_gather/x11_keyboard_spy",
-    "path": "/modules/auxiliary/gather/x11_keyboard_spy.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/x11_keyboard_spy.rb",
     "name": "X11 Keylogger"
   },
   {
     "cve": "CVE-1999-0103",
     "module": "auxiliary_scanner/chargen/chargen_probe",
-    "path": "/modules/auxiliary/scanner/chargen/chargen_probe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/chargen/chargen_probe.rb",
     "name": "Chargen Probe Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/db2/db2_auth",
-    "path": "/modules/auxiliary/scanner/db2/db2_auth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/db2/db2_auth.rb",
     "name": "DB2 Authentication Brute Force Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/ftp/ftp_login",
-    "path": "/modules/auxiliary/scanner/ftp/ftp_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ftp/ftp_login.rb",
     "name": "FTP Authentication Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/http/dell_idrac",
-    "path": "/modules/auxiliary/scanner/http/dell_idrac.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/dell_idrac.rb",
     "name": "Dell iDRAC Default Login"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/http/dlink_dir_300_615_http_login",
-    "path": "/modules/auxiliary/scanner/http/dlink_dir_300_615_http_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/dlink_dir_300_615_http_login.rb",
     "name": "D-Link DIR-300A / DIR-320 / DIR-615D HTTP Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/http/dlink_dir_615h_http_login",
-    "path": "/modules/auxiliary/scanner/http/dlink_dir_615h_http_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/dlink_dir_615h_http_login.rb",
     "name": "D-Link DIR-615H HTTP Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/http/dlink_dir_session_cgi_http_login",
-    "path": "/modules/auxiliary/scanner/http/dlink_dir_session_cgi_http_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/dlink_dir_session_cgi_http_login.rb",
     "name": "D-Link DIR-300B / DIR-600B / DIR-815 / DIR-645 HTTP Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/http/http_login",
-    "path": "/modules/auxiliary/scanner/http/http_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/http_login.rb",
     "name": "HTTP Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/http/joomla_bruteforce_login",
-    "path": "/modules/auxiliary/scanner/http/joomla_bruteforce_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/joomla_bruteforce_login.rb",
     "name": "Joomla Bruteforce Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/http/tomcat_mgr_login",
-    "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
     "name": "Tomcat Application Manager Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/http/wordpress_xmlrpc_login",
-    "path": "/modules/auxiliary/scanner/http/wordpress_xmlrpc_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wordpress_xmlrpc_login.rb",
     "name": "Wordpress XML-RPC Username/Password Login Scanner"
   },
   {
     "cve": "CVE-1999-0506",
     "module": "auxiliary_scanner/mssql/mssql_login",
-    "path": "/modules/auxiliary/scanner/mssql/mssql_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/mssql/mssql_login.rb",
     "name": "MSSQL Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/mysql/mysql_login",
-    "path": "/modules/auxiliary/scanner/mysql/mysql_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/mysql/mysql_login.rb",
     "name": "MySQL Login Utility"
   },
   {
     "cve": "CVE-1999-0170",
     "module": "auxiliary_scanner/nfs/nfsmount",
-    "path": "/modules/auxiliary/scanner/nfs/nfsmount.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/nfs/nfsmount.rb",
     "name": "NFS Mount Scanner"
   },
   {
     "cve": "CVE-1999-0554",
     "module": "auxiliary_scanner/nfs/nfsmount",
-    "path": "/modules/auxiliary/scanner/nfs/nfsmount.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/nfs/nfsmount.rb",
     "name": "NFS Mount Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/nntp/nntp_login",
-    "path": "/modules/auxiliary/scanner/nntp/nntp_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/nntp/nntp_login.rb",
     "name": "NNTP Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/oracle/oracle_login",
-    "path": "/modules/auxiliary/scanner/oracle/oracle_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/oracle/oracle_login.rb",
     "name": "Oracle RDBMS Login Utility"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/pcanywhere/pcanywhere_login",
-    "path": "/modules/auxiliary/scanner/pcanywhere/pcanywhere_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/pcanywhere/pcanywhere_login.rb",
     "name": "PcAnywhere Login Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/postgres/postgres_login",
-    "path": "/modules/auxiliary/scanner/postgres/postgres_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/postgres/postgres_login.rb",
     "name": "PostgreSQL Login Utility"
   },
   {
     "cve": "CVE-1999-0651",
     "module": "auxiliary_scanner/rservices/rexec_login",
-    "path": "/modules/auxiliary/scanner/rservices/rexec_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/rservices/rexec_login.rb",
     "name": "rexec Authentication Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/rservices/rexec_login",
-    "path": "/modules/auxiliary/scanner/rservices/rexec_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/rservices/rexec_login.rb",
     "name": "rexec Authentication Scanner"
   },
   {
     "cve": "CVE-1999-0651",
     "module": "auxiliary_scanner/rservices/rlogin_login",
-    "path": "/modules/auxiliary/scanner/rservices/rlogin_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/rservices/rlogin_login.rb",
     "name": "rlogin Authentication Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/rservices/rlogin_login",
-    "path": "/modules/auxiliary/scanner/rservices/rlogin_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/rservices/rlogin_login.rb",
     "name": "rlogin Authentication Scanner"
   },
   {
     "cve": "CVE-1999-0651",
     "module": "auxiliary_scanner/rservices/rsh_login",
-    "path": "/modules/auxiliary/scanner/rservices/rsh_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/rservices/rsh_login.rb",
     "name": "rsh Authentication Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/rservices/rsh_login",
-    "path": "/modules/auxiliary/scanner/rservices/rsh_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/rservices/rsh_login.rb",
     "name": "rsh Authentication Scanner"
   },
   {
     "cve": "CVE-1999-0504",
     "module": "auxiliary_scanner/smb/psexec_loggedin_users",
-    "path": "/modules/auxiliary/scanner/smb/psexec_loggedin_users.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/smb/psexec_loggedin_users.rb",
     "name": "Microsoft Windows Authenticated Logged In Users Enumeration"
   },
   {
     "cve": "CVE-1999-0506",
     "module": "auxiliary_scanner/smb/smb_login",
-    "path": "/modules/auxiliary/scanner/smb/smb_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/smb/smb_login.rb",
     "name": "SMB Login Check Scanner"
   },
   {
     "cve": "CVE-1999-0531",
     "module": "auxiliary_scanner/smtp/smtp_enum",
-    "path": "/modules/auxiliary/scanner/smtp/smtp_enum.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/smtp/smtp_enum.rb",
     "name": "SMTP User Enumeration Utility"
   },
   {
     "cve": "CVE-1999-0508",
     "module": "auxiliary_scanner/snmp/snmp_enum",
-    "path": "/modules/auxiliary/scanner/snmp/snmp_enum.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/snmp/snmp_enum.rb",
     "name": "SNMP Enumeration Module"
   },
   {
     "cve": "CVE-1999-0517",
     "module": "auxiliary_scanner/snmp/snmp_enum",
-    "path": "/modules/auxiliary/scanner/snmp/snmp_enum.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/snmp/snmp_enum.rb",
     "name": "SNMP Enumeration Module"
   },
   {
     "cve": "CVE-1999-0516",
     "module": "auxiliary_scanner/snmp/snmp_enum",
-    "path": "/modules/auxiliary/scanner/snmp/snmp_enum.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/snmp/snmp_enum.rb",
     "name": "SNMP Enumeration Module"
   },
   {
     "cve": "CVE-1999-0508",
     "module": "auxiliary_scanner/snmp/snmp_login",
-    "path": "/modules/auxiliary/scanner/snmp/snmp_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/snmp/snmp_login.rb",
     "name": "SNMP Community Login Scanner"
   },
   {
     "cve": "CVE-1999-0517",
     "module": "auxiliary_scanner/snmp/snmp_login",
-    "path": "/modules/auxiliary/scanner/snmp/snmp_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/snmp/snmp_login.rb",
     "name": "SNMP Community Login Scanner"
   },
   {
     "cve": "CVE-1999-0516",
     "module": "auxiliary_scanner/snmp/snmp_login",
-    "path": "/modules/auxiliary/scanner/snmp/snmp_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/snmp/snmp_login.rb",
     "name": "SNMP Community Login Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/ssh/ssh_login",
-    "path": "/modules/auxiliary/scanner/ssh/ssh_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssh/ssh_login.rb",
     "name": "SSH Login Check Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/telnet/brocade_enable_login",
-    "path": "/modules/auxiliary/scanner/telnet/brocade_enable_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/telnet/brocade_enable_login.rb",
     "name": "Brocade Enable Login Check Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/telnet/telnet_login",
-    "path": "/modules/auxiliary/scanner/telnet/telnet_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/telnet/telnet_login.rb",
     "name": "Telnet Login Check Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/vmware/vmauthd_login",
-    "path": "/modules/auxiliary/scanner/vmware/vmauthd_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/vmware/vmauthd_login.rb",
     "name": "VMware Authentication Daemon Login Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/vmware/vmware_http_login",
-    "path": "/modules/auxiliary/scanner/vmware/vmware_http_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/vmware/vmware_http_login.rb",
     "name": "VMware Web Login Scanner"
   },
   {
     "cve": "CVE-1999-0506",
     "module": "auxiliary_scanner/vnc/vnc_login",
-    "path": "/modules/auxiliary/scanner/vnc/vnc_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/vnc/vnc_login.rb",
     "name": "VNC Authentication Scanner"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "auxiliary_scanner/winrm/winrm_login",
-    "path": "/modules/auxiliary/scanner/winrm/winrm_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/winrm/winrm_login.rb",
     "name": "WinRM Login Utility"
   },
   {
     "cve": "CVE-1999-0526",
     "module": "auxiliary_scanner/x11/open_x11",
-    "path": "/modules/auxiliary/scanner/x11/open_x11.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/x11/open_x11.rb",
     "name": "X11 No-Auth Scanner"
   },
   {
     "cve": "CVE-1999-0667",
     "module": "auxiliary_spoof/arp/arp_poisoning",
-    "path": "/modules/auxiliary/spoof/arp/arp_poisoning.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/spoof/arp/arp_poisoning.rb",
     "name": "ARP Spoof"
   },
   {
     "cve": "CVE-1999-0502",
     "module": "exploit_multi/ssh/sshexec",
-    "path": "/modules/exploits/multi/ssh/sshexec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/ssh/sshexec.rb",
     "name": "SSH User Code Execution"
   },
   {
     "cve": "CVE-1999-0209",
     "module": "exploit_solaris/sunrpc/ypupdated_exec",
-    "path": "/modules/exploits/solaris/sunrpc/ypupdated_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/solaris/sunrpc/ypupdated_exec.rb",
     "name": "Solaris ypupdated Command Execution"
   },
   {
     "cve": "CVE-1999-1053",
     "module": "exploit_unix/webapp/guestbook_ssi_exec",
-    "path": "/modules/exploits/unix/webapp/guestbook_ssi_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/guestbook_ssi_exec.rb",
     "name": "Matt Wright guestbook.pl Arbitrary Command Execution"
   },
   {
     "cve": "CVE-1999-0526",
     "module": "exploit_unix/x11/x11_keyboard_exec",
-    "path": "/modules/exploits/unix/x11/x11_keyboard_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/x11/x11_keyboard_exec.rb",
     "name": "X11 Keyboard Command Injection"
   },
   {
     "cve": "CVE-1999-1510",
     "module": "exploit_windows/ftp/bison_ftp_bof",
-    "path": "/modules/exploits/windows/ftp/bison_ftp_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/bison_ftp_bof.rb",
     "name": "BisonWare BisonFTP Server Buffer Overflow"
   },
   {
     "cve": "CVE-1999-0256",
     "module": "exploit_windows/ftp/warftpd_165_pass",
-    "path": "/modules/exploits/windows/ftp/warftpd_165_pass.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/warftpd_165_pass.rb",
     "name": "War-FTPD 1.65 Password Overflow"
   },
   {
     "cve": "CVE-1999-0256",
     "module": "exploit_windows/ftp/warftpd_165_user",
-    "path": "/modules/exploits/windows/ftp/warftpd_165_user.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/warftpd_165_user.rb",
     "name": "War-FTPD 1.65 Username Overflow"
   },
   {
     "cve": "CVE-1999-0874",
     "module": "exploit_windows/iis/ms02_018_htr",
-    "path": "/modules/exploits/windows/iis/ms02_018_htr.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/iis/ms02_018_htr.rb",
     "name": "MS02-018 Microsoft IIS 4.0 .HTR Path Overflow"
   },
   {
     "cve": "CVE-1999-1011",
     "module": "exploit_windows/iis/msadc",
-    "path": "/modules/exploits/windows/iis/msadc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/iis/msadc.rb",
     "name": "MS99-025 Microsoft IIS MDAC msadcs.dll RDS Arbitrary Remote Command Execution"
   },
   {
     "cve": "CVE-1999-0504",
     "module": "exploit_windows/local/current_user_psexec",
-    "path": "/modules/exploits/windows/local/current_user_psexec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/current_user_psexec.rb",
     "name": "PsExec via Current User Token"
   },
   {
     "cve": "CVE-1999-0504",
     "module": "exploit_windows/local/powershell_remoting",
-    "path": "/modules/exploits/windows/local/powershell_remoting.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/powershell_remoting.rb",
     "name": "Powershell Remoting Remote Command Execution"
   },
   {
     "cve": "CVE-1999-0504",
     "module": "exploit_windows/local/wmi",
-    "path": "/modules/exploits/windows/local/wmi.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/wmi.rb",
     "name": "Windows Management Instrumentation (WMI) Remote Command Execution"
   },
   {
     "cve": "CVE-1999-0504",
     "module": "exploit_windows/smb/psexec",
-    "path": "/modules/exploits/windows/smb/psexec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/smb/psexec.rb",
     "name": "Microsoft Windows Authenticated User Code Execution"
   }
 ]

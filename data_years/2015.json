@@ -2,949 +2,949 @@
   {
     "cve": "CVE-2015-0964",
     "module": "auxiliary_admin/http/arris_motorola_surfboard_backdoor_xss",
-    "path": "/modules/auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss.rb",
     "name": "Arris / Motorola Surfboard SBG6580 Web Interface Takeover"
   },
   {
     "cve": "CVE-2015-0965",
     "module": "auxiliary_admin/http/arris_motorola_surfboard_backdoor_xss",
-    "path": "/modules/auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss.rb",
     "name": "Arris / Motorola Surfboard SBG6580 Web Interface Takeover"
   },
   {
     "cve": "CVE-2015-0966",
     "module": "auxiliary_admin/http/arris_motorola_surfboard_backdoor_xss",
-    "path": "/modules/auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss.rb",
     "name": "Arris / Motorola Surfboard SBG6580 Web Interface Takeover"
   },
   {
     "cve": "CVE-2015-6922",
     "module": "auxiliary_admin/http/kaseya_master_admin",
-    "path": "/modules/auxiliary/admin/http/kaseya_master_admin.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/kaseya_master_admin.rb",
     "name": "Kaseya VSA Master Administrator Account Creation"
   },
   {
     "cve": "CVE-2015-2993",
     "module": "auxiliary_admin/http/sysaid_admin_acct",
-    "path": "/modules/auxiliary/admin/http/sysaid_admin_acct.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/sysaid_admin_acct.rb",
     "name": "SysAid Help Desk Administrator Account Creation"
   },
   {
     "cve": "CVE-2015-2996",
     "module": "auxiliary_admin/http/sysaid_file_download",
-    "path": "/modules/auxiliary/admin/http/sysaid_file_download.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/sysaid_file_download.rb",
     "name": "SysAid Help Desk Arbitrary File Download"
   },
   {
     "cve": "CVE-2015-2997",
     "module": "auxiliary_admin/http/sysaid_file_download",
-    "path": "/modules/auxiliary/admin/http/sysaid_file_download.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/sysaid_file_download.rb",
     "name": "SysAid Help Desk Arbitrary File Download"
   },
   {
     "cve": "CVE-2015-2996",
     "module": "auxiliary_admin/http/sysaid_sql_creds",
-    "path": "/modules/auxiliary/admin/http/sysaid_sql_creds.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/sysaid_sql_creds.rb",
     "name": "SysAid Help Desk Database Credentials Disclosure"
   },
   {
     "cve": "CVE-2015-2998",
     "module": "auxiliary_admin/http/sysaid_sql_creds",
-    "path": "/modules/auxiliary/admin/http/sysaid_sql_creds.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/sysaid_sql_creds.rb",
     "name": "SysAid Help Desk Database Credentials Disclosure"
   },
   {
     "cve": "CVE-2015-2673",
     "module": "auxiliary_admin/http/wp_easycart_privilege_escalation",
-    "path": "/modules/auxiliary/admin/http/wp_easycart_privilege_escalation.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/wp_easycart_privilege_escalation.rb",
     "name": "WordPress WP EasyCart Plugin Privilege Escalation"
   },
   {
     "cve": "CVE-2015-6522",
     "module": "auxiliary_admin/http/wp_symposium_sql_injection",
-    "path": "/modules/auxiliary/admin/http/wp_symposium_sql_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/wp_symposium_sql_injection.rb",
     "name": "WordPress Symposium Plugin SQL Injection"
   },
   {
     "cve": "CVE-2015-10139",
     "module": "auxiliary_admin/http/wp_wplms_privilege_escalation",
-    "path": "/modules/auxiliary/admin/http/wp_wplms_privilege_escalation.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/wp_wplms_privilege_escalation.rb",
     "name": "WordPress WPLMS Theme Privilege Escalation"
   },
   {
     "cve": "CVE-2015-5477",
     "module": "auxiliary_dos/dns/bind_tkey",
-    "path": "/modules/auxiliary/dos/dns/bind_tkey.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/dns/bind_tkey.rb",
     "name": "BIND TKEY Query Denial of Service"
   },
   {
     "cve": "CVE-2015-1635",
     "module": "auxiliary_dos/http/ms15_034_ulonglongadd",
-    "path": "/modules/auxiliary/dos/http/ms15_034_ulonglongadd.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/ms15_034_ulonglongadd.rb",
     "name": "MS15-034 HTTP Protocol Stack Request Handling Denial-of-Service"
   },
   {
     "cve": "CVE-2015-1930",
     "module": "auxiliary_dos/misc/ibm_tsm_dos",
-    "path": "/modules/auxiliary/dos/misc/ibm_tsm_dos.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/misc/ibm_tsm_dos.rb",
     "name": "IBM Tivoli Storage Manager FastBack Server Opcode 0x534 Denial of Service"
   },
   {
     "cve": "CVE-2015-5374",
     "module": "auxiliary_dos/scada/siemens_siprotec4",
-    "path": "/modules/auxiliary/dos/scada/siemens_siprotec4.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/scada/siemens_siprotec4.rb",
     "name": "Siemens SIPROTEC 4 and SIPROTEC Compact EN100 Ethernet Module - Denial of Service"
   },
   {
     "cve": "CVE-2015-1126",
     "module": "auxiliary_gather/apple_safari_ftp_url_cookie_theft",
-    "path": "/modules/auxiliary/gather/apple_safari_ftp_url_cookie_theft.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/apple_safari_ftp_url_cookie_theft.rb",
     "name": "Apple OSX/iOS/Windows Safari Non-HTTPOnly Cookie Theft"
   },
   {
     "cve": "CVE-2015-4495",
     "module": "auxiliary_gather/firefox_pdfjs_file_theft",
-    "path": "/modules/auxiliary/gather/firefox_pdfjs_file_theft.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/firefox_pdfjs_file_theft.rb",
     "name": "Firefox PDF.js Browser File Theft"
   },
   {
     "cve": "CVE-2015-0072",
     "module": "auxiliary_gather/ie_uxss_injection",
-    "path": "/modules/auxiliary/gather/ie_uxss_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/ie_uxss_injection.rb",
     "name": "MS15-018 Microsoft Internet Explorer 10 and 11 Cross-Domain JavaScript Injection"
   },
   {
     "cve": "CVE-2015-7297",
     "module": "auxiliary_gather/joomla_contenthistory_sqli",
-    "path": "/modules/auxiliary/gather/joomla_contenthistory_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/joomla_contenthistory_sqli.rb",
     "name": "Joomla com_contenthistory Error-Based SQL Injection"
   },
   {
     "cve": "CVE-2015-0921",
     "module": "auxiliary_gather/mcafee_epo_xxe",
-    "path": "/modules/auxiliary/gather/mcafee_epo_xxe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/mcafee_epo_xxe.rb",
     "name": "McAfee ePolicy Orchestrator Authenticated XXE Credentials Exposure"
   },
   {
     "cve": "CVE-2015-0922",
     "module": "auxiliary_gather/mcafee_epo_xxe",
-    "path": "/modules/auxiliary/gather/mcafee_epo_xxe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/mcafee_epo_xxe.rb",
     "name": "McAfee ePolicy Orchestrator Authenticated XXE Credentials Exposure"
   },
   {
     "cve": "CVE-2015-0975",
     "module": "auxiliary_gather/opennms_xxe",
-    "path": "/modules/auxiliary/gather/opennms_xxe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/opennms_xxe.rb",
     "name": "OpenNMS Authenticated XXE"
   },
   {
     "cve": "CVE-2015-1155",
     "module": "auxiliary_gather/safari_file_url_navigation",
-    "path": "/modules/auxiliary/gather/safari_file_url_navigation.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/safari_file_url_navigation.rb",
     "name": "Mac OS X Safari file:// Redirection Sandbox Escape"
   },
   {
     "cve": "CVE-2015-3035",
     "module": "auxiliary_gather/tplink_archer_c7_traversal",
-    "path": "/modules/auxiliary/gather/tplink_archer_c7_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/tplink_archer_c7_traversal.rb",
     "name": "Archer C7 Directory Traversal Vulnerability"
   },
   {
     "cve": "CVE-2015-7602",
     "module": "auxiliary_scanner/ftp/bison_ftp_traversal",
-    "path": "/modules/auxiliary/scanner/ftp/bison_ftp_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ftp/bison_ftp_traversal.rb",
     "name": "BisonWare BisonFTP Server 3.5 Directory Traversal Information Disclosure"
   },
   {
     "cve": "CVE-2015-7603",
     "module": "auxiliary_scanner/ftp/konica_ftp_traversal",
-    "path": "/modules/auxiliary/scanner/ftp/konica_ftp_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ftp/konica_ftp_traversal.rb",
     "name": "Konica Minolta FTP Utility 1.00 Directory Traversal Information Disclosure"
   },
   {
     "cve": "CVE-2015-7601",
     "module": "auxiliary_scanner/ftp/pcman_ftp_traversal",
-    "path": "/modules/auxiliary/scanner/ftp/pcman_ftp_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ftp/pcman_ftp_traversal.rb",
     "name": "PCMan FTP Server 2.0.7 Directory Traversal Information Disclosure"
   },
   {
     "cve": "CVE-2015-2856",
     "module": "auxiliary_scanner/http/accellion_fta_statecode_file_read",
-    "path": "/modules/auxiliary/scanner/http/accellion_fta_statecode_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/accellion_fta_statecode_file_read.rb",
     "name": "Accellion FTA 'statecode' Cookie Arbitrary File Read"
   },
   {
     "cve": "CVE-2015-5531",
     "module": "auxiliary_scanner/http/elasticsearch_traversal",
-    "path": "/modules/auxiliary/scanner/http/elasticsearch_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/elasticsearch_traversal.rb",
     "name": "ElasticSearch Snapshot API Directory Traversal"
   },
   {
     "cve": "CVE-2015-8103",
     "module": "auxiliary_scanner/http/jenkins_command",
-    "path": "/modules/auxiliary/scanner/http/jenkins_command.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/jenkins_command.rb",
     "name": "Jenkins-CI Unauthenticated Script-Console Scanner"
   },
   {
     "cve": "CVE-2015-2562",
     "module": "auxiliary_scanner/http/joomla_ecommercewd_sqli_scanner",
-    "path": "/modules/auxiliary/scanner/http/joomla_ecommercewd_sqli_scanner.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/joomla_ecommercewd_sqli_scanner.rb",
     "name": "Web-Dorado ECommerce WD for Joomla! search_category_id SQL Injection Scanner"
   },
   {
     "cve": "CVE-2015-1635",
     "module": "auxiliary_scanner/http/ms15_034_http_sys_memory_dump",
-    "path": "/modules/auxiliary/scanner/http/ms15_034_http_sys_memory_dump.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/ms15_034_http_sys_memory_dump.rb",
     "name": "MS15-034 HTTP Protocol Stack Request Handling HTTP.SYS Memory Information Disclosure"
   },
   {
     "cve": "CVE-2015-0235",
     "module": "auxiliary_scanner/http/wordpress_ghost_scanner",
-    "path": "/modules/auxiliary/scanner/http/wordpress_ghost_scanner.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wordpress_ghost_scanner.rb",
     "name": "WordPress XMLRPC GHOST Vulnerability Scanner"
   },
   {
     "cve": "CVE-2015-2065",
     "module": "auxiliary_scanner/http/wp_contus_video_gallery_sqli",
-    "path": "/modules/auxiliary/scanner/http/wp_contus_video_gallery_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_contus_video_gallery_sqli.rb",
     "name": "WordPress Contus Video Gallery Unauthenticated SQL Injection Scanner"
   },
   {
     "cve": "CVE-2015-10136",
     "module": "auxiliary_scanner/http/wp_gimedia_library_file_read",
-    "path": "/modules/auxiliary/scanner/http/wp_gimedia_library_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_gimedia_library_file_read.rb",
     "name": "WordPress GI-Media Library Plugin Directory Traversal Vulnerability"
   },
   {
     "cve": "CVE-2015-9406",
     "module": "auxiliary_scanner/http/wp_mobileedition_file_read",
-    "path": "/modules/auxiliary/scanner/http/wp_mobileedition_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_mobileedition_file_read.rb",
     "name": "WordPress Mobile Edition File Read Vulnerability"
   },
   {
     "cve": "CVE-2015-9538",
     "module": "auxiliary_scanner/http/wp_nextgen_galley_file_read",
-    "path": "/modules/auxiliary/scanner/http/wp_nextgen_galley_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_nextgen_galley_file_read.rb",
     "name": "WordPress NextGEN Gallery Directory Read Vulnerability"
   },
   {
     "cve": "CVE-2015-10134",
     "module": "auxiliary_scanner/http/wp_simple_backup_file_read",
-    "path": "/modules/auxiliary/scanner/http/wp_simple_backup_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_simple_backup_file_read.rb",
     "name": "WordPress Simple Backup File Read Vulnerability"
   },
   {
     "cve": "CVE-2015-10133",
     "module": "auxiliary_scanner/http/wp_subscribe_comments_file_read",
-    "path": "/modules/auxiliary/scanner/http/wp_subscribe_comments_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_subscribe_comments_file_read.rb",
     "name": "WordPress Subscribe Comments File Read Vulnerability"
   },
   {
     "cve": "CVE-2015-2342",
     "module": "auxiliary_scanner/misc/java_jmx_server",
-    "path": "/modules/auxiliary/scanner/misc/java_jmx_server.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/misc/java_jmx_server.rb",
     "name": "Java JMX Server Insecure Endpoint Code Execution Scanner"
   },
   {
     "cve": "CVE-2015-7871",
     "module": "auxiliary_scanner/ntp/ntp_nak_to_the_future",
-    "path": "/modules/auxiliary/scanner/ntp/ntp_nak_to_the_future.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ntp/ntp_nak_to_the_future.rb",
     "name": "NTP \"NAK to the Future\""
   },
   {
     "cve": "CVE-2015-0240",
     "module": "auxiliary_scanner/smb/smb_uninit_cred",
-    "path": "/modules/auxiliary/scanner/smb/smb_uninit_cred.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/smb/smb_uninit_cred.rb",
     "name": "Samba _netr_ServerPasswordSet Uninitialized Credential State"
   },
   {
     "cve": "CVE-2015-7755",
     "module": "auxiliary_scanner/ssh/juniper_backdoor",
-    "path": "/modules/auxiliary/scanner/ssh/juniper_backdoor.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssh/juniper_backdoor.rb",
     "name": "Juniper SSH Backdoor Scanner"
   },
   {
     "cve": "CVE-2015-4000",
     "module": "auxiliary_scanner/ssl/ssl_version",
-    "path": "/modules/auxiliary/scanner/ssl/ssl_version.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssl/ssl_version.rb",
     "name": "SSL/TLS Version Detection"
   },
   {
     "cve": "CVE-2015-6127",
     "module": "auxiliary_server/ms15_134_mcl_leak",
-    "path": "/modules/auxiliary/server/ms15_134_mcl_leak.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/ms15_134_mcl_leak.rb",
     "name": "MS15-134 Microsoft Windows Media Center MCL Information Disclosure"
   },
   {
     "cve": "CVE-2015-1793",
     "module": "auxiliary_server/openssl_altchainsforgery_mitm_proxy",
-    "path": "/modules/auxiliary/server/openssl_altchainsforgery_mitm_proxy.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/openssl_altchainsforgery_mitm_proxy.rb",
     "name": "OpenSSL Alternative Chains Certificate Forgery MITM Proxy"
   },
   {
     "cve": "CVE-2015-3864",
     "module": "exploit_android/browser/stagefright_mp4_tx3g_64bit",
-    "path": "/modules/exploits/android/browser/stagefright_mp4_tx3g_64bit.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/android/browser/stagefright_mp4_tx3g_64bit.rb",
     "name": "Android Stagefright MP4 tx3g Integer Overflow"
   },
   {
     "cve": "CVE-2015-5453",
     "module": "exploit_freebsd/http/watchguard_cmd_exec",
-    "path": "/modules/exploits/freebsd/http/watchguard_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/freebsd/http/watchguard_cmd_exec.rb",
     "name": "Watchguard XCS Remote Command Execution"
   },
   {
     "cve": "CVE-2015-2857",
     "module": "exploit_linux/http/accellion_fta_getstatus_oauth",
-    "path": "/modules/exploits/linux/http/accellion_fta_getstatus_oauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/accellion_fta_getstatus_oauth.rb",
     "name": "Accellion FTA getStatus verify_oauth_token Command Execution"
   },
   {
     "cve": "CVE-2015-2797",
     "module": "exploit_linux/http/airties_login_cgi_bof",
-    "path": "/modules/exploits/linux/http/airties_login_cgi_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/airties_login_cgi_bof.rb",
     "name": "Airties login-cgi Buffer Overflow"
   },
   {
     "cve": "CVE-2015-2049",
     "module": "exploit_linux/http/dlink_dcs931l_upload",
-    "path": "/modules/exploits/linux/http/dlink_dcs931l_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/dlink_dcs931l_upload.rb",
     "name": "D-Link DCS-931L File Upload"
   },
   {
     "cve": "CVE-2015-2051",
     "module": "exploit_linux/http/dlink_hnap_header_exec_noauth",
-    "path": "/modules/exploits/linux/http/dlink_hnap_header_exec_noauth.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/dlink_hnap_header_exec_noauth.rb",
     "name": "D-Link Devices HNAP SOAPAction-Header Command Execution"
   },
   {
     "cve": "CVE-2015-5082",
     "module": "exploit_linux/http/efw_chpasswd_exec",
-    "path": "/modules/exploits/linux/http/efw_chpasswd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/efw_chpasswd_exec.rb",
     "name": "Endian Firewall Proxy Password Change Command Injection"
   },
   {
     "cve": "CVE-2015-3628",
     "module": "exploit_linux/http/f5_icall_cmd",
-    "path": "/modules/exploits/linux/http/f5_icall_cmd.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/f5_icall_cmd.rb",
     "name": "F5 iControl iCall::Script Root Command Execution"
   },
   {
     "cve": "CVE-2015-2843",
     "module": "exploit_linux/http/goautodial_3_rce_command_injection",
-    "path": "/modules/exploits/linux/http/goautodial_3_rce_command_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/goautodial_3_rce_command_injection.rb",
     "name": "GoAutoDial 3.3 Authentication Bypass / Command Injection"
   },
   {
     "cve": "CVE-2015-2845",
     "module": "exploit_linux/http/goautodial_3_rce_command_injection",
-    "path": "/modules/exploits/linux/http/goautodial_3_rce_command_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/goautodial_3_rce_command_injection.rb",
     "name": "GoAutoDial 3.3 Authentication Bypass / Command Injection"
   },
   {
     "cve": "CVE-2015-1187",
     "module": "exploit_linux/http/multi_ncc_ping_exec",
-    "path": "/modules/exploits/linux/http/multi_ncc_ping_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/multi_ncc_ping_exec.rb",
     "name": "D-Link/TRENDnet NCC Service Command Injection"
   },
   {
     "cve": "CVE-2015-4624",
     "module": "exploit_linux/http/pineapple_bypass_cmdinject",
-    "path": "/modules/exploits/linux/http/pineapple_bypass_cmdinject.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/pineapple_bypass_cmdinject.rb",
     "name": "Hak5 WiFi Pineapple Preconfiguration Command Injection"
   },
   {
     "cve": "CVE-2015-4624",
     "module": "exploit_linux/http/pineapple_preconfig_cmdinject",
-    "path": "/modules/exploits/linux/http/pineapple_preconfig_cmdinject.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/pineapple_preconfig_cmdinject.rb",
     "name": "Hak5 WiFi Pineapple Preconfiguration Command Injection"
   },
   {
     "cve": "CVE-2015-8279",
     "module": "exploit_linux/http/samsung_srv_1670d_upload_exec",
-    "path": "/modules/exploits/linux/http/samsung_srv_1670d_upload_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/samsung_srv_1670d_upload_exec.rb",
     "name": "Samsung SRN-1670D Web Viewer Version 1.0.0.193 Arbitrary File Read and Upload"
   },
   {
     "cve": "CVE-2015-9266",
     "module": "exploit_linux/http/ubiquiti_airos_file_upload",
-    "path": "/modules/exploits/linux/http/ubiquiti_airos_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ubiquiti_airos_file_upload.rb",
     "name": "Ubiquiti airOS Arbitrary File Upload"
   },
   {
     "cve": "CVE-2015-3315",
     "module": "exploit_linux/local/abrt_raceabrt_priv_esc",
-    "path": "/modules/exploits/linux/local/abrt_raceabrt_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/abrt_raceabrt_priv_esc.rb",
     "name": "ABRT raceabrt Privilege Escalation"
   },
   {
     "cve": "CVE-2015-5287",
     "module": "exploit_linux/local/abrt_sosreport_priv_esc",
-    "path": "/modules/exploits/linux/local/abrt_sosreport_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/abrt_sosreport_priv_esc.rb",
     "name": "ABRT sosreport Privilege Escalation"
   },
   {
     "cve": "CVE-2015-1318",
     "module": "exploit_linux/local/apport_abrt_chroot_priv_esc",
-    "path": "/modules/exploits/linux/local/apport_abrt_chroot_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/apport_abrt_chroot_priv_esc.rb",
     "name": "Apport / ABRT chroot Privilege Escalation"
   },
   {
     "cve": "CVE-2015-8612",
     "module": "exploit_linux/local/blueman_set_dhcp_handler_dbus_priv_esc",
-    "path": "/modules/exploits/linux/local/blueman_set_dhcp_handler_dbus_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/blueman_set_dhcp_handler_dbus_priv_esc.rb",
     "name": "blueman set_dhcp_handler D-Bus Privilege Escalation"
   },
   {
     "cve": "CVE-2015-3245",
     "module": "exploit_linux/local/libuser_roothelper_priv_esc",
-    "path": "/modules/exploits/linux/local/libuser_roothelper_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/libuser_roothelper_priv_esc.rb",
     "name": "Libuser roothelper Privilege Escalation"
   },
   {
     "cve": "CVE-2015-3246",
     "module": "exploit_linux/local/libuser_roothelper_priv_esc",
-    "path": "/modules/exploits/linux/local/libuser_roothelper_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/libuser_roothelper_priv_esc.rb",
     "name": "Libuser roothelper Privilege Escalation"
   },
   {
     "cve": "CVE-2015-1328",
     "module": "exploit_linux/local/overlayfs_priv_esc",
-    "path": "/modules/exploits/linux/local/overlayfs_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/overlayfs_priv_esc.rb",
     "name": "Overlayfs Privilege Escalation"
   },
   {
     "cve": "CVE-2015-8660",
     "module": "exploit_linux/local/overlayfs_priv_esc",
-    "path": "/modules/exploits/linux/local/overlayfs_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/overlayfs_priv_esc.rb",
     "name": "Overlayfs Privilege Escalation"
   },
   {
     "cve": "CVE-2015-8103",
     "module": "exploit_linux/misc/jenkins_java_deserialize",
-    "path": "/modules/exploits/linux/misc/jenkins_java_deserialize.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/jenkins_java_deserialize.rb",
     "name": "Jenkins CLI RMI Java Deserialization Vulnerability"
   },
   {
     "cve": "CVE-2015-8103",
     "module": "exploit_linux/misc/opennms_java_serialize",
-    "path": "/modules/exploits/linux/misc/opennms_java_serialize.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/opennms_java_serialize.rb",
     "name": "OpenNMS Java Object Unserialization Remote Code Execution"
   },
   {
     "cve": "CVE-2015-7611",
     "module": "exploit_linux/smtp/apache_james_exec",
-    "path": "/modules/exploits/linux/smtp/apache_james_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/smtp/apache_james_exec.rb",
     "name": "Apache James Server 2.3.2 Insecure User Creation Arbitrary File Write"
   },
   {
     "cve": "CVE-2015-0235",
     "module": "exploit_linux/smtp/exim_gethostbyname_bof",
-    "path": "/modules/exploits/linux/smtp/exim_gethostbyname_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/smtp/exim_gethostbyname_bof.rb",
     "name": "Exim GHOST (glibc gethostbyname) Buffer Overflow"
   },
   {
     "cve": "CVE-2015-0936",
     "module": "exploit_linux/ssh/ceragon_fibeair_known_privkey",
-    "path": "/modules/exploits/linux/ssh/ceragon_fibeair_known_privkey.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/ssh/ceragon_fibeair_known_privkey.rb",
     "name": "Ceragon FibeAir IP-10 SSH Private Key Exposure"
   },
   {
     "cve": "CVE-2015-5119",
     "module": "exploit_multi/browser/adobe_flash_hacking_team_uaf",
-    "path": "/modules/exploits/multi/browser/adobe_flash_hacking_team_uaf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_hacking_team_uaf.rb",
     "name": "Adobe Flash Player ByteArray Use After Free"
   },
   {
     "cve": "CVE-2015-3043",
     "module": "exploit_multi/browser/adobe_flash_nellymoser_bof",
-    "path": "/modules/exploits/multi/browser/adobe_flash_nellymoser_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_nellymoser_bof.rb",
     "name": "Adobe Flash Player Nellymoser Audio Decoding Buffer Overflow"
   },
   {
     "cve": "CVE-2015-3113",
     "module": "exploit_multi/browser/adobe_flash_nellymoser_bof",
-    "path": "/modules/exploits/multi/browser/adobe_flash_nellymoser_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_nellymoser_bof.rb",
     "name": "Adobe Flash Player Nellymoser Audio Decoding Buffer Overflow"
   },
   {
     "cve": "CVE-2015-0336",
     "module": "exploit_multi/browser/adobe_flash_net_connection_confusion",
-    "path": "/modules/exploits/multi/browser/adobe_flash_net_connection_confusion.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_net_connection_confusion.rb",
     "name": "Adobe Flash Player NetConnection Type Confusion"
   },
   {
     "cve": "CVE-2015-5122",
     "module": "exploit_multi/browser/adobe_flash_opaque_background_uaf",
-    "path": "/modules/exploits/multi/browser/adobe_flash_opaque_background_uaf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_opaque_background_uaf.rb",
     "name": "Adobe Flash opaqueBackground Use After Free"
   },
   {
     "cve": "CVE-2015-3105",
     "module": "exploit_multi/browser/adobe_flash_shader_drawing_fill",
-    "path": "/modules/exploits/multi/browser/adobe_flash_shader_drawing_fill.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_shader_drawing_fill.rb",
     "name": "Adobe Flash Player Drawing Fill Shader Memory Corruption"
   },
   {
     "cve": "CVE-2015-3090",
     "module": "exploit_multi/browser/adobe_flash_shader_job_overflow",
-    "path": "/modules/exploits/multi/browser/adobe_flash_shader_job_overflow.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_shader_job_overflow.rb",
     "name": "Adobe Flash Player ShaderJob Buffer Overflow"
   },
   {
     "cve": "CVE-2015-0311",
     "module": "exploit_multi/browser/adobe_flash_uncompress_zlib_uaf",
-    "path": "/modules/exploits/multi/browser/adobe_flash_uncompress_zlib_uaf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_uncompress_zlib_uaf.rb",
     "name": "Adobe Flash Player ByteArray UncompressViaZlibVariant Use After Free"
   },
   {
     "cve": "CVE-2015-0816",
     "module": "exploit_multi/browser/firefox_pdfjs_privilege_escalation",
-    "path": "/modules/exploits/multi/browser/firefox_pdfjs_privilege_escalation.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/firefox_pdfjs_privilege_escalation.rb",
     "name": "Firefox PDF.js Privileged Javascript Injection"
   },
   {
     "cve": "CVE-2015-0802",
     "module": "exploit_multi/browser/firefox_pdfjs_privilege_escalation",
-    "path": "/modules/exploits/multi/browser/firefox_pdfjs_privilege_escalation.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/firefox_pdfjs_privilege_escalation.rb",
     "name": "Firefox PDF.js Privileged Javascript Injection"
   },
   {
     "cve": "CVE-2015-0802",
     "module": "exploit_multi/browser/firefox_proxy_prototype",
-    "path": "/modules/exploits/multi/browser/firefox_proxy_prototype.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/firefox_proxy_prototype.rb",
     "name": "Firefox Proxy Prototype Privileged Javascript Injection"
   },
   {
     "cve": "CVE-2015-1427",
     "module": "exploit_multi/elasticsearch/search_groovy_script",
-    "path": "/modules/exploits/multi/elasticsearch/search_groovy_script.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/elasticsearch/search_groovy_script.rb",
     "name": "ElasticSearch Search Groovy Sandbox Bypass"
   },
   {
     "cve": "CVE-2015-7309",
     "module": "exploit_multi/http/bolt_file_upload",
-    "path": "/modules/exploits/multi/http/bolt_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/bolt_file_upload.rb",
     "name": "CMS Bolt File Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-5603",
     "module": "exploit_multi/http/jira_hipchat_template",
-    "path": "/modules/exploits/multi/http/jira_hipchat_template.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jira_hipchat_template.rb",
     "name": "Atlassian HipChat for Jira Plugin Velocity Template Injection"
   },
   {
     "cve": "CVE-2015-8562",
     "module": "exploit_multi/http/joomla_http_header_rce",
-    "path": "/modules/exploits/multi/http/joomla_http_header_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/joomla_http_header_rce.rb",
     "name": "Joomla HTTP Header Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2015-6967",
     "module": "exploit_multi/http/nibbleblog_file_upload",
-    "path": "/modules/exploits/multi/http/nibbleblog_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/nibbleblog_file_upload.rb",
     "name": "Nibbleblog File Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-5958",
     "module": "exploit_multi/http/phpfilemanager_rce",
-    "path": "/modules/exploits/multi/http/phpfilemanager_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/phpfilemanager_rce.rb",
     "name": "phpFileManager 0.9.8 Remote Code Execution"
   },
   {
     "cve": "CVE-2015-2208",
     "module": "exploit_multi/http/phpmoadmin_exec",
-    "path": "/modules/exploits/multi/http/phpmoadmin_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/phpmoadmin_exec.rb",
     "name": "PHPMoAdmin 1.1.2 Remote Code Execution"
   },
   {
     "cve": "CVE-2015-3884",
     "module": "exploit_multi/http/qdpm_upload_exec",
-    "path": "/modules/exploits/multi/http/qdpm_upload_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/qdpm_upload_exec.rb",
     "name": "qdPM v7 Arbitrary PHP File Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-3224",
     "module": "exploit_multi/http/rails_web_console_v2_code_exec",
-    "path": "/modules/exploits/multi/http/rails_web_console_v2_code_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/rails_web_console_v2_code_exec.rb",
     "name": "Ruby on Rails Web Console (v2) Whitelist Bypass Code Execution"
   },
   {
     "cve": "CVE-2015-5371",
     "module": "exploit_multi/http/solarwinds_store_manager_auth_filter",
-    "path": "/modules/exploits/multi/http/solarwinds_store_manager_auth_filter.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/solarwinds_store_manager_auth_filter.rb",
     "name": "SolarWinds Storage Manager Authentication Bypass"
   },
   {
     "cve": "CVE-2015-2994",
     "module": "exploit_multi/http/sysaid_auth_file_upload",
-    "path": "/modules/exploits/multi/http/sysaid_auth_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sysaid_auth_file_upload.rb",
     "name": "SysAid Help Desk Administrator Portal Arbitrary File Upload"
   },
   {
     "cve": "CVE-2015-2995",
     "module": "exploit_multi/http/sysaid_rdslogs_file_upload",
-    "path": "/modules/exploits/multi/http/sysaid_rdslogs_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sysaid_rdslogs_file_upload.rb",
     "name": "SysAid Help Desk 'rdslogs' Arbitrary File Upload"
   },
   {
     "cve": "CVE-2015-9263 ",
     "module": "exploit_multi/http/uptime_file_upload_2",
-    "path": "/modules/exploits/multi/http/uptime_file_upload_2.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/uptime_file_upload_2.rb",
     "name": "Idera Up.Time Monitoring Station 7.4 post2file.php Arbitrary File Upload"
   },
   {
     "cve": "CVE-2015-7808",
     "module": "exploit_multi/http/vbulletin_unserialize",
-    "path": "/modules/exploits/multi/http/vbulletin_unserialize.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/vbulletin_unserialize.rb",
     "name": "vBulletin 5.1.2 Unserialize Code Execution"
   },
   {
     "cve": "CVE-2015-6000",
     "module": "exploit_multi/http/vtiger_logo_upload_exec",
-    "path": "/modules/exploits/multi/http/vtiger_logo_upload_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/vtiger_logo_upload_exec.rb",
     "name": "Vtiger CRM - Authenticated Logo Upload RCE"
   },
   {
     "cve": "CVE-2015-0779",
     "module": "exploit_multi/http/zenworks_configuration_management_upload",
-    "path": "/modules/exploits/multi/http/zenworks_configuration_management_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/zenworks_configuration_management_upload.rb",
     "name": "Novell ZENworks Configuration Management Arbitrary File Upload"
   },
   {
     "cve": "CVE-2015-7709",
     "module": "exploit_multi/misc/arkeia_agent_exec",
-    "path": "/modules/exploits/multi/misc/arkeia_agent_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/arkeia_agent_exec.rb",
     "name": "Western Digital Arkeia Remote Code Execution"
   },
   {
     "cve": "CVE-2015-2342",
     "module": "exploit_multi/misc/java_jmx_server",
-    "path": "/modules/exploits/multi/misc/java_jmx_server.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/java_jmx_server.rb",
     "name": "Java JMX Server Insecure Configuration Java Code Execution"
   },
   {
     "cve": "CVE-2015-1497",
     "module": "exploit_multi/misc/persistent_hpca_radexec_exec",
-    "path": "/modules/exploits/multi/misc/persistent_hpca_radexec_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/persistent_hpca_radexec_exec.rb",
     "name": "HP Client Automation Command Injection"
   },
   {
     "cve": "CVE-2015-4852",
     "module": "exploit_multi/misc/weblogic_deserialize_rawobject",
-    "path": "/modules/exploits/multi/misc/weblogic_deserialize_rawobject.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/weblogic_deserialize_rawobject.rb",
     "name": "Oracle Weblogic Server Deserialization RCE - Raw Object"
   },
   {
     "cve": "CVE-2015-7007",
     "module": "exploit_osx/browser/safari_user_assisted_applescript_exec",
-    "path": "/modules/exploits/osx/browser/safari_user_assisted_applescript_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/browser/safari_user_assisted_applescript_exec.rb",
     "name": "Safari User-Assisted Applescript Exec Attack"
   },
   {
     "cve": "CVE-2015-3760",
     "module": "exploit_osx/local/dyld_print_to_file_root",
-    "path": "/modules/exploits/osx/local/dyld_print_to_file_root.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/dyld_print_to_file_root.rb",
     "name": "Apple OS X DYLD_PRINT_TO_FILE Privilege Escalation"
   },
   {
     "cve": "CVE-2015-1130",
     "module": "exploit_osx/local/rootpipe",
-    "path": "/modules/exploits/osx/local/rootpipe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/rootpipe.rb",
     "name": "Apple OS X Rootpipe Privilege Escalation"
   },
   {
     "cve": "CVE-2015-3673",
     "module": "exploit_osx/local/rootpipe_entitlements",
-    "path": "/modules/exploits/osx/local/rootpipe_entitlements.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/rootpipe_entitlements.rb",
     "name": "Apple OS X Entitlements Rootpipe Privilege Escalation"
   },
   {
     "cve": "CVE-2015-5889",
     "module": "exploit_osx/local/rsh_libmalloc",
-    "path": "/modules/exploits/osx/local/rsh_libmalloc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/rsh_libmalloc.rb",
     "name": "Mac OS X 10.9.5 / 10.10.5 - rsh/libmalloc Privilege Escalation"
   },
   {
     "cve": "CVE-2015-3306",
     "module": "exploit_unix/ftp/proftpd_modcopy_exec",
-    "path": "/modules/exploits/unix/ftp/proftpd_modcopy_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/ftp/proftpd_modcopy_exec.rb",
     "name": "ProFTPD 1.3.5 Mod_Copy Command Execution"
   },
   {
     "cve": "CVE-2015-10141",
     "module": "exploit_unix/http/xdebug_unauth_exec",
-    "path": "/modules/exploits/unix/http/xdebug_unauth_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/http/xdebug_unauth_exec.rb",
     "name": "xdebug Unauthenticated OS Command Execution"
   },
   {
     "cve": "CVE-2015-7857",
     "module": "exploit_unix/webapp/joomla_contenthistory_sqli_rce",
-    "path": "/modules/exploits/unix/webapp/joomla_contenthistory_sqli_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/joomla_contenthistory_sqli_rce.rb",
     "name": "Joomla Content History SQLi Remote Code Execution"
   },
   {
     "cve": "CVE-2015-7297",
     "module": "exploit_unix/webapp/joomla_contenthistory_sqli_rce",
-    "path": "/modules/exploits/unix/webapp/joomla_contenthistory_sqli_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/joomla_contenthistory_sqli_rce.rb",
     "name": "Joomla Content History SQLi Remote Code Execution"
   },
   {
     "cve": "CVE-2015-7858",
     "module": "exploit_unix/webapp/joomla_contenthistory_sqli_rce",
-    "path": "/modules/exploits/unix/webapp/joomla_contenthistory_sqli_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/joomla_contenthistory_sqli_rce.rb",
     "name": "Joomla Content History SQLi Remote Code Execution"
   },
   {
     "cve": "CVE-2015-1587",
     "module": "exploit_unix/webapp/maarch_letterbox_file_upload",
-    "path": "/modules/exploits/unix/webapp/maarch_letterbox_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/maarch_letterbox_file_upload.rb",
     "name": "Maarch LetterBox Unrestricted File Upload"
   },
   {
     "cve": "CVE-2015-1592",
     "module": "exploit_unix/webapp/sixapart_movabletype_storable_exec",
-    "path": "/modules/exploits/unix/webapp/sixapart_movabletype_storable_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/sixapart_movabletype_storable_exec.rb",
     "name": "SixApart MovableType Storable Perl Code Execution"
   },
   {
     "cve": "CVE-2015-10140",
     "module": "exploit_unix/webapp/wp_ajax_load_more_file_upload",
-    "path": "/modules/exploits/unix/webapp/wp_ajax_load_more_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_ajax_load_more_file_upload.rb",
     "name": "Wordpress Ajax Load More PHP Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-1172",
     "module": "exploit_unix/webapp/wp_holding_pattern_file_upload",
-    "path": "/modules/exploits/unix/webapp/wp_holding_pattern_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_holding_pattern_file_upload.rb",
     "name": "WordPress Holding Pattern Theme Arbitrary File Upload"
   },
   {
     "cve": "CVE-2015-10137",
     "module": "exploit_unix/webapp/wp_nmediawebsite_file_upload",
-    "path": "/modules/exploits/unix/webapp/wp_nmediawebsite_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_nmediawebsite_file_upload.rb",
     "name": "Wordpress N-Media Website Contact Form Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-1376",
     "module": "exploit_unix/webapp/wp_pixabay_images_upload",
-    "path": "/modules/exploits/unix/webapp/wp_pixabay_images_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_pixabay_images_upload.rb",
     "name": "WordPress Pixabay Images PHP Code Upload"
   },
   {
     "cve": "CVE-2015-10143",
     "module": "exploit_unix/webapp/wp_platform_exec",
-    "path": "/modules/exploits/unix/webapp/wp_platform_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_platform_exec.rb",
     "name": "WordPress Platform Theme File Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-4133",
     "module": "exploit_unix/webapp/wp_reflexgallery_file_upload",
-    "path": "/modules/exploits/unix/webapp/wp_reflexgallery_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_reflexgallery_file_upload.rb",
     "name": "Wordpress Reflex Gallery Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-10138",
     "module": "exploit_unix/webapp/wp_worktheflow_upload",
-    "path": "/modules/exploits/unix/webapp/wp_worktheflow_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_worktheflow_upload.rb",
     "name": "Wordpress Work The Flow Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-10135",
     "module": "exploit_unix/webapp/wp_wpshop_ecommerce_file_upload",
-    "path": "/modules/exploits/unix/webapp/wp_wpshop_ecommerce_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/wp_wpshop_ecommerce_file_upload.rb",
     "name": "WordPress WPshop eCommerce Arbitrary File Upload Vulnerability"
   },
   {
     "cve": "CVE-2015-0359",
     "module": "exploit_windows/browser/adobe_flash_domain_memory_uaf",
-    "path": "/modules/exploits/windows/browser/adobe_flash_domain_memory_uaf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flash_domain_memory_uaf.rb",
     "name": "Adobe Flash Player domainMemory ByteArray Use After Free"
   },
   {
     "cve": "CVE-2015-0318",
     "module": "exploit_windows/browser/adobe_flash_pcre",
-    "path": "/modules/exploits/windows/browser/adobe_flash_pcre.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flash_pcre.rb",
     "name": "Adobe Flash Player PCRE Regex Vulnerability"
   },
   {
     "cve": "CVE-2015-0313",
     "module": "exploit_windows/browser/adobe_flash_worker_byte_array_uaf",
-    "path": "/modules/exploits/windows/browser/adobe_flash_worker_byte_array_uaf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flash_worker_byte_array_uaf.rb",
     "name": "Adobe Flash Player ByteArray With Workers Use After Free"
   },
   {
     "cve": "CVE-2015-7243",
     "module": "exploit_windows/fileformat/boxoft_wav_to_mp3",
-    "path": "/modules/exploits/windows/fileformat/boxoft_wav_to_mp3.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/boxoft_wav_to_mp3.rb",
     "name": "Boxoft WAV to MP3 Converter v1.1 Buffer Overflow"
   },
   {
     "cve": "CVE-2015-1171",
     "module": "exploit_windows/fileformat/gsm_sim",
-    "path": "/modules/exploits/windows/fileformat/gsm_sim.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/gsm_sim.rb",
     "name": "GSM SIM Editor 5.15 Buffer Overflow"
   },
   {
     "cve": "CVE-2015-0096",
     "module": "exploit_windows/fileformat/ms15_020_shortcut_icon_dllloader",
-    "path": "/modules/exploits/windows/fileformat/ms15_020_shortcut_icon_dllloader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms15_020_shortcut_icon_dllloader.rb",
     "name": "Microsoft Windows Shell LNK Code Execution"
   },
   {
     "cve": "CVE-2015-2509",
     "module": "exploit_windows/fileformat/ms15_100_mcl_exe",
-    "path": "/modules/exploits/windows/fileformat/ms15_100_mcl_exe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms15_100_mcl_exe.rb",
     "name": "MS15-100 Microsoft Windows Media Center MCL Vulnerability"
   },
   {
     "cve": "CVE-2015-6132",
     "module": "exploit_windows/fileformat/office_ole_multiple_dll_hijack",
-    "path": "/modules/exploits/windows/fileformat/office_ole_multiple_dll_hijack.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/office_ole_multiple_dll_hijack.rb",
     "name": "Office OLE Multiple DLL Side Loading Vulnerabilities"
   },
   {
     "cve": "CVE-2015-6128",
     "module": "exploit_windows/fileformat/office_ole_multiple_dll_hijack",
-    "path": "/modules/exploits/windows/fileformat/office_ole_multiple_dll_hijack.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/office_ole_multiple_dll_hijack.rb",
     "name": "Office OLE Multiple DLL Side Loading Vulnerabilities"
   },
   {
     "cve": "CVE-2015-6133",
     "module": "exploit_windows/fileformat/office_ole_multiple_dll_hijack",
-    "path": "/modules/exploits/windows/fileformat/office_ole_multiple_dll_hijack.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/office_ole_multiple_dll_hijack.rb",
     "name": "Office OLE Multiple DLL Side Loading Vulnerabilities"
   },
   {
     "cve": "CVE-2015-7768",
     "module": "exploit_windows/ftp/kmftp_utility_cwd",
-    "path": "/modules/exploits/windows/ftp/kmftp_utility_cwd.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/kmftp_utility_cwd.rb",
     "name": "Konica Minolta FTP Utility 1.00 Post Auth CWD Command SEH Overflow"
   },
   {
     "cve": "CVE-2015-1830",
     "module": "exploit_windows/http/apache_activemq_traversal_upload",
-    "path": "/modules/exploits/windows/http/apache_activemq_traversal_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/apache_activemq_traversal_upload.rb",
     "name": "Apache ActiveMQ 5.x-5.11.1 Directory Traversal Shell Upload"
   },
   {
     "cve": "CVE-2015-0923",
     "module": "exploit_windows/http/ektron_xslt_exec_ws",
-    "path": "/modules/exploits/windows/http/ektron_xslt_exec_ws.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/ektron_xslt_exec_ws.rb",
     "name": "Ektron 8.5, 8.7, 9.0 XSLT Transform Remote Code Execution"
   },
   {
     "cve": "CVE-2015-6922",
     "module": "exploit_windows/http/kaseya_uploader",
-    "path": "/modules/exploits/windows/http/kaseya_uploader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/kaseya_uploader.rb",
     "name": "Kaseya VSA uploader.aspx Arbitrary File Upload"
   },
   {
     "cve": "CVE-2015-7765",
     "module": "exploit_windows/http/manage_engine_opmanager_rce",
-    "path": "/modules/exploits/windows/http/manage_engine_opmanager_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/manage_engine_opmanager_rce.rb",
     "name": "ManageEngine OpManager Remote Code Execution"
   },
   {
     "cve": "CVE-2015-7766",
     "module": "exploit_windows/http/manage_engine_opmanager_rce",
-    "path": "/modules/exploits/windows/http/manage_engine_opmanager_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/manage_engine_opmanager_rce.rb",
     "name": "ManageEngine OpManager Remote Code Execution"
   },
   {
     "cve": "CVE-2015-8249",
     "module": "exploit_windows/http/manageengine_connectionid_write",
-    "path": "/modules/exploits/windows/http/manageengine_connectionid_write.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/manageengine_connectionid_write.rb",
     "name": "ManageEngine Desktop Central 9 FileUploadServlet ConnectionId Vulnerability"
   },
   {
     "cve": "CVE-2015-1486",
     "module": "exploit_windows/http/sepm_auth_bypass_rce",
-    "path": "/modules/exploits/windows/http/sepm_auth_bypass_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/sepm_auth_bypass_rce.rb",
     "name": "Symantec Endpoint Protection Manager Authentication Bypass and Code Execution"
   },
   {
     "cve": "CVE-2015-1487",
     "module": "exploit_windows/http/sepm_auth_bypass_rce",
-    "path": "/modules/exploits/windows/http/sepm_auth_bypass_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/sepm_auth_bypass_rce.rb",
     "name": "Symantec Endpoint Protection Manager Authentication Bypass and Code Execution"
   },
   {
     "cve": "CVE-2015-1489",
     "module": "exploit_windows/http/sepm_auth_bypass_rce",
-    "path": "/modules/exploits/windows/http/sepm_auth_bypass_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/sepm_auth_bypass_rce.rb",
     "name": "Symantec Endpoint Protection Manager Authentication Bypass and Code Execution"
   },
   {
     "cve": "CVE-2015-2284",
     "module": "exploit_windows/http/solarwinds_fsm_userlogin",
-    "path": "/modules/exploits/windows/http/solarwinds_fsm_userlogin.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/solarwinds_fsm_userlogin.rb",
     "name": "Solarwinds Firewall Security Manager 6.6.5 Client Session Handling Vulnerability"
   },
   {
     "cve": "CVE-2015-0925",
     "module": "exploit_windows/local/ipass_launch_app",
-    "path": "/modules/exploits/windows/local/ipass_launch_app.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ipass_launch_app.rb",
     "name": "iPass Mobile Client Service Privilege Escalation"
   },
   {
     "cve": "CVE-2015-2219",
     "module": "exploit_windows/local/lenovo_systemupdate",
-    "path": "/modules/exploits/windows/local/lenovo_systemupdate.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/lenovo_systemupdate.rb",
     "name": "Lenovo System Update Privilege Escalation"
   },
   {
     "cve": "CVE-2015-0016",
     "module": "exploit_windows/local/ms15_004_tswbproxy",
-    "path": "/modules/exploits/windows/local/ms15_004_tswbproxy.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms15_004_tswbproxy.rb",
     "name": "MS15-004 Microsoft Remote Desktop Services Web Proxy IE Sandbox Escape"
   },
   {
     "cve": "CVE-2015-1701",
     "module": "exploit_windows/local/ms15_051_client_copy_image",
-    "path": "/modules/exploits/windows/local/ms15_051_client_copy_image.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms15_051_client_copy_image.rb",
     "name": "Windows ClientCopyImage Win32k Exploit"
   },
   {
     "cve": "CVE-2015-2426",
     "module": "exploit_windows/local/ms15_078_atmfd_bof",
-    "path": "/modules/exploits/windows/local/ms15_078_atmfd_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms15_078_atmfd_bof.rb",
     "name": "MS15-078 Microsoft Windows Font Driver Buffer Overflow"
   },
   {
     "cve": "CVE-2015-2433",
     "module": "exploit_windows/local/ms15_078_atmfd_bof",
-    "path": "/modules/exploits/windows/local/ms15_078_atmfd_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms15_078_atmfd_bof.rb",
     "name": "MS15-078 Microsoft Windows Font Driver Buffer Overflow"
   },
   {
     "cve": "CVE-2015-0002",
     "module": "exploit_windows/local/ntapphelpcachecontrol",
-    "path": "/modules/exploits/windows/local/ntapphelpcachecontrol.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ntapphelpcachecontrol.rb",
     "name": "MS15-001 Microsoft Windows NtApphelpCacheControl Improper Authorization Check"
   },
   {
     "cve": "CVE-2015-7450",
     "module": "exploit_windows/misc/ibm_websphere_java_deserialize",
-    "path": "/modules/exploits/windows/misc/ibm_websphere_java_deserialize.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/ibm_websphere_java_deserialize.rb",
     "name": "IBM WebSphere RCE Java Deserialization Vulnerability"
   },
   {
     "cve": "CVE-2015-7387",
     "module": "exploit_windows/misc/manageengine_eventlog_analyzer_rce",
-    "path": "/modules/exploits/windows/misc/manageengine_eventlog_analyzer_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/manageengine_eventlog_analyzer_rce.rb",
     "name": "ManageEngine EventLog Analyzer Remote Code Execution"
   },
   {
     "cve": "CVE-2015-0925",
     "module": "exploit_windows/smb/ipass_pipe_exec",
-    "path": "/modules/exploits/windows/smb/ipass_pipe_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/smb/ipass_pipe_exec.rb",
     "name": "IPass Control Pipe Remote Command Execution"
   },
   {
     "cve": "CVE-2015-0096",
     "module": "exploit_windows/smb/ms15_020_shortcut_icon_dllloader",
-    "path": "/modules/exploits/windows/smb/ms15_020_shortcut_icon_dllloader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/smb/ms15_020_shortcut_icon_dllloader.rb",
     "name": "Microsoft Windows Shell LNK Code Execution"
   }
 ]

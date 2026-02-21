@@ -2,1081 +2,1081 @@
   {
     "cve": "CVE-2010-2731",
     "module": "auxiliary_admin/http/iis_auth_bypass",
-    "path": "/modules/auxiliary/admin/http/iis_auth_bypass.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/iis_auth_bypass.rb",
     "name": "MS10-065 Microsoft IIS 5 NTFS Stream Authentication Bypass"
   },
   {
     "cve": "CVE-2010-0738",
     "module": "auxiliary_admin/http/jboss_bshdeployer",
-    "path": "/modules/auxiliary/admin/http/jboss_bshdeployer.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/jboss_bshdeployer.rb",
     "name": "JBoss JMX Console Beanshell Deployer WAR Upload and Deployment"
   },
   {
     "cve": "CVE-2010-0738",
     "module": "auxiliary_admin/http/jboss_deploymentfilerepository",
-    "path": "/modules/auxiliary/admin/http/jboss_deploymentfilerepository.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/jboss_deploymentfilerepository.rb",
     "name": "JBoss JMX Console DeploymentFileRepository WAR Upload and Deployment"
   },
   {
     "cve": "CVE-2010-1871",
     "module": "auxiliary_admin/http/jboss_seam_exec",
-    "path": "/modules/auxiliary/admin/http/jboss_seam_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/jboss_seam_exec.rb",
     "name": "JBoss Seam 2 Remote Command Execution"
   },
   {
     "cve": "CVE-2010-3714",
     "module": "auxiliary_admin/http/typo3_sa_2010_020",
-    "path": "/modules/auxiliary/admin/http/typo3_sa_2010_020.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/typo3_sa_2010_020.rb",
     "name": "TYPO3 sa-2010-020 Remote File Disclosure"
   },
   {
     "cve": "CVE-2010-0904",
     "module": "auxiliary_admin/oracle/osb_execqr3",
-    "path": "/modules/auxiliary/admin/oracle/osb_execqr3.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/oracle/osb_execqr3.rb",
     "name": "Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability"
   },
   {
     "cve": "CVE-2010-0926",
     "module": "auxiliary_admin/smb/samba_symlink_traversal",
-    "path": "/modules/auxiliary/admin/smb/samba_symlink_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/smb/samba_symlink_traversal.rb",
     "name": "Samba Symlink Directory Traversal"
   },
   {
     "cve": "CVE-2010-2156",
     "module": "auxiliary_dos/dhcp/isc_dhcpd_clientid",
-    "path": "/modules/auxiliary/dos/dhcp/isc_dhcpd_clientid.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/dhcp/isc_dhcpd_clientid.rb",
     "name": "ISC DHCP Zero Length ClientID Denial of Service Module"
   },
   {
     "cve": "CVE-2010-0425",
     "module": "auxiliary_dos/http/apache_mod_isapi",
-    "path": "/modules/auxiliary/dos/http/apache_mod_isapi.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/apache_mod_isapi.rb",
     "name": "Apache mod_isapi Dangling Pointer"
   },
   {
     "cve": "CVE-2010-2227",
     "module": "auxiliary_dos/http/apache_tomcat_transfer_encoding",
-    "path": "/modules/auxiliary/dos/http/apache_tomcat_transfer_encoding.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/apache_tomcat_transfer_encoding.rb",
     "name": "Apache Tomcat Transfer-Encoding Information Disclosure and DoS"
   },
   {
     "cve": "CVE-2010-2227",
     "module": "auxiliary_dos/http/slowloris",
-    "path": "/modules/auxiliary/dos/http/slowloris.py",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/slowloris.py",
     "name": "Slowloris Denial of Service Attack"
   },
   {
     "cve": "CVE-2010-3972",
     "module": "auxiliary_dos/windows/ftp/iis75_ftpd_iac_bof",
-    "path": "/modules/auxiliary/dos/windows/ftp/iis75_ftpd_iac_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/windows/ftp/iis75_ftpd_iac_bof.rb",
     "name": "Microsoft IIS FTP Server Encoded Response Overflow Trigger"
   },
   {
     "cve": "CVE-2010-1899",
     "module": "auxiliary_dos/windows/http/ms10_065_ii6_asp_dos",
-    "path": "/modules/auxiliary/dos/windows/http/ms10_065_ii6_asp_dos.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/windows/http/ms10_065_ii6_asp_dos.rb",
     "name": "Microsoft IIS 6.0 ASP Stack Exhaustion Denial of Service"
   },
   {
     "cve": "CVE-2010-0017",
     "module": "auxiliary_dos/windows/smb/ms10_006_negotiate_response_loop",
-    "path": "/modules/auxiliary/dos/windows/smb/ms10_006_negotiate_response_loop.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/windows/smb/ms10_006_negotiate_response_loop.rb",
     "name": "Microsoft Windows 7 / Server 2008 R2 SMB Client Infinite Loop"
   },
   {
     "cve": "CVE-2010-2550",
     "module": "auxiliary_dos/windows/smb/ms10_054_queryfs_pool_overflow",
-    "path": "/modules/auxiliary/dos/windows/smb/ms10_054_queryfs_pool_overflow.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/windows/smb/ms10_054_queryfs_pool_overflow.rb",
     "name": "Microsoft Windows SRV.SYS SrvSmbQueryFsInformation Pool Overflow DoS"
   },
   {
     "cve": "CVE-2010-2115",
     "module": "auxiliary_dos/windows/tftp/solarwinds",
-    "path": "/modules/auxiliary/dos/windows/tftp/solarwinds.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/windows/tftp/solarwinds.rb",
     "name": "SolarWinds TFTP Server 10.4.0.10 Denial of Service"
   },
   {
     "cve": "CVE-2010-4804",
     "module": "auxiliary_gather/android_htmlfileprovider",
-    "path": "/modules/auxiliary/gather/android_htmlfileprovider.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/android_htmlfileprovider.rb",
     "name": "Android Content Provider File Disclosure"
   },
   {
     "cve": "CVE-2010-0103",
     "module": "auxiliary_scanner/backdoor/energizer_duo_detect",
-    "path": "/modules/auxiliary/scanner/backdoor/energizer_duo_detect.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/backdoor/energizer_duo_detect.rb",
     "name": "Energizer DUO Trojan Scanner"
   },
   {
     "cve": "CVE-2010-2426",
     "module": "auxiliary_scanner/ftp/titanftp_xcrc_traversal",
-    "path": "/modules/auxiliary/scanner/ftp/titanftp_xcrc_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ftp/titanftp_xcrc_traversal.rb",
     "name": "Titan FTP XCRC Directory Traversal Information Disclosure"
   },
   {
     "cve": "CVE-2010-1587",
     "module": "auxiliary_scanner/http/apache_activemq_source_disclosure",
-    "path": "/modules/auxiliary/scanner/http/apache_activemq_source_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/apache_activemq_source_disclosure.rb",
     "name": "Apache ActiveMQ JSP Files Source Disclosure"
   },
   {
     "cve": "CVE-2010-1587",
     "module": "auxiliary_scanner/http/apache_activemq_traversal",
-    "path": "/modules/auxiliary/scanner/http/apache_activemq_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/apache_activemq_traversal.rb",
     "name": "Apache ActiveMQ Directory Traversal"
   },
   {
     "cve": "CVE-2010-0219",
     "module": "auxiliary_scanner/http/axis_login",
-    "path": "/modules/auxiliary/scanner/http/axis_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/axis_login.rb",
     "name": "Apache Axis2 Brute Force Utility"
   },
   {
     "cve": "CVE-2010-20109",
     "module": "auxiliary_scanner/http/barracuda_directory_traversal",
-    "path": "/modules/auxiliary/scanner/http/barracuda_directory_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/barracuda_directory_traversal.rb",
     "name": "Barracuda Multiple Product \"locale\" Directory Traversal"
   },
   {
     "cve": "CVE-2010-2861",
     "module": "auxiliary_scanner/http/coldfusion_locale_traversal",
-    "path": "/modules/auxiliary/scanner/http/coldfusion_locale_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/coldfusion_locale_traversal.rb",
     "name": "ColdFusion Server Check"
   },
   {
     "cve": "CVE-2010-10012",
     "module": "auxiliary_scanner/http/httpdasm_directory_traversal",
-    "path": "/modules/auxiliary/scanner/http/httpdasm_directory_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/httpdasm_directory_traversal.rb",
     "name": "Httpdasm Directory Traversal"
   },
   {
     "cve": "CVE-2010-1429",
     "module": "auxiliary_scanner/http/jboss_status",
-    "path": "/modules/auxiliary/scanner/http/jboss_status.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/jboss_status.rb",
     "name": "JBoss Status Servlet Information Gathering"
   },
   {
     "cve": "CVE-2010-1429",
     "module": "auxiliary_scanner/http/jboss_vulnscan",
-    "path": "/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
     "name": "JBoss Vulnerability Scanner"
   },
   {
     "cve": "CVE-2010-0738",
     "module": "auxiliary_scanner/http/jboss_vulnscan",
-    "path": "/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
     "name": "JBoss Vulnerability Scanner"
   },
   {
     "cve": "CVE-2010-1428",
     "module": "auxiliary_scanner/http/jboss_vulnscan",
-    "path": "/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
     "name": "JBoss Vulnerability Scanner"
   },
   {
     "cve": "CVE-2010-2333",
     "module": "auxiliary_scanner/http/litespeed_source_disclosure",
-    "path": "/modules/auxiliary/scanner/http/litespeed_source_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/litespeed_source_disclosure.rb",
     "name": "LiteSpeed Source Code Disclosure/Download"
   },
   {
     "cve": "CVE-2010-2263",
     "module": "auxiliary_scanner/http/nginx_source_disclosure",
-    "path": "/modules/auxiliary/scanner/http/nginx_source_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/nginx_source_disclosure.rb",
     "name": "Nginx Source Code Disclosure/Download"
   },
   {
     "cve": "CVE-2010-0557",
     "module": "auxiliary_scanner/http/tomcat_mgr_login",
-    "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
     "name": "Tomcat Application Manager Login Utility"
   },
   {
     "cve": "CVE-2010-4094",
     "module": "auxiliary_scanner/http/tomcat_mgr_login",
-    "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
     "name": "Tomcat Application Manager Login Utility"
   },
   {
     "cve": "CVE-2010-0738",
     "module": "auxiliary_scanner/sap/sap_icm_urlscan",
-    "path": "/modules/auxiliary/scanner/sap/sap_icm_urlscan.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/sap/sap_icm_urlscan.rb",
     "name": "SAP URL Scanner"
   },
   {
     "cve": "CVE-2010-0870",
     "module": "auxiliary_sqli/oracle/dbms_cdc_publish2",
-    "path": "/modules/auxiliary/sqli/oracle/dbms_cdc_publish2.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/sqli/oracle/dbms_cdc_publish2.rb",
     "name": "Oracle DB SQL Injection via SYS.DBMS_CDC_PUBLISH.DROP_CHANGE_SOURCE"
   },
   {
     "cve": "CVE-2010-2415",
     "module": "auxiliary_sqli/oracle/dbms_cdc_publish3",
-    "path": "/modules/auxiliary/sqli/oracle/dbms_cdc_publish3.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/sqli/oracle/dbms_cdc_publish3.rb",
     "name": "Oracle DB SQL Injection via SYS.DBMS_CDC_PUBLISH.CREATE_CHANGE_SET"
   },
   {
     "cve": "CVE-2010-0866",
     "module": "auxiliary_sqli/oracle/jvm_os_code_10g",
-    "path": "/modules/auxiliary/sqli/oracle/jvm_os_code_10g.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/sqli/oracle/jvm_os_code_10g.rb",
     "name": "Oracle DB 10gR2, 11gR1/R2 DBMS_JVM_EXP_PERMS OS Command Execution"
   },
   {
     "cve": "CVE-2010-0866",
     "module": "auxiliary_sqli/oracle/jvm_os_code_11g",
-    "path": "/modules/auxiliary/sqli/oracle/jvm_os_code_11g.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/sqli/oracle/jvm_os_code_11g.rb",
     "name": "Oracle DB 11g R1/R2 DBMS_JVM_EXP_PERMS OS Code Execution"
   },
   {
     "cve": "CVE-2010-4221",
     "module": "exploit_freebsd/ftp/proftp_telnet_iac",
-    "path": "/modules/exploits/freebsd/ftp/proftp_telnet_iac.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/freebsd/ftp/proftp_telnet_iac.rb",
     "name": "ProFTPD 1.3.2rc3 - 1.3.3b Telnet IAC Buffer Overflow (FreeBSD)"
   },
   {
     "cve": "CVE-2010-4221",
     "module": "exploit_linux/ftp/proftp_telnet_iac",
-    "path": "/modules/exploits/linux/ftp/proftp_telnet_iac.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/ftp/proftp_telnet_iac.rb",
     "name": "ProFTPD 1.3.2rc3 - 1.3.3b Telnet IAC Buffer Overflow (Linux)"
   },
   {
     "cve": "CVE-2010-3847",
     "module": "exploit_linux/local/glibc_ld_audit_dso_load_priv_esc",
-    "path": "/modules/exploits/linux/local/glibc_ld_audit_dso_load_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/glibc_ld_audit_dso_load_priv_esc.rb",
     "name": "glibc LD_AUDIT Arbitrary DSO Load Privilege Escalation"
   },
   {
     "cve": "CVE-2010-3856",
     "module": "exploit_linux/local/glibc_ld_audit_dso_load_priv_esc",
-    "path": "/modules/exploits/linux/local/glibc_ld_audit_dso_load_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/glibc_ld_audit_dso_load_priv_esc.rb",
     "name": "glibc LD_AUDIT Arbitrary DSO Load Privilege Escalation"
   },
   {
     "cve": "CVE-2010-3847",
     "module": "exploit_linux/local/glibc_origin_expansion_priv_esc",
-    "path": "/modules/exploits/linux/local/glibc_origin_expansion_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/glibc_origin_expansion_priv_esc.rb",
     "name": "glibc '$ORIGIN' Expansion Privilege Escalation"
   },
   {
     "cve": "CVE-2010-3904",
     "module": "exploit_linux/local/rds_rds_page_copy_user_priv_esc",
-    "path": "/modules/exploits/linux/local/rds_rds_page_copy_user_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/rds_rds_page_copy_user_priv_esc.rb",
     "name": "Reliable Datagram Sockets (RDS) rds_page_copy_user Privilege Escalation"
   },
   {
     "cve": "CVE-2010-4170",
     "module": "exploit_linux/local/systemtap_modprobe_options_priv_esc",
-    "path": "/modules/exploits/linux/local/systemtap_modprobe_options_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/systemtap_modprobe_options_priv_esc.rb",
     "name": "SystemTap MODPROBE_OPTIONS Privilege Escalation"
   },
   {
     "cve": "CVE-2010-2063",
     "module": "exploit_linux/samba/chain_reply",
-    "path": "/modules/exploits/linux/samba/chain_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/samba/chain_reply.rb",
     "name": "Samba chain_reply Memory Corruption (Linux x86)"
   },
   {
     "cve": "CVE-2010-0094",
     "module": "exploit_multi/browser/java_rmi_connection_impl",
-    "path": "/modules/exploits/multi/browser/java_rmi_connection_impl.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/java_rmi_connection_impl.rb",
     "name": "Java RMIConnectionImpl Deserialization Privilege Escalation"
   },
   {
     "cve": "CVE-2010-0840",
     "module": "exploit_multi/browser/java_trusted_chain",
-    "path": "/modules/exploits/multi/browser/java_trusted_chain.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/java_trusted_chain.rb",
     "name": "Java Statement.invoke() Trusted Method Chain Privilege Escalation"
   },
   {
     "cve": "CVE-2010-20120",
     "module": "exploit_multi/fileformat/maple_maplet",
-    "path": "/modules/exploits/multi/fileformat/maple_maplet.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/fileformat/maple_maplet.rb",
     "name": "Maple Maplet File Creation and Command Execution"
   },
   {
     "cve": "CVE-2010-10013",
     "module": "exploit_multi/http/ajaxplorer_checkinstall_exec",
-    "path": "/modules/exploits/multi/http/ajaxplorer_checkinstall_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/ajaxplorer_checkinstall_exec.rb",
     "name": "AjaXplorer checkInstall.php Remote Command Execution"
   },
   {
     "cve": "CVE-2010-0219",
     "module": "exploit_multi/http/axis2_deployer",
-    "path": "/modules/exploits/multi/http/axis2_deployer.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/axis2_deployer.rb",
     "name": "Axis2 / SAP BusinessObjects Authenticated Code Execution (via SOAP)"
   },
   {
     "cve": "CVE-2010-20059",
     "module": "exploit_multi/http/freenas_exec_raw",
-    "path": "/modules/exploits/multi/http/freenas_exec_raw.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/freenas_exec_raw.rb",
     "name": "FreeNAS exec_raw.php Arbitrary Command Execution"
   },
   {
     "cve": "CVE-2010-0738",
     "module": "exploit_multi/http/jboss_bshdeployer",
-    "path": "/modules/exploits/multi/http/jboss_bshdeployer.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jboss_bshdeployer.rb",
     "name": "JBoss JMX Console Beanshell Deployer WAR Upload and Deployment"
   },
   {
     "cve": "CVE-2010-0738",
     "module": "exploit_multi/http/jboss_deploymentfilerepository",
-    "path": "/modules/exploits/multi/http/jboss_deploymentfilerepository.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jboss_deploymentfilerepository.rb",
     "name": "JBoss Java Class DeploymentFileRepository WAR Deployment"
   },
   {
     "cve": "CVE-2010-0738",
     "module": "exploit_multi/http/jboss_maindeployer",
-    "path": "/modules/exploits/multi/http/jboss_maindeployer.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jboss_maindeployer.rb",
     "name": "JBoss JMX Console Deployer Upload and Execute"
   },
   {
     "cve": "CVE-2010-1871",
     "module": "exploit_multi/http/jboss_seam_upload_exec",
-    "path": "/modules/exploits/multi/http/jboss_seam_upload_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jboss_seam_upload_exec.rb",
     "name": "JBoss Seam 2 File Upload and Execute"
   },
   {
     "cve": "CVE-2010-4279",
     "module": "exploit_multi/http/pandora_upload_exec",
-    "path": "/modules/exploits/multi/http/pandora_upload_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/pandora_upload_exec.rb",
     "name": "Pandora FMS v3.1 Auth Bypass and Arbitrary File Upload Vulnerability"
   },
   {
     "cve": "CVE-2010-1870",
     "module": "exploit_multi/http/struts_code_exec",
-    "path": "/modules/exploits/multi/http/struts_code_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/struts_code_exec.rb",
     "name": "Apache Struts Remote Command Execution"
   },
   {
     "cve": "CVE-2010-0361",
     "module": "exploit_multi/http/sun_jsws_dav_options",
-    "path": "/modules/exploits/multi/http/sun_jsws_dav_options.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sun_jsws_dav_options.rb",
     "name": "Sun Java System Web Server WebDAV OPTIONS Buffer Overflow"
   },
   {
     "cve": "CVE-2010-0557",
     "module": "exploit_multi/http/tomcat_mgr_deploy",
-    "path": "/modules/exploits/multi/http/tomcat_mgr_deploy.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/tomcat_mgr_deploy.rb",
     "name": "Apache Tomcat Manager Application Deployer Authenticated Code Execution"
   },
   {
     "cve": "CVE-2010-4094",
     "module": "exploit_multi/http/tomcat_mgr_deploy",
-    "path": "/modules/exploits/multi/http/tomcat_mgr_deploy.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/tomcat_mgr_deploy.rb",
     "name": "Apache Tomcat Manager Application Deployer Authenticated Code Execution"
   },
   {
     "cve": "CVE-2010-0557",
     "module": "exploit_multi/http/tomcat_mgr_upload",
-    "path": "/modules/exploits/multi/http/tomcat_mgr_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/tomcat_mgr_upload.rb",
     "name": "Apache Tomcat Manager Authenticated Upload Code Execution"
   },
   {
     "cve": "CVE-2010-4094",
     "module": "exploit_multi/http/tomcat_mgr_upload",
-    "path": "/modules/exploits/multi/http/tomcat_mgr_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/tomcat_mgr_upload.rb",
     "name": "Apache Tomcat Manager Authenticated Upload Code Execution"
   },
   {
     "cve": "CVE-2010-0304",
     "module": "exploit_multi/misc/wireshark_lwres_getaddrbyname",
-    "path": "/modules/exploits/multi/misc/wireshark_lwres_getaddrbyname.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/wireshark_lwres_getaddrbyname.rb",
     "name": "Wireshark LWRES Dissector getaddrsbyname_request Buffer Overflow"
   },
   {
     "cve": "CVE-2010-0304",
     "module": "exploit_multi/misc/wireshark_lwres_getaddrbyname_loop",
-    "path": "/modules/exploits/multi/misc/wireshark_lwres_getaddrbyname_loop.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/wireshark_lwres_getaddrbyname_loop.rb",
     "name": "Wireshark LWRES Dissector getaddrsbyname_request Buffer Overflow (loop)"
   },
   {
     "cve": "CVE-2010-2309",
     "module": "exploit_osx/http/evocam_webserver",
-    "path": "/modules/exploits/osx/http/evocam_webserver.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/http/evocam_webserver.rb",
     "name": "MacOS X EvoCam HTTP GET Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20103",
     "module": "exploit_unix/ftp/proftpd_133c_backdoor",
-    "path": "/modules/exploits/unix/ftp/proftpd_133c_backdoor.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/ftp/proftpd_133c_backdoor.rb",
     "name": "ProFTPD-1.3.3c Backdoor Command Execution"
   },
   {
     "cve": "CVE-2010-2075",
     "module": "exploit_unix/irc/unreal_ircd_3281_backdoor",
-    "path": "/modules/exploits/unix/irc/unreal_ircd_3281_backdoor.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/irc/unreal_ircd_3281_backdoor.rb",
     "name": "UnrealIRCD 3.2.8.1 Backdoor Command Execution"
   },
   {
     "cve": "CVE-2010-4344",
     "module": "exploit_unix/smtp/exim4_string_format",
-    "path": "/modules/exploits/unix/smtp/exim4_string_format.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/smtp/exim4_string_format.rb",
     "name": "Exim4 string_format Function Heap Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4345",
     "module": "exploit_unix/smtp/exim4_string_format",
-    "path": "/modules/exploits/unix/smtp/exim4_string_format.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/smtp/exim4_string_format.rb",
     "name": "Exim4 string_format Function Heap Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4335",
     "module": "exploit_unix/webapp/cakephp_cache_corruption",
-    "path": "/modules/exploits/unix/webapp/cakephp_cache_corruption.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/cakephp_cache_corruption.rb",
     "name": "CakePHP Cache Corruption Code Execution"
   },
   {
     "cve": "CVE-2010-4566",
     "module": "exploit_unix/webapp/citrix_access_gateway_exec",
-    "path": "/modules/exploits/unix/webapp/citrix_access_gateway_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/citrix_access_gateway_exec.rb",
     "name": "Citrix Access Gateway Command Execution"
   },
   {
     "cve": "CVE-2010-3585",
     "module": "exploit_unix/webapp/oracle_vm_agent_utl",
-    "path": "/modules/exploits/unix/webapp/oracle_vm_agent_utl.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/oracle_vm_agent_utl.rb",
     "name": "Oracle VM Server Virtual Server Agent Command Injection"
   },
   {
     "cve": "CVE-2010-0111",
     "module": "exploit_windows/antivirus/ams_hndlrsvc",
-    "path": "/modules/exploits/windows/antivirus/ams_hndlrsvc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/antivirus/ams_hndlrsvc.rb",
     "name": "Symantec System Center Alert Management System (hndlrsvc.exe) Arbitrary Command Execution"
   },
   {
     "cve": "CVE-2010-0103",
     "module": "exploit_windows/backdoor/energizer_duo_payload",
-    "path": "/modules/exploits/windows/backdoor/energizer_duo_payload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/backdoor/energizer_duo_payload.rb",
     "name": "Energizer DUO USB Battery Charger Arucer.dll Trojan Code Execution"
   },
   {
     "cve": "CVE-2010-2883",
     "module": "exploit_windows/browser/adobe_cooltype_sing",
-    "path": "/modules/exploits/windows/browser/adobe_cooltype_sing.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_cooltype_sing.rb",
     "name": "Adobe CoolType SING Table \"uniqueName\" Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1297",
     "module": "exploit_windows/browser/adobe_flashplayer_newfunction",
-    "path": "/modules/exploits/windows/browser/adobe_flashplayer_newfunction.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flashplayer_newfunction.rb",
     "name": "Adobe Flash Player \"newfunction\" Invalid Pointer Use"
   },
   {
     "cve": "CVE-2010-3653",
     "module": "exploit_windows/browser/adobe_shockwave_rcsl_corruption",
-    "path": "/modules/exploits/windows/browser/adobe_shockwave_rcsl_corruption.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_shockwave_rcsl_corruption.rb",
     "name": "Adobe Shockwave rcsL Memory Corruption"
   },
   {
     "cve": "CVE-2010-1818",
     "module": "exploit_windows/browser/apple_quicktime_marshaled_punk",
-    "path": "/modules/exploits/windows/browser/apple_quicktime_marshaled_punk.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/apple_quicktime_marshaled_punk.rb",
     "name": "Apple QuickTime 7.6.7 _Marshaled_pUnk Code Execution"
   },
   {
     "cve": "CVE-2010-1799",
     "module": "exploit_windows/browser/apple_quicktime_smil_debug",
-    "path": "/modules/exploits/windows/browser/apple_quicktime_smil_debug.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/apple_quicktime_smil_debug.rb",
     "name": "Apple QuickTime 7.6.6 Invalid SMIL URI Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20119",
     "module": "exploit_windows/browser/communicrypt_mail_activex",
-    "path": "/modules/exploits/windows/browser/communicrypt_mail_activex.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/communicrypt_mail_activex.rb",
     "name": "CommuniCrypt Mail 1.16 SMTP ActiveX Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-2590",
     "module": "exploit_windows/browser/crystal_reports_printcontrol",
-    "path": "/modules/exploits/windows/browser/crystal_reports_printcontrol.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/crystal_reports_printcontrol.rb",
     "name": "Crystal Reports CrystalPrintControl ActiveX ServerResourceVersion Property Overflow"
   },
   {
     "cve": "CVE-2010-0679",
     "module": "exploit_windows/browser/hyleos_chemviewx_activex",
-    "path": "/modules/exploits/windows/browser/hyleos_chemviewx_activex.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/hyleos_chemviewx_activex.rb",
     "name": "Hyleos ChemView ActiveX Control Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-5193",
     "module": "exploit_windows/browser/imgeviewer_tifmergemultifiles",
-    "path": "/modules/exploits/windows/browser/imgeviewer_tifmergemultifiles.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/imgeviewer_tifmergemultifiles.rb",
     "name": "Viscom Image Viewer CP Pro 8.0/Gold 6.0 ActiveX Control"
   },
   {
     "cve": "CVE-2010-3563",
     "module": "exploit_windows/browser/java_basicservice_impl",
-    "path": "/modules/exploits/windows/browser/java_basicservice_impl.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/java_basicservice_impl.rb",
     "name": "Sun Java Web Start BasicServiceImpl Code Execution"
   },
   {
     "cve": "CVE-2010-4452",
     "module": "exploit_windows/browser/java_codebase_trust",
-    "path": "/modules/exploits/windows/browser/java_codebase_trust.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/java_codebase_trust.rb",
     "name": "Sun Java Applet2ClassLoader Remote Code Execution"
   },
   {
     "cve": "CVE-2010-3552",
     "module": "exploit_windows/browser/java_docbase_bof",
-    "path": "/modules/exploits/windows/browser/java_docbase_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/java_docbase_bof.rb",
     "name": "Sun Java Runtime New Plugin docbase Buffer Overflow"
   },
   {
     "cve": "CVE-2010-0842",
     "module": "exploit_windows/browser/java_mixer_sequencer",
-    "path": "/modules/exploits/windows/browser/java_mixer_sequencer.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/java_mixer_sequencer.rb",
     "name": "Java MixerSequencer Object GM_Song Structure Handling Vulnerability"
   },
   {
     "cve": "CVE-2010-0886",
     "module": "exploit_windows/browser/java_ws_arginject_altjvm",
-    "path": "/modules/exploits/windows/browser/java_ws_arginject_altjvm.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/java_ws_arginject_altjvm.rb",
     "name": "Sun Java Web Start Plugin Command Line Argument Injection"
   },
   {
     "cve": "CVE-2010-1423",
     "module": "exploit_windows/browser/java_ws_arginject_altjvm",
-    "path": "/modules/exploits/windows/browser/java_ws_arginject_altjvm.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/java_ws_arginject_altjvm.rb",
     "name": "Sun Java Web Start Plugin Command Line Argument Injection"
   },
   {
     "cve": "CVE-2010-3765",
     "module": "exploit_windows/browser/mozilla_interleaved_write",
-    "path": "/modules/exploits/windows/browser/mozilla_interleaved_write.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/mozilla_interleaved_write.rb",
     "name": "Mozilla Firefox Interleaved document.write/appendChild Memory Corruption"
   },
   {
     "cve": "CVE-2010-0249",
     "module": "exploit_windows/browser/ms10_002_aurora",
-    "path": "/modules/exploits/windows/browser/ms10_002_aurora.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_002_aurora.rb",
     "name": "MS10-002 Microsoft Internet Explorer \"Aurora\" Memory Corruption"
   },
   {
     "cve": "CVE-2010-0248",
     "module": "exploit_windows/browser/ms10_002_ie_object",
-    "path": "/modules/exploits/windows/browser/ms10_002_ie_object.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_002_ie_object.rb",
     "name": "MS10-002 Microsoft Internet Explorer Object Memory Use-After-Free"
   },
   {
     "cve": "CVE-2010-0806",
     "module": "exploit_windows/browser/ms10_018_ie_behaviors",
-    "path": "/modules/exploits/windows/browser/ms10_018_ie_behaviors.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_018_ie_behaviors.rb",
     "name": "MS10-018 Microsoft Internet Explorer DHTML Behaviors Use After Free"
   },
   {
     "cve": "CVE-2010-0805",
     "module": "exploit_windows/browser/ms10_018_ie_tabular_activex",
-    "path": "/modules/exploits/windows/browser/ms10_018_ie_tabular_activex.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_018_ie_tabular_activex.rb",
     "name": "MS10-018 Microsoft Internet Explorer Tabular Data Control ActiveX Memory Corruption"
   },
   {
     "cve": "CVE-2010-0483",
     "module": "exploit_windows/browser/ms10_022_ie_vbscript_winhlp32",
-    "path": "/modules/exploits/windows/browser/ms10_022_ie_vbscript_winhlp32.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_022_ie_vbscript_winhlp32.rb",
     "name": "MS10-022 Microsoft Internet Explorer Winhlp32.exe MsgBox Code Execution"
   },
   {
     "cve": "CVE-2010-0480",
     "module": "exploit_windows/browser/ms10_026_avi_nsamplespersec",
-    "path": "/modules/exploits/windows/browser/ms10_026_avi_nsamplespersec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_026_avi_nsamplespersec.rb",
     "name": "MS10-026 Microsoft MPEG Layer-3 Audio Stack Based Overflow"
   },
   {
     "cve": "CVE-2010-1885",
     "module": "exploit_windows/browser/ms10_042_helpctr_xss_cmd_exec",
-    "path": "/modules/exploits/windows/browser/ms10_042_helpctr_xss_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_042_helpctr_xss_cmd_exec.rb",
     "name": "Microsoft Help Center XSS and Command Execution"
   },
   {
     "cve": "CVE-2010-2568",
     "module": "exploit_windows/browser/ms10_046_shortcut_icon_dllloader",
-    "path": "/modules/exploits/windows/browser/ms10_046_shortcut_icon_dllloader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_046_shortcut_icon_dllloader.rb",
     "name": "Microsoft Windows Shell LNK Code Execution"
   },
   {
     "cve": "CVE-2010-3962",
     "module": "exploit_windows/browser/ms10_090_ie_css_clip",
-    "path": "/modules/exploits/windows/browser/ms10_090_ie_css_clip.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms10_090_ie_css_clip.rb",
     "name": "MS10-090 Microsoft Internet Explorer CSS SetUserClip Memory Corruption"
   },
   {
     "cve": "CVE-2010-3971",
     "module": "exploit_windows/browser/ms11_003_ie_css_import",
-    "path": "/modules/exploits/windows/browser/ms11_003_ie_css_import.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms11_003_ie_css_import.rb",
     "name": "MS11-003 Microsoft Internet Explorer CSS Recursive Import Use After Free"
   },
   {
     "cve": "CVE-2010-1527",
     "module": "exploit_windows/browser/novelliprint_callbackurl",
-    "path": "/modules/exploits/windows/browser/novelliprint_callbackurl.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/novelliprint_callbackurl.rb",
     "name": "Novell iPrint Client ActiveX Control call-back-url Buffer Overflow"
   },
   {
     "cve": "CVE-2010-3106",
     "module": "exploit_windows/browser/novelliprint_executerequest_dbg",
-    "path": "/modules/exploits/windows/browser/novelliprint_executerequest_dbg.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/novelliprint_executerequest_dbg.rb",
     "name": "Novell iPrint Client ActiveX Control ExecuteRequest debug Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4321",
     "module": "exploit_windows/browser/novelliprint_getdriversettings_2",
-    "path": "/modules/exploits/windows/browser/novelliprint_getdriversettings_2.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/novelliprint_getdriversettings_2.rb",
     "name": "Novell iPrint Client ActiveX Control Buffer Overflow"
   },
   {
     "cve": "CVE-2010-3747",
     "module": "exploit_windows/browser/realplayer_cdda_uri",
-    "path": "/modules/exploits/windows/browser/realplayer_cdda_uri.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/realplayer_cdda_uri.rb",
     "name": "RealNetworks RealPlayer CDDA URI Initialization Vulnerability"
   },
   {
     "cve": "CVE-2010-3189",
     "module": "exploit_windows/browser/trendmicro_extsetowner",
-    "path": "/modules/exploits/windows/browser/trendmicro_extsetowner.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/trendmicro_extsetowner.rb",
     "name": "Trend Micro Internet Security Pro 2010 ActiveX extSetOwner() Remote Code Execution"
   },
   {
     "cve": "CVE-2010-0356",
     "module": "exploit_windows/browser/viscom_movieplayer_drawtext",
-    "path": "/modules/exploits/windows/browser/viscom_movieplayer_drawtext.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/viscom_movieplayer_drawtext.rb",
     "name": "Viscom Software Movie Player Pro SDK ActiveX 6.8"
   },
   {
     "cve": "CVE-2010-3275",
     "module": "exploit_windows/browser/vlc_amv",
-    "path": "/modules/exploits/windows/browser/vlc_amv.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/vlc_amv.rb",
     "name": "VLC AMV Dangling Pointer Vulnerability"
   },
   {
     "cve": "CVE-2010-3973",
     "module": "exploit_windows/browser/wmi_admintools",
-    "path": "/modules/exploits/windows/browser/wmi_admintools.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/wmi_admintools.rb",
     "name": "Microsoft WMI Administration Tools ActiveX Buffer Overflow"
   },
   {
     "cve": "CVE-2010-0266",
     "module": "exploit_windows/email/ms10_045_outlook_ref_only",
-    "path": "/modules/exploits/windows/email/ms10_045_outlook_ref_only.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/email/ms10_045_outlook_ref_only.rb",
     "name": "Outlook ATTACH_BY_REF_ONLY File Execution"
   },
   {
     "cve": "CVE-2010-0266",
     "module": "exploit_windows/email/ms10_045_outlook_ref_resolve",
-    "path": "/modules/exploits/windows/email/ms10_045_outlook_ref_resolve.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/email/ms10_045_outlook_ref_resolve.rb",
     "name": "Outlook ATTACH_BY_REF_RESOLVE File Execution"
   },
   {
     "cve": "CVE-2010-2883",
     "module": "exploit_windows/fileformat/adobe_cooltype_sing",
-    "path": "/modules/exploits/windows/fileformat/adobe_cooltype_sing.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/adobe_cooltype_sing.rb",
     "name": "Adobe CoolType SING Table \"uniqueName\" Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-3654",
     "module": "exploit_windows/fileformat/adobe_flashplayer_button",
-    "path": "/modules/exploits/windows/fileformat/adobe_flashplayer_button.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/adobe_flashplayer_button.rb",
     "name": "Adobe Flash Player \"Button\" Remote Code Execution"
   },
   {
     "cve": "CVE-2010-1297",
     "module": "exploit_windows/fileformat/adobe_flashplayer_newfunction",
-    "path": "/modules/exploits/windows/fileformat/adobe_flashplayer_newfunction.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/adobe_flashplayer_newfunction.rb",
     "name": "Adobe Flash Player \"newfunction\" Invalid Pointer Use"
   },
   {
     "cve": "CVE-2010-0188",
     "module": "exploit_windows/fileformat/adobe_libtiff",
-    "path": "/modules/exploits/windows/fileformat/adobe_libtiff.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/adobe_libtiff.rb",
     "name": "Adobe Acrobat Bundled LibTIFF Integer Overflow"
   },
   {
     "cve": "CVE-2010-1240",
     "module": "exploit_windows/fileformat/adobe_pdf_embedded_exe",
-    "path": "/modules/exploits/windows/fileformat/adobe_pdf_embedded_exe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/adobe_pdf_embedded_exe.rb",
     "name": "Adobe PDF Embedded EXE Social Engineering"
   },
   {
     "cve": "CVE-2010-1240",
     "module": "exploit_windows/fileformat/adobe_pdf_embedded_exe_nojs",
-    "path": "/modules/exploits/windows/fileformat/adobe_pdf_embedded_exe_nojs.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/adobe_pdf_embedded_exe_nojs.rb",
     "name": "Adobe PDF Escape EXE Social Engineering (No JavaScript)"
   },
   {
     "cve": "CVE-2010-10015",
     "module": "exploit_windows/fileformat/aol_phobos_bof",
-    "path": "/modules/exploits/windows/fileformat/aol_phobos_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/aol_phobos_bof.rb",
     "name": "AOL 9.5 Phobos.Playlist Import() Stack-based Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4740",
     "module": "exploit_windows/fileformat/bacnet_csv",
-    "path": "/modules/exploits/windows/fileformat/bacnet_csv.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/bacnet_csv.rb",
     "name": "BACnet OPC Client Buffer Overflow"
   },
   {
     "cve": "CVE-2010-10016",
     "module": "exploit_windows/fileformat/bsplayer_m3u",
-    "path": "/modules/exploits/windows/fileformat/bsplayer_m3u.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/bsplayer_m3u.rb",
     "name": "BS.Player 2.57 Buffer Overflow (Unicode SEH)"
   },
   {
     "cve": "CVE-2010-20111",
     "module": "exploit_windows/fileformat/digital_music_pad_pls",
-    "path": "/modules/exploits/windows/fileformat/digital_music_pad_pls.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/digital_music_pad_pls.rb",
     "name": "Digital Music Pad Version 8.2.3.3.4 Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-2343",
     "module": "exploit_windows/fileformat/easycdda_pls_bof",
-    "path": "/modules/exploits/windows/fileformat/easycdda_pls_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/easycdda_pls_bof.rb",
     "name": "Easy CD-DA Recorder PLS Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20010",
     "module": "exploit_windows/fileformat/foxit_title_bof",
-    "path": "/modules/exploits/windows/fileformat/foxit_title_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/foxit_title_bof.rb",
     "name": "Foxit PDF Reader v4.1.1 Title Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-5299",
     "module": "exploit_windows/fileformat/microp_mppl",
-    "path": "/modules/exploits/windows/fileformat/microp_mppl.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/microp_mppl.rb",
     "name": "MicroP 0.1.1.1600 (MPPL File) Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-5081",
     "module": "exploit_windows/fileformat/mini_stream_pls_bof",
-    "path": "/modules/exploits/windows/fileformat/mini_stream_pls_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/mini_stream_pls_bof.rb",
     "name": "Mini-Stream RM-MP3 Converter v3.1.2.1 PLS File Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4742",
     "module": "exploit_windows/fileformat/moxa_mediadbplayback",
-    "path": "/modules/exploits/windows/fileformat/moxa_mediadbplayback.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/moxa_mediadbplayback.rb",
     "name": "MOXA MediaDBPlayback ActiveX Control Buffer Overflow"
   },
   {
     "cve": "CVE-2010-0033",
     "module": "exploit_windows/fileformat/ms10_004_textbytesatom",
-    "path": "/modules/exploits/windows/fileformat/ms10_004_textbytesatom.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms10_004_textbytesatom.rb",
     "name": "MS10-004 Microsoft PowerPoint Viewer TextBytesAtom Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-0822",
     "module": "exploit_windows/fileformat/ms10_038_excel_obj_bof",
-    "path": "/modules/exploits/windows/fileformat/ms10_038_excel_obj_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms10_038_excel_obj_bof.rb",
     "name": "MS11-038 Microsoft Office Excel Malformed OBJ Record Handling Overflow"
   },
   {
     "cve": "CVE-2010-3333",
     "module": "exploit_windows/fileformat/ms10_087_rtf_pfragments_bof",
-    "path": "/modules/exploits/windows/fileformat/ms10_087_rtf_pfragments_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms10_087_rtf_pfragments_bof.rb",
     "name": "MS10-087 Microsoft Word RTF pFragments Stack Buffer Overflow (File Format)"
   },
   {
     "cve": "CVE-2010-3970",
     "module": "exploit_windows/fileformat/ms11_006_createsizeddibsection",
-    "path": "/modules/exploits/windows/fileformat/ms11_006_createsizeddibsection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms11_006_createsizeddibsection.rb",
     "name": "MS11-006 Microsoft Windows CreateSizedDIBSECTION Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20123",
     "module": "exploit_windows/fileformat/mymp3player_m3u",
-    "path": "/modules/exploits/windows/fileformat/mymp3player_m3u.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/mymp3player_m3u.rb",
     "name": "Steinberg MyMP3Player 3.0 Buffer Overflow"
   },
   {
     "cve": "CVE-2010-0688",
     "module": "exploit_windows/fileformat/orbital_viewer_orb",
-    "path": "/modules/exploits/windows/fileformat/orbital_viewer_orb.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/orbital_viewer_orb.rb",
     "name": "Orbital Viewer ORB File Parsing Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20114",
     "module": "exploit_windows/fileformat/varicad_dwb",
-    "path": "/modules/exploits/windows/fileformat/varicad_dwb.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/varicad_dwb.rb",
     "name": "VariCAD 2010-2.05 EN (DWB File) Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1681",
     "module": "exploit_windows/fileformat/visio_dxf_bof",
-    "path": "/modules/exploits/windows/fileformat/visio_dxf_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/visio_dxf_bof.rb",
     "name": "Microsoft Office Visio VISIODWG.DLL DXF File Handling Vulnerability"
   },
   {
     "cve": "CVE-2010-10017",
     "module": "exploit_windows/fileformat/wm_downloader_m3u",
-    "path": "/modules/exploits/windows/fileformat/wm_downloader_m3u.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/wm_downloader_m3u.rb",
     "name": "WM Downloader 3.1.2.2 Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20042",
     "module": "exploit_windows/fileformat/xion_m3u_sehbof",
-    "path": "/modules/exploits/windows/fileformat/xion_m3u_sehbof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/xion_m3u_sehbof.rb",
     "name": "Xion Audio Player 1.0.126 Unicode Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20121",
     "module": "exploit_windows/ftp/easyftp_cwd_fixret",
-    "path": "/modules/exploits/windows/ftp/easyftp_cwd_fixret.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/easyftp_cwd_fixret.rb",
     "name": "EasyFTP Server CWD Command Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20045",
     "module": "exploit_windows/ftp/filewrangler_list_reply",
-    "path": "/modules/exploits/windows/ftp/filewrangler_list_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/filewrangler_list_reply.rb",
     "name": "FileWrangler 5.30 Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20108",
     "module": "exploit_windows/ftp/ftppad_list_reply",
-    "path": "/modules/exploits/windows/ftp/ftppad_list_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/ftppad_list_reply.rb",
     "name": "FTPPad 1.2.0 Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20107",
     "module": "exploit_windows/ftp/ftpsynch_list_reply",
-    "path": "/modules/exploits/windows/ftp/ftpsynch_list_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/ftpsynch_list_reply.rb",
     "name": "FTP Synchronizer Professional 4.0.73.274 Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20034",
     "module": "exploit_windows/ftp/gekkomgr_list_reply",
-    "path": "/modules/exploits/windows/ftp/gekkomgr_list_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/gekkomgr_list_reply.rb",
     "name": "Gekko Manager FTP Client Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20049",
     "module": "exploit_windows/ftp/leapftp_list_reply",
-    "path": "/modules/exploits/windows/ftp/leapftp_list_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/leapftp_list_reply.rb",
     "name": "LeapFTP 3.0.1 Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-10014",
     "module": "exploit_windows/ftp/odin_list_reply",
-    "path": "/modules/exploits/windows/ftp/odin_list_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/odin_list_reply.rb",
     "name": "Odin Secure FTP 4.1 Stack Buffer Overflow (LIST)"
   },
   {
     "cve": "CVE-2010-2620",
     "module": "exploit_windows/ftp/open_ftpd_wbem",
-    "path": "/modules/exploits/windows/ftp/open_ftpd_wbem.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/open_ftpd_wbem.rb",
     "name": "Open-FTPD 1.2 Arbitrary File Upload"
   },
   {
     "cve": "CVE-2010-20007",
     "module": "exploit_windows/ftp/seagull_list_reply",
-    "path": "/modules/exploits/windows/ftp/seagull_list_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/seagull_list_reply.rb",
     "name": "Seagull FTP v3.3 Build 409 Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1465",
     "module": "exploit_windows/ftp/trellian_client_pasv",
-    "path": "/modules/exploits/windows/ftp/trellian_client_pasv.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/trellian_client_pasv.rb",
     "name": "Trellian FTP Client 3.01 PASV Remote Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20115",
     "module": "exploit_windows/ftp/vermillion_ftpd_port",
-    "path": "/modules/exploits/windows/ftp/vermillion_ftpd_port.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/vermillion_ftpd_port.rb",
     "name": "Vermillion FTP Daemon PORT Command Memory Corruption"
   },
   {
     "cve": "CVE-2010-20122",
     "module": "exploit_windows/ftp/xftp_client_pwd",
-    "path": "/modules/exploits/windows/ftp/xftp_client_pwd.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/xftp_client_pwd.rb",
     "name": "Xftp FTP Client 3.0 PWD Remote Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20112",
     "module": "exploit_windows/http/amlibweb_webquerydll_app",
-    "path": "/modules/exploits/windows/http/amlibweb_webquerydll_app.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/amlibweb_webquerydll_app.rb",
     "name": "Amlibweb NetOpacs webquery.dll Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-20113",
     "module": "exploit_windows/http/easyftp_list",
-    "path": "/modules/exploits/windows/http/easyftp_list.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/easyftp_list.rb",
     "name": "EasyFTP Server list.html path Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1555",
     "module": "exploit_windows/http/hp_nnm_getnnmdata_hostname",
-    "path": "/modules/exploits/windows/http/hp_nnm_getnnmdata_hostname.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_getnnmdata_hostname.rb",
     "name": "HP OpenView Network Node Manager getnnmdata.exe (Hostname) CGI Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1554",
     "module": "exploit_windows/http/hp_nnm_getnnmdata_icount",
-    "path": "/modules/exploits/windows/http/hp_nnm_getnnmdata_icount.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_getnnmdata_icount.rb",
     "name": "HP OpenView Network Node Manager getnnmdata.exe (ICount) CGI Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1553",
     "module": "exploit_windows/http/hp_nnm_getnnmdata_maxage",
-    "path": "/modules/exploits/windows/http/hp_nnm_getnnmdata_maxage.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_getnnmdata_maxage.rb",
     "name": "HP OpenView Network Node Manager getnnmdata.exe (MaxAge) CGI Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1964",
     "module": "exploit_windows/http/hp_nnm_ovwebsnmpsrv_main",
-    "path": "/modules/exploits/windows/http/hp_nnm_ovwebsnmpsrv_main.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_ovwebsnmpsrv_main.rb",
     "name": "HP OpenView Network Node Manager ovwebsnmpsrv.exe main Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1961",
     "module": "exploit_windows/http/hp_nnm_ovwebsnmpsrv_ovutil",
-    "path": "/modules/exploits/windows/http/hp_nnm_ovwebsnmpsrv_ovutil.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_ovwebsnmpsrv_ovutil.rb",
     "name": "HP OpenView Network Node Manager ovwebsnmpsrv.exe ovutil Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1960",
     "module": "exploit_windows/http/hp_nnm_ovwebsnmpsrv_uro",
-    "path": "/modules/exploits/windows/http/hp_nnm_ovwebsnmpsrv_uro.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_ovwebsnmpsrv_uro.rb",
     "name": "HP OpenView Network Node Manager ovwebsnmpsrv.exe Unrecognized Option Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1552",
     "module": "exploit_windows/http/hp_nnm_snmpviewer_actapp",
-    "path": "/modules/exploits/windows/http/hp_nnm_snmpviewer_actapp.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_snmpviewer_actapp.rb",
     "name": "HP OpenView Network Node Manager snmpviewer.exe Buffer Overflow"
   },
   {
     "cve": "CVE-2010-2703",
     "module": "exploit_windows/http/hp_nnm_webappmon_execvp",
-    "path": "/modules/exploits/windows/http/hp_nnm_webappmon_execvp.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_webappmon_execvp.rb",
     "name": "HP OpenView Network Node Manager execvp_nc Buffer Overflow"
   },
   {
     "cve": "CVE-2010-2709",
     "module": "exploit_windows/http/hp_nnm_webappmon_ovjavalocale",
-    "path": "/modules/exploits/windows/http/hp_nnm_webappmon_ovjavalocale.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/hp_nnm_webappmon_ovjavalocale.rb",
     "name": "HP NNM CGI webappmon.exe OvJavaLocale Buffer Overflow"
   },
   {
     "cve": "CVE-2010-5333",
     "module": "exploit_windows/http/integard_password_bof",
-    "path": "/modules/exploits/windows/http/integard_password_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/integard_password_bof.rb",
     "name": "Race River Integard Home/Pro LoginAdmin Password Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4417",
     "module": "exploit_windows/http/oracle_beehive_evaluation",
-    "path": "/modules/exploits/windows/http/oracle_beehive_evaluation.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oracle_beehive_evaluation.rb",
     "name": "Oracle BeeHive 2 voice-servlet processEvaluation() Vulnerability"
   },
   {
     "cve": "CVE-2010-0904",
     "module": "exploit_windows/http/osb_uname_jlist",
-    "path": "/modules/exploits/windows/http/osb_uname_jlist.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/osb_uname_jlist.rb",
     "name": "Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability"
   },
   {
     "cve": "CVE-2010-5324",
     "module": "exploit_windows/http/zenworks_uploadservlet",
-    "path": "/modules/exploits/windows/http/zenworks_uploadservlet.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/zenworks_uploadservlet.rb",
     "name": "Novell ZENworks Configuration Management Remote Execution"
   },
   {
     "cve": "CVE-2010-0232",
     "module": "exploit_windows/local/ms10_015_kitrap0d",
-    "path": "/modules/exploits/windows/local/ms10_015_kitrap0d.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms10_015_kitrap0d.rb",
     "name": "Windows SYSTEM Escalation via KiTrap0D"
   },
   {
     "cve": "CVE-2010-3338",
     "module": "exploit_windows/local/ms10_092_schelevator",
-    "path": "/modules/exploits/windows/local/ms10_092_schelevator.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ms10_092_schelevator.rb",
     "name": "Windows Escalate Task Scheduler XML Privilege Escalation"
   },
   {
     "cve": "CVE-2010-3407",
     "module": "exploit_windows/lotus/domino_icalendar_organizer",
-    "path": "/modules/exploits/windows/lotus/domino_icalendar_organizer.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/lotus/domino_icalendar_organizer.rb",
     "name": "IBM Lotus Domino iCalendar MAILTO Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1318",
     "module": "exploit_windows/misc/agentxpp_receive_agentx",
-    "path": "/modules/exploits/windows/misc/agentxpp_receive_agentx.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/agentxpp_receive_agentx.rb",
     "name": "AgentX++ Master AgentX::receive_agentx Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-3007",
     "module": "exploit_windows/misc/hp_dataprotector_dtbclslogin",
-    "path": "/modules/exploits/windows/misc/hp_dataprotector_dtbclslogin.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/hp_dataprotector_dtbclslogin.rb",
     "name": "HP Data Protector DtbClsLogin Buffer Overflow"
   },
   {
     "cve": "CVE-2010-1549",
     "module": "exploit_windows/misc/hp_loadrunner_magentproc_cmdexec",
-    "path": "/modules/exploits/windows/misc/hp_loadrunner_magentproc_cmdexec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/hp_loadrunner_magentproc_cmdexec.rb",
     "name": "HP Mercury LoadRunner Agent magentproc.exe Remote Command Execution"
   },
   {
     "cve": "CVE-2010-3964",
     "module": "exploit_windows/misc/ms10_104_sharepoint",
-    "path": "/modules/exploits/windows/misc/ms10_104_sharepoint.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/ms10_104_sharepoint.rb",
     "name": "MS10-104 Microsoft Office SharePoint Server 2007 Remote Code Execution"
   },
   {
     "cve": "CVE-2010-0478",
     "module": "exploit_windows/mmsp/ms10_025_wmss_connect_funnel",
-    "path": "/modules/exploits/windows/mmsp/ms10_025_wmss_connect_funnel.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/mmsp/ms10_025_wmss_connect_funnel.rb",
     "name": "Windows Media Services ConnectFunnel Stack Buffer Overflow"
   },
   {
     "cve": "CVE-2010-3600",
     "module": "exploit_windows/oracle/client_system_analyzer_upload",
-    "path": "/modules/exploits/windows/oracle/client_system_analyzer_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/oracle/client_system_analyzer_upload.rb",
     "name": "Oracle Database Client System Analyzer Arbitrary File Upload"
   },
   {
     "cve": "CVE-2010-4741",
     "module": "exploit_windows/scada/moxa_mdmtool",
-    "path": "/modules/exploits/windows/scada/moxa_mdmtool.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/moxa_mdmtool.rb",
     "name": "MOXA Device Manager Tool 2.1 Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4142",
     "module": "exploit_windows/scada/realwin_scpc_initialize",
-    "path": "/modules/exploits/windows/scada/realwin_scpc_initialize.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/realwin_scpc_initialize.rb",
     "name": "DATAC RealWin SCADA Server SCPC_INITIALIZE Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4142",
     "module": "exploit_windows/scada/realwin_scpc_initialize_rf",
-    "path": "/modules/exploits/windows/scada/realwin_scpc_initialize_rf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/realwin_scpc_initialize_rf.rb",
     "name": "DATAC RealWin SCADA Server SCPC_INITIALIZE_RF Buffer Overflow"
   },
   {
     "cve": "CVE-2010-4142",
     "module": "exploit_windows/scada/realwin_scpc_txtevent",
-    "path": "/modules/exploits/windows/scada/realwin_scpc_txtevent.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/realwin_scpc_txtevent.rb",
     "name": "DATAC RealWin SCADA Server SCPC_TXTEVENT Buffer Overflow"
   },
   {
     "cve": "CVE-2010-2568",
     "module": "exploit_windows/smb/ms10_046_shortcut_icon_dllloader",
-    "path": "/modules/exploits/windows/smb/ms10_046_shortcut_icon_dllloader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/smb/ms10_046_shortcut_icon_dllloader.rb",
     "name": "Microsoft Windows Shell LNK Code Execution"
   },
   {
     "cve": "CVE-2010-2729",
     "module": "exploit_windows/smb/ms10_061_spoolss",
-    "path": "/modules/exploits/windows/smb/ms10_061_spoolss.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/smb/ms10_061_spoolss.rb",
     "name": "MS10-061 Microsoft Print Spooler Service Impersonation Vulnerability"
   },
   {
     "cve": "CVE-2010-2743",
     "module": "post_windows/escalate/ms10_073_kbdlayout",
-    "path": "/modules/post/windows/escalate/ms10_073_kbdlayout.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/escalate/ms10_073_kbdlayout.rb",
     "name": "Windows Escalate NtUserLoadKeyboardLayoutEx Privilege Escalation"
   },
   {
     "cve": "CVE-2010-2568",
     "module": "post_windows/gather/forensics/fanny_bmp_check",
-    "path": "/modules/post/windows/gather/forensics/fanny_bmp_check.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/gather/forensics/fanny_bmp_check.rb",
     "name": "FannyBMP or DementiaWheel Detection Registry Check"
   }
 ]

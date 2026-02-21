@@ -2,871 +2,871 @@
   {
     "cve": "CVE-2019-12477",
     "module": "auxiliary_admin/http/supra_smart_cloud_tv_rfi",
-    "path": "/modules/auxiliary/admin/http/supra_smart_cloud_tv_rfi.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/supra_smart_cloud_tv_rfi.rb",
     "name": "Supra Smart Cloud TV Remote File Inclusion"
   },
   {
     "cve": "CVE-2019-10692",
     "module": "auxiliary_admin/http/wp_google_maps_sqli",
-    "path": "/modules/auxiliary/admin/http/wp_google_maps_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/wp_google_maps_sqli.rb",
     "name": "WordPress Google Maps Plugin SQL Injection"
   },
   {
     "cve": "CVE-2019-15975",
     "module": "auxiliary_admin/networking/cisco_dcnm_auth_bypass",
-    "path": "/modules/auxiliary/admin/networking/cisco_dcnm_auth_bypass.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/networking/cisco_dcnm_auth_bypass.rb",
     "name": "Cisco DCNM auth bypass"
   },
   {
     "cve": "CVE-2019-1619",
     "module": "auxiliary_admin/networking/cisco_dcnm_download",
-    "path": "/modules/auxiliary/admin/networking/cisco_dcnm_download.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/networking/cisco_dcnm_download.rb",
     "name": "Cisco Data Center Network Manager Unauthenticated File Download"
   },
   {
     "cve": "CVE-2019-1621",
     "module": "auxiliary_admin/networking/cisco_dcnm_download",
-    "path": "/modules/auxiliary/admin/networking/cisco_dcnm_download.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/networking/cisco_dcnm_download.rb",
     "name": "Cisco Data Center Network Manager Unauthenticated File Download"
   },
   {
     "cve": "CVE-2019-19494",
     "module": "auxiliary_dos/http/cable_haunt_websocket_dos",
-    "path": "/modules/auxiliary/dos/http/cable_haunt_websocket_dos.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/cable_haunt_websocket_dos.rb",
     "name": "\"Cablehaunt\" Cable Modem WebSocket DoS"
   },
   {
     "cve": "CVE-2019-5645",
     "module": "auxiliary_dos/http/metasploit_httphandler_dos",
-    "path": "/modules/auxiliary/dos/http/metasploit_httphandler_dos.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/metasploit_httphandler_dos.rb",
     "name": "Metasploit HTTP(S) handler DoS"
   },
   {
     "cve": "CVE-2019-19833",
     "module": "auxiliary_dos/http/tautulli_shutdown_exec",
-    "path": "/modules/auxiliary/dos/http/tautulli_shutdown_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/http/tautulli_shutdown_exec.rb",
     "name": "Tautulli v2.1.9 - Shutdown Denial of Service"
   },
   {
     "cve": "CVE-2019-1653",
     "module": "auxiliary_gather/cisco_rv320_config",
-    "path": "/modules/auxiliary/gather/cisco_rv320_config.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/cisco_rv320_config.rb",
     "name": "Cisco RV320/RV326 Configuration Disclosure"
   },
   {
     "cve": "CVE-2019-4061",
     "module": "auxiliary_gather/ibm_bigfix_sites_packages_enum",
-    "path": "/modules/auxiliary/gather/ibm_bigfix_sites_packages_enum.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/ibm_bigfix_sites_packages_enum.rb",
     "name": "IBM BigFix Relay Server Sites and Package Enum"
   },
   {
     "cve": "CVE-2019-2557",
     "module": "auxiliary_gather/oats_downloadservlet_traversal",
-    "path": "/modules/auxiliary/gather/oats_downloadservlet_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/oats_downloadservlet_traversal.rb",
     "name": "Oracle Application Testing Suite Post-Auth DownloadServlet Directory Traversal"
   },
   {
     "cve": "CVE-2019-11510",
     "module": "auxiliary_gather/pulse_secure_file_disclosure",
-    "path": "/modules/auxiliary/gather/pulse_secure_file_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/pulse_secure_file_disclosure.rb",
     "name": "Pulse Secure VPN Arbitrary File Disclosure"
   },
   {
     "cve": "CVE-2019-7192",
     "module": "auxiliary_gather/qnap_lfi",
-    "path": "/modules/auxiliary/gather/qnap_lfi.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/qnap_lfi.rb",
     "name": "QNAP QTS and Photo Station Local File Inclusion"
   },
   {
     "cve": "CVE-2019-7194",
     "module": "auxiliary_gather/qnap_lfi",
-    "path": "/modules/auxiliary/gather/qnap_lfi.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/qnap_lfi.rb",
     "name": "QNAP QTS and Photo Station Local File Inclusion"
   },
   {
     "cve": "CVE-2019-7195",
     "module": "auxiliary_gather/qnap_lfi",
-    "path": "/modules/auxiliary/gather/qnap_lfi.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/qnap_lfi.rb",
     "name": "QNAP QTS and Photo Station Local File Inclusion"
   },
   {
     "cve": "CVE-2019-5418",
     "module": "auxiliary_gather/rails_doubletap_file_read",
-    "path": "/modules/auxiliary/gather/rails_doubletap_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/rails_doubletap_file_read.rb",
     "name": "Ruby On Rails File Content Disclosure ('doubletap')"
   },
   {
     "cve": "CVE-2019-19781",
     "module": "auxiliary_scanner/http/citrix_dir_traversal",
-    "path": "/modules/auxiliary/scanner/http/citrix_dir_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/citrix_dir_traversal.rb",
     "name": "Citrix ADC (NetScaler) Directory Traversal Scanner"
   },
   {
     "cve": "CVE-2019-6447",
     "module": "auxiliary_scanner/http/es_file_explorer_open_port",
-    "path": "/modules/auxiliary/scanner/http/es_file_explorer_open_port.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/es_file_explorer_open_port.rb",
     "name": "ES File Explorer Open Port"
   },
   {
     "cve": "CVE-2019-0724",
     "module": "auxiliary_scanner/http/exchange_web_server_pushsubscription",
-    "path": "/modules/auxiliary/scanner/http/exchange_web_server_pushsubscription.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/exchange_web_server_pushsubscription.rb",
     "name": "Microsoft Exchange Privilege Escalation Exploit"
   },
   {
     "cve": "CVE-2019-9960",
     "module": "auxiliary_scanner/http/limesurvey_zip_traversals",
-    "path": "/modules/auxiliary/scanner/http/limesurvey_zip_traversals.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/limesurvey_zip_traversals.rb",
     "name": "LimeSurvey Zip Path Traversals"
   },
   {
     "cve": "CVE-2019-15949",
     "module": "auxiliary_scanner/http/nagios_xi_scanner",
-    "path": "/modules/auxiliary/scanner/http/nagios_xi_scanner.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/nagios_xi_scanner.rb",
     "name": "Nagios XI Scanner"
   },
   {
     "cve": "CVE-2019-16328",
     "module": "auxiliary_scanner/http/rpyc_rce",
-    "path": "/modules/auxiliary/scanner/http/rpyc_rce.py",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/rpyc_rce.py",
     "name": "RPyC 4.1.0 through 4.1.1 Remote Command Execution"
   },
   {
     "cve": "CVE-2019-3799",
     "module": "auxiliary_scanner/http/springcloud_traversal",
-    "path": "/modules/auxiliary/scanner/http/springcloud_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/springcloud_traversal.rb",
     "name": "Spring Cloud Config Server Directory Traversal"
   },
   {
     "cve": "CVE-2019-18818",
     "module": "auxiliary_scanner/http/strapi_3_password_reset",
-    "path": "/modules/auxiliary/scanner/http/strapi_3_password_reset.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/strapi_3_password_reset.rb",
     "name": "Strapi CMS Unauthenticated Password Reset"
   },
   {
     "cve": "CVE-2019-17662",
     "module": "auxiliary_scanner/http/thinvnc_traversal",
-    "path": "/modules/auxiliary/scanner/http/thinvnc_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/thinvnc_traversal.rb",
     "name": "ThinVNC Directory Traversal"
   },
   {
     "cve": "CVE-2019-8903",
     "module": "auxiliary_scanner/http/totaljs_traversal",
-    "path": "/modules/auxiliary/scanner/http/totaljs_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/totaljs_traversal.rb",
     "name": "Total.js prior to 3.2.4 Directory Traversal"
   },
   {
     "cve": "CVE-2019-20085",
     "module": "auxiliary_scanner/http/tvt_nvms_traversal",
-    "path": "/modules/auxiliary/scanner/http/tvt_nvms_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/tvt_nvms_traversal.rb",
     "name": "TVT NVMS-1000 Directory Traversal"
   },
   {
     "cve": "CVE-2019-17199",
     "module": "auxiliary_scanner/http/webpagetest_traversal",
-    "path": "/modules/auxiliary/scanner/http/webpagetest_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/webpagetest_traversal.rb",
     "name": "WebPageTest Directory Traversal"
   },
   {
     "cve": "CVE-2019-20361",
     "module": "auxiliary_scanner/http/wp_email_sub_news_sqli",
-    "path": "/modules/auxiliary/scanner/http/wp_email_sub_news_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_email_sub_news_sqli.rb",
     "name": "WordPress Email Subscribers and Newsletter Hash SQLi Scanner"
   },
   {
     "cve": "CVE-2019-0708",
     "module": "auxiliary_scanner/rdp/cve_2019_0708_bluekeep",
-    "path": "/modules/auxiliary/scanner/rdp/cve_2019_0708_bluekeep.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/rdp/cve_2019_0708_bluekeep.rb",
     "name": "CVE-2019-0708 BlueKeep Microsoft Remote Desktop RCE Check"
   },
   {
     "cve": "CVE-2019-12258",
     "module": "auxiliary_scanner/vxworks/urgent11_check",
-    "path": "/modules/auxiliary/scanner/vxworks/urgent11_check.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/vxworks/urgent11_check.rb",
     "name": "URGENT/11 Scanner, Based on Detection Tool by Armis"
   },
   {
     "cve": "CVE-2019-13373",
     "module": "auxiliary_sqli/dlink/dlink_central_wifimanager_sqli",
-    "path": "/modules/auxiliary/sqli/dlink/dlink_central_wifimanager_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/sqli/dlink/dlink_central_wifimanager_sqli.rb",
     "name": "D-Link Central WiFiManager SQL injection"
   },
   {
     "cve": "CVE-2019-2215",
     "module": "exploit_android/local/binder_uaf",
-    "path": "/modules/exploits/android/local/binder_uaf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/android/local/binder_uaf.rb",
     "name": "Android Binder Use-After-Free Exploit"
   },
   {
     "cve": "CVE-2019-19781",
     "module": "exploit_freebsd/http/citrix_dir_traversal_rce",
-    "path": "/modules/exploits/freebsd/http/citrix_dir_traversal_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/freebsd/http/citrix_dir_traversal_rce.rb",
     "name": "Citrix ADC (NetScaler) Directory Traversal RCE"
   },
   {
     "cve": "CVE-2019-16113",
     "module": "exploit_linux/http/bludit_upload_images_exec",
-    "path": "/modules/exploits/linux/http/bludit_upload_images_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/bludit_upload_images_exec.rb",
     "name": "Bludit Directory Traversal Image File Upload Vulnerability"
   },
   {
     "cve": "CVE-2019-1653",
     "module": "exploit_linux/http/cisco_rv32x_rce",
-    "path": "/modules/exploits/linux/http/cisco_rv32x_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/cisco_rv32x_rce.rb",
     "name": "Cisco RV320 and RV325 Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2019-1652",
     "module": "exploit_linux/http/cisco_rv32x_rce",
-    "path": "/modules/exploits/linux/http/cisco_rv32x_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/cisco_rv32x_rce.rb",
     "name": "Cisco RV320 and RV325 Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2019-1937",
     "module": "exploit_linux/http/cisco_ucs_rce",
-    "path": "/modules/exploits/linux/http/cisco_ucs_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/cisco_ucs_rce.rb",
     "name": "Cisco UCS Director Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2019-1936",
     "module": "exploit_linux/http/cisco_ucs_rce",
-    "path": "/modules/exploits/linux/http/cisco_ucs_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/cisco_ucs_rce.rb",
     "name": "Cisco UCS Director Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2019-1821",
     "module": "exploit_linux/http/cpi_tararchive_upload",
-    "path": "/modules/exploits/linux/http/cpi_tararchive_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/cpi_tararchive_upload.rb",
     "name": "Cisco Prime Infrastructure Health Monitor TarArchive Directory Traversal Vulnerability"
   },
   {
     "cve": "CVE-2019-1663",
     "module": "exploit_linux/http/cve_2019_1663_cisco_rmi_rce",
-    "path": "/modules/exploits/linux/http/cve_2019_1663_cisco_rmi_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/cve_2019_1663_cisco_rmi_rce.rb",
     "name": "Cisco RV110W/RV130(W)/RV215W Routers Management Interface Remote Command Execution"
   },
   {
     "cve": "CVE-2019-17508",
     "module": "exploit_linux/http/dlink_dir850l_unauth_exec",
-    "path": "/modules/exploits/linux/http/dlink_dir850l_unauth_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/dlink_dir850l_unauth_exec.rb",
     "name": "DIR-850L (Un)authenticated OS Command Exec"
   },
   {
     "cve": "CVE-2019-20499",
     "module": "exploit_linux/http/dlink_dwl_2600_command_injection",
-    "path": "/modules/exploits/linux/http/dlink_dwl_2600_command_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/dlink_dwl_2600_command_injection.rb",
     "name": "DLINK DWL-2600 Authenticated Remote Command Injection"
   },
   {
     "cve": "CVE-2019-10655",
     "module": "exploit_linux/http/grandstream_gxv31xx_settimezone_unauth_cmd_exec",
-    "path": "/modules/exploits/linux/http/grandstream_gxv31xx_settimezone_unauth_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/grandstream_gxv31xx_settimezone_unauth_cmd_exec.rb",
     "name": "Grandstream GXV31XX 'settimezone' Unauthenticated Command Execution"
   },
   {
     "cve": "CVE-2019-7609",
     "module": "exploit_linux/http/kibana_timelion_prototype_pollution_rce",
-    "path": "/modules/exploits/linux/http/kibana_timelion_prototype_pollution_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/kibana_timelion_prototype_pollution_rce.rb",
     "name": "Kibana Timelion Prototype Pollution RCE"
   },
   {
     "cve": "CVE-2019-10669",
     "module": "exploit_linux/http/librenms_collectd_cmd_inject",
-    "path": "/modules/exploits/linux/http/librenms_collectd_cmd_inject.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/librenms_collectd_cmd_inject.rb",
     "name": "LibreNMS Collectd Command Injection"
   },
   {
     "cve": "CVE-2019-7256",
     "module": "exploit_linux/http/linear_emerge_unauth_rce_cve_2019_7256",
-    "path": "/modules/exploits/linux/http/linear_emerge_unauth_rce_cve_2019_7256.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/linear_emerge_unauth_rce_cve_2019_7256.rb",
     "name": "Linear eMerge E3-Series Access Controller Command Injection"
   },
   {
     "cve": "CVE-2019-15949",
     "module": "exploit_linux/http/nagios_xi_plugins_check_plugin_authenticated_rce",
-    "path": "/modules/exploits/linux/http/nagios_xi_plugins_check_plugin_authenticated_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/nagios_xi_plugins_check_plugin_authenticated_rce.rb",
     "name": "Nagios XI Prior to 5.6.6 getprofile.sh Authenticated Remote Command Execution"
   },
   {
     "cve": "CVE-2019-7276",
     "module": "exploit_linux/http/optergy_bms_backdoor_rce_cve_2019_7276",
-    "path": "/modules/exploits/linux/http/optergy_bms_backdoor_rce_cve_2019_7276.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/optergy_bms_backdoor_rce_cve_2019_7276.rb",
     "name": "Optergy Proton and Enterprise BMS Command Injection using a backdoor"
   },
   {
     "cve": "CVE-2019-11539",
     "module": "exploit_linux/http/pulse_secure_cmd_exec",
-    "path": "/modules/exploits/linux/http/pulse_secure_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/pulse_secure_cmd_exec.rb",
     "name": "Pulse Secure VPN Arbitrary Command Execution"
   },
   {
     "cve": "CVE-2019-19509",
     "module": "exploit_linux/http/rconfig_ajaxarchivefiles_rce",
-    "path": "/modules/exploits/linux/http/rconfig_ajaxarchivefiles_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/rconfig_ajaxarchivefiles_rce.rb",
     "name": "Rconfig 3.x Chained Remote Code Execution"
   },
   {
     "cve": "CVE-2019-15107",
     "module": "exploit_linux/http/webmin_backdoor",
-    "path": "/modules/exploits/linux/http/webmin_backdoor.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/webmin_backdoor.rb",
     "name": "Webmin password_change.cgi Backdoor"
   },
   {
     "cve": "CVE-2019-12840",
     "module": "exploit_linux/http/webmin_packageup_rce",
-    "path": "/modules/exploits/linux/http/webmin_packageup_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/webmin_packageup_rce.rb",
     "name": "Webmin Package Updates Remote Command Execution"
   },
   {
     "cve": "CVE-2019-3929",
     "module": "exploit_linux/http/wepresent_cmd_injection",
-    "path": "/modules/exploits/linux/http/wepresent_cmd_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/wepresent_cmd_injection.rb",
     "name": "Barco WePresent file_transfer.cgi Command Injection"
   },
   {
     "cve": "CVE-2019-9670",
     "module": "exploit_linux/http/zimbra_xxe_rce",
-    "path": "/modules/exploits/linux/http/zimbra_xxe_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/zimbra_xxe_rce.rb",
     "name": "Zimbra Collaboration Autodiscover Servlet XXE and ProxyServlet SSRF"
   },
   {
     "cve": "CVE-2019-9621",
     "module": "exploit_linux/http/zimbra_xxe_rce",
-    "path": "/modules/exploits/linux/http/zimbra_xxe_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/zimbra_xxe_rce.rb",
     "name": "Zimbra Collaboration Autodiscover Servlet XXE and ProxyServlet SSRF"
   },
   {
     "cve": "CVE-2019-5736",
     "module": "exploit_linux/local/docker_runc_escape",
-    "path": "/modules/exploits/linux/local/docker_runc_escape.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/docker_runc_escape.rb",
     "name": "Docker Container Escape Via runC Overwrite"
   },
   {
     "cve": "CVE-2019-10149",
     "module": "exploit_linux/local/exim4_deliver_message_priv_esc",
-    "path": "/modules/exploits/linux/local/exim4_deliver_message_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/exim4_deliver_message_priv_esc.rb",
     "name": "Exim 4.87 - 4.91 Local Privilege Escalation"
   },
   {
     "cve": "CVE-2019-11660",
     "module": "exploit_linux/local/omniresolve_suid_priv_esc",
-    "path": "/modules/exploits/linux/local/omniresolve_suid_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/omniresolve_suid_priv_esc.rb",
     "name": "Micro Focus (HPE) Data Protector SUID Privilege Escalation"
   },
   {
     "cve": "CVE-2019-13272",
     "module": "exploit_linux/local/ptrace_traceme_pkexec_helper",
-    "path": "/modules/exploits/linux/local/ptrace_traceme_pkexec_helper.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/ptrace_traceme_pkexec_helper.rb",
     "name": "Linux Polkit pkexec helper PTRACE_TRACEME local root exploit"
   },
   {
     "cve": "CVE-2019-9213",
     "module": "exploit_linux/local/rds_atomic_free_op_null_pointer_deref_priv_esc",
-    "path": "/modules/exploits/linux/local/rds_atomic_free_op_null_pointer_deref_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/rds_atomic_free_op_null_pointer_deref_priv_esc.rb",
     "name": "Reliable Datagram Sockets (RDS) rds_atomic_free_op NULL pointer dereference Privilege Escalation"
   },
   {
     "cve": "CVE-2019-12181",
     "module": "exploit_linux/local/servu_ftp_server_prepareinstallation_priv_esc",
-    "path": "/modules/exploits/linux/local/servu_ftp_server_prepareinstallation_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/servu_ftp_server_prepareinstallation_priv_esc.rb",
     "name": "Serv-U FTP Server prepareinstallation Privilege Escalation"
   },
   {
     "cve": "CVE-2019-1935",
     "module": "exploit_linux/ssh/cisco_ucs_scpuser",
-    "path": "/modules/exploits/linux/ssh/cisco_ucs_scpuser.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/ssh/cisco_ucs_scpuser.rb",
     "name": "Cisco UCS Director default scpuser password"
   },
   {
     "cve": "CVE-2019-12780",
     "module": "exploit_linux/upnp/belkin_wemo_upnp_exec",
-    "path": "/modules/exploits/linux/upnp/belkin_wemo_upnp_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/upnp/belkin_wemo_upnp_exec.rb",
     "name": "Belkin Wemo UPnP Remote Code Execution"
   },
   {
     "cve": "CVE-2019-20215",
     "module": "exploit_linux/upnp/dlink_dir859_exec_ssdpcgi",
-    "path": "/modules/exploits/linux/upnp/dlink_dir859_exec_ssdpcgi.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/upnp/dlink_dir859_exec_ssdpcgi.rb",
     "name": "D-Link Devices Unauthenticated Remote Command Execution in ssdpcgi"
   },
   {
     "cve": "CVE-2019-17621",
     "module": "exploit_linux/upnp/dlink_dir859_subscribe_exec",
-    "path": "/modules/exploits/linux/upnp/dlink_dir859_subscribe_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/upnp/dlink_dir859_subscribe_exec.rb",
     "name": "D-Link DIR-859 Unauthenticated Remote Command Execution"
   },
   {
     "cve": "CVE-2019-20215",
     "module": "exploit_linux/upnp/dlink_upnp_msearch_exec",
-    "path": "/modules/exploits/linux/upnp/dlink_upnp_msearch_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/upnp/dlink_upnp_msearch_exec.rb",
     "name": "D-Link Unauthenticated Remote Command Execution using UPnP via a special crafted M-SEARCH packet."
   },
   {
     "cve": "CVE-2019-5825",
     "module": "exploit_multi/browser/chrome_array_map",
-    "path": "/modules/exploits/multi/browser/chrome_array_map.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/chrome_array_map.rb",
     "name": "Google Chrome 72 and 73 Array.map exploit"
   },
   {
     "cve": "CVE-2019-9851",
     "module": "exploit_multi/fileformat/libreoffice_logo_exec",
-    "path": "/modules/exploits/multi/fileformat/libreoffice_logo_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/fileformat/libreoffice_logo_exec.rb",
     "name": "LibreOffice Macro Python Code Execution"
   },
   {
     "cve": "CVE-2019-11580",
     "module": "exploit_multi/http/atlassian_crowd_pdkinstall_plugin_upload_rce",
-    "path": "/modules/exploits/multi/http/atlassian_crowd_pdkinstall_plugin_upload_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/atlassian_crowd_pdkinstall_plugin_upload_rce.rb",
     "name": "Atlassian Crowd pdkinstall Unauthenticated Plugin Upload RCE"
   },
   {
     "cve": "CVE-2019-12169",
     "module": "exploit_multi/http/atutor_upload_traversal",
-    "path": "/modules/exploits/multi/http/atutor_upload_traversal.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/atutor_upload_traversal.rb",
     "name": "ATutor 2.2.4 - Directory Traversal / Remote Code Execution,"
   },
   {
     "cve": "CVE-2019-1619",
     "module": "exploit_multi/http/cisco_dcnm_upload_2019",
-    "path": "/modules/exploits/multi/http/cisco_dcnm_upload_2019.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cisco_dcnm_upload_2019.rb",
     "name": "Cisco Data Center Network Manager Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2019-1620",
     "module": "exploit_multi/http/cisco_dcnm_upload_2019",
-    "path": "/modules/exploits/multi/http/cisco_dcnm_upload_2019.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cisco_dcnm_upload_2019.rb",
     "name": "Cisco Data Center Network Manager Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2019-1622",
     "module": "exploit_multi/http/cisco_dcnm_upload_2019",
-    "path": "/modules/exploits/multi/http/cisco_dcnm_upload_2019.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cisco_dcnm_upload_2019.rb",
     "name": "Cisco Data Center Network Manager Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2019-9055",
     "module": "exploit_multi/http/cmsms_object_injection_rce",
-    "path": "/modules/exploits/multi/http/cmsms_object_injection_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cmsms_object_injection_rce.rb",
     "name": "CMS Made Simple Authenticated RCE via object injection"
   },
   {
     "cve": "CVE-2019-9692",
     "module": "exploit_multi/http/cmsms_showtime2_rce",
-    "path": "/modules/exploits/multi/http/cmsms_showtime2_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cmsms_showtime2_rce.rb",
     "name": "CMS Made Simple (CMSMS) Showtime2 File Upload RCE"
   },
   {
     "cve": "CVE-2019-3396",
     "module": "exploit_multi/http/confluence_widget_connector",
-    "path": "/modules/exploits/multi/http/confluence_widget_connector.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/confluence_widget_connector.rb",
     "name": "Atlassian Confluence Widget Connector Macro Velocity Template Injection"
   },
   {
     "cve": "CVE-2019-11231",
     "module": "exploit_multi/http/getsimplecms_unauth_code_exec",
-    "path": "/modules/exploits/multi/http/getsimplecms_unauth_code_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/getsimplecms_unauth_code_exec.rb",
     "name": "GetSimpleCMS Unauthenticated RCE"
   },
   {
     "cve": "CVE-2019-9858",
     "module": "exploit_multi/http/horde_form_file_upload",
-    "path": "/modules/exploits/multi/http/horde_form_file_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/horde_form_file_upload.rb",
     "name": "Horde Form File Upload Vulnerability"
   },
   {
     "cve": "CVE-2019-1003000",
     "module": "exploit_multi/http/jenkins_metaprogramming",
-    "path": "/modules/exploits/multi/http/jenkins_metaprogramming.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jenkins_metaprogramming.rb",
     "name": "Jenkins ACL Bypass and Metaprogramming RCE"
   },
   {
     "cve": "CVE-2019-1003001",
     "module": "exploit_multi/http/jenkins_metaprogramming",
-    "path": "/modules/exploits/multi/http/jenkins_metaprogramming.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jenkins_metaprogramming.rb",
     "name": "Jenkins ACL Bypass and Metaprogramming RCE"
   },
   {
     "cve": "CVE-2019-1003002",
     "module": "exploit_multi/http/jenkins_metaprogramming",
-    "path": "/modules/exploits/multi/http/jenkins_metaprogramming.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jenkins_metaprogramming.rb",
     "name": "Jenkins ACL Bypass and Metaprogramming RCE"
   },
   {
     "cve": "CVE-2019-1003005",
     "module": "exploit_multi/http/jenkins_metaprogramming",
-    "path": "/modules/exploits/multi/http/jenkins_metaprogramming.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jenkins_metaprogramming.rb",
     "name": "Jenkins ACL Bypass and Metaprogramming RCE"
   },
   {
     "cve": "CVE-2019-1003029",
     "module": "exploit_multi/http/jenkins_metaprogramming",
-    "path": "/modules/exploits/multi/http/jenkins_metaprogramming.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jenkins_metaprogramming.rb",
     "name": "Jenkins ACL Bypass and Metaprogramming RCE"
   },
   {
     "cve": "CVE-2019-8394",
     "module": "exploit_multi/http/manageengine_sd_uploader",
-    "path": "/modules/exploits/multi/http/manageengine_sd_uploader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/manageengine_sd_uploader.rb",
     "name": "ManageEngine ServiceDesk Plus Arbitrary File Upload"
   },
   {
     "cve": "CVE-2019-11631",
     "module": "exploit_multi/http/moodle_admin_shell_upload",
-    "path": "/modules/exploits/multi/http/moodle_admin_shell_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/moodle_admin_shell_upload.rb",
     "name": "Moodle Admin Shell Upload"
   },
   {
     "cve": "CVE-2019-16278",
     "module": "exploit_multi/http/nostromo_code_exec",
-    "path": "/modules/exploits/multi/http/nostromo_code_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/nostromo_code_exec.rb",
     "name": "Nostromo Directory Traversal Remote Command Execution"
   },
   {
     "cve": "CVE-2019-11043",
     "module": "exploit_multi/http/php_fpm_rce",
-    "path": "/modules/exploits/multi/http/php_fpm_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/php_fpm_rce.rb",
     "name": "PHP-FPM Underflow RCE"
   },
   {
     "cve": "CVE-2019-10867",
     "module": "exploit_multi/http/pimcore_unserialize_rce",
-    "path": "/modules/exploits/multi/http/pimcore_unserialize_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/pimcore_unserialize_rce.rb",
     "name": "Pimcore Unserialize RCE"
   },
   {
     "cve": "CVE-2019-5420",
     "module": "exploit_multi/http/rails_double_tap",
-    "path": "/modules/exploits/multi/http/rails_double_tap.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/rails_double_tap.rb",
     "name": "Ruby On Rails DoubleTap Development Mode secret_key_base Vulnerability"
   },
   {
     "cve": "CVE-2019-12799",
     "module": "exploit_multi/http/shopware_createinstancefromnamedarguments_rce",
-    "path": "/modules/exploits/multi/http/shopware_createinstancefromnamedarguments_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/shopware_createinstancefromnamedarguments_rce.rb",
     "name": "Shopware createInstanceFromNamedArguments PHP Object Instantiation RCE"
   },
   {
     "cve": "CVE-2019-17558",
     "module": "exploit_multi/http/solr_velocity_rce",
-    "path": "/modules/exploits/multi/http/solr_velocity_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/solr_velocity_rce.rb",
     "name": "Apache Solr Remote Code Execution via Velocity Template"
   },
   {
     "cve": "CVE-2019-0230",
     "module": "exploit_multi/http/struts2_multi_eval_ognl",
-    "path": "/modules/exploits/multi/http/struts2_multi_eval_ognl.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/struts2_multi_eval_ognl.rb",
     "name": "Apache Struts 2 Forced Multi OGNL Evaluation"
   },
   {
     "cve": "CVE-2019-15954",
     "module": "exploit_multi/http/totaljs_cms_widget_exec",
-    "path": "/modules/exploits/multi/http/totaljs_cms_widget_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/totaljs_cms_widget_exec.rb",
     "name": "Total.js CMS 12 Widget JavaScript Code Injection"
   },
   {
     "cve": "CVE-2019-16759",
     "module": "exploit_multi/http/vbulletin_widgetconfig_rce",
-    "path": "/modules/exploits/multi/http/vbulletin_widgetconfig_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/vbulletin_widgetconfig_rce.rb",
     "name": "vBulletin widgetConfig RCE"
   },
   {
     "cve": "CVE-2019-8942",
     "module": "exploit_multi/http/wp_crop_rce",
-    "path": "/modules/exploits/multi/http/wp_crop_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/wp_crop_rce.rb",
     "name": "WordPress Crop-image Shell Upload"
   },
   {
     "cve": "CVE-2019-8943",
     "module": "exploit_multi/http/wp_crop_rce",
-    "path": "/modules/exploits/multi/http/wp_crop_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/wp_crop_rce.rb",
     "name": "WordPress Crop-image Shell Upload"
   },
   {
     "cve": "CVE-2019-25224",
     "module": "exploit_multi/http/wp_db_backup_rce",
-    "path": "/modules/exploits/multi/http/wp_db_backup_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/wp_db_backup_rce.rb",
     "name": "WP Database Backup RCE"
   },
   {
     "cve": "CVE-2019-19492",
     "module": "exploit_multi/misc/freeswitch_event_socket_cmd_exec",
-    "path": "/modules/exploits/multi/misc/freeswitch_event_socket_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/freeswitch_event_socket_cmd_exec.rb",
     "name": "FreeSWITCH Event Socket Command Execution"
   },
   {
     "cve": "CVE-2019-4716",
     "module": "exploit_multi/misc/ibm_tm1_unauth_rce",
-    "path": "/modules/exploits/multi/misc/ibm_tm1_unauth_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/ibm_tm1_unauth_rce.rb",
     "name": "IBM TM1 / Planning Analytics Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2019-12928",
     "module": "exploit_multi/misc/qemu_monitor_hmp_migrate_cmd_exec",
-    "path": "/modules/exploits/multi/misc/qemu_monitor_hmp_migrate_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/qemu_monitor_hmp_migrate_cmd_exec.rb",
     "name": "QEMU Monitor HMP 'migrate' Command Execution"
   },
   {
     "cve": "CVE-2019-2725",
     "module": "exploit_multi/misc/weblogic_deserialize_asyncresponseservice",
-    "path": "/modules/exploits/multi/misc/weblogic_deserialize_asyncresponseservice.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/weblogic_deserialize_asyncresponseservice.rb",
     "name": "Oracle Weblogic Server Deserialization RCE - AsyncResponseService"
   },
   {
     "cve": "CVE-2019-9193",
     "module": "exploit_multi/postgres/postgres_copy_from_program_cmd_exec",
-    "path": "/modules/exploits/multi/postgres/postgres_copy_from_program_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/postgres/postgres_copy_from_program_cmd_exec.rb",
     "name": "PostgreSQL COPY FROM PROGRAM Command Execution"
   },
   {
     "cve": "CVE-2019-19726",
     "module": "exploit_openbsd/local/dynamic_loader_chpass_privesc",
-    "path": "/modules/exploits/openbsd/local/dynamic_loader_chpass_privesc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/openbsd/local/dynamic_loader_chpass_privesc.rb",
     "name": "OpenBSD Dynamic Loader chpass Privilege Escalation"
   },
   {
     "cve": "CVE-2019-8565",
     "module": "exploit_osx/local/feedback_assistant_root",
-    "path": "/modules/exploits/osx/local/feedback_assistant_root.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/feedback_assistant_root.rb",
     "name": "Mac OS X Feedback Assistant Race Condition"
   },
   {
     "cve": "CVE-2019-8513",
     "module": "exploit_osx/local/timemachine_cmd_injection",
-    "path": "/modules/exploits/osx/local/timemachine_cmd_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/timemachine_cmd_injection.rb",
     "name": "Mac OS X TimeMachine (tmdiagnose) Command Injection Privilege Escalation"
   },
   {
     "cve": "CVE-2019-3010",
     "module": "exploit_solaris/local/xscreensaver_log_priv_esc",
-    "path": "/modules/exploits/solaris/local/xscreensaver_log_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/solaris/local/xscreensaver_log_priv_esc.rb",
     "name": "Solaris xscreensaver log Privilege Escalation"
   },
   {
     "cve": "CVE-2019-6814",
     "module": "exploit_unix/http/schneider_electric_net55xx_encoder",
-    "path": "/modules/exploits/unix/http/schneider_electric_net55xx_encoder.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/http/schneider_electric_net55xx_encoder.rb",
     "name": "Schneider Electric Pelco Endura NET55XX Encoder"
   },
   {
     "cve": "CVE-2019-25066",
     "module": "exploit_unix/webapp/ajenti_auth_username_cmd_injection",
-    "path": "/modules/exploits/unix/webapp/ajenti_auth_username_cmd_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/ajenti_auth_username_cmd_injection.rb",
     "name": "Ajenti auth username Command Injection"
   },
   {
     "cve": "CVE-2019-6340",
     "module": "exploit_unix/webapp/drupal_restws_unserialize",
-    "path": "/modules/exploits/unix/webapp/drupal_restws_unserialize.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/drupal_restws_unserialize.rb",
     "name": "Drupal RESTful Web Services unserialize() RCE"
   },
   {
     "cve": "CVE-2019-9194",
     "module": "exploit_unix/webapp/elfinder_php_connector_exiftran_cmd_injection",
-    "path": "/modules/exploits/unix/webapp/elfinder_php_connector_exiftran_cmd_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/elfinder_php_connector_exiftran_cmd_injection.rb",
     "name": "elFinder PHP Connector exiftran Command Injection"
   },
   {
     "cve": "CVE-2019-11409",
     "module": "exploit_unix/webapp/fusionpbx_operator_panel_exec_cmd_exec",
-    "path": "/modules/exploits/unix/webapp/fusionpbx_operator_panel_exec_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/fusionpbx_operator_panel_exec_cmd_exec.rb",
     "name": "FusionPBX Operator Panel exec.php Command Execution"
   },
   {
     "cve": "CVE-2019-25065",
     "module": "exploit_unix/webapp/opennetadmin_ping_cmd_injection",
-    "path": "/modules/exploits/unix/webapp/opennetadmin_ping_cmd_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/opennetadmin_ping_cmd_injection.rb",
     "name": "OpenNetAdmin Ping Command Injection"
   },
   {
     "cve": "CVE-2019-16662",
     "module": "exploit_unix/webapp/rconfig_install_cmd_exec",
-    "path": "/modules/exploits/unix/webapp/rconfig_install_cmd_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/rconfig_install_cmd_exec.rb",
     "name": "rConfig install Command Execution"
   },
   {
     "cve": "CVE-2019-9082",
     "module": "exploit_unix/webapp/thinkphp_rce",
-    "path": "/modules/exploits/unix/webapp/thinkphp_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/thinkphp_rce.rb",
     "name": "ThinkPHP Multiple PHP Injection RCEs"
   },
   {
     "cve": "CVE-2019-9624",
     "module": "exploit_unix/webapp/webmin_upload_exec",
-    "path": "/modules/exploits/unix/webapp/webmin_upload_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/webmin_upload_exec.rb",
     "name": "Webmin Upload Authenticated RCE"
   },
   {
     "cve": "CVE-2019-5786",
     "module": "exploit_windows/browser/chrome_filereader_uaf",
-    "path": "/modules/exploits/windows/browser/chrome_filereader_uaf.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/chrome_filereader_uaf.rb",
     "name": "Chrome 72.0.3626.119 FileReader UaF exploit for Windows 7 x86"
   },
   {
     "cve": "CVE-2019-5618",
     "module": "exploit_windows/fileformat/a_pdf_wav_to_mp3",
-    "path": "/modules/exploits/windows/fileformat/a_pdf_wav_to_mp3.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/a_pdf_wav_to_mp3.rb",
     "name": "A-PDF WAV to MP3 v1.0.0 Buffer Overflow"
   },
   {
     "cve": "CVE-2019-5621 ",
     "module": "exploit_windows/fileformat/abbs_amp_lst",
-    "path": "/modules/exploits/windows/fileformat/abbs_amp_lst.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/abbs_amp_lst.rb",
     "name": "ABBS Audio Media Player .LST Buffer Overflow"
   },
   {
     "cve": "CVE-2019-5619",
     "module": "exploit_windows/ftp/aasync_list_reply",
-    "path": "/modules/exploits/windows/ftp/aasync_list_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/aasync_list_reply.rb",
     "name": "AASync v2.2.1.0 (Win32) Stack Buffer Overflow (LIST)"
   },
   {
     "cve": "CVE-2019-9760",
     "module": "exploit_windows/ftp/ftpgetter_pwd_reply",
-    "path": "/modules/exploits/windows/ftp/ftpgetter_pwd_reply.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/ftpgetter_pwd_reply.rb",
     "name": "FTPGetter Standard v3.55.0.05 Stack Buffer Overflow (PWD)"
   },
   {
     "cve": "CVE-2019-13372",
     "module": "exploit_windows/http/dlink_central_wifimanager_rce",
-    "path": "/modules/exploits/windows/http/dlink_central_wifimanager_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/dlink_central_wifimanager_rce.rb",
     "name": "D-Link Central WiFi Manager CWM(100) RCE"
   },
   {
     "cve": "CVE-2019-16724",
     "module": "exploit_windows/http/file_sharing_wizard_seh",
-    "path": "/modules/exploits/windows/http/file_sharing_wizard_seh.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/file_sharing_wizard_seh.rb",
     "name": "File Sharing Wizard - POST SEH Overflow"
   },
   {
     "cve": "CVE-2019-17181",
     "module": "exploit_windows/http/intrasrv_bof",
-    "path": "/modules/exploits/windows/http/intrasrv_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/intrasrv_bof.rb",
     "name": "Intrasrv 1.0 Buffer Overflow"
   },
   {
     "cve": "CVE-2019-10068",
     "module": "exploit_windows/http/kentico_staging_syncserver",
-    "path": "/modules/exploits/windows/http/kentico_staging_syncserver.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/kentico_staging_syncserver.rb",
     "name": "Kentico CMS Staging SyncServer Unserialize Remote Command Execution"
   },
   {
     "cve": "CVE-2019-7214",
     "module": "exploit_windows/http/smartermail_rce",
-    "path": "/modules/exploits/windows/http/smartermail_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/smartermail_rce.rb",
     "name": "SmarterTools SmarterMail less than build 6985 - .NET Deserialization Remote Code Execution"
   },
   {
     "cve": "CVE-2019-18935",
     "module": "exploit_windows/http/telerik_rau_deserialization",
-    "path": "/modules/exploits/windows/http/telerik_rau_deserialization.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/telerik_rau_deserialization.rb",
     "name": "Telerik UI ASP.NET AJAX RadAsyncUpload Deserialization"
   },
   {
     "cve": "CVE-2019-0232",
     "module": "exploit_windows/http/tomcat_cgi_cmdlineargs",
-    "path": "/modules/exploits/windows/http/tomcat_cgi_cmdlineargs.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/tomcat_cgi_cmdlineargs.rb",
     "name": "Apache Tomcat CGIServlet enableCmdLineArguments Vulnerability"
   },
   {
     "cve": "CVE-2019-4279",
     "module": "exploit_windows/ibm/ibm_was_dmgr_java_deserialization_rce",
-    "path": "/modules/exploits/windows/ibm/ibm_was_dmgr_java_deserialization_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ibm/ibm_was_dmgr_java_deserialization_rce.rb",
     "name": "IBM Websphere Application Server Network Deployment Untrusted Data Deserialization Remote Code Execution"
   },
   {
     "cve": "CVE-2019-0841",
     "module": "exploit_windows/local/appxsvc_hard_link_privesc",
-    "path": "/modules/exploits/windows/local/appxsvc_hard_link_privesc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/appxsvc_hard_link_privesc.rb",
     "name": "AppXSvc Hard Link Privilege Escalation"
   },
   {
     "cve": "CVE-2019-1322",
     "module": "exploit_windows/local/comahawk",
-    "path": "/modules/exploits/windows/local/comahawk.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/comahawk.rb",
     "name": "Microsoft UPnP Local Privilege Elevation Vulnerability"
   },
   {
     "cve": "CVE-2019-1405",
     "module": "exploit_windows/local/comahawk",
-    "path": "/modules/exploits/windows/local/comahawk.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/comahawk.rb",
     "name": "Microsoft UPnP Local Privilege Elevation Vulnerability"
   },
   {
     "cve": "CVE-2019-1458",
     "module": "exploit_windows/local/cve_2019_1458_wizardopium",
-    "path": "/modules/exploits/windows/local/cve_2019_1458_wizardopium.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/cve_2019_1458_wizardopium.rb",
     "name": "Microsoft Windows Uninitialized Variable Local Privilege Elevation"
   },
   {
     "cve": "CVE-2019-15752",
     "module": "exploit_windows/local/docker_credential_wincred",
-    "path": "/modules/exploits/windows/local/docker_credential_wincred.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/docker_credential_wincred.rb",
     "name": "Docker-Credential-Wincred.exe Privilege Escalation"
   },
   {
     "cve": "CVE-2019-3999",
     "module": "exploit_windows/local/druva_insync_insynccphwnet64_rcp_type_5_priv_esc",
-    "path": "/modules/exploits/windows/local/druva_insync_insynccphwnet64_rcp_type_5_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/druva_insync_insynccphwnet64_rcp_type_5_priv_esc.rb",
     "name": "Druva inSync inSyncCPHwnet64.exe RPC Type 5 Privilege Escalation"
   },
   {
     "cve": "CVE-2019-0808",
     "module": "exploit_windows/local/ntusermndragover",
-    "path": "/modules/exploits/windows/local/ntusermndragover.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ntusermndragover.rb",
     "name": "Microsoft Windows NtUserMNDragOver Local Privilege Elevation"
   },
   {
     "cve": "CVE-2019-15742",
     "module": "exploit_windows/local/plantronics_hub_spokesupdateservice_privesc",
-    "path": "/modules/exploits/windows/local/plantronics_hub_spokesupdateservice_privesc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/plantronics_hub_spokesupdateservice_privesc.rb",
     "name": "Plantronics Hub SpokesUpdateService Privilege Escalation"
   },
   {
     "cve": "CVE-2019-19363",
     "module": "exploit_windows/local/ricoh_driver_privesc",
-    "path": "/modules/exploits/windows/local/ricoh_driver_privesc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ricoh_driver_privesc.rb",
     "name": "Ricoh Driver Privilege Escalation"
   },
   {
     "cve": "CVE-2019-10267",
     "module": "exploit_windows/misc/ahsay_backup_fileupload",
-    "path": "/modules/exploits/windows/misc/ahsay_backup_fileupload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/ahsay_backup_fileupload.rb",
     "name": "Ahsay Backup v7.x-v8.1.1.50 (authenticated) file upload"
   },
   {
     "cve": "CVE-2019-10123",
     "module": "exploit_windows/misc/ais_esel_server_rce",
-    "path": "/modules/exploits/windows/misc/ais_esel_server_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/ais_esel_server_rce.rb",
     "name": "AIS logistics ESEL-Server Unauth SQL Injection RCE"
   },
   {
     "cve": "CVE-2019-12518",
     "module": "exploit_windows/misc/crosschex_device_bof",
-    "path": "/modules/exploits/windows/misc/crosschex_device_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/crosschex_device_bof.rb",
     "name": "Anviz CrossChex Buffer Overflow"
   },
   {
     "cve": "CVE-2019-0708",
     "module": "exploit_windows/rdp/cve_2019_0708_bluekeep_rce",
-    "path": "/modules/exploits/windows/rdp/cve_2019_0708_bluekeep_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/rdp/cve_2019_0708_bluekeep_rce.rb",
     "name": "CVE-2019-0708 BlueKeep RDP Remote Windows Kernel Use After Free"
   },
   {
     "cve": "CVE-2019-5620",
     "module": "exploit_windows/scada/abb_wserver_exec",
-    "path": "/modules/exploits/windows/scada/abb_wserver_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/abb_wserver_exec.rb",
     "name": "ABB MicroSCADA wserver.exe Remote Code Execution"
   },
   {
     "cve": "CVE-2019-0307",
     "module": "post_multi/sap/smdagent_get_properties",
-    "path": "/modules/post/multi/sap/smdagent_get_properties.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/post/multi/sap/smdagent_get_properties.rb",
     "name": "Diagnostics Agent in Solution Manager, stores unencrypted credentials for Solution Manager server"
   },
   {
     "cve": "CVE-2019-18988",
     "module": "post_windows/gather/credentials/teamviewer_passwords",
-    "path": "/modules/post/windows/gather/credentials/teamviewer_passwords.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/gather/credentials/teamviewer_passwords.rb",
     "name": "Windows Gather TeamViewer Passwords"
   }
 ]

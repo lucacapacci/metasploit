@@ -2,889 +2,889 @@
   {
     "cve": "CVE-2023-22515",
     "module": "auxiliary_admin/http/atlassian_confluence_auth_bypass",
-    "path": "/modules/auxiliary/admin/http/atlassian_confluence_auth_bypass.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/atlassian_confluence_auth_bypass.rb",
     "name": "Atlassian Confluence Data Center and Server Authentication Bypass via Broken Access Control"
   },
   {
     "cve": "CVE-2023-20198",
     "module": "auxiliary_admin/http/cisco_ios_xe_cli_exec_cve_2023_20198",
-    "path": "/modules/auxiliary/admin/http/cisco_ios_xe_cli_exec_cve_2023_20198.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/cisco_ios_xe_cli_exec_cve_2023_20198.rb",
     "name": "Cisco IOX XE unauthenticated Command Line Interface (CLI) execution"
   },
   {
     "cve": "CVE-2023-20198",
     "module": "auxiliary_admin/http/cisco_ios_xe_os_exec_cve_2023_20273",
-    "path": "/modules/auxiliary/admin/http/cisco_ios_xe_os_exec_cve_2023_20273.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/cisco_ios_xe_os_exec_cve_2023_20273.rb",
     "name": "Cisco IOX XE unauthenticated OS command execution"
   },
   {
     "cve": "CVE-2023-20273",
     "module": "auxiliary_admin/http/cisco_ios_xe_os_exec_cve_2023_20273",
-    "path": "/modules/auxiliary/admin/http/cisco_ios_xe_os_exec_cve_2023_20273.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/cisco_ios_xe_os_exec_cve_2023_20273.rb",
     "name": "Cisco IOX XE unauthenticated OS command execution"
   },
   {
     "cve": "CVE-2023-7028",
     "module": "auxiliary_admin/http/gitlab_password_reset_account_takeover",
-    "path": "/modules/auxiliary/admin/http/gitlab_password_reset_account_takeover.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/gitlab_password_reset_account_takeover.rb",
     "name": "GitLab Password Reset Account Takeover"
   },
   {
     "cve": "CVE-2023-6329",
     "module": "auxiliary_admin/http/idsecure_auth_bypass",
-    "path": "/modules/auxiliary/admin/http/idsecure_auth_bypass.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/idsecure_auth_bypass.rb",
     "name": "Control iD iDSecure Authentication Bypass (CVE-2023-6329)"
   },
   {
     "cve": "CVE-2023-31742",
     "module": "auxiliary_admin/http/linksys_wrt54gl_exec",
-    "path": "/modules/auxiliary/admin/http/linksys_wrt54gl_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/linksys_wrt54gl_exec.rb",
     "name": "Linksys WRT54GL Remote Command Execution"
   },
   {
     "cve": "CVE-2023-6875",
     "module": "auxiliary_admin/http/wp_post_smtp_acct_takeover",
-    "path": "/modules/auxiliary/admin/http/wp_post_smtp_acct_takeover.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/http/wp_post_smtp_acct_takeover.rb",
     "name": "Wordpress POST SMTP Account Takeover"
   },
   {
     "cve": "CVE-2023-2915",
     "module": "auxiliary_admin/networking/thinmanager_traversal_delete",
-    "path": "/modules/auxiliary/admin/networking/thinmanager_traversal_delete.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/networking/thinmanager_traversal_delete.rb",
     "name": "ThinManager Path Traversal (CVE-2023-2915) Arbitrary File Delete"
   },
   {
     "cve": "CVE-2023-27855",
     "module": "auxiliary_admin/networking/thinmanager_traversal_upload",
-    "path": "/modules/auxiliary/admin/networking/thinmanager_traversal_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/networking/thinmanager_traversal_upload.rb",
     "name": "ThinManager Path Traversal (CVE-2023-27855) Arbitrary File Upload"
   },
   {
     "cve": "CVE-2023-2917",
     "module": "auxiliary_admin/networking/thinmanager_traversal_upload2",
-    "path": "/modules/auxiliary/admin/networking/thinmanager_traversal_upload2.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/networking/thinmanager_traversal_upload2.rb",
     "name": "ThinManager Path Traversal (CVE-2023-2917) Arbitrary File Upload"
   },
   {
     "cve": "CVE-2023-26360",
     "module": "auxiliary_gather/adobe_coldfusion_fileread_cve_2023_26360",
-    "path": "/modules/auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360.rb",
     "name": "Adobe ColdFusion Unauthenticated Arbitrary File Read"
   },
   {
     "cve": "CVE-2023-27524",
     "module": "auxiliary_gather/apache_superset_cookie_sig_priv_esc",
-    "path": "/modules/auxiliary/gather/apache_superset_cookie_sig_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/apache_superset_cookie_sig_priv_esc.rb",
     "name": "Apache Superset Signed Cookie Priv Esc"
   },
   {
     "cve": "CVE-2023-2825",
     "module": "auxiliary_gather/gitlab_authenticated_subgroups_file_read",
-    "path": "/modules/auxiliary/gather/gitlab_authenticated_subgroups_file_read.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/gitlab_authenticated_subgroups_file_read.rb",
     "name": "GitLab Authenticated File Read"
   },
   {
     "cve": "CVE-2023-5612",
     "module": "auxiliary_gather/gitlab_tags_rss_feed_email_disclosure",
-    "path": "/modules/auxiliary/gather/gitlab_tags_rss_feed_email_disclosure.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/gitlab_tags_rss_feed_email_disclosure.rb",
     "name": "GitLab Tags RSS feed email disclosure"
   },
   {
     "cve": "CVE-2023-28432",
     "module": "auxiliary_gather/minio_bootstrap_verify_info_disc",
-    "path": "/modules/auxiliary/gather/minio_bootstrap_verify_info_disc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/minio_bootstrap_verify_info_disc.rb",
     "name": "MinIO Bootstrap Verify Information Disclosure"
   },
   {
     "cve": "CVE-2023-0342",
     "module": "auxiliary_gather/mongodb_ops_manager_diagnostic_archive_info",
-    "path": "/modules/auxiliary/gather/mongodb_ops_manager_diagnostic_archive_info.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/mongodb_ops_manager_diagnostic_archive_info.rb",
     "name": "MongoDB Ops Manager Diagnostic Archive Sensitive Information Retriever"
   },
   {
     "cve": "CVE-2023-49103",
     "module": "auxiliary_gather/owncloud_phpinfo_reader",
-    "path": "/modules/auxiliary/gather/owncloud_phpinfo_reader.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/owncloud_phpinfo_reader.rb",
     "name": "ownCloud Phpinfo Reader"
   },
   {
     "cve": "CVE-2023-26876",
     "module": "auxiliary_gather/piwigo_cve_2023_26876",
-    "path": "/modules/auxiliary/gather/piwigo_cve_2023_26876.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/piwigo_cve_2023_26876.rb",
     "name": "Piwigo CVE-2023-26876 Gather Credentials via SQL Injection "
   },
   {
     "cve": "CVE-2023-6020",
     "module": "auxiliary_gather/ray_lfi_cve_2023_6020",
-    "path": "/modules/auxiliary/gather/ray_lfi_cve_2023_6020.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/ray_lfi_cve_2023_6020.rb",
     "name": "Ray static arbitrary file read"
   },
   {
     "cve": "CVE-2023-5350",
     "module": "auxiliary_gather/suite_crm_export_sqli",
-    "path": "/modules/auxiliary/gather/suite_crm_export_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/suite_crm_export_sqli.rb",
     "name": "SuiteCRM authenticated SQL injection in export functionality"
   },
   {
     "cve": "CVE-2023-27856",
     "module": "auxiliary_gather/thinmanager_traversal_download",
-    "path": "/modules/auxiliary/gather/thinmanager_traversal_download.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/thinmanager_traversal_download.rb",
     "name": "ThinManager Path Traversal (CVE-2023-27856) Arbitrary File Download"
   },
   {
     "cve": "CVE-2023-4966",
     "module": "auxiliary_scanner/http/citrix_bleed_cve_2023_4966",
-    "path": "/modules/auxiliary/scanner/http/citrix_bleed_cve_2023_4966.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/citrix_bleed_cve_2023_4966.rb",
     "name": "Citrix ADC (NetScaler) Bleed Scanner"
   },
   {
     "cve": "CVE-2023-33568",
     "module": "auxiliary_scanner/http/dolibarr_16_contact_dump",
-    "path": "/modules/auxiliary/scanner/http/dolibarr_16_contact_dump.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/dolibarr_16_contact_dump.rb",
     "name": "Dolibarr 16 pre-auth contact database dump"
   },
   {
     "cve": "CVE-2023-23752",
     "module": "auxiliary_scanner/http/joomla_api_improper_access_checks",
-    "path": "/modules/auxiliary/scanner/http/joomla_api_improper_access_checks.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/joomla_api_improper_access_checks.rb",
     "name": "Joomla API Improper Access Checks"
   },
   {
     "cve": "CVE-2023-6063",
     "module": "auxiliary_scanner/http/wp_fastest_cache_sqli",
-    "path": "/modules/auxiliary/scanner/http/wp_fastest_cache_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_fastest_cache_sqli.rb",
     "name": "WordPress WP Fastest Cache Unauthenticated SQLi (CVE-2023-6063)"
   },
   {
     "cve": "CVE-2023-23488",
     "module": "auxiliary_scanner/http/wp_paid_membership_pro_code_sqli",
-    "path": "/modules/auxiliary/scanner/http/wp_paid_membership_pro_code_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_paid_membership_pro_code_sqli.rb",
     "name": "Wordpress Paid Membership Pro code Unauthenticated SQLi"
   },
   {
     "cve": "CVE-2023-28121",
     "module": "auxiliary_scanner/http/wp_woocommerce_payments_add_user",
-    "path": "/modules/auxiliary/scanner/http/wp_woocommerce_payments_add_user.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/wp_woocommerce_payments_add_user.rb",
     "name": "Wordpress Plugin WooCommerce Payments Unauthenticated Admin Creation"
   },
   {
     "cve": "CVE-2023-21554",
     "module": "auxiliary_scanner/msmq/cve_2023_21554_queuejumper",
-    "path": "/modules/auxiliary/scanner/msmq/cve_2023_21554_queuejumper.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/msmq/cve_2023_21554_queuejumper.rb",
     "name": "CVE-2023-21554 - QueueJumper - MSMQ RCE Check"
   },
   {
     "cve": "CVE-2023-28528",
     "module": "exploit_aix/local/invscout_rpm_priv_esc",
-    "path": "/modules/exploits/aix/local/invscout_rpm_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/aix/local/invscout_rpm_priv_esc.rb",
     "name": "invscout RPM Privilege Escalation"
   },
   {
     "cve": "CVE-2023-3519",
     "module": "exploit_freebsd/http/citrix_formssso_target_rce",
-    "path": "/modules/exploits/freebsd/http/citrix_formssso_target_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/freebsd/http/citrix_formssso_target_rce.rb",
     "name": "Citrix ADC (NetScaler) Forms SSO Target RCE"
   },
   {
     "cve": "CVE-2023-36845",
     "module": "exploit_freebsd/http/junos_phprc_auto_prepend_file",
-    "path": "/modules/exploits/freebsd/http/junos_phprc_auto_prepend_file.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/freebsd/http/junos_phprc_auto_prepend_file.rb",
     "name": "Junos OS PHPRC Environment Variable Manipulation RCE"
   },
   {
     "cve": "CVE-2023-45249",
     "module": "exploit_linux/http/acronis_cyber_infra_cve_2023_45249",
-    "path": "/modules/exploits/linux/http/acronis_cyber_infra_cve_2023_45249.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/acronis_cyber_infra_cve_2023_45249.rb",
     "name": "Acronis Cyber Infrastructure default password remote code execution"
   },
   {
     "cve": "CVE-2023-34468",
     "module": "exploit_linux/http/apache_nifi_h2_rce",
-    "path": "/modules/exploits/linux/http/apache_nifi_h2_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/apache_nifi_h2_rce.rb",
     "name": "Apache NiFi H2 Connection String Remote Code Execution"
   },
   {
     "cve": "CVE-2023-49070",
     "module": "exploit_linux/http/apache_ofbiz_deserialization",
-    "path": "/modules/exploits/linux/http/apache_ofbiz_deserialization.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/apache_ofbiz_deserialization.rb",
     "name": "Apache OFBiz XML-RPC Java Deserialization"
   },
   {
     "cve": "CVE-2023-51467",
     "module": "exploit_linux/http/apache_ofbiz_deserialization",
-    "path": "/modules/exploits/linux/http/apache_ofbiz_deserialization.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/apache_ofbiz_deserialization.rb",
     "name": "Apache OFBiz XML-RPC Java Deserialization"
   },
   {
     "cve": "CVE-2023-50386",
     "module": "exploit_linux/http/apache_solr_backup_restore",
-    "path": "/modules/exploits/linux/http/apache_solr_backup_restore.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/apache_solr_backup_restore.rb",
     "name": "Apache Solr Backup/Restore APIs RCE"
   },
   {
     "cve": "CVE-2023-27524",
     "module": "exploit_linux/http/apache_superset_cookie_sig_rce",
-    "path": "/modules/exploits/linux/http/apache_superset_cookie_sig_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/apache_superset_cookie_sig_rce.rb",
     "name": "Apache Superset Signed Cookie RCE"
   },
   {
     "cve": "CVE-2023-37941",
     "module": "exploit_linux/http/apache_superset_cookie_sig_rce",
-    "path": "/modules/exploits/linux/http/apache_superset_cookie_sig_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/apache_superset_cookie_sig_rce.rb",
     "name": "Apache Superset Signed Cookie RCE"
   },
   {
     "cve": "CVE-2023-39265",
     "module": "exploit_linux/http/apache_superset_cookie_sig_rce",
-    "path": "/modules/exploits/linux/http/apache_superset_cookie_sig_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/apache_superset_cookie_sig_rce.rb",
     "name": "Apache Superset Signed Cookie RCE"
   },
   {
     "cve": "CVE-2023-4220",
     "module": "exploit_linux/http/chamilo_bigupload_webshell",
-    "path": "/modules/exploits/linux/http/chamilo_bigupload_webshell.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/chamilo_bigupload_webshell.rb",
     "name": "Chamilo v1.11.24 Unrestricted File Upload PHP Webshell"
   },
   {
     "cve": "CVE-2023-34960",
     "module": "exploit_linux/http/chamilo_unauth_rce_cve_2023_34960",
-    "path": "/modules/exploits/linux/http/chamilo_unauth_rce_cve_2023_34960.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/chamilo_unauth_rce_cve_2023_34960.rb",
     "name": "Chamilo unauthenticated command injection in PowerPoint upload"
   },
   {
     "cve": "CVE-2023-41892",
     "module": "exploit_linux/http/craftcms_unauth_rce_cve_2023_41892",
-    "path": "/modules/exploits/linux/http/craftcms_unauth_rce_cve_2023_41892.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/craftcms_unauth_rce_cve_2023_41892.rb",
     "name": "Craft CMS unauthenticated Remote Code Execution (RCE)"
   },
   {
     "cve": "CVE-2023-36255",
     "module": "exploit_linux/http/eramba_rce",
-    "path": "/modules/exploits/linux/http/eramba_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/eramba_rce.rb",
     "name": "Eramba (up to 3.19.1) Authenticated Remote Code Execution Module"
   },
   {
     "cve": "CVE-2023-46747",
     "module": "exploit_linux/http/f5_bigip_tmui_rce_cve_2023_46747",
-    "path": "/modules/exploits/linux/http/f5_bigip_tmui_rce_cve_2023_46747.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/f5_bigip_tmui_rce_cve_2023_46747.rb",
     "name": "F5 BIG-IP TMUI AJP Smuggling RCE"
   },
   {
     "cve": "CVE-2023-0315",
     "module": "exploit_linux/http/froxlor_log_path_rce",
-    "path": "/modules/exploits/linux/http/froxlor_log_path_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/froxlor_log_path_rce.rb",
     "name": "Froxlor Log Path RCE"
   },
   {
     "cve": "CVE-2023-50445",
     "module": "exploit_linux/http/glinet_unauth_rce_cve_2023_50445",
-    "path": "/modules/exploits/linux/http/glinet_unauth_rce_cve_2023_50445.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/glinet_unauth_rce_cve_2023_50445.rb",
     "name": "GL.iNet Unauthenticated Remote Command Execution via the logread module."
   },
   {
     "cve": "CVE-2023-50919",
     "module": "exploit_linux/http/glinet_unauth_rce_cve_2023_50445",
-    "path": "/modules/exploits/linux/http/glinet_unauth_rce_cve_2023_50445.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/glinet_unauth_rce_cve_2023_50445.rb",
     "name": "GL.iNet Unauthenticated Remote Command Execution via the logread module."
   },
   {
     "cve": "CVE-2023-46818",
     "module": "exploit_linux/http/ispconfig_lang_edit_php_code_injection",
-    "path": "/modules/exploits/linux/http/ispconfig_lang_edit_php_code_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ispconfig_lang_edit_php_code_injection.rb",
     "name": "ISPConfig language_edit.php PHP Code Injection"
   },
   {
     "cve": "CVE-2023-46805",
     "module": "exploit_linux/http/ivanti_connect_secure_rce_cve_2023_46805",
-    "path": "/modules/exploits/linux/http/ivanti_connect_secure_rce_cve_2023_46805.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ivanti_connect_secure_rce_cve_2023_46805.rb",
     "name": "Ivanti Connect Secure Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-36661",
     "module": "exploit_linux/http/ivanti_connect_secure_rce_cve_2024_21893",
-    "path": "/modules/exploits/linux/http/ivanti_connect_secure_rce_cve_2024_21893.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ivanti_connect_secure_rce_cve_2024_21893.rb",
     "name": "Ivanti Connect Secure Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-38035",
     "module": "exploit_linux/http/ivanti_sentry_misc_log_service",
-    "path": "/modules/exploits/linux/http/ivanti_sentry_misc_log_service.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ivanti_sentry_misc_log_service.rb",
     "name": "Ivanti Sentry MICSLogService Auth Bypass resulting in RCE (CVE-2023-38035)"
   },
   {
     "cve": "CVE-2023-52251",
     "module": "exploit_linux/http/kafka_ui_unauth_rce_cve_2023_52251",
-    "path": "/modules/exploits/linux/http/kafka_ui_unauth_rce_cve_2023_52251.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/kafka_ui_unauth_rce_cve_2023_52251.rb",
     "name": "Kafka UI Unauthenticated Remote Command Execution via the Groovy Filter option."
   },
   {
     "cve": "CVE-2023-26068",
     "module": "exploit_linux/http/lexmark_faxtrace_settings",
-    "path": "/modules/exploits/linux/http/lexmark_faxtrace_settings.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/lexmark_faxtrace_settings.rb",
     "name": "Lexmark Device Embedded Web Server RCE"
   },
   {
     "cve": "CVE-2023-30258",
     "module": "exploit_linux/http/magnusbilling_unauth_rce_cve_2023_30258",
-    "path": "/modules/exploits/linux/http/magnusbilling_unauth_rce_cve_2023_30258.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/magnusbilling_unauth_rce_cve_2023_30258.rb",
     "name": "MagnusBilling application unauthenticated Remote Command Execution."
   },
   {
     "cve": "CVE-2023-50917",
     "module": "exploit_linux/http/majordomo_cmd_inject_cve_2023_50917",
-    "path": "/modules/exploits/linux/http/majordomo_cmd_inject_cve_2023_50917.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/majordomo_cmd_inject_cve_2023_50917.rb",
     "name": "MajorDoMo Command Injection"
   },
   {
     "cve": "CVE-2023-38646",
     "module": "exploit_linux/http/metabase_setup_token_rce",
-    "path": "/modules/exploits/linux/http/metabase_setup_token_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/metabase_setup_token_rce.rb",
     "name": "Metabase Setup Token RCE"
   },
   {
     "cve": "CVE-2023-40315",
     "module": "exploit_linux/http/opennms_horizon_authenticated_rce",
-    "path": "/modules/exploits/linux/http/opennms_horizon_authenticated_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/opennms_horizon_authenticated_rce.rb",
     "name": "OpenNMS Horizon Authenticated RCE"
   },
   {
     "cve": "CVE-2023-0872",
     "module": "exploit_linux/http/opennms_horizon_authenticated_rce",
-    "path": "/modules/exploits/linux/http/opennms_horizon_authenticated_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/opennms_horizon_authenticated_rce.rb",
     "name": "OpenNMS Horizon Authenticated RCE"
   },
   {
     "cve": "CVE-2023-36812",
     "module": "exploit_linux/http/opentsdb_key_cmd_injection",
-    "path": "/modules/exploits/linux/http/opentsdb_key_cmd_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/opentsdb_key_cmd_injection.rb",
     "name": "OpenTSDB 2.4.1 unauthenticated command injection"
   },
   {
     "cve": "CVE-2023-25826",
     "module": "exploit_linux/http/opentsdb_key_cmd_injection",
-    "path": "/modules/exploits/linux/http/opentsdb_key_cmd_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/opentsdb_key_cmd_injection.rb",
     "name": "OpenTSDB 2.4.1 unauthenticated command injection"
   },
   {
     "cve": "CVE-2023-28458",
     "module": "exploit_linux/http/pretalx_rce_cve_2023_28458",
-    "path": "/modules/exploits/linux/http/pretalx_rce_cve_2023_28458.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/pretalx_rce_cve_2023_28458.rb",
     "name": "Pretalx Limited File Write to Remote Code Execution"
   },
   {
     "cve": "CVE-2023-0297",
     "module": "exploit_linux/http/pyload_js2py_exec",
-    "path": "/modules/exploits/linux/http/pyload_js2py_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/pyload_js2py_exec.rb",
     "name": "pyLoad js2py Python Execution"
   },
   {
     "cve": "CVE-2023-47218",
     "module": "exploit_linux/http/qnap_qts_rce_cve_2023_47218",
-    "path": "/modules/exploits/linux/http/qnap_qts_rce_cve_2023_47218.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/qnap_qts_rce_cve_2023_47218.rb",
     "name": "QNAP QTS and QuTS Hero Unauthenticated Remote Code Execution in quick.cgi"
   },
   {
     "cve": "CVE-2023-48022",
     "module": "exploit_linux/http/ray_agent_job_rce",
-    "path": "/modules/exploits/linux/http/ray_agent_job_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ray_agent_job_rce.rb",
     "name": "Ray Agent Job RCE"
   },
   {
     "cve": "CVE-2023-6019",
     "module": "exploit_linux/http/ray_cpu_profile_cmd_injection_cve_2023_6019",
-    "path": "/modules/exploits/linux/http/ray_cpu_profile_cmd_injection_cve_2023_6019.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ray_cpu_profile_cmd_injection_cve_2023_6019.rb",
     "name": "Ray cpu_profile command injection"
   },
   {
     "cve": "CVE-2023-23333",
     "module": "exploit_linux/http/solarview_unauth_rce_cve_2023_23333",
-    "path": "/modules/exploits/linux/http/solarview_unauth_rce_cve_2023_23333.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/solarview_unauth_rce_cve_2023_23333.rb",
     "name": "SolarView Compact unauthenticated remote command execution vulnerability."
   },
   {
     "cve": "CVE-2023-30013",
     "module": "exploit_linux/http/totolink_unauth_rce_cve_2023_30013",
-    "path": "/modules/exploits/linux/http/totolink_unauth_rce_cve_2023_30013.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/totolink_unauth_rce_cve_2023_30013.rb",
     "name": "TOTOLINK Wireless Routers unauthenticated remote command execution vulnerability."
   },
   {
     "cve": "CVE-2023-45498",
     "module": "exploit_linux/http/vinchin_backup_recovery_cmd_inject",
-    "path": "/modules/exploits/linux/http/vinchin_backup_recovery_cmd_inject.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/vinchin_backup_recovery_cmd_inject.rb",
     "name": "Vinchin Backup and Recovery Command Injection"
   },
   {
     "cve": "CVE-2023-45499",
     "module": "exploit_linux/http/vinchin_backup_recovery_cmd_inject",
-    "path": "/modules/exploits/linux/http/vinchin_backup_recovery_cmd_inject.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/vinchin_backup_recovery_cmd_inject.rb",
     "name": "Vinchin Backup and Recovery Command Injection"
   },
   {
     "cve": "CVE-2023-20887",
     "module": "exploit_linux/http/vmware_vrni_rce_cve_2023_20887",
-    "path": "/modules/exploits/linux/http/vmware_vrni_rce_cve_2023_20887.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/vmware_vrni_rce_cve_2023_20887.rb",
     "name": "VMWare Aria Operations for Networks (vRealize Network Insight) pre-authenticated RCE"
   },
   {
     "cve": "CVE-2023-28770",
     "module": "exploit_linux/http/zyxel_lfi_unauth_ssh_rce",
-    "path": "/modules/exploits/linux/http/zyxel_lfi_unauth_ssh_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/zyxel_lfi_unauth_ssh_rce.rb",
     "name": "Zyxel chained RCE using LFI and weak password derivation algorithm"
   },
   {
     "cve": "CVE-2023-33012",
     "module": "exploit_linux/http/zyxel_parse_config_rce",
-    "path": "/modules/exploits/linux/http/zyxel_parse_config_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/zyxel_parse_config_rce.rb",
     "name": "Zyxel parse_config.py Command Injection"
   },
   {
     "cve": "CVE-2023-0386",
     "module": "exploit_linux/local/cve_2023_0386_overlayfs_priv_esc",
-    "path": "/modules/exploits/linux/local/cve_2023_0386_overlayfs_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/cve_2023_0386_overlayfs_priv_esc.rb",
     "name": "Local Privilege Escalation via CVE-2023-0386"
   },
   {
     "cve": "CVE-2023-32629",
     "module": "exploit_linux/local/gameoverlay_privesc",
-    "path": "/modules/exploits/linux/local/gameoverlay_privesc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/gameoverlay_privesc.rb",
     "name": "GameOver(lay) Privilege Escalation and Container Escape"
   },
   {
     "cve": "CVE-2023-2640",
     "module": "exploit_linux/local/gameoverlay_privesc",
-    "path": "/modules/exploits/linux/local/gameoverlay_privesc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/gameoverlay_privesc.rb",
     "name": "GameOver(lay) Privilege Escalation and Container Escape"
   },
   {
     "cve": "CVE-2023-4911",
     "module": "exploit_linux/local/glibc_tunables_priv_esc",
-    "path": "/modules/exploits/linux/local/glibc_tunables_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/glibc_tunables_priv_esc.rb",
     "name": "Glibc Tunables Privilege Escalation CVE-2023-4911 (aka Looney Tunables)"
   },
   {
     "cve": "CVE-2023-22809",
     "module": "exploit_linux/local/sudoedit_bypass_priv_esc",
-    "path": "/modules/exploits/linux/local/sudoedit_bypass_priv_esc.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/sudoedit_bypass_priv_esc.rb",
     "name": "Sudoedit Extra Arguments Priv Esc"
   },
   {
     "cve": "CVE-2023-20198",
     "module": "exploit_linux/misc/cisco_ios_xe_rce",
-    "path": "/modules/exploits/linux/misc/cisco_ios_xe_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/cisco_ios_xe_rce.rb",
     "name": "Cisco IOX XE Unauthenticated RCE Chain"
   },
   {
     "cve": "CVE-2023-20273",
     "module": "exploit_linux/misc/cisco_ios_xe_rce",
-    "path": "/modules/exploits/linux/misc/cisco_ios_xe_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/cisco_ios_xe_rce.rb",
     "name": "Cisco IOX XE Unauthenticated RCE Chain"
   },
   {
     "cve": "CVE-2023-28503",
     "module": "exploit_linux/misc/unidata_udadmin_auth_bypass",
-    "path": "/modules/exploits/linux/misc/unidata_udadmin_auth_bypass.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/unidata_udadmin_auth_bypass.rb",
     "name": "Rocket Software Unidata udadmin_server Authentication Bypass"
   },
   {
     "cve": "CVE-2023-28502",
     "module": "exploit_linux/misc/unidata_udadmin_password_stack_overflow",
-    "path": "/modules/exploits/linux/misc/unidata_udadmin_password_stack_overflow.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/unidata_udadmin_password_stack_overflow.rb",
     "name": "Rocket Software Unidata udadmin_server Stack Buffer Overflow in Password"
   },
   {
     "cve": "CVE-2023-28771",
     "module": "exploit_linux/misc/zyxel_ike_decoder_rce_cve_2023_28771",
-    "path": "/modules/exploits/linux/misc/zyxel_ike_decoder_rce_cve_2023_28771.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/zyxel_ike_decoder_rce_cve_2023_28771.rb",
     "name": "Zyxel IKE Packet Decoder Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-28769",
     "module": "exploit_linux/misc/zyxel_multiple_devices_zhttp_lan_rce",
-    "path": "/modules/exploits/linux/misc/zyxel_multiple_devices_zhttp_lan_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/misc/zyxel_multiple_devices_zhttp_lan_rce.rb",
     "name": "Zyxel Unauthenticated LAN Remote Code Execution"
   },
   {
     "cve": "CVE-2023-34039",
     "module": "exploit_linux/ssh/vmware_vrni_known_privkey",
-    "path": "/modules/exploits/linux/ssh/vmware_vrni_known_privkey.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/ssh/vmware_vrni_known_privkey.rb",
     "name": "VMWare Aria Operations for Networks (vRealize Network Insight) SSH Private Key Exposure"
   },
   {
     "cve": "CVE-2023-33625",
     "module": "exploit_linux/upnp/dlink_upnp_msearch_exec",
-    "path": "/modules/exploits/linux/upnp/dlink_upnp_msearch_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/upnp/dlink_upnp_msearch_exec.rb",
     "name": "D-Link Unauthenticated Remote Command Execution using UPnP via a special crafted M-SEARCH packet."
   },
   {
     "cve": "CVE-2023-46944",
     "module": "exploit_multi/fileformat/gitlens_local_config_exec",
-    "path": "/modules/exploits/multi/fileformat/gitlens_local_config_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/fileformat/gitlens_local_config_exec.rb",
     "name": "GitLens Git Local Configuration Exec"
   },
   {
     "cve": "CVE-2023-26360",
     "module": "exploit_multi/http/adobe_coldfusion_rce_cve_2023_26360",
-    "path": "/modules/exploits/multi/http/adobe_coldfusion_rce_cve_2023_26360.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/adobe_coldfusion_rce_cve_2023_26360.rb",
     "name": "Adobe ColdFusion Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-25194",
     "module": "exploit_multi/http/apache_druid_cve_2023_25194",
-    "path": "/modules/exploits/multi/http/apache_druid_cve_2023_25194.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_druid_cve_2023_25194.rb",
     "name": "Apache Druid JNDI Injection RCE"
   },
   {
     "cve": "CVE-2023-33246",
     "module": "exploit_multi/http/apache_rocketmq_update_config",
-    "path": "/modules/exploits/multi/http/apache_rocketmq_update_config.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_rocketmq_update_config.rb",
     "name": "Apache RocketMQ update config RCE"
   },
   {
     "cve": "CVE-2023-22515",
     "module": "exploit_multi/http/atlassian_confluence_rce_cve_2023_22515",
-    "path": "/modules/exploits/multi/http/atlassian_confluence_rce_cve_2023_22515.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/atlassian_confluence_rce_cve_2023_22515.rb",
     "name": "Atlassian Confluence Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-22527",
     "module": "exploit_multi/http/atlassian_confluence_rce_cve_2023_22527",
-    "path": "/modules/exploits/multi/http/atlassian_confluence_rce_cve_2023_22527.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/atlassian_confluence_rce_cve_2023_22527.rb",
     "name": "Atlassian Confluence SSTI Injection"
   },
   {
     "cve": "CVE-2023-22518",
     "module": "exploit_multi/http/atlassian_confluence_unauth_backup",
-    "path": "/modules/exploits/multi/http/atlassian_confluence_unauth_backup.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/atlassian_confluence_unauth_backup.rb",
     "name": "Atlassian Confluence Unauth JSON setup-restore Improper Authorization leading to RCE (CVE-2023-22518)"
   },
   {
     "cve": "CVE-2023-49085",
     "module": "exploit_multi/http/cacti_pollers_sqli_rce",
-    "path": "/modules/exploits/multi/http/cacti_pollers_sqli_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cacti_pollers_sqli_rce.rb",
     "name": "Cacti RCE via SQLi in pollers.php"
   },
   {
     "cve": "CVE-2023-49084",
     "module": "exploit_multi/http/cacti_pollers_sqli_rce",
-    "path": "/modules/exploits/multi/http/cacti_pollers_sqli_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cacti_pollers_sqli_rce.rb",
     "name": "Cacti RCE via SQLi in pollers.php"
   },
   {
     "cve": "CVE-2023-36969",
     "module": "exploit_multi/http/cmsms_file_manager_auth_rce",
-    "path": "/modules/exploits/multi/http/cmsms_file_manager_auth_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cmsms_file_manager_auth_rce.rb",
     "name": "CmsMadeSimple Authenticated File Manager RCE"
   },
   {
     "cve": "CVE-2023-43177",
     "module": "exploit_multi/http/crushftp_rce_cve_2023_43177",
-    "path": "/modules/exploits/multi/http/crushftp_rce_cve_2023_43177.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/crushftp_rce_cve_2023_43177.rb",
     "name": "CrushFTP Unauthenticated RCE"
   },
   {
     "cve": "CVE-2023-38836",
     "module": "exploit_multi/http/cve_2023_38836_boidcms",
-    "path": "/modules/exploits/multi/http/cve_2023_38836_boidcms.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/cve_2023_38836_boidcms.rb",
     "name": "BoidCMS Command Injection"
   },
   {
     "cve": "CVE-2023-0669",
     "module": "exploit_multi/http/fortra_goanywhere_rce_cve_2023_0669",
-    "path": "/modules/exploits/multi/http/fortra_goanywhere_rce_cve_2023_0669.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/fortra_goanywhere_rce_cve_2023_0669.rb",
     "name": "Fortra GoAnywhere MFT Unsafe Deserialization RCE"
   },
   {
     "cve": "CVE-2023-42793",
     "module": "exploit_multi/http/jetbrains_teamcity_rce_cve_2023_42793",
-    "path": "/modules/exploits/multi/http/jetbrains_teamcity_rce_cve_2023_42793.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jetbrains_teamcity_rce_cve_2023_42793.rb",
     "name": "JetBrains TeamCity Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-37679",
     "module": "exploit_multi/http/mirth_connect_cve_2023_43208",
-    "path": "/modules/exploits/multi/http/mirth_connect_cve_2023_43208.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/mirth_connect_cve_2023_43208.rb",
     "name": "Mirth Connect Deserialization RCE"
   },
   {
     "cve": "CVE-2023-43208",
     "module": "exploit_multi/http/mirth_connect_cve_2023_43208",
-    "path": "/modules/exploits/multi/http/mirth_connect_cve_2023_43208.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/mirth_connect_cve_2023_43208.rb",
     "name": "Mirth Connect Deserialization RCE"
   },
   {
     "cve": "CVE-2023-32315",
     "module": "exploit_multi/http/openfire_auth_bypass_rce_cve_2023_32315",
-    "path": "/modules/exploits/multi/http/openfire_auth_bypass_rce_cve_2023_32315.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/openfire_auth_bypass_rce_cve_2023_32315.rb",
     "name": "Openfire authentication bypass with RCE plugin"
   },
   {
     "cve": "CVE-2023-27350",
     "module": "exploit_multi/http/papercut_ng_auth_bypass",
-    "path": "/modules/exploits/multi/http/papercut_ng_auth_bypass.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/papercut_ng_auth_bypass.rb",
     "name": "PaperCut PaperCutNG Authentication Bypass"
   },
   {
     "cve": "CVE-2023-30625",
     "module": "exploit_multi/http/rudder_server_sqli_rce",
-    "path": "/modules/exploits/multi/http/rudder_server_sqli_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/rudder_server_sqli_rce.rb",
     "name": "Rudder Server SQLI Remote Code Execution"
   },
   {
     "cve": "CVE-2023-34124",
     "module": "exploit_multi/http/sonicwall_shell_injection_cve_2023_34124",
-    "path": "/modules/exploits/multi/http/sonicwall_shell_injection_cve_2023_34124.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sonicwall_shell_injection_cve_2023_34124.rb",
     "name": "Sonicwall"
   },
   {
     "cve": "CVE-2023-34133",
     "module": "exploit_multi/http/sonicwall_shell_injection_cve_2023_34124",
-    "path": "/modules/exploits/multi/http/sonicwall_shell_injection_cve_2023_34124.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sonicwall_shell_injection_cve_2023_34124.rb",
     "name": "Sonicwall"
   },
   {
     "cve": "CVE-2023-34132",
     "module": "exploit_multi/http/sonicwall_shell_injection_cve_2023_34124",
-    "path": "/modules/exploits/multi/http/sonicwall_shell_injection_cve_2023_34124.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sonicwall_shell_injection_cve_2023_34124.rb",
     "name": "Sonicwall"
   },
   {
     "cve": "CVE-2023-34127",
     "module": "exploit_multi/http/sonicwall_shell_injection_cve_2023_34124",
-    "path": "/modules/exploits/multi/http/sonicwall_shell_injection_cve_2023_34124.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sonicwall_shell_injection_cve_2023_34124.rb",
     "name": "Sonicwall"
   },
   {
     "cve": "CVE-2023-27372",
     "module": "exploit_multi/http/spip_rce_form",
-    "path": "/modules/exploits/multi/http/spip_rce_form.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/spip_rce_form.rb",
     "name": "SPIP form PHP Injection"
   },
   {
     "cve": "CVE-2023-32707",
     "module": "exploit_multi/http/splunk_privilege_escalation_cve_2023_32707",
-    "path": "/modules/exploits/multi/http/splunk_privilege_escalation_cve_2023_32707.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/splunk_privilege_escalation_cve_2023_32707.rb",
     "name": "Splunk \"edit_user\" Capability Privilege Escalation"
   },
   {
     "cve": "CVE-2023-22952",
     "module": "exploit_multi/http/sugarcrm_webshell_cve_2023_22952",
-    "path": "/modules/exploits/multi/http/sugarcrm_webshell_cve_2023_22952.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sugarcrm_webshell_cve_2023_22952.rb",
     "name": "SugarCRM unauthenticated Remote Code Execution (RCE)"
   },
   {
     "cve": "CVE-2023-43654",
     "module": "exploit_multi/http/torchserver_cve_2023_43654",
-    "path": "/modules/exploits/multi/http/torchserver_cve_2023_43654.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/torchserver_cve_2023_43654.rb",
     "name": "PyTorch Model Server Registration and Deserialization RCE"
   },
   {
     "cve": "CVE-2023-41425",
     "module": "exploit_multi/http/wondercms_rce",
-    "path": "/modules/exploits/multi/http/wondercms_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/wondercms_rce.rb",
     "name": "WonderCMS Remote Code Execution"
   },
   {
     "cve": "CVE-2023-6553",
     "module": "exploit_multi/http/wp_backup_migration_php_filter",
-    "path": "/modules/exploits/multi/http/wp_backup_migration_php_filter.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/wp_backup_migration_php_filter.rb",
     "name": "WordPress Backup Migration Plugin PHP Filter Chain RCE"
   },
   {
     "cve": "CVE-2023-2068",
     "module": "exploit_multi/http/wp_plugin_fma_shortcode_unauth_rce",
-    "path": "/modules/exploits/multi/http/wp_plugin_fma_shortcode_unauth_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/wp_plugin_fma_shortcode_unauth_rce.rb",
     "name": "Wordpress File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution through shortcode"
   },
   {
     "cve": "CVE-2023-5360",
     "module": "exploit_multi/http/wp_royal_elementor_addons_rce",
-    "path": "/modules/exploits/multi/http/wp_royal_elementor_addons_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/wp_royal_elementor_addons_rce.rb",
     "name": "WordPress Royal Elementor Addons RCE"
   },
   {
     "cve": "CVE-2023-21839",
     "module": "exploit_multi/iiop/cve_2023_21839_weblogic_rce",
-    "path": "/modules/exploits/multi/iiop/cve_2023_21839_weblogic_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/iiop/cve_2023_21839_weblogic_rce.rb",
     "name": "Oracle Weblogic PreAuth Remote Command Execution via ForeignOpaqueReference IIOP Deserialization"
   },
   {
     "cve": "CVE-2023-46604",
     "module": "exploit_multi/misc/apache_activemq_rce_cve_2023_46604",
-    "path": "/modules/exploits/multi/misc/apache_activemq_rce_cve_2023_46604.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/apache_activemq_rce_cve_2023_46604.rb",
     "name": "Apache ActiveMQ Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-26469",
     "module": "exploit_multi/php/jorani_path_trav",
-    "path": "/modules/exploits/multi/php/jorani_path_trav.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/php/jorani_path_trav.rb",
     "name": "Jorani unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-27253",
     "module": "exploit_unix/http/pfsense_config_data_exec",
-    "path": "/modules/exploits/unix/http/pfsense_config_data_exec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/http/pfsense_config_data_exec.rb",
     "name": "pfSense Restore RRD Data Command Injection"
   },
   {
     "cve": "CVE-2023-46214",
     "module": "exploit_unix/http/splunk_xslt_authenticated_rce",
-    "path": "/modules/exploits/unix/http/splunk_xslt_authenticated_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/http/splunk_xslt_authenticated_rce.rb",
     "name": "Splunk Authenticated XSLT Upload RCE"
   },
   {
     "cve": "CVE-2023-26482",
     "module": "exploit_unix/webapp/nextcloud_workflows_rce",
-    "path": "/modules/exploits/unix/webapp/nextcloud_workflows_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/nextcloud_workflows_rce.rb",
     "name": "Nextcloud Workflows Remote Code Execution"
   },
   {
     "cve": "CVE-2023-26035",
     "module": "exploit_unix/webapp/zoneminder_snapshots",
-    "path": "/modules/exploits/unix/webapp/zoneminder_snapshots.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/zoneminder_snapshots.rb",
     "name": "ZoneMinder Snapshots Command Injection"
   },
   {
     "cve": "CVE-2023-34634",
     "module": "exploit_windows/fileformat/greenshot_deserialize_cve_2023_34634",
-    "path": "/modules/exploits/windows/fileformat/greenshot_deserialize_cve_2023_34634.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/greenshot_deserialize_cve_2023_34634.rb",
     "name": "Greenshot .NET Deserialization Fileformat Exploit"
   },
   {
     "cve": "CVE-2023-38146",
     "module": "exploit_windows/fileformat/theme_dll_hijack_cve_2023_38146",
-    "path": "/modules/exploits/windows/fileformat/theme_dll_hijack_cve_2023_38146.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/theme_dll_hijack_cve_2023_38146.rb",
     "name": "Themebleed- Windows 11 Themes Arbitrary Code Execution CVE-2023-38146"
   },
   {
     "cve": "CVE-2023-38831",
     "module": "exploit_windows/fileformat/winrar_cve_2023_38831",
-    "path": "/modules/exploits/windows/fileformat/winrar_cve_2023_38831.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/winrar_cve_2023_38831.rb",
     "name": "WinRAR CVE-2023-38831 Exploit"
   },
   {
     "cve": "CVE-2023-48788",
     "module": "exploit_windows/http/forticlient_ems_fctid_sqli",
-    "path": "/modules/exploits/windows/http/forticlient_ems_fctid_sqli.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/forticlient_ems_fctid_sqli.rb",
     "name": "FortiNet FortiClient Endpoint Management Server FCTID SQLi to RCE"
   },
   {
     "cve": "CVE-2023-28128",
     "module": "exploit_windows/http/ivanti_avalanche_filestoreconfig_upload",
-    "path": "/modules/exploits/windows/http/ivanti_avalanche_filestoreconfig_upload.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/ivanti_avalanche_filestoreconfig_upload.rb",
     "name": "Ivanti Avalanche FileStoreConfig File Upload"
   },
   {
     "cve": "CVE-2023-40498",
     "module": "exploit_windows/http/lg_simple_editor_rce",
-    "path": "/modules/exploits/windows/http/lg_simple_editor_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/lg_simple_editor_rce.rb",
     "name": "LG Simple Editor Remote Code Execution"
   },
   {
     "cve": "CVE-2023-40504",
     "module": "exploit_windows/http/lg_simple_editor_rce_uploadvideo",
-    "path": "/modules/exploits/windows/http/lg_simple_editor_rce_uploadvideo.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/lg_simple_editor_rce_uploadvideo.rb",
     "name": "LG Simple Editor Command Injection (CVE-2023-40504)"
   },
   {
     "cve": "CVE-2023-29084",
     "module": "exploit_windows/http/manageengine_admanager_plus_cve_2023_29084_auth_cmd_injection",
-    "path": "/modules/exploits/windows/http/manageengine_admanager_plus_cve_2023_29084_auth_cmd_injection.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/manageengine_admanager_plus_cve_2023_29084_auth_cmd_injection.rb",
     "name": "ManageEngine ADManager Plus ChangePasswordAction Authenticated Command Injection"
   },
   {
     "cve": "CVE-2023-34362",
     "module": "exploit_windows/http/moveit_cve_2023_34362",
-    "path": "/modules/exploits/windows/http/moveit_cve_2023_34362.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/moveit_cve_2023_34362.rb",
     "name": "MOVEit SQL Injection vulnerability"
   },
   {
     "cve": "CVE-2023-38096",
     "module": "exploit_windows/http/netgear_nms_rce",
-    "path": "/modules/exploits/windows/http/netgear_nms_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/netgear_nms_rce.rb",
     "name": "NETGEAR ProSafe Network Management System 300 Arbitrary File Upload"
   },
   {
     "cve": "CVE-2023-38098",
     "module": "exploit_windows/http/netgear_nms_rce",
-    "path": "/modules/exploits/windows/http/netgear_nms_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/netgear_nms_rce.rb",
     "name": "NETGEAR ProSafe Network Management System 300 Arbitrary File Upload"
   },
   {
     "cve": "CVE-2023-32781",
     "module": "exploit_windows/http/prtg_authenticated_rce_cve_2023_32781",
-    "path": "/modules/exploits/windows/http/prtg_authenticated_rce_cve_2023_32781.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/prtg_authenticated_rce_cve_2023_32781.rb",
     "name": "PRTG CVE-2023-32781 Authenticated RCE"
   },
   {
     "cve": "CVE-2023-29357",
     "module": "exploit_windows/http/sharepoint_dynamic_proxy_generator_auth_bypass_rce",
-    "path": "/modules/exploits/windows/http/sharepoint_dynamic_proxy_generator_auth_bypass_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/sharepoint_dynamic_proxy_generator_auth_bypass_rce.rb",
     "name": "Sharepoint Dynamic Proxy Generator Unauth RCE"
   },
   {
     "cve": "CVE-2023-24955",
     "module": "exploit_windows/http/sharepoint_dynamic_proxy_generator_auth_bypass_rce",
-    "path": "/modules/exploits/windows/http/sharepoint_dynamic_proxy_generator_auth_bypass_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/sharepoint_dynamic_proxy_generator_auth_bypass_rce.rb",
     "name": "Sharepoint Dynamic Proxy Generator Unauth RCE"
   },
   {
     "cve": "CVE-2023-40044",
     "module": "exploit_windows/http/ws_ftp_rce_cve_2023_40044",
-    "path": "/modules/exploits/windows/http/ws_ftp_rce_cve_2023_40044.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/ws_ftp_rce_cve_2023_40044.rb",
     "name": "Progress Software WS_FTP Unauthenticated Remote Code Execution"
   },
   {
     "cve": "CVE-2023-21768",
     "module": "exploit_windows/local/cve_2023_21768_afd_lpe",
-    "path": "/modules/exploits/windows/local/cve_2023_21768_afd_lpe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/cve_2023_21768_afd_lpe.rb",
     "name": "Ancillary Function Driver (AFD) for WinSock Elevation of Privilege"
   },
   {
     "cve": "CVE-2023-28252",
     "module": "exploit_windows/local/cve_2023_28252_clfs_driver",
-    "path": "/modules/exploits/windows/local/cve_2023_28252_clfs_driver.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/cve_2023_28252_clfs_driver.rb",
     "name": "Windows Common Log File System Driver (clfs.sys) Elevation of Privilege Vulnerability"
   },
   {
     "cve": "CVE-2023-36874",
     "module": "exploit_windows/local/win_error_cve_2023_36874",
-    "path": "/modules/exploits/windows/local/win_error_cve_2023_36874.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/win_error_cve_2023_36874.rb",
     "name": "Microsoft Error Reporting Local Privilege Elevation Vulnerability"
   },
   {
     "cve": "CVE-2023-1133",
     "module": "exploit_windows/misc/delta_electronics_infrasuite_deserialization",
-    "path": "/modules/exploits/windows/misc/delta_electronics_infrasuite_deserialization.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/delta_electronics_infrasuite_deserialization.rb",
     "name": "Delta Electronics InfraSuite Device Master Deserialization"
   },
   {
     "cve": "CVE-2023-28324",
     "module": "exploit_windows/misc/ivanti_agent_portal_cmdexec",
-    "path": "/modules/exploits/windows/misc/ivanti_agent_portal_cmdexec.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/ivanti_agent_portal_cmdexec.rb",
     "name": "Ivanti EPM Agent Portal Command Execution"
   },
   {
     "cve": "CVE-2023-32560",
     "module": "exploit_windows/misc/ivanti_avalanche_mdm_bof",
-    "path": "/modules/exploits/windows/misc/ivanti_avalanche_mdm_bof.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/ivanti_avalanche_mdm_bof.rb",
     "name": "Ivanti Avalanche MDM Buffer Overflow"
   },
   {
     "cve": "CVE-2023-31902",
     "module": "exploit_windows/misc/mobile_mouse_rce",
-    "path": "/modules/exploits/windows/misc/mobile_mouse_rce.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/misc/mobile_mouse_rce.rb",
     "name": "Mobile Mouse RCE"
   },
   {
     "cve": "CVE-2023-28384",
     "module": "exploit_windows/scada/mypro_cmdexe",
-    "path": "/modules/exploits/windows/scada/mypro_cmdexe.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/scada/mypro_cmdexe.rb",
     "name": "mySCADA MyPRO Authenticated Command Injection (CVE-2023-28384)"
   },
   {
     "cve": "CVE-2023-22649",
     "module": "post_linux/gather/rancher_audit_log_leak",
-    "path": "/modules/post/linux/gather/rancher_audit_log_leak.rb",
+    "path": "https://github.com/rapid7/metasploit-framework/blob/master/modules/post/linux/gather/rancher_audit_log_leak.rb",
     "name": "Rancher Audit Log Sensitive Information Leak"
   }
 ]
