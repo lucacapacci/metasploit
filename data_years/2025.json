@@ -1,0 +1,914 @@
+[
+  {
+    "cve": "CVE-2025-64446",
+    "module": "auxiliary_admin/http/fortinet_fortiweb_create_admin",
+    "path": "/modules/auxiliary/admin/http/fortinet_fortiweb_create_admin.rb",
+    "name": "Fortinet FortiWeb create new local admin"
+  },
+  {
+    "cve": "CVE-2025-34120",
+    "module": "auxiliary_admin/http/limesurvey_file_download",
+    "path": "/modules/auxiliary/admin/http/limesurvey_file_download.rb",
+    "name": "Limesurvey Unauthenticated File Download"
+  },
+  {
+    "cve": "CVE-2025-24865",
+    "module": "auxiliary_admin/scada/mypro_mgr_creds",
+    "path": "/modules/auxiliary/admin/scada/mypro_mgr_creds.rb",
+    "name": "mySCADA myPRO Manager Credential Harvester (CVE-2025-24865 and CVE-2025-22896)"
+  },
+  {
+    "cve": "CVE-2025-22896",
+    "module": "auxiliary_admin/scada/mypro_mgr_creds",
+    "path": "/modules/auxiliary/admin/scada/mypro_mgr_creds.rb",
+    "name": "mySCADA myPRO Manager Credential Harvester (CVE-2025-24865 and CVE-2025-22896)"
+  },
+  {
+    "cve": "CVE-2025-2825",
+    "module": "auxiliary_gather/crushftp_authbypass_cve_2025_2825",
+    "path": "/modules/auxiliary/gather/crushftp_authbypass_cve_2025_2825.rb",
+    "name": "CrushFTP AWS4-HMAC Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2025-66039",
+    "module": "auxiliary_gather/freepbx_custom_extension_injection",
+    "path": "/modules/auxiliary/gather/freepbx_custom_extension_injection.rb",
+    "name": "FreePBX Custom Extension SQL Injection"
+  },
+  {
+    "cve": "CVE-2025-61675",
+    "module": "auxiliary_gather/freepbx_custom_extension_injection",
+    "path": "/modules/auxiliary/gather/freepbx_custom_extension_injection.rb",
+    "name": "FreePBX Custom Extension SQL Injection"
+  },
+  {
+    "cve": "CVE-2025-58360",
+    "module": "auxiliary_gather/geoserver_wms_getmap_xxe_file_read",
+    "path": "/modules/auxiliary/gather/geoserver_wms_getmap_xxe_file_read.rb",
+    "name": "GeoServer WMS GetMap XXE Arbitrary File Read"
+  },
+  {
+    "cve": "CVE-2025-11371",
+    "module": "auxiliary_gather/gladinet_storage_path_traversal_cve_2025_11371",
+    "path": "/modules/auxiliary/gather/gladinet_storage_path_traversal_cve_2025_11371.rb",
+    "name": "Gladinet CentreStack/Triofox Path Traversal"
+  },
+  {
+    "cve": "CVE-2025-24799",
+    "module": "auxiliary_gather/glpi_inventory_plugin_unauth_sqli",
+    "path": "/modules/auxiliary/gather/glpi_inventory_plugin_unauth_sqli.rb",
+    "name": "GLPI Inventory Plugin Unauthenticated Blind Boolean SQLi"
+  },
+  {
+    "cve": "CVE-2025-6095",
+    "module": "auxiliary_gather/jasmin_ransomware_sqli",
+    "path": "/modules/auxiliary/gather/jasmin_ransomware_sqli.rb",
+    "name": "Jasmin Ransomware Web Server Unauthenticated SQL Injection"
+  },
+  {
+    "cve": "CVE-2025-49136",
+    "module": "auxiliary_gather/listmonk_env_disclosure",
+    "path": "/modules/auxiliary/gather/listmonk_env_disclosure.rb",
+    "name": "Listmonk Insecure Sprig Template Functions Environment Disclosure"
+  },
+  {
+    "cve": "CVE-2025-34076",
+    "module": "auxiliary_gather/microweber_lfi",
+    "path": "/modules/auxiliary/gather/microweber_lfi.rb",
+    "name": "Microweber CMS v1.2.10 Local File Inclusion (Authenticated)"
+  },
+  {
+    "cve": "CVE-2025-2264",
+    "module": "auxiliary_gather/pacsserver_traversal",
+    "path": "/modules/auxiliary/gather/pacsserver_traversal.rb",
+    "name": "Sante PACS Server Path Traversal (CVE-2025-2264)"
+  },
+  {
+    "cve": "CVE-2025-13315",
+    "module": "auxiliary_gather/twonky_authbypass_logleak",
+    "path": "/modules/auxiliary/gather/twonky_authbypass_logleak.rb",
+    "name": "Twonky Server Log Leak Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2025-13316",
+    "module": "auxiliary_gather/twonky_authbypass_logleak",
+    "path": "/modules/auxiliary/gather/twonky_authbypass_logleak.rb",
+    "name": "Twonky Server Log Leak Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2025-2011",
+    "module": "auxiliary_gather/wp_depicter_sqli_cve_2025_2011",
+    "path": "/modules/auxiliary/gather/wp_depicter_sqli_cve_2025_2011.rb",
+    "name": "WordPress Depicter Plugin SQL Injection (CVE-2025-2011)"
+  },
+  {
+    "cve": "CVE-2025-34110",
+    "module": "auxiliary_scanner/ftp/colorado_ftp_traversal",
+    "path": "/modules/auxiliary/scanner/ftp/colorado_ftp_traversal.rb",
+    "name": "ColoradoFTP Server 1.3 Build 8 Directory Traversal Information Disclosure"
+  },
+  {
+    "cve": "CVE-2025-34118",
+    "module": "auxiliary_scanner/http/linknat_vos_traversal",
+    "path": "/modules/auxiliary/scanner/http/linknat_vos_traversal.rb",
+    "name": "Linknat Vos Manager Traversal"
+  },
+  {
+    "cve": "CVE-2025-9316",
+    "module": "auxiliary_scanner/http/nable_ncentral_auth_bypass_xxe",
+    "path": "/modules/auxiliary/scanner/http/nable_ncentral_auth_bypass_xxe.rb",
+    "name": "N-able N-Central Authentication Bypass and XXE Scanner"
+  },
+  {
+    "cve": "CVE-2025-11700",
+    "module": "auxiliary_scanner/http/nable_ncentral_auth_bypass_xxe",
+    "path": "/modules/auxiliary/scanner/http/nable_ncentral_auth_bypass_xxe.rb",
+    "name": "N-able N-Central Authentication Bypass and XXE Scanner"
+  },
+  {
+    "cve": "CVE-2025-34126",
+    "module": "auxiliary_scanner/http/rips_traversal",
+    "path": "/modules/auxiliary/scanner/http/rips_traversal.rb",
+    "name": "RIPS Scanner Directory Traversal"
+  },
+  {
+    "cve": "CVE-2025-34098",
+    "module": "auxiliary_scanner/http/riverbed_steelhead_vcx_file_read",
+    "path": "/modules/auxiliary/scanner/http/riverbed_steelhead_vcx_file_read.rb",
+    "name": "Riverbed SteelHead VCX File Read"
+  },
+  {
+    "cve": "CVE-2025-47608",
+    "module": "auxiliary_scanner/http/wp_abandoned_cart_sqli",
+    "path": "/modules/auxiliary/scanner/http/wp_abandoned_cart_sqli.rb",
+    "name": "Abandoned Cart for WooCommerce SQLi Scanner"
+  },
+  {
+    "cve": "CVE-2025-30005",
+    "module": "auxiliary_scanner/http/xorcom_completepbx_diagnostics_file_read",
+    "path": "/modules/auxiliary/scanner/http/xorcom_completepbx_diagnostics_file_read.rb",
+    "name": "Xorcom CompletePBX Arbitrary File Read and Deletion via systemDataFileName"
+  },
+  {
+    "cve": "CVE-2025-2292",
+    "module": "auxiliary_scanner/http/xorcom_completepbx_file_disclosure",
+    "path": "/modules/auxiliary/scanner/http/xorcom_completepbx_file_disclosure.rb",
+    "name": "Xorcom CompletePBX Authenticated File Disclosure via Backup Download"
+  },
+  {
+    "cve": "CVE-2025-34119",
+    "module": "auxiliary_scanner/misc/easycafe_server_fileaccess",
+    "path": "/modules/auxiliary/scanner/misc/easycafe_server_fileaccess.rb",
+    "name": "EasyCafe Server Remote File Access"
+  },
+  {
+    "cve": "CVE-2025-14847",
+    "module": "auxiliary_scanner/mongodb/cve_2025_14847_mongobleed",
+    "path": "/modules/auxiliary/scanner/mongodb/cve_2025_14847_mongobleed.rb",
+    "name": "MongoDB Memory Disclosure (CVE-2025-14847) - Mongobleed"
+  },
+  {
+    "cve": "CVE-2025-14558",
+    "module": "exploit_freebsd/misc/rtsold_dnssl_cmdinject",
+    "path": "/modules/exploits/freebsd/misc/rtsold_dnssl_cmdinject.rb",
+    "name": "FreeBSD rtsold/rtsol DNSSL Command Injection"
+  },
+  {
+    "cve": "CVE-2025-34152",
+    "module": "exploit_linux/http/aitemi_m300_time_rce",
+    "path": "/modules/exploits/linux/http/aitemi_m300_time_rce.rb",
+    "name": "Shenzhen Aitemi M300 Wi-Fi Repeater Unauthenticated RCE (time param)"
+  },
+  {
+    "cve": "CVE-2025-27520",
+    "module": "exploit_linux/http/bentoml_rce_cve_2025_27520",
+    "path": "/modules/exploits/linux/http/bentoml_rce_cve_2025_27520.rb",
+    "name": "BentoML RCE"
+  },
+  {
+    "cve": "CVE-2025-32375",
+    "module": "exploit_linux/http/bentoml_runner_server_rce_cve_2025_32375",
+    "path": "/modules/exploits/linux/http/bentoml_runner_server_rce_cve_2025_32375.rb",
+    "name": "BentoML's runner server RCE"
+  },
+  {
+    "cve": "CVE-2025-1094",
+    "module": "exploit_linux/http/beyondtrust_pra_rs_unauth_rce",
+    "path": "/modules/exploits/linux/http/beyondtrust_pra_rs_unauth_rce.rb",
+    "name": "BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-5946",
+    "module": "exploit_linux/http/centreon_auth_rce_cve_2025_5946",
+    "path": "/modules/exploits/linux/http/centreon_auth_rce_cve_2025_5946.rb",
+    "name": "Centreon authenticated command injection leading to RCE via broker engine \"reload\" parameter"
+  },
+  {
+    "cve": "CVE-2025-67888",
+    "module": "exploit_linux/http/control_web_panel_api_cmd_exec",
+    "path": "/modules/exploits/linux/http/control_web_panel_api_cmd_exec.rb",
+    "name": "Control Web Panel /admin/index.php Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-32432",
+    "module": "exploit_linux/http/craftcms_preauth_rce_cve_2025_32432",
+    "path": "/modules/exploits/linux/http/craftcms_preauth_rce_cve_2025_32432.rb",
+    "name": "Craft CMS Image Transform Preauth RCE (CVE-2025-32432)"
+  },
+  {
+    "cve": "CVE-2025-34102",
+    "module": "exploit_linux/http/crypttech_cryptolog_login_exec",
+    "path": "/modules/exploits/linux/http/crypttech_cryptolog_login_exec.rb",
+    "name": "Crypttech CryptoLog Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34125",
+    "module": "exploit_linux/http/dlink_dspw110_cookie_noauth_exec",
+    "path": "/modules/exploits/linux/http/dlink_dspw110_cookie_noauth_exec.rb",
+    "name": "D-Link Cookie Command Execution"
+  },
+  {
+    "cve": "CVE-2025-0655",
+    "module": "exploit_linux/http/dtale_rce_cve_2025_0655",
+    "path": "/modules/exploits/linux/http/dtale_rce_cve_2025_0655.rb",
+    "name": "D-Tale RCE"
+  },
+  {
+    "cve": "CVE-2025-64446",
+    "module": "exploit_linux/http/fortinet_fortiweb_rce",
+    "path": "/modules/exploits/linux/http/fortinet_fortiweb_rce.rb",
+    "name": "Fortinet FortiWeb unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-58034",
+    "module": "exploit_linux/http/fortinet_fortiweb_rce",
+    "path": "/modules/exploits/linux/http/fortinet_fortiweb_rce.rb",
+    "name": "Fortinet FortiWeb unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-37164",
+    "module": "exploit_linux/http/hpe_oneview_rce",
+    "path": "/modules/exploits/linux/http/hpe_oneview_rce.rb",
+    "name": "HPE OneView unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-2611",
+    "module": "exploit_linux/http/ictbroadcast_unauth_cookie",
+    "path": "/modules/exploits/linux/http/ictbroadcast_unauth_cookie.rb",
+    "name": "ICTBroadcast Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34116",
+    "module": "exploit_linux/http/ipfire_proxy_exec",
+    "path": "/modules/exploits/linux/http/ipfire_proxy_exec.rb",
+    "name": "IPFire proxy.cgi RCE"
+  },
+  {
+    "cve": "CVE-2025-22457",
+    "module": "exploit_linux/http/ivanti_connect_secure_stack_overflow_rce_cve_2025_22457",
+    "path": "/modules/exploits/linux/http/ivanti_connect_secure_stack_overflow_rce_cve_2025_22457.rb",
+    "name": "Ivanti Connect Secure Unauthenticated Remote Code Execution via Stack-based Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2025-34037",
+    "module": "exploit_linux/http/linksys_themoon_exec",
+    "path": "/modules/exploits/linux/http/linksys_themoon_exec.rb",
+    "name": "Linksys E-Series TheMoon Remote Command Injection"
+  },
+  {
+    "cve": "CVE-2025-60787",
+    "module": "exploit_linux/http/motioneye_auth_rce_cve_2025_60787",
+    "path": "/modules/exploits/linux/http/motioneye_auth_rce_cve_2025_60787.rb",
+    "name": "Remote Code Execution Vulnerability in MotionEye Frontend (CVE-2025-60787)"
+  },
+  {
+    "cve": "CVE-2025-34115",
+    "module": "exploit_linux/http/op5_config_exec",
+    "path": "/modules/exploits/linux/http/op5_config_exec.rb",
+    "name": "op5 v7.1.9 Configuration Command Execution"
+  },
+  {
+    "cve": "CVE-2025-5306",
+    "module": "exploit_linux/http/pandora_fms_auth_netflow_rce",
+    "path": "/modules/exploits/linux/http/pandora_fms_auth_netflow_rce.rb",
+    "name": "PandoraFMS Netflow Authenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-4653",
+    "module": "exploit_linux/http/pandora_itsm_auth_rce_cve_2025_4653",
+    "path": "/modules/exploits/linux/http/pandora_itsm_auth_rce_cve_2025_4653.rb",
+    "name": "Pandora ITSM authenticated command injection leading to RCE via the backup function"
+  },
+  {
+    "cve": "CVE-2025-34088",
+    "module": "exploit_linux/http/pandora_ping_cmd_exec",
+    "path": "/modules/exploits/linux/http/pandora_ping_cmd_exec.rb",
+    "name": "Pandora FMS Ping Authenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-52367",
+    "module": "exploit_linux/http/pivotx_index_php_overwrite",
+    "path": "/modules/exploits/linux/http/pivotx_index_php_overwrite.rb",
+    "name": "PivotX Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34112",
+    "module": "exploit_linux/http/riverbed_netprofiler_netexpress_exec",
+    "path": "/modules/exploits/linux/http/riverbed_netprofiler_netexpress_exec.rb",
+    "name": "Riverbed SteelCentral NetProfiler/NetExpress Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-49619",
+    "module": "exploit_linux/http/skyvern_ssti_cve_2025_49619",
+    "path": "/modules/exploits/linux/http/skyvern_ssti_cve_2025_49619.rb",
+    "name": "Skyvern SSTI Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34113",
+    "module": "exploit_linux/http/tiki_calendar_exec",
+    "path": "/modules/exploits/linux/http/tiki_calendar_exec.rb",
+    "name": "Tiki-Wiki CMS Calendar Command Execution"
+  },
+  {
+    "cve": "CVE-2025-24016",
+    "module": "exploit_linux/http/wazuh_auth_rce_cve_2025_24016",
+    "path": "/modules/exploits/linux/http/wazuh_auth_rce_cve_2025_24016.rb",
+    "name": "Wazuh server remote code execution caused by an unsafe deserialization vulnerability."
+  },
+  {
+    "cve": "CVE-2025-34103",
+    "module": "exploit_linux/http/wipg1000_cmd_injection",
+    "path": "/modules/exploits/linux/http/wipg1000_cmd_injection.rb",
+    "name": "WePresent WiPG-1000 Command Injection"
+  },
+  {
+    "cve": "CVE-2025-30004",
+    "module": "exploit_linux/http/xorcom_completepbx_scheduler",
+    "path": "/modules/exploits/linux/http/xorcom_completepbx_scheduler.rb",
+    "name": "Xorcom CompletePBX Authenticated Command Injection via Task Scheduler"
+  },
+  {
+    "cve": "CVE-2025-32463",
+    "module": "exploit_linux/local/sudo_chroot_cve_2025_32463",
+    "path": "/modules/exploits/linux/local/sudo_chroot_cve_2025_32463.rb",
+    "name": "Sudo Chroot 1.9.17 Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2025-34082",
+    "module": "exploit_linux/misc/igel_command_injection",
+    "path": "/modules/exploits/linux/misc/igel_command_injection.rb",
+    "name": "IGEL OS Secure VNC/Terminal Command Injection RCE"
+  },
+  {
+    "cve": "CVE-2025-34117",
+    "module": "exploit_linux/misc/netcore_udp_53413_backdoor",
+    "path": "/modules/exploits/linux/misc/netcore_udp_53413_backdoor.rb",
+    "name": "Netcore Router Udp 53413 Backdoor"
+  },
+  {
+    "cve": "CVE-2025-32433",
+    "module": "exploit_linux/ssh/ssh_erlangotp_rce",
+    "path": "/modules/exploits/linux/ssh/ssh_erlangotp_rce.rb",
+    "name": "Erlang OTP Pre-Auth RCE Scanner and Exploit"
+  },
+  {
+    "cve": "CVE-2025-34433",
+    "module": "exploit_multi/http/avideo_notify_ffmpeg_unauth_rce",
+    "path": "/modules/exploits/multi/http/avideo_notify_ffmpeg_unauth_rce.rb",
+    "name": "AVideo notify.ffmpeg.json.php Unauthenticated RCE via Salt Discovery"
+  },
+  {
+    "cve": "CVE-2025-34441",
+    "module": "exploit_multi/http/avideo_notify_ffmpeg_unauth_rce",
+    "path": "/modules/exploits/multi/http/avideo_notify_ffmpeg_unauth_rce.rb",
+    "name": "AVideo notify.ffmpeg.json.php Unauthenticated RCE via Salt Discovery"
+  },
+  {
+    "cve": "CVE-2025-34442",
+    "module": "exploit_multi/http/avideo_notify_ffmpeg_unauth_rce",
+    "path": "/modules/exploits/multi/http/avideo_notify_ffmpeg_unauth_rce.rb",
+    "name": "AVideo notify.ffmpeg.json.php Unauthenticated RCE via Salt Discovery"
+  },
+  {
+    "cve": "CVE-2025-34100",
+    "module": "exploit_multi/http/builderengine_upload_exec",
+    "path": "/modules/exploits/multi/http/builderengine_upload_exec.rb",
+    "name": "BuilderEngine Arbitrary File Upload Vulnerability and execution"
+  },
+  {
+    "cve": "CVE-2025-24367",
+    "module": "exploit_multi/http/cacti_graph_template_rce",
+    "path": "/modules/exploits/multi/http/cacti_graph_template_rce.rb",
+    "name": "Cacti Graph Template authenticated RCE versions prior to 1.2.29"
+  },
+  {
+    "cve": "CVE-2025-62521",
+    "module": "exploit_multi/http/churchcrm_install_unauth_rce",
+    "path": "/modules/exploits/multi/http/churchcrm_install_unauth_rce.rb",
+    "name": "ChurchCRM Unauthenticated RCE 6.8.0"
+  },
+  {
+    "cve": "CVE-2025-3096",
+    "module": "exploit_multi/http/clinic_pms_sqli_to_rce",
+    "path": "/modules/exploits/multi/http/clinic_pms_sqli_to_rce.rb",
+    "name": "Clinic's Patient Management System 1.0 - Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-8943",
+    "module": "exploit_multi/http/flowise_custommcp_rce",
+    "path": "/modules/exploits/multi/http/flowise_custommcp_rce.rb",
+    "name": "Flowise Custom MCP Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-59528",
+    "module": "exploit_multi/http/flowise_js_rce",
+    "path": "/modules/exploits/multi/http/flowise_js_rce.rb",
+    "name": "Flowise JS Injection RCE"
+  },
+  {
+    "cve": "CVE-2025-66294",
+    "module": "exploit_multi/http/grav_twig_ssti_sandbox_bypass_rce",
+    "path": "/modules/exploits/multi/http/grav_twig_ssti_sandbox_bypass_rce.rb",
+    "name": "Grav CMS Twig SSTI Authenticated Sandbox Bypass RCE"
+  },
+  {
+    "cve": "CVE-2025-66301",
+    "module": "exploit_multi/http/grav_twig_ssti_sandbox_bypass_rce",
+    "path": "/modules/exploits/multi/http/grav_twig_ssti_sandbox_bypass_rce.rb",
+    "name": "Grav CMS Twig SSTI Authenticated Sandbox Bypass RCE"
+  },
+  {
+    "cve": "CVE-2025-47916",
+    "module": "exploit_multi/http/invision_customcss_rce",
+    "path": "/modules/exploits/multi/http/invision_customcss_rce.rb",
+    "name": "Invision Community 5.0.6 customCss RCE"
+  },
+  {
+    "cve": "CVE-2025-4427",
+    "module": "exploit_multi/http/ivanti_epmm_rce_cve_2025_4427_4428",
+    "path": "/modules/exploits/multi/http/ivanti_epmm_rce_cve_2025_4427_4428.rb",
+    "name": "Ivanti EPMM Authentication Bypass for Expression Language Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-4428",
+    "module": "exploit_multi/http/ivanti_epmm_rce_cve_2025_4427_4428",
+    "path": "/modules/exploits/multi/http/ivanti_epmm_rce_cve_2025_4427_4428.rb",
+    "name": "Ivanti EPMM Authentication Bypass for Expression Language Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-3248",
+    "module": "exploit_multi/http/langflow_unauth_rce_cve_2025_3248",
+    "path": "/modules/exploits/multi/http/langflow_unauth_rce_cve_2025_3248.rb",
+    "name": "Langflow AI RCE"
+  },
+  {
+    "cve": "CVE-2025-34300",
+    "module": "exploit_multi/http/lighthouse_studio_unauth_rce_cve_2025_34300",
+    "path": "/modules/exploits/multi/http/lighthouse_studio_unauth_rce_cve_2025_34300.rb",
+    "name": "Template Injection Vulnerability in Sawtooth Software's Lighthouse Studio (CVE-2025-34300)"
+  },
+  {
+    "cve": "CVE-2025-34074",
+    "module": "exploit_multi/http/lucee_scheduled_job",
+    "path": "/modules/exploits/multi/http/lucee_scheduled_job.rb",
+    "name": "Lucee Authenticated Scheduled Job Code Execution"
+  },
+  {
+    "cve": "CVE-2025-54236",
+    "module": "exploit_multi/http/magento_sessionreaper",
+    "path": "/modules/exploits/multi/http/magento_sessionreaper.rb",
+    "name": "Magento SessionReaper"
+  },
+  {
+    "cve": "CVE-2025-34095",
+    "module": "exploit_multi/http/makoserver_cmd_exec",
+    "path": "/modules/exploits/multi/http/makoserver_cmd_exec.rb",
+    "name": "Mako Server v2.5, 2.6 OS Command Injection RCE"
+  },
+  {
+    "cve": "CVE-2025-34299",
+    "module": "exploit_multi/http/monsta_ftp_downloadfile_rce",
+    "path": "/modules/exploits/multi/http/monsta_ftp_downloadfile_rce.rb",
+    "name": "Monsta FTP downloadFile Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-68613",
+    "module": "exploit_multi/http/n8n_workflow_expression_rce",
+    "path": "/modules/exploits/multi/http/n8n_workflow_expression_rce.rb",
+    "name": "n8n Workflow Expression Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-61882",
+    "module": "exploit_multi/http/oracle_ebs_cve_2025_61882_exploit_rce",
+    "path": "/modules/exploits/multi/http/oracle_ebs_cve_2025_61882_exploit_rce.rb",
+    "name": "Oracle E-Business Suite CVE-2025-61882 RCE"
+  },
+  {
+    "cve": "CVE-2025-2945",
+    "module": "exploit_multi/http/pgadmin_query_tool_authenticated",
+    "path": "/modules/exploits/multi/http/pgadmin_query_tool_authenticated.rb",
+    "name": "pgAdmin Query Tool authenticated RCE (CVE-2025-2945)"
+  },
+  {
+    "cve": "CVE-2025-34061",
+    "module": "exploit_multi/http/phpstudy_backdoor_rce",
+    "path": "/modules/exploits/multi/http/phpstudy_backdoor_rce.rb",
+    "name": "PHPStudy Backdoor Remote Code execution"
+  },
+  {
+    "cve": "CVE-2025-34097",
+    "module": "exploit_multi/http/processmaker_plugin_upload",
+    "path": "/modules/exploits/multi/http/processmaker_plugin_upload.rb",
+    "name": "ProcessMaker Plugin Upload"
+  },
+  {
+    "cve": "CVE-2025-55182",
+    "module": "exploit_multi/http/react2shell_unauth_rce_cve_2025_55182",
+    "path": "/modules/exploits/multi/http/react2shell_unauth_rce_cve_2025_55182.rb",
+    "name": "Unauthenticated RCE in React Server Components (React2Shell)"
+  },
+  {
+    "cve": "CVE-2025-66478",
+    "module": "exploit_multi/http/react2shell_unauth_rce_cve_2025_55182",
+    "path": "/modules/exploits/multi/http/react2shell_unauth_rce_cve_2025_55182.rb",
+    "name": "Unauthenticated RCE in React Server Components (React2Shell)"
+  },
+  {
+    "cve": "CVE-2025-49113",
+    "module": "exploit_multi/http/roundcube_auth_rce_cve_2025_49113",
+    "path": "/modules/exploits/multi/http/roundcube_auth_rce_cve_2025_49113.rb",
+    "name": "Roundcube Post-Auth RCE via PHP Object Deserialization"
+  },
+  {
+    "cve": "CVE-2025-52691",
+    "module": "exploit_multi/http/smartermail_guid_file_upload",
+    "path": "/modules/exploits/multi/http/smartermail_guid_file_upload.rb",
+    "name": "SmarterTools SmarterMail GUID File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2025-40536",
+    "module": "exploit_multi/http/solarwinds_webhelpdesk_rce",
+    "path": "/modules/exploits/multi/http/solarwinds_webhelpdesk_rce.rb",
+    "name": "SolarWinds Web Help Desk unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-40551",
+    "module": "exploit_multi/http/solarwinds_webhelpdesk_rce",
+    "path": "/modules/exploits/multi/http/solarwinds_webhelpdesk_rce.rb",
+    "name": "SolarWinds Web Help Desk unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-62368",
+    "module": "exploit_multi/http/taiga_tribe_gig_unserial",
+    "path": "/modules/exploits/multi/http/taiga_tribe_gig_unserial.rb",
+    "name": "Taiga tribe_gig authenticated unserialize remote code execution"
+  },
+  {
+    "cve": "CVE-2025-24813",
+    "module": "exploit_multi/http/tomcat_partial_put_deserialization",
+    "path": "/modules/exploits/multi/http/tomcat_partial_put_deserialization.rb",
+    "name": "Tomcat Partial PUT Java Deserialization"
+  },
+  {
+    "cve": "CVE-2025-34121",
+    "module": "exploit_multi/http/uptime_file_upload_1",
+    "path": "/modules/exploits/multi/http/uptime_file_upload_1.rb",
+    "name": "Idera Up.Time Monitoring Station 7.0 post2file.php Arbitrary File Upload"
+  },
+  {
+    "cve": "CVE-2025-48827",
+    "module": "exploit_multi/http/vbulletin_replace_ad_template_rce",
+    "path": "/modules/exploits/multi/http/vbulletin_replace_ad_template_rce.rb",
+    "name": "vBulletin replaceAdTemplate Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-48828",
+    "module": "exploit_multi/http/vbulletin_replace_ad_template_rce",
+    "path": "/modules/exploits/multi/http/vbulletin_replace_ad_template_rce.rb",
+    "name": "vBulletin replaceAdTemplate Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-8518",
+    "module": "exploit_multi/http/vvveb_auth_rce_cve_2025_8518",
+    "path": "/modules/exploits/multi/http/vvveb_auth_rce_cve_2025_8518.rb",
+    "name": "Remote Code Execution Vulnerability in Vvveb"
+  },
+  {
+    "cve": "CVE-2025-32778",
+    "module": "exploit_multi/http/web_check_screenshot_rce",
+    "path": "/modules/exploits/multi/http/web_check_screenshot_rce.rb",
+    "name": "Web-Check Screenshot API Command Injection RCE"
+  },
+  {
+    "cve": "CVE-2025-47812",
+    "module": "exploit_multi/http/wingftp_null_byte_rce",
+    "path": "/modules/exploits/multi/http/wingftp_null_byte_rce.rb",
+    "name": "Wing FTP Server NULL-byte Authentication Bypass (CVE-2025-47812)"
+  },
+  {
+    "cve": "CVE-2025-13486",
+    "module": "exploit_multi/http/wp_acf_extended_rce",
+    "path": "/modules/exploits/multi/http/wp_acf_extended_rce.rb",
+    "name": "WordPress ACF Extended Unauthenticated RCE via prepare_form()"
+  },
+  {
+    "cve": "CVE-2025-11749",
+    "module": "exploit_multi/http/wp_ai_engine_mcp_rce",
+    "path": "/modules/exploits/multi/http/wp_ai_engine_mcp_rce.rb",
+    "name": "WordPress AI Engine Plugin MCP Unauthenticated Admin Creation to RCE"
+  },
+  {
+    "cve": "CVE-2025-8489",
+    "module": "exploit_multi/http/wp_king_addons_privilege_escalation",
+    "path": "/modules/exploits/multi/http/wp_king_addons_privilege_escalation.rb",
+    "name": "WordPress King Addons for Elementor Unauthenticated Privilege Escalation to RCE"
+  },
+  {
+    "cve": "CVE-2025-7441",
+    "module": "exploit_multi/http/wp_plugin_story_chef_file_upload",
+    "path": "/modules/exploits/multi/http/wp_plugin_story_chef_file_upload.rb",
+    "name": "WordPress StoryChief Plugin Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-3102",
+    "module": "exploit_multi/http/wp_suretriggers_auth_bypass",
+    "path": "/modules/exploits/multi/http/wp_suretriggers_auth_bypass.rb",
+    "name": "WordPress SureTriggers (aka OttoKit) Combined Auth Bypass (CVE-2025-3102, CVE-2025-27007)"
+  },
+  {
+    "cve": "CVE-2025-27007",
+    "module": "exploit_multi/http/wp_suretriggers_auth_bypass",
+    "path": "/modules/exploits/multi/http/wp_suretriggers_auth_bypass.rb",
+    "name": "WordPress SureTriggers (aka OttoKit) Combined Auth Bypass (CVE-2025-3102, CVE-2025-27007)"
+  },
+  {
+    "cve": "CVE-2025-2563",
+    "module": "exploit_multi/http/wp_user_registration_membership_escalation",
+    "path": "/modules/exploits/multi/http/wp_user_registration_membership_escalation.rb",
+    "name": "WP User Registration and Membership Unauthenticated Privilege Escalation (CVE-2025-2563)"
+  },
+  {
+    "cve": "CVE-2025-24893",
+    "module": "exploit_multi/http/xwiki_unauth_rce_cve_2025_24893",
+    "path": "/modules/exploits/multi/http/xwiki_unauth_rce_cve_2025_24893.rb",
+    "name": "Remote Code Execution Vulnerability in XWiki Platform (CVE-2025-24893)"
+  },
+  {
+    "cve": "CVE-2025-34089",
+    "module": "exploit_osx/http/remote_for_mac_rce",
+    "path": "/modules/exploits/osx/http/remote_for_mac_rce.rb",
+    "name": "Remote for Mac Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2025-66039",
+    "module": "exploit_unix/http/freepbx_custom_extension_rce",
+    "path": "/modules/exploits/unix/http/freepbx_custom_extension_rce.rb",
+    "name": "FreePBX endpoint SQLi to RCE"
+  },
+  {
+    "cve": "CVE-2025-61675",
+    "module": "exploit_unix/http/freepbx_custom_extension_rce",
+    "path": "/modules/exploits/unix/http/freepbx_custom_extension_rce.rb",
+    "name": "FreePBX endpoint SQLi to RCE"
+  },
+  {
+    "cve": "CVE-2025-66039",
+    "module": "exploit_unix/http/freepbx_firmware_file_upload",
+    "path": "/modules/exploits/unix/http/freepbx_firmware_file_upload.rb",
+    "name": "FreePBX firmware file upload"
+  },
+  {
+    "cve": "CVE-2025-61678",
+    "module": "exploit_unix/http/freepbx_firmware_file_upload",
+    "path": "/modules/exploits/unix/http/freepbx_firmware_file_upload.rb",
+    "name": "FreePBX firmware file upload"
+  },
+  {
+    "cve": "CVE-2025-57819",
+    "module": "exploit_unix/http/freepbx_unauth_sqli_to_rce",
+    "path": "/modules/exploits/unix/http/freepbx_unauth_sqli_to_rce.rb",
+    "name": "FreePBX ajax.php unauthenticated SQLi to RCE"
+  },
+  {
+    "cve": "CVE-2025-34073",
+    "module": "exploit_unix/http/maltrail_rce",
+    "path": "/modules/exploits/unix/http/maltrail_rce.rb",
+    "name": "Maltrail Unauthenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2025-34087",
+    "module": "exploit_unix/http/pihole_whitelist_exec",
+    "path": "/modules/exploits/unix/http/pihole_whitelist_exec.rb",
+    "name": "Pi-Hole Whitelist OS Command Execution"
+  },
+  {
+    "cve": "CVE-2025-34093",
+    "module": "exploit_unix/misc/polycom_hdx_traceroute_exec",
+    "path": "/modules/exploits/unix/misc/polycom_hdx_traceroute_exec.rb",
+    "name": "Polycom Shell HDX Series Traceroute Command Execution"
+  },
+  {
+    "cve": "CVE-2025-34086",
+    "module": "exploit_unix/webapp/bolt_authenticated_rce",
+    "path": "/modules/exploits/unix/webapp/bolt_authenticated_rce.rb",
+    "name": "Bolt CMS 3.7.0 - Authenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34104",
+    "module": "exploit_unix/webapp/piwik_superuser_plugin_upload",
+    "path": "/modules/exploits/unix/webapp/piwik_superuser_plugin_upload.rb",
+    "name": "Piwik Superuser Plugin Upload"
+  },
+  {
+    "cve": "CVE-2025-25034",
+    "module": "exploit_unix/webapp/sugarcrm_rest_unserialize_exec",
+    "path": "/modules/exploits/unix/webapp/sugarcrm_rest_unserialize_exec.rb",
+    "name": "SugarCRM REST Unserialize PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34111",
+    "module": "exploit_unix/webapp/tikiwiki_upload_exec",
+    "path": "/modules/exploits/unix/webapp/tikiwiki_upload_exec.rb",
+    "name": "Tiki Wiki Unauthenticated File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2025-34099",
+    "module": "exploit_unix/webapp/vicidial_user_authorization_unauth_cmd_exec",
+    "path": "/modules/exploits/unix/webapp/vicidial_user_authorization_unauth_cmd_exec.rb",
+    "name": "VICIdial user_authorization Unauthenticated Command Execution"
+  },
+  {
+    "cve": "CVE-2025-34077",
+    "module": "exploit_unix/webapp/wp_pie_register_bypass_rce",
+    "path": "/modules/exploits/unix/webapp/wp_pie_register_bypass_rce.rb",
+    "name": "WordPress Plugin Pie Register Auth Bypass to RCE"
+  },
+  {
+    "cve": "CVE-2025-34128",
+    "module": "exploit_windows/browser/x360_video_player_set_text_bof",
+    "path": "/modules/exploits/windows/browser/x360_video_player_set_text_bof.rb",
+    "name": "X360 VideoPlayer ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2025-34124",
+    "module": "exploit_windows/fileformat/homm3_h3m",
+    "path": "/modules/exploits/windows/fileformat/homm3_h3m.rb",
+    "name": "Heroes of Might and Magic III .h3m Map file Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2025-34106",
+    "module": "exploit_windows/fileformat/shaper_pdf_bof",
+    "path": "/modules/exploits/windows/fileformat/shaper_pdf_bof.rb",
+    "name": "PDF Shaper Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2025-33053",
+    "module": "exploit_windows/fileformat/unc_url_cve_2025_33053",
+    "path": "/modules/exploits/windows/fileformat/unc_url_cve_2025_33053.rb",
+    "name": "CVE-2025-33053 Exploit via Malicious .URL File and WebDAV"
+  },
+  {
+    "cve": "CVE-2025-34123",
+    "module": "exploit_windows/fileformat/videocharge_studio",
+    "path": "/modules/exploits/windows/fileformat/videocharge_studio.rb",
+    "name": "VideoCharge Studio Buffer Overflow (SEH)"
+  },
+  {
+    "cve": "CVE-2025-34107",
+    "module": "exploit_windows/ftp/winaxe_server_ready",
+    "path": "/modules/exploits/windows/ftp/winaxe_server_ready.rb",
+    "name": "WinaXe 7.7 FTP Client Remote Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2025-47812",
+    "module": "exploit_windows/ftp/wing_ftp_admin_exec",
+    "path": "/modules/exploits/windows/ftp/wing_ftp_admin_exec.rb",
+    "name": "Wing FTP Server Authenticated Command Execution"
+  },
+  {
+    "cve": "CVE-2025-57790",
+    "module": "exploit_windows/http/commvault_rce_cve_2025_57790_cve_2025_57791",
+    "path": "/modules/exploits/windows/http/commvault_rce_cve_2025_57790_cve_2025_57791.rb",
+    "name": "Commvault Command-Line Argument Injection to Traversal Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-57791",
+    "module": "exploit_windows/http/commvault_rce_cve_2025_57790_cve_2025_57791",
+    "path": "/modules/exploits/windows/http/commvault_rce_cve_2025_57790_cve_2025_57791.rb",
+    "name": "Commvault Command-Line Argument Injection to Traversal Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-57788",
+    "module": "exploit_windows/http/commvault_rce_cve_2025_57790_cve_2025_57791",
+    "path": "/modules/exploits/windows/http/commvault_rce_cve_2025_57790_cve_2025_57791.rb",
+    "name": "Commvault Command-Line Argument Injection to Traversal Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34108",
+    "module": "exploit_windows/http/disk_pulse_enterprise_bof",
+    "path": "/modules/exploits/windows/http/disk_pulse_enterprise_bof.rb",
+    "name": "Disk Pulse Enterprise Login Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2025-34105",
+    "module": "exploit_windows/http/diskboss_get_bof",
+    "path": "/modules/exploits/windows/http/diskboss_get_bof.rb",
+    "name": "DiskBoss Enterprise GET Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2025-34096",
+    "module": "exploit_windows/http/easyfilesharing_post",
+    "path": "/modules/exploits/windows/http/easyfilesharing_post.rb",
+    "name": "Easy File Sharing HTTP Server 7.2 POST Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2025-30406",
+    "module": "exploit_windows/http/gladinet_viewstate_deserialization_cve_2025_30406",
+    "path": "/modules/exploits/windows/http/gladinet_viewstate_deserialization_cve_2025_30406.rb",
+    "name": "Gladinet CentreStack/Triofox ASP.NET ViewState Deserialization"
+  },
+  {
+    "cve": "CVE-2025-34079",
+    "module": "exploit_windows/http/nscp_authenticated_rce",
+    "path": "/modules/exploits/windows/http/nscp_authenticated_rce.rb",
+    "name": "NSClient++ 0.5.2.35 - ExternalScripts Authenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34101",
+    "module": "exploit_windows/http/serviio_checkstreamurl_cmd_exec",
+    "path": "/modules/exploits/windows/http/serviio_checkstreamurl_cmd_exec.rb",
+    "name": "Serviio Media Server checkStreamUrl Command Execution"
+  },
+  {
+    "cve": "CVE-2025-49704",
+    "module": "exploit_windows/http/sharepoint_toolpane_rce",
+    "path": "/modules/exploits/windows/http/sharepoint_toolpane_rce.rb",
+    "name": "Microsoft SharePoint Server ToolPane Unauthenticated Remote Code Execution (aka ToolShell)"
+  },
+  {
+    "cve": "CVE-2025-49706",
+    "module": "exploit_windows/http/sharepoint_toolpane_rce",
+    "path": "/modules/exploits/windows/http/sharepoint_toolpane_rce.rb",
+    "name": "Microsoft SharePoint Server ToolPane Unauthenticated Remote Code Execution (aka ToolShell)"
+  },
+  {
+    "cve": "CVE-2025-53770",
+    "module": "exploit_windows/http/sharepoint_toolpane_rce",
+    "path": "/modules/exploits/windows/http/sharepoint_toolpane_rce.rb",
+    "name": "Microsoft SharePoint Server ToolPane Unauthenticated Remote Code Execution (aka ToolShell)"
+  },
+  {
+    "cve": "CVE-2025-53771",
+    "module": "exploit_windows/http/sharepoint_toolpane_rce",
+    "path": "/modules/exploits/windows/http/sharepoint_toolpane_rce.rb",
+    "name": "Microsoft SharePoint Server ToolPane Unauthenticated Remote Code Execution (aka ToolShell)"
+  },
+  {
+    "cve": "CVE-2025-27218",
+    "module": "exploit_windows/http/sitecore_xp_cve_2025_27218",
+    "path": "/modules/exploits/windows/http/sitecore_xp_cve_2025_27218.rb",
+    "name": "Sitecore CVE-2025-27218 BinaryFormatter Deserialization Exploit"
+  },
+  {
+    "cve": "CVE-2025-34510",
+    "module": "exploit_windows/http/sitecore_xp_cve_2025_34510",
+    "path": "/modules/exploits/windows/http/sitecore_xp_cve_2025_34510.rb",
+    "name": "Sitecore XP CVE-2025-34510 Post-Authentication Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34511",
+    "module": "exploit_windows/http/sitecore_xp_cve_2025_34511",
+    "path": "/modules/exploits/windows/http/sitecore_xp_cve_2025_34511.rb",
+    "name": "Sitecore XP CVE-2025-34511 Post-Authentication File Upload"
+  },
+  {
+    "cve": "CVE-2025-59287",
+    "module": "exploit_windows/http/wsus_deserialization_rce",
+    "path": "/modules/exploits/windows/http/wsus_deserialization_rce.rb",
+    "name": "Windows Server Update Service Deserialization Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2025-34078",
+    "module": "exploit_windows/local/nscp_pe",
+    "path": "/modules/exploits/windows/local/nscp_pe.rb",
+    "name": "NSClient++ 0.5.2.35 - Privilege escalation"
+  },
+  {
+    "cve": "CVE-2025-34109",
+    "module": "exploit_windows/local/panda_psevents",
+    "path": "/modules/exploits/windows/local/panda_psevents.rb",
+    "name": "Panda Security PSEvents Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2025-21293",
+    "module": "exploit_windows/local/service_permissions",
+    "path": "/modules/exploits/windows/local/service_permissions.rb",
+    "name": "Windows Escalate Service Permissions Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2025-34127",
+    "module": "exploit_windows/misc/achat_bof",
+    "path": "/modules/exploits/windows/misc/achat_bof.rb",
+    "name": "Achat Unicode SEH Buffer Overflow"
+  }
+]

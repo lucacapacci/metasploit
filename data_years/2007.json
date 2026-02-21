@@ -1,0 +1,686 @@
+[
+  {
+    "cve": "CVE-2007-4387",
+    "module": "auxiliary_admin/2wire/xslt_password_reset",
+    "path": "/modules/auxiliary/admin/2wire/xslt_password_reset.rb",
+    "name": "2Wire Cross-Site Request Forgery Password Reset Vulnerability"
+  },
+  {
+    "cve": "CVE-2007-4915",
+    "module": "auxiliary_admin/http/intersil_pass_reset",
+    "path": "/modules/auxiliary/admin/http/intersil_pass_reset.rb",
+    "name": "Intersil (Boa) HTTPd Basic Authentication Password Reset"
+  },
+  {
+    "cve": "CVE-2007-6507",
+    "module": "auxiliary_admin/serverprotect/file",
+    "path": "/modules/auxiliary/admin/serverprotect/file.rb",
+    "name": "TrendMicro ServerProtect File Access"
+  },
+  {
+    "cve": "CVE-2007-6750",
+    "module": "auxiliary_dos/http/slowloris",
+    "path": "/modules/auxiliary/dos/http/slowloris.py",
+    "name": "Slowloris Denial of Service Attack"
+  },
+  {
+    "cve": "CVE-2007-2446",
+    "module": "auxiliary_dos/samba/lsa_addprivs_heap",
+    "path": "/modules/auxiliary/dos/samba/lsa_addprivs_heap.rb",
+    "name": "Samba lsa_io_privilege_set Heap Overflow"
+  },
+  {
+    "cve": "CVE-2007-2446",
+    "module": "auxiliary_dos/samba/lsa_transnames_heap",
+    "path": "/modules/auxiliary/dos/samba/lsa_transnames_heap.rb",
+    "name": "Samba lsa_io_trans_names Heap Overflow"
+  },
+  {
+    "cve": "CVE-2007-6509",
+    "module": "auxiliary_dos/windows/appian/appian_bpm",
+    "path": "/modules/auxiliary/dos/windows/appian/appian_bpm.rb",
+    "name": "Appian Enterprise Business Suite 5.6 SP1 DoS"
+  },
+  {
+    "cve": "CVE-2007-3389",
+    "module": "auxiliary_dos/wireshark/chunked",
+    "path": "/modules/auxiliary/dos/wireshark/chunked.rb",
+    "name": "Wireshark chunked_encoding_dissector Function DOS"
+  },
+  {
+    "cve": "CVE-2007-0977",
+    "module": "auxiliary_scanner/lotus/lotus_domino_hashes",
+    "path": "/modules/auxiliary/scanner/lotus/lotus_domino_hashes.rb",
+    "name": "Lotus Domino Password Hash Collector"
+  },
+  {
+    "cve": "CVE-2007-5511",
+    "module": "auxiliary_sqli/oracle/lt_findricset_cursor",
+    "path": "/modules/auxiliary/sqli/oracle/lt_findricset_cursor.rb",
+    "name": "Oracle DB SQL Injection via SYS.LT.FINDRICSET Evil Cursor Method"
+  },
+  {
+    "cve": "CVE-2007-3010",
+    "module": "exploit_linux/http/alcatel_omnipcx_mastercgi_exec",
+    "path": "/modules/exploits/linux/http/alcatel_omnipcx_mastercgi_exec.rb",
+    "name": "Alcatel-Lucent OmniPCX Enterprise masterCGI Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2007-5208",
+    "module": "exploit_linux/misc/hplip_hpssd_exec",
+    "path": "/modules/exploits/linux/misc/hplip_hpssd_exec.rb",
+    "name": "HPLIP hpssd.py From Address Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_linux/misc/ib_inet_connect",
+    "path": "/modules/exploits/linux/misc/ib_inet_connect.rb",
+    "name": "Borland InterBase INET_connect() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_linux/misc/ib_jrd8_create_database",
+    "path": "/modules/exploits/linux/misc/ib_jrd8_create_database.rb",
+    "name": "Borland InterBase jrd8_create_database() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5244",
+    "module": "exploit_linux/misc/ib_open_marker_file",
+    "path": "/modules/exploits/linux/misc/ib_open_marker_file.rb",
+    "name": "Borland InterBase open_marker_file() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_linux/misc/ib_pwd_db_aliased",
+    "path": "/modules/exploits/linux/misc/ib_pwd_db_aliased.rb",
+    "name": "Borland InterBase PWD_db_aliased() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3280",
+    "module": "exploit_linux/postgres/postgres_payload",
+    "path": "/modules/exploits/linux/postgres/postgres_payload.rb",
+    "name": "PostgreSQL for Linux Payload Execution"
+  },
+  {
+    "cve": "CVE-2007-2446",
+    "module": "exploit_linux/samba/lsa_transnames_heap",
+    "path": "/modules/exploits/linux/samba/lsa_transnames_heap.rb",
+    "name": "Samba lsa_io_trans_names Heap Overflow"
+  },
+  {
+    "cve": "CVE-2007-2175",
+    "module": "exploit_multi/browser/qtjava_pointer",
+    "path": "/modules/exploits/multi/browser/qtjava_pointer.rb",
+    "name": "Apple QTJava toQTPointer() Arbitrary Memory Access"
+  },
+  {
+    "cve": "CVE-2007-1036",
+    "module": "exploit_multi/http/jboss_invoke_deploy",
+    "path": "/modules/exploits/multi/http/jboss_invoke_deploy.rb",
+    "name": "JBoss DeploymentFileRepository WAR Deployment (via JMXInvokerServlet)"
+  },
+  {
+    "cve": "CVE-2007-1036",
+    "module": "exploit_multi/http/jboss_maindeployer",
+    "path": "/modules/exploits/multi/http/jboss_maindeployer.rb",
+    "name": "JBoss JMX Console Deployer Upload and Execute"
+  },
+  {
+    "cve": "CVE-2007-1286",
+    "module": "exploit_multi/php/php_unserialize_zval_cookie",
+    "path": "/modules/exploits/multi/php/php_unserialize_zval_cookie.rb",
+    "name": "PHP 4 unserialize() ZVAL Reference Counter Overflow (Cookie)"
+  },
+  {
+    "cve": "CVE-2007-2447",
+    "module": "exploit_multi/samba/usermap_script",
+    "path": "/modules/exploits/multi/samba/usermap_script.rb",
+    "name": "Samba \"username map script\" Command Execution"
+  },
+  {
+    "cve": "CVE-2007-5863",
+    "module": "exploit_osx/browser/software_update",
+    "path": "/modules/exploits/osx/browser/software_update.rb",
+    "name": "Apple OS X Software Update Command Execution"
+  },
+  {
+    "cve": "CVE-2007-6165",
+    "module": "exploit_osx/email/mailapp_image_exec",
+    "path": "/modules/exploits/osx/email/mailapp_image_exec.rb",
+    "name": "Mail.app Image Attachment Command Execution"
+  },
+  {
+    "cve": "CVE-2007-2386",
+    "module": "exploit_osx/mdns/upnp_location",
+    "path": "/modules/exploits/osx/mdns/upnp_location.rb",
+    "name": "Mac OS X mDNSResponder UPnP Location Overflow"
+  },
+  {
+    "cve": "CVE-2007-6166",
+    "module": "exploit_osx/rtsp/quicktime_rtsp_content_type",
+    "path": "/modules/exploits/osx/rtsp/quicktime_rtsp_content_type.rb",
+    "name": "MacOS X QuickTime RTSP Content-Type Overflow"
+  },
+  {
+    "cve": "CVE-2007-2446",
+    "module": "exploit_osx/samba/lsa_transnames_heap",
+    "path": "/modules/exploits/osx/samba/lsa_transnames_heap.rb",
+    "name": "Samba lsa_io_trans_names Heap Overflow"
+  },
+  {
+    "cve": "CVE-2007-2446",
+    "module": "exploit_solaris/samba/lsa_transnames_heap",
+    "path": "/modules/exploits/solaris/samba/lsa_transnames_heap.rb",
+    "name": "Samba lsa_io_trans_names Heap Overflow"
+  },
+  {
+    "cve": "CVE-2007-0882",
+    "module": "exploit_solaris/telnet/fuser",
+    "path": "/modules/exploits/solaris/telnet/fuser.rb",
+    "name": "Sun Solaris Telnet Remote Authentication Bypass Vulnerability"
+  },
+  {
+    "cve": "CVE-2007-4560",
+    "module": "exploit_unix/smtp/clamav_milter_blackhole",
+    "path": "/modules/exploits/unix/smtp/clamav_milter_blackhole.rb",
+    "name": "ClamAV Milter Blackhole-Mode Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2007-5423",
+    "module": "exploit_unix/webapp/tikiwiki_graph_formula_exec",
+    "path": "/modules/exploits/unix/webapp/tikiwiki_graph_formula_exec.rb",
+    "name": "TikiWiki tiki-graph_formula Remote PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2007-1070",
+    "module": "exploit_windows/antivirus/trendmicro_serverprotect",
+    "path": "/modules/exploits/windows/antivirus/trendmicro_serverprotect.rb",
+    "name": "Trend Micro ServerProtect 5.58 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2508",
+    "module": "exploit_windows/antivirus/trendmicro_serverprotect_createbinding",
+    "path": "/modules/exploits/windows/antivirus/trendmicro_serverprotect_createbinding.rb",
+    "name": "Trend Micro ServerProtect 5.58 CreateBinding() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2508",
+    "module": "exploit_windows/antivirus/trendmicro_serverprotect_earthagent",
+    "path": "/modules/exploits/windows/antivirus/trendmicro_serverprotect_earthagent.rb",
+    "name": "Trend Micro ServerProtect 5.58 EarthAgent.EXE Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4620",
+    "module": "exploit_windows/brightstor/etrust_itm_alert",
+    "path": "/modules/exploits/windows/brightstor/etrust_itm_alert.rb",
+    "name": "Computer Associates Alert Notification Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5082",
+    "module": "exploit_windows/brightstor/hsmserver",
+    "path": "/modules/exploits/windows/brightstor/hsmserver.rb",
+    "name": "CA BrightStor HSM Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-0449",
+    "module": "exploit_windows/brightstor/lgserver",
+    "path": "/modules/exploits/windows/brightstor/lgserver.rb",
+    "name": "CA BrightStor ARCserve for Laptops and Desktops LGServer Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3216",
+    "module": "exploit_windows/brightstor/lgserver_multi",
+    "path": "/modules/exploits/windows/brightstor/lgserver_multi.rb",
+    "name": "CA BrightStor ARCserve for Laptops and Desktops LGServer Multiple Commands Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5003",
+    "module": "exploit_windows/brightstor/lgserver_rxrlogin",
+    "path": "/modules/exploits/windows/brightstor/lgserver_rxrlogin.rb",
+    "name": "CA BrightStor ARCserve for Laptops and Desktops LGServer Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3216",
+    "module": "exploit_windows/brightstor/lgserver_rxssetdatagrowthscheduleandfilter",
+    "path": "/modules/exploits/windows/brightstor/lgserver_rxssetdatagrowthscheduleandfilter.rb",
+    "name": "CA BrightStor ARCserve for Laptops and Desktops LGServer rxsSetDataGrowthScheduleAndFilter Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3216",
+    "module": "exploit_windows/brightstor/lgserver_rxsuselicenseini",
+    "path": "/modules/exploits/windows/brightstor/lgserver_rxsuselicenseini.rb",
+    "name": "CA BrightStor ARCserve for Laptops and Desktops LGServer Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2139",
+    "module": "exploit_windows/brightstor/mediasrv_sunrpc",
+    "path": "/modules/exploits/windows/brightstor/mediasrv_sunrpc.rb",
+    "name": "CA BrightStor ArcServe Media Service Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-0169",
+    "module": "exploit_windows/brightstor/message_engine",
+    "path": "/modules/exploits/windows/brightstor/message_engine.rb",
+    "name": "CA BrightStor ARCserve Message Engine Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5755",
+    "module": "exploit_windows/browser/aol_ampx_convertfile",
+    "path": "/modules/exploits/windows/browser/aol_ampx_convertfile.rb",
+    "name": "AOL Radio AmpX ActiveX Control ConvertFile() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-0015",
+    "module": "exploit_windows/browser/apple_quicktime_rtsp",
+    "path": "/modules/exploits/windows/browser/apple_quicktime_rtsp.rb",
+    "name": "Apple QuickTime 7.1.3 RTSP URI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5107",
+    "module": "exploit_windows/browser/ask_shortformat",
+    "path": "/modules/exploits/windows/browser/ask_shortformat.rb",
+    "name": "Ask.com Toolbar askBar.dll ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3435",
+    "module": "exploit_windows/browser/barcode_ax49",
+    "path": "/modules/exploits/windows/browser/barcode_ax49.rb",
+    "name": "RKD Software BarCodeAx.dll v4.9 ActiveX Remote Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4466",
+    "module": "exploit_windows/browser/ea_checkrequirements",
+    "path": "/modules/exploits/windows/browser/ea_checkrequirements.rb",
+    "name": "Electronic Arts SnoopyCtrl ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2919",
+    "module": "exploit_windows/browser/ebook_flipviewer_fviewerloading",
+    "path": "/modules/exploits/windows/browser/ebook_flipviewer_fviewerloading.rb",
+    "name": "FlipViewer FViewerLoading ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3605",
+    "module": "exploit_windows/browser/enjoysapgui_preparetoposthtml",
+    "path": "/modules/exploits/windows/browser/enjoysapgui_preparetoposthtml.rb",
+    "name": "EnjoySAP SAP GUI ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5779",
+    "module": "exploit_windows/browser/gom_openurl",
+    "path": "/modules/exploits/windows/browser/gom_openurl.rb",
+    "name": "GOM Player ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-6530",
+    "module": "exploit_windows/browser/hp_loadrunner_addfolder",
+    "path": "/modules/exploits/windows/browser/hp_loadrunner_addfolder.rb",
+    "name": "HP LoadRunner 9.0 ActiveX AddFolder Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1819",
+    "module": "exploit_windows/browser/hpmqc_progcolor",
+    "path": "/modules/exploits/windows/browser/hpmqc_progcolor.rb",
+    "name": "HP Mercury Quality Center ActiveX Control ProgColor Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4474",
+    "module": "exploit_windows/browser/ibmlotusdomino_dwa_uploadmodule",
+    "path": "/modules/exploits/windows/browser/ibmlotusdomino_dwa_uploadmodule.rb",
+    "name": "IBM Lotus Domino Web Access Upload Module Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5217",
+    "module": "exploit_windows/browser/kazaa_altnet_heap",
+    "path": "/modules/exploits/windows/browser/kazaa_altnet_heap.rb",
+    "name": "Kazaa Altnet Download Manager ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2918",
+    "module": "exploit_windows/browser/logitechvideocall_start",
+    "path": "/modules/exploits/windows/browser/logitechvideocall_start.rb",
+    "name": "Logitech VideoCall ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5660",
+    "module": "exploit_windows/browser/macrovision_downloadandexecute",
+    "path": "/modules/exploits/windows/browser/macrovision_downloadandexecute.rb",
+    "name": "Macrovision InstallShield Update Service Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5660",
+    "module": "exploit_windows/browser/macrovision_unsafe",
+    "path": "/modules/exploits/windows/browser/macrovision_unsafe.rb",
+    "name": "Macrovision InstallShield Update Service ActiveX Unsafe Method"
+  },
+  {
+    "cve": "CVE-2007-0038",
+    "module": "exploit_windows/browser/ms07_017_ani_loadimage_chunksize",
+    "path": "/modules/exploits/windows/browser/ms07_017_ani_loadimage_chunksize.rb",
+    "name": "Windows ANI LoadAniIcon() Chunk Size Stack Buffer Overflow (HTTP)"
+  },
+  {
+    "cve": "CVE-2007-2238",
+    "module": "exploit_windows/browser/mswhale_checkforupdates",
+    "path": "/modules/exploits/windows/browser/mswhale_checkforupdates.rb",
+    "name": "Microsoft Whale Intelligent Application Gateway ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-0018",
+    "module": "exploit_windows/browser/nctaudiofile2_setformatlikesample",
+    "path": "/modules/exploits/windows/browser/nctaudiofile2_setformatlikesample.rb",
+    "name": "NCTAudioFile2 v2.x ActiveX Control SetFormatLikeSample() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1689",
+    "module": "exploit_windows/browser/nis2004_get",
+    "path": "/modules/exploits/windows/browser/nis2004_get.rb",
+    "name": "Symantec Norton Internet Security 2004 ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4607",
+    "module": "exploit_windows/browser/oracle_dc_submittoexpress",
+    "path": "/modules/exploits/windows/browser/oracle_dc_submittoexpress.rb",
+    "name": "Oracle Document Capture 10g ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5601",
+    "module": "exploit_windows/browser/realplayer_import",
+    "path": "/modules/exploits/windows/browser/realplayer_import.rb",
+    "name": "RealPlayer ierpplug.dll ActiveX Control Playlist Name Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1559",
+    "module": "exploit_windows/browser/roxio_cineplayer",
+    "path": "/modules/exploits/windows/browser/roxio_cineplayer.rb",
+    "name": "Roxio CinePlayer ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4475",
+    "module": "exploit_windows/browser/sapgui_saveviewtosessionfile",
+    "path": "/modules/exploits/windows/browser/sapgui_saveviewtosessionfile.rb",
+    "name": "SAP AG SAPgui EAI WebViewer3D Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1682",
+    "module": "exploit_windows/browser/softartisans_getdrivename",
+    "path": "/modules/exploits/windows/browser/softartisans_getdrivename.rb",
+    "name": "SoftArtisans XFile FileManager ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5603",
+    "module": "exploit_windows/browser/sonicwall_addrouteentry",
+    "path": "/modules/exploits/windows/browser/sonicwall_addrouteentry.rb",
+    "name": "SonicWall SSL-VPN NetExtender ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-6016",
+    "module": "exploit_windows/browser/symantec_backupexec_pvcalendar",
+    "path": "/modules/exploits/windows/browser/symantec_backupexec_pvcalendar.rb",
+    "name": "Symantec BackupExec Calendar Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-0325",
+    "module": "exploit_windows/browser/trendmicro_officescan",
+    "path": "/modules/exploits/windows/browser/trendmicro_officescan.rb",
+    "name": "Trend Micro OfficeScan Client ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-0348",
+    "module": "exploit_windows/browser/windvd7_applicationtype",
+    "path": "/modules/exploits/windows/browser/windvd7_applicationtype.rb",
+    "name": "WinDVD7 IASystemInfo.DLL ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4515",
+    "module": "exploit_windows/browser/yahoomessenger_fvcom",
+    "path": "/modules/exploits/windows/browser/yahoomessenger_fvcom.rb",
+    "name": "Yahoo! Messenger YVerInfo.dll ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3147",
+    "module": "exploit_windows/browser/yahoomessenger_server",
+    "path": "/modules/exploits/windows/browser/yahoomessenger_server.rb",
+    "name": "Yahoo! Messenger 8.1.0.249 ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2987",
+    "module": "exploit_windows/browser/zenturiprogramchecker_unsafe",
+    "path": "/modules/exploits/windows/browser/zenturiprogramchecker_unsafe.rb",
+    "name": "Zenturi ProgramChecker ActiveX Control Arbitrary File Download"
+  },
+  {
+    "cve": "CVE-2007-1748",
+    "module": "exploit_windows/dcerpc/ms07_029_msdns_zonename",
+    "path": "/modules/exploits/windows/dcerpc/ms07_029_msdns_zonename.rb",
+    "name": "MS07-029 Microsoft DNS RPC Service extractQuotedChar() Overflow (TCP)"
+  },
+  {
+    "cve": "CVE-2007-3039",
+    "module": "exploit_windows/dcerpc/ms07_065_msmq",
+    "path": "/modules/exploits/windows/dcerpc/ms07_065_msmq.rb",
+    "name": "MS07-065 Microsoft Message Queueing Service DNS Name Path Overflow"
+  },
+  {
+    "cve": "CVE-2007-0038",
+    "module": "exploit_windows/email/ms07_017_ani_loadimage_chunksize",
+    "path": "/modules/exploits/windows/email/ms07_017_ani_loadimage_chunksize.rb",
+    "name": "Windows ANI LoadAniIcon() Chunk Size Stack Buffer Overflow (SMTP)"
+  },
+  {
+    "cve": "CVE-2007-1765",
+    "module": "exploit_windows/email/ms07_017_ani_loadimage_chunksize",
+    "path": "/modules/exploits/windows/email/ms07_017_ani_loadimage_chunksize.rb",
+    "name": "Windows ANI LoadAniIcon() Chunk Size Stack Buffer Overflow (SMTP)"
+  },
+  {
+    "cve": "CVE-2007-2193",
+    "module": "exploit_windows/fileformat/acdsee_xpm",
+    "path": "/modules/exploits/windows/fileformat/acdsee_xpm.rb",
+    "name": "ACDSee XPM File Section Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5659",
+    "module": "exploit_windows/fileformat/adobe_collectemailinfo",
+    "path": "/modules/exploits/windows/fileformat/adobe_collectemailinfo.rb",
+    "name": "Adobe Collab.collectEmailInfo() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3314",
+    "module": "exploit_windows/fileformat/altap_salamander_pdb",
+    "path": "/modules/exploits/windows/fileformat/altap_salamander_pdb.rb",
+    "name": "Altap Salamander 2.5 PE Viewer Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2864",
+    "module": "exploit_windows/fileformat/ca_cab",
+    "path": "/modules/exploits/windows/fileformat/ca_cab.rb",
+    "name": "CA Antivirus Engine CAB Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3068",
+    "module": "exploit_windows/fileformat/dvdx_plf_bof",
+    "path": "/modules/exploits/windows/fileformat/dvdx_plf_bof.rb",
+    "name": "DVD X Player 5.5 .plf PlayList Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4776",
+    "module": "exploit_windows/fileformat/ms_visual_basic_vbp",
+    "path": "/modules/exploits/windows/fileformat/ms_visual_basic_vbp.rb",
+    "name": "Microsoft Visual Basic VBP Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2888",
+    "module": "exploit_windows/fileformat/ultraiso_cue",
+    "path": "/modules/exploits/windows/fileformat/ultraiso_cue.rb",
+    "name": "UltraISO CUE File Parsing Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4370",
+    "module": "exploit_windows/games/racer_503beta5",
+    "path": "/modules/exploits/windows/games/racer_503beta5.rb",
+    "name": "Racer v0.5.3 Beta 5 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-0774",
+    "module": "exploit_windows/http/apache_modjk_overflow",
+    "path": "/modules/exploits/windows/http/apache_modjk_overflow.rb",
+    "name": "Apache mod_jk 1.2.20 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-6377",
+    "module": "exploit_windows/http/badblue_passthru",
+    "path": "/modules/exploits/windows/http/badblue_passthru.rb",
+    "name": "BadBlue 2.72b PassThru Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-6204",
+    "module": "exploit_windows/http/hp_nnm_openview5",
+    "path": "/modules/exploits/windows/http/hp_nnm_openview5.rb",
+    "name": "HP OpenView Network Node Manager OpenView5.exe CGI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1868",
+    "module": "exploit_windows/http/ibm_tpmfosd_overflow",
+    "path": "/modules/exploits/windows/http/ibm_tpmfosd_overflow.rb",
+    "name": "IBM TPM for OS Deployment 5.1.0.x rembo.exe Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4880",
+    "module": "exploit_windows/http/ibm_tsm_cad_header",
+    "path": "/modules/exploits/windows/http/ibm_tsm_cad_header.rb",
+    "name": "IBM Tivoli Storage Manager Express CAD Service Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3614",
+    "module": "exploit_windows/http/sapdb_webtools",
+    "path": "/modules/exploits/windows/http/sapdb_webtools.rb",
+    "name": "SAP DB 7.4 WebTools Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5067",
+    "module": "exploit_windows/http/xitami_if_mod_since",
+    "path": "/modules/exploits/windows/http/xitami_if_mod_since.rb",
+    "name": "Xitami 2.5c2 Web Server If-Modified-Since Overflow"
+  },
+  {
+    "cve": "CVE-2007-3925",
+    "module": "exploit_windows/imap/ipswitch_search",
+    "path": "/modules/exploits/windows/imap/ipswitch_search.rb",
+    "name": "Ipswitch IMail IMAP SEARCH Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1373",
+    "module": "exploit_windows/imap/mercury_login",
+    "path": "/modules/exploits/windows/imap/mercury_login.rb",
+    "name": "Mercury/32 4.01 IMAP LOGIN SEH Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-6166",
+    "module": "exploit_windows/misc/apple_quicktime_rtsp_response",
+    "path": "/modules/exploits/windows/misc/apple_quicktime_rtsp_response.rb",
+    "name": "Apple QuickTime 7.3 RTSP Response Header Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3566",
+    "module": "exploit_windows/misc/borland_interbase",
+    "path": "/modules/exploits/windows/misc/borland_interbase.rb",
+    "name": "Borland Interbase Create-Request Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_windows/misc/fb_isc_attach_database",
+    "path": "/modules/exploits/windows/misc/fb_isc_attach_database.rb",
+    "name": "Firebird Relational Database isc_attach_database() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_windows/misc/fb_isc_create_database",
+    "path": "/modules/exploits/windows/misc/fb_isc_create_database.rb",
+    "name": "Firebird Relational Database isc_create_database() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_windows/misc/fb_svc_attach",
+    "path": "/modules/exploits/windows/misc/fb_svc_attach.rb",
+    "name": "Firebird Relational Database SVC_attach() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2280",
+    "module": "exploit_windows/misc/hp_omniinet_1",
+    "path": "/modules/exploits/windows/misc/hp_omniinet_1.rb",
+    "name": "HP OmniInet.exe MSG_PROTOCOL Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3872",
+    "module": "exploit_windows/misc/hp_ovtrace",
+    "path": "/modules/exploits/windows/misc/hp_ovtrace.rb",
+    "name": "HP OpenView Operations OVTrace Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_windows/misc/ib_isc_attach_database",
+    "path": "/modules/exploits/windows/misc/ib_isc_attach_database.rb",
+    "name": "Borland InterBase isc_attach_database() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_windows/misc/ib_isc_create_database",
+    "path": "/modules/exploits/windows/misc/ib_isc_create_database.rb",
+    "name": "Borland InterBase isc_create_database() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-5243",
+    "module": "exploit_windows/misc/ib_svc_attach",
+    "path": "/modules/exploits/windows/misc/ib_svc_attach.rb",
+    "name": "Borland InterBase SVC_attach() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1674",
+    "module": "exploit_windows/misc/landesk_aolnsrvr",
+    "path": "/modules/exploits/windows/misc/landesk_aolnsrvr.rb",
+    "name": "LANDesk Management Suite 8.7 Alert Service Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-3901",
+    "module": "exploit_windows/misc/ms07_064_sami",
+    "path": "/modules/exploits/windows/misc/ms07_064_sami.rb",
+    "name": "MS07-064 Microsoft DirectX DirectShow SAMI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2711",
+    "module": "exploit_windows/misc/tiny_identd_overflow",
+    "path": "/modules/exploits/windows/misc/tiny_identd_overflow.rb",
+    "name": "TinyIdentD 2.2 Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-4006",
+    "module": "exploit_windows/misc/windows_rsh",
+    "path": "/modules/exploits/windows/misc/windows_rsh.rb",
+    "name": "Windows RSH Daemon Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1748",
+    "module": "exploit_windows/smb/ms07_029_msdns_zonename",
+    "path": "/modules/exploits/windows/smb/ms07_029_msdns_zonename.rb",
+    "name": "MS07-029 Microsoft DNS RPC Service extractQuotedChar() Overflow (SMB)"
+  },
+  {
+    "cve": "CVE-2007-4440",
+    "module": "exploit_windows/smtp/mercury_cram_md5",
+    "path": "/modules/exploits/windows/smtp/mercury_cram_md5.rb",
+    "name": "Mercury Mail SMTP AUTH CRAM-MD5 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-1435",
+    "module": "exploit_windows/tftp/dlink_long_filename",
+    "path": "/modules/exploits/windows/tftp/dlink_long_filename.rb",
+    "name": "D-Link TFTP 1.0 Long Filename Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2007-2617",
+    "module": "post_solaris/escalate/srsexec_readline",
+    "path": "/modules/post/solaris/escalate/srsexec_readline.rb",
+    "name": "Solaris srsexec Arbitrary File Reader"
+  }
+]

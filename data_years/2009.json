@@ -1,0 +1,962 @@
+[
+  {
+    "cve": "CVE-2009-4655",
+    "module": "auxiliary_admin/edirectory/edirectory_dhost_cookie",
+    "path": "/modules/auxiliary/admin/edirectory/edirectory_dhost_cookie.rb",
+    "name": "Novell eDirectory DHOST Predictable Session Cookie"
+  },
+  {
+    "cve": "CVE-2009-10005",
+    "module": "auxiliary_admin/http/contentkeeper_fileaccess",
+    "path": "/modules/auxiliary/admin/http/contentkeeper_fileaccess.rb",
+    "name": "ContentKeeper Web Appliance mimencode File Access"
+  },
+  {
+    "cve": "CVE-2009-2367",
+    "module": "auxiliary_admin/http/iomega_storcenterpro_sessionid",
+    "path": "/modules/auxiliary/admin/http/iomega_storcenterpro_sessionid.rb",
+    "name": "Iomega StorCenter Pro NAS Web Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2009-0255",
+    "module": "auxiliary_admin/http/typo3_sa_2009_001",
+    "path": "/modules/auxiliary/admin/http/typo3_sa_2009_001.rb",
+    "name": "TYPO3 sa-2009-001 Weak Encryption Key File Disclosure"
+  },
+  {
+    "cve": "CVE-2009-0815",
+    "module": "auxiliary_admin/http/typo3_sa_2009_002",
+    "path": "/modules/auxiliary/admin/http/typo3_sa_2009_002.rb",
+    "name": "Typo3 sa-2009-002 File Disclosure"
+  },
+  {
+    "cve": "CVE-2009-1977",
+    "module": "auxiliary_admin/oracle/osb_execqr2",
+    "path": "/modules/auxiliary/admin/oracle/osb_execqr2.rb",
+    "name": "Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-1978",
+    "module": "auxiliary_admin/oracle/osb_execqr2",
+    "path": "/modules/auxiliary/admin/oracle/osb_execqr2.rb",
+    "name": "Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-3591",
+    "module": "auxiliary_dos/misc/dopewars",
+    "path": "/modules/auxiliary/dos/misc/dopewars.rb",
+    "name": "Dopewars Denial of Service"
+  },
+  {
+    "cve": "CVE-2009-3563",
+    "module": "auxiliary_dos/ntp/ntpd_reserved_dos",
+    "path": "/modules/auxiliary/dos/ntp/ntpd_reserved_dos.rb",
+    "name": "NTP.org ntpd Reserved Mode Denial of Service"
+  },
+  {
+    "cve": "CVE-2009-1386",
+    "module": "auxiliary_dos/ssl/dtls_changecipherspec",
+    "path": "/modules/auxiliary/dos/ssl/dtls_changecipherspec.rb",
+    "name": "OpenSSL DTLS ChangeCipherSpec Remote DoS"
+  },
+  {
+    "cve": "CVE-2009-2514",
+    "module": "auxiliary_dos/windows/browser/ms09_065_eot_integer",
+    "path": "/modules/auxiliary/dos/windows/browser/ms09_065_eot_integer.rb",
+    "name": "Microsoft Windows EOT Font Table Directory Integer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2521",
+    "module": "auxiliary_dos/windows/ftp/iis_list_exhaustion",
+    "path": "/modules/auxiliary/dos/windows/ftp/iis_list_exhaustion.rb",
+    "name": "Microsoft IIS FTP Server LIST Stack Exhaustion"
+  },
+  {
+    "cve": "CVE-2009-3103",
+    "module": "auxiliary_dos/windows/smb/ms09_050_smb2_negotiate_pidhigh",
+    "path": "/modules/auxiliary/dos/windows/smb/ms09_050_smb2_negotiate_pidhigh.rb",
+    "name": "Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference"
+  },
+  {
+    "cve": "CVE-2009-3103",
+    "module": "auxiliary_dos/windows/smb/ms09_050_smb2_session_logoff",
+    "path": "/modules/auxiliary/dos/windows/smb/ms09_050_smb2_session_logoff.rb",
+    "name": "Microsoft SRV2.SYS SMB2 Logoff Remote Kernel NULL Pointer Dereference"
+  },
+  {
+    "cve": "CVE-2009-0836",
+    "module": "auxiliary_pdf/foxit/authbypass",
+    "path": "/modules/auxiliary/pdf/foxit/authbypass.rb",
+    "name": "Foxit Reader Authorization Bypass"
+  },
+  {
+    "cve": "CVE-2009-3960",
+    "module": "auxiliary_scanner/http/adobe_xml_inject",
+    "path": "/modules/auxiliary/scanner/http/adobe_xml_inject.rb",
+    "name": "Adobe XML External Entity Injection"
+  },
+  {
+    "cve": "CVE-2009-1535",
+    "module": "auxiliary_scanner/http/dir_webdav_unicode_bypass",
+    "path": "/modules/auxiliary/scanner/http/dir_webdav_unicode_bypass.rb",
+    "name": "MS09-020 IIS6 WebDAV Unicode Auth Bypass Directory Scanner"
+  },
+  {
+    "cve": "CVE-2009-1122",
+    "module": "auxiliary_scanner/http/dir_webdav_unicode_bypass",
+    "path": "/modules/auxiliary/scanner/http/dir_webdav_unicode_bypass.rb",
+    "name": "MS09-020 IIS6 WebDAV Unicode Auth Bypass Directory Scanner"
+  },
+  {
+    "cve": "CVE-2009-1535",
+    "module": "auxiliary_scanner/http/ms09_020_webdav_unicode_bypass",
+    "path": "/modules/auxiliary/scanner/http/ms09_020_webdav_unicode_bypass.rb",
+    "name": "MS09-020 IIS6 WebDAV Unicode Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2009-1122",
+    "module": "auxiliary_scanner/http/ms09_020_webdav_unicode_bypass",
+    "path": "/modules/auxiliary/scanner/http/ms09_020_webdav_unicode_bypass.rb",
+    "name": "MS09-020 IIS6 WebDAV Unicode Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2009-0580",
+    "module": "auxiliary_scanner/http/tomcat_enum",
+    "path": "/modules/auxiliary/scanner/http/tomcat_enum.rb",
+    "name": "Apache Tomcat User Enumeration"
+  },
+  {
+    "cve": "CVE-2009-3843",
+    "module": "auxiliary_scanner/http/tomcat_mgr_login",
+    "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
+    "name": "Tomcat Application Manager Login Utility"
+  },
+  {
+    "cve": "CVE-2009-4189",
+    "module": "auxiliary_scanner/http/tomcat_mgr_login",
+    "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
+    "name": "Tomcat Application Manager Login Utility"
+  },
+  {
+    "cve": "CVE-2009-4188",
+    "module": "auxiliary_scanner/http/tomcat_mgr_login",
+    "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
+    "name": "Tomcat Application Manager Login Utility"
+  },
+  {
+    "cve": "CVE-2009-3548",
+    "module": "auxiliary_scanner/http/tomcat_mgr_login",
+    "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
+    "name": "Tomcat Application Manager Login Utility"
+  },
+  {
+    "cve": "CVE-2009-2335",
+    "module": "auxiliary_scanner/http/wordpress_login_enum",
+    "path": "/modules/auxiliary/scanner/http/wordpress_login_enum.rb",
+    "name": "WordPress Brute Force and User Enumeration Utility"
+  },
+  {
+    "cve": "CVE-2009-1730",
+    "module": "auxiliary_scanner/tftp/netdecision_tftp",
+    "path": "/modules/auxiliary/scanner/tftp/netdecision_tftp.rb",
+    "name": "NetDecision 4.2 TFTP Directory Traversal"
+  },
+  {
+    "cve": "CVE-2009-2936",
+    "module": "auxiliary_scanner/varnish/varnish_cli_file_read",
+    "path": "/modules/auxiliary/scanner/varnish/varnish_cli_file_read.rb",
+    "name": "Varnish Cache CLI File Read"
+  },
+  {
+    "cve": "CVE-2009-2936",
+    "module": "auxiliary_scanner/varnish/varnish_cli_login",
+    "path": "/modules/auxiliary/scanner/varnish/varnish_cli_login.rb",
+    "name": "Varnish Cache CLI Login Utility"
+  },
+  {
+    "cve": "CVE-2009-3733",
+    "module": "auxiliary_scanner/vmware/vmware_server_dir_trav",
+    "path": "/modules/auxiliary/scanner/vmware/vmware_server_dir_trav.rb",
+    "name": "VMware Server Directory Traversal Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-0978",
+    "module": "auxiliary_sqli/oracle/lt_rollbackworkspace",
+    "path": "/modules/auxiliary/sqli/oracle/lt_rollbackworkspace.rb",
+    "name": "Oracle DB SQL Injection via SYS.LT.ROLLBACKWORKSPACE"
+  },
+  {
+    "cve": "CVE-2009-3699",
+    "module": "exploit_aix/rpc_cmsd_opcode21",
+    "path": "/modules/exploits/aix/rpc_cmsd_opcode21.rb",
+    "name": "AIX Calendar Manager Service Daemon (rpc.cmsd) Opcode 21 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2727",
+    "module": "exploit_aix/rpc_ttdbserverd_realpath",
+    "path": "/modules/exploits/aix/rpc_ttdbserverd_realpath.rb",
+    "name": "ToolTalk rpc.ttdbserverd _tt_internal_realpath Buffer Overflow (AIX)"
+  },
+  {
+    "cve": "CVE-2009-4146",
+    "module": "exploit_freebsd/local/rtld_execl_priv_esc",
+    "path": "/modules/exploits/freebsd/local/rtld_execl_priv_esc.rb",
+    "name": "FreeBSD rtld execl() Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2009-4147",
+    "module": "exploit_freebsd/local/rtld_execl_priv_esc",
+    "path": "/modules/exploits/freebsd/local/rtld_execl_priv_esc.rb",
+    "name": "FreeBSD rtld execl() Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2009-2765",
+    "module": "exploit_linux/http/ddwrt_cgibin_exec",
+    "path": "/modules/exploits/linux/http/ddwrt_cgibin_exec.rb",
+    "name": "DD-WRT HTTP Daemon Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2009-2692",
+    "module": "exploit_linux/local/sock_sendpage",
+    "path": "/modules/exploits/linux/local/sock_sendpage.rb",
+    "name": "Linux Kernel Sendpage Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2009-1185",
+    "module": "exploit_linux/local/udev_netlink",
+    "path": "/modules/exploits/linux/local/udev_netlink.rb",
+    "name": "Linux udev Netlink Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2009-4498",
+    "module": "exploit_linux/misc/zabbix_server_exec",
+    "path": "/modules/exploits/linux/misc/zabbix_server_exec.rb",
+    "name": "Zabbix Server Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2009-4484",
+    "module": "exploit_linux/mysql/mysql_yassl_getname",
+    "path": "/modules/exploits/linux/mysql/mysql_yassl_getname.rb",
+    "name": "MySQL yaSSL CertDecoder::GetName Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2477",
+    "module": "exploit_multi/browser/firefox_escape_retval",
+    "path": "/modules/exploits/multi/browser/firefox_escape_retval.rb",
+    "name": "Firefox 3.5 escape() Return Value Memory Corruption"
+  },
+  {
+    "cve": "CVE-2009-0950",
+    "module": "exploit_multi/browser/itms_overflow",
+    "path": "/modules/exploits/multi/browser/itms_overflow.rb",
+    "name": "Apple OS X iTunes 8.1.1 ITMS Overflow"
+  },
+  {
+    "cve": "CVE-2009-3867",
+    "module": "exploit_multi/browser/java_getsoundbank_bof",
+    "path": "/modules/exploits/multi/browser/java_getsoundbank_bof.rb",
+    "name": "Sun Java JRE getSoundbank file:// URI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3869",
+    "module": "exploit_multi/browser/java_setdifficm_bof",
+    "path": "/modules/exploits/multi/browser/java_setdifficm_bof.rb",
+    "name": "Sun Java JRE AWT setDiffICM Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2990",
+    "module": "exploit_multi/fileformat/adobe_u3d_meshcont",
+    "path": "/modules/exploits/multi/fileformat/adobe_u3d_meshcont.rb",
+    "name": "Adobe U3D CLODProgressiveMeshDeclaration Array Overrun"
+  },
+  {
+    "cve": "CVE-2009-2261",
+    "module": "exploit_multi/fileformat/peazip_command_injection",
+    "path": "/modules/exploits/multi/fileformat/peazip_command_injection.rb",
+    "name": "PeaZip Zip Processing Command Injection"
+  },
+  {
+    "cve": "CVE-2009-3843",
+    "module": "exploit_multi/http/tomcat_mgr_deploy",
+    "path": "/modules/exploits/multi/http/tomcat_mgr_deploy.rb",
+    "name": "Apache Tomcat Manager Application Deployer Authenticated Code Execution"
+  },
+  {
+    "cve": "CVE-2009-4189",
+    "module": "exploit_multi/http/tomcat_mgr_deploy",
+    "path": "/modules/exploits/multi/http/tomcat_mgr_deploy.rb",
+    "name": "Apache Tomcat Manager Application Deployer Authenticated Code Execution"
+  },
+  {
+    "cve": "CVE-2009-4188",
+    "module": "exploit_multi/http/tomcat_mgr_deploy",
+    "path": "/modules/exploits/multi/http/tomcat_mgr_deploy.rb",
+    "name": "Apache Tomcat Manager Application Deployer Authenticated Code Execution"
+  },
+  {
+    "cve": "CVE-2009-3548",
+    "module": "exploit_multi/http/tomcat_mgr_deploy",
+    "path": "/modules/exploits/multi/http/tomcat_mgr_deploy.rb",
+    "name": "Apache Tomcat Manager Application Deployer Authenticated Code Execution"
+  },
+  {
+    "cve": "CVE-2009-3843",
+    "module": "exploit_multi/http/tomcat_mgr_upload",
+    "path": "/modules/exploits/multi/http/tomcat_mgr_upload.rb",
+    "name": "Apache Tomcat Manager Authenticated Upload Code Execution"
+  },
+  {
+    "cve": "CVE-2009-4189",
+    "module": "exploit_multi/http/tomcat_mgr_upload",
+    "path": "/modules/exploits/multi/http/tomcat_mgr_upload.rb",
+    "name": "Apache Tomcat Manager Authenticated Upload Code Execution"
+  },
+  {
+    "cve": "CVE-2009-4188",
+    "module": "exploit_multi/http/tomcat_mgr_upload",
+    "path": "/modules/exploits/multi/http/tomcat_mgr_upload.rb",
+    "name": "Apache Tomcat Manager Authenticated Upload Code Execution"
+  },
+  {
+    "cve": "CVE-2009-3548",
+    "module": "exploit_multi/http/tomcat_mgr_upload",
+    "path": "/modules/exploits/multi/http/tomcat_mgr_upload.rb",
+    "name": "Apache Tomcat Manager Authenticated Upload Code Execution"
+  },
+  {
+    "cve": "CVE-2009-0695",
+    "module": "exploit_multi/wyse/hagent_untrusted_hsdata",
+    "path": "/modules/exploits/multi/wyse/hagent_untrusted_hsdata.rb",
+    "name": "Wyse Rapport Hagent Fake Hserver Command Execution"
+  },
+  {
+    "cve": "CVE-2009-10006",
+    "module": "exploit_osx/misc/ufo_ai",
+    "path": "/modules/exploits/osx/misc/ufo_ai.rb",
+    "name": "UFO: Alien Invasion IRC Client Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-20011",
+    "module": "exploit_unix/http/contentkeeperweb_mimencode",
+    "path": "/modules/exploits/unix/http/contentkeeperweb_mimencode.rb",
+    "name": "ContentKeeper Web Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2009-4502",
+    "module": "exploit_unix/misc/zabbix_agent_exec",
+    "path": "/modules/exploits/unix/misc/zabbix_agent_exec.rb",
+    "name": "Zabbix Agent net.tcp.listen Command Injection"
+  },
+  {
+    "cve": "CVE-2009-20010",
+    "module": "exploit_unix/webapp/dogfood_spell_exec",
+    "path": "/modules/exploits/unix/webapp/dogfood_spell_exec.rb",
+    "name": "Dogfood CRM spell.php Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2009-2288",
+    "module": "exploit_unix/webapp/nagios3_statuswml_ping",
+    "path": "/modules/exploits/unix/webapp/nagios3_statuswml_ping.rb",
+    "name": "Nagios3 statuswml.cgi Ping Command Execution"
+  },
+  {
+    "cve": "CVE-2009-4140",
+    "module": "exploit_unix/webapp/open_flash_chart_upload_exec",
+    "path": "/modules/exploits/unix/webapp/open_flash_chart_upload_exec.rb",
+    "name": "Open Flash Chart v2 Arbitrary File Upload"
+  },
+  {
+    "cve": "CVE-2009-4140",
+    "module": "exploit_unix/webapp/openemr_upload_exec",
+    "path": "/modules/exploits/unix/webapp/openemr_upload_exec.rb",
+    "name": "OpenEMR PHP File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-4098",
+    "module": "exploit_unix/webapp/openx_banner_edit",
+    "path": "/modules/exploits/unix/webapp/openx_banner_edit.rb",
+    "name": "OpenX banner-edit.php File Upload PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2009-20006",
+    "module": "exploit_unix/webapp/oscommerce_filemanager",
+    "path": "/modules/exploits/unix/webapp/oscommerce_filemanager.rb",
+    "name": "osCommerce 2.2 Arbitrary PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2009-1151",
+    "module": "exploit_unix/webapp/phpmyadmin_config",
+    "path": "/modules/exploits/unix/webapp/phpmyadmin_config.rb",
+    "name": "PhpMyAdmin Config File Code Injection"
+  },
+  {
+    "cve": "CVE-2009-0545",
+    "module": "exploit_unix/webapp/zeroshell_exec",
+    "path": "/modules/exploits/unix/webapp/zeroshell_exec.rb",
+    "name": "ZeroShell Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2009-1429",
+    "module": "exploit_windows/antivirus/ams_xfr",
+    "path": "/modules/exploits/windows/antivirus/ams_xfr.rb",
+    "name": "Symantec System Center Alert Management System (xfr.exe) Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2009-1430",
+    "module": "exploit_windows/antivirus/symantec_iao",
+    "path": "/modules/exploits/windows/antivirus/symantec_iao.rb",
+    "name": "Symantec Alert Management System Intel Alert Originator Service Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3459",
+    "module": "exploit_windows/browser/adobe_flatedecode_predictor02",
+    "path": "/modules/exploits/windows/browser/adobe_flatedecode_predictor02.rb",
+    "name": "Adobe FlateDecode Stream Predictor 02 Integer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0927",
+    "module": "exploit_windows/browser/adobe_geticon",
+    "path": "/modules/exploits/windows/browser/adobe_geticon.rb",
+    "name": "Adobe Collab.getIcon() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0658",
+    "module": "exploit_windows/browser/adobe_jbig2decode",
+    "path": "/modules/exploits/windows/browser/adobe_jbig2decode.rb",
+    "name": "Adobe JBIG2Decode Heap Corruption"
+  },
+  {
+    "cve": "CVE-2009-4324",
+    "module": "exploit_windows/browser/adobe_media_newplayer",
+    "path": "/modules/exploits/windows/browser/adobe_media_newplayer.rb",
+    "name": "Adobe Doc.media.newPlayer Use After Free Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-0323",
+    "module": "exploit_windows/browser/amaya_bdo",
+    "path": "/modules/exploits/windows/browser/amaya_bdo.rb",
+    "name": "Amaya Browser v11.0 'bdo' Tag Overflow"
+  },
+  {
+    "cve": "CVE-2009-4588",
+    "module": "exploit_windows/browser/awingsoft_web3d_bof",
+    "path": "/modules/exploits/windows/browser/awingsoft_web3d_bof.rb",
+    "name": "AwingSoft Winds3D Player SceneURL Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4850",
+    "module": "exploit_windows/browser/awingsoft_winds3d_sceneurl",
+    "path": "/modules/exploits/windows/browser/awingsoft_winds3d_sceneurl.rb",
+    "name": "AwingSoft Winds3D Player 3.5 SceneURL Download and Execute"
+  },
+  {
+    "cve": "CVE-2009-1612",
+    "module": "exploit_windows/browser/baofeng_storm_onbeforevideodownload",
+    "path": "/modules/exploits/windows/browser/baofeng_storm_onbeforevideodownload.rb",
+    "name": "BaoFeng Storm mps.dll ActiveX OnBeforeVideoDownload Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2011",
+    "module": "exploit_windows/browser/dxstudio_player_exec",
+    "path": "/modules/exploits/windows/browser/dxstudio_player_exec.rb",
+    "name": "Worldweaver DX Studio Player shell.execute() Command Execution"
+  },
+  {
+    "cve": "CVE-2009-20008",
+    "module": "exploit_windows/browser/greendam_url",
+    "path": "/modules/exploits/windows/browser/greendam_url.rb",
+    "name": "Green Dam URL Processing Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0215",
+    "module": "exploit_windows/browser/ibmegath_getxmlvalue",
+    "path": "/modules/exploits/windows/browser/ibmegath_getxmlvalue.rb",
+    "name": "IBM Access Support ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0075",
+    "module": "exploit_windows/browser/ms09_002_memory_corruption",
+    "path": "/modules/exploits/windows/browser/ms09_002_memory_corruption.rb",
+    "name": "MS09-002 Microsoft Internet Explorer 7 CFunctionPointer Uninitialized Memory Corruption"
+  },
+  {
+    "cve": "CVE-2009-1534",
+    "module": "exploit_windows/browser/ms09_043_owc_htmlurl",
+    "path": "/modules/exploits/windows/browser/ms09_043_owc_htmlurl.rb",
+    "name": "Microsoft OWC Spreadsheet HTMLURL Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1136",
+    "module": "exploit_windows/browser/ms09_043_owc_msdso",
+    "path": "/modules/exploits/windows/browser/ms09_043_owc_msdso.rb",
+    "name": "Microsoft OWC Spreadsheet msDataSourceObject Memory Corruption"
+  },
+  {
+    "cve": "CVE-2009-3672",
+    "module": "exploit_windows/browser/ms09_072_style_object",
+    "path": "/modules/exploits/windows/browser/ms09_072_style_object.rb",
+    "name": "MS09-072 Microsoft Internet Explorer Style getElementsByTagName Memory Corruption"
+  },
+  {
+    "cve": "CVE-2009-1569",
+    "module": "exploit_windows/browser/novelliprint_datetime",
+    "path": "/modules/exploits/windows/browser/novelliprint_datetime.rb",
+    "name": "Novell iPrint Client ActiveX Control Date/Time Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1568",
+    "module": "exploit_windows/browser/novelliprint_target_frame",
+    "path": "/modules/exploits/windows/browser/novelliprint_target_frame.rb",
+    "name": "Novell iPrint Client ActiveX Control target-frame Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0187",
+    "module": "exploit_windows/browser/orbit_connecting",
+    "path": "/modules/exploits/windows/browser/orbit_connecting.rb",
+    "name": "Orbit Downloader Connecting Log Creation Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3693",
+    "module": "exploit_windows/browser/persits_xupload_traversal",
+    "path": "/modules/exploits/windows/browser/persits_xupload_traversal.rb",
+    "name": "Persits XUpload ActiveX MakeHttpRequest Directory Traversal"
+  },
+  {
+    "cve": "CVE-2009-3028",
+    "module": "exploit_windows/browser/symantec_altirisdeployment_downloadandinstall",
+    "path": "/modules/exploits/windows/browser/symantec_altirisdeployment_downloadandinstall.rb",
+    "name": "Symantec Altiris Deployment Solution ActiveX Control Arbitrary File Download and Execute"
+  },
+  {
+    "cve": "CVE-2009-3033",
+    "module": "exploit_windows/browser/symantec_altirisdeployment_runcmd",
+    "path": "/modules/exploits/windows/browser/symantec_altirisdeployment_runcmd.rb",
+    "name": "Symantec Altiris Deployment Solution ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3031",
+    "module": "exploit_windows/browser/symantec_consoleutilities_browseandsavefile",
+    "path": "/modules/exploits/windows/browser/symantec_consoleutilities_browseandsavefile.rb",
+    "name": "Symantec ConsoleUtilities ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3459",
+    "module": "exploit_windows/fileformat/adobe_flatedecode_predictor02",
+    "path": "/modules/exploits/windows/fileformat/adobe_flatedecode_predictor02.rb",
+    "name": "Adobe FlateDecode Stream Predictor 02 Integer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0927",
+    "module": "exploit_windows/fileformat/adobe_geticon",
+    "path": "/modules/exploits/windows/fileformat/adobe_geticon.rb",
+    "name": "Adobe Collab.getIcon() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4195",
+    "module": "exploit_windows/fileformat/adobe_illustrator_v14_eps",
+    "path": "/modules/exploits/windows/fileformat/adobe_illustrator_v14_eps.rb",
+    "name": "Adobe Illustrator CS4 v14.0.0"
+  },
+  {
+    "cve": "CVE-2009-0658",
+    "module": "exploit_windows/fileformat/adobe_jbig2decode",
+    "path": "/modules/exploits/windows/fileformat/adobe_jbig2decode.rb",
+    "name": "Adobe JBIG2Decode Memory Corruption"
+  },
+  {
+    "cve": "CVE-2009-4324",
+    "module": "exploit_windows/fileformat/adobe_media_newplayer",
+    "path": "/modules/exploits/windows/fileformat/adobe_media_newplayer.rb",
+    "name": "Adobe Doc.media.newPlayer Use After Free Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-3953",
+    "module": "exploit_windows/fileformat/adobe_u3d_meshdecl",
+    "path": "/modules/exploits/windows/fileformat/adobe_u3d_meshdecl.rb",
+    "name": "Adobe U3D CLODProgressiveMeshDeclaration Array Overrun"
+  },
+  {
+    "cve": "CVE-2009-0476",
+    "module": "exploit_windows/fileformat/audio_wkstn_pls",
+    "path": "/modules/exploits/windows/fileformat/audio_wkstn_pls.rb",
+    "name": "Audio Workstation 6.4.2.4.3 pls Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0476",
+    "module": "exploit_windows/fileformat/audiotran_pls",
+    "path": "/modules/exploits/windows/fileformat/audiotran_pls.rb",
+    "name": "Audiotran 1.4.1 (PLS File) Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0476",
+    "module": "exploit_windows/fileformat/audiotran_pls_1424",
+    "path": "/modules/exploits/windows/fileformat/audiotran_pls_1424.rb",
+    "name": "Audiotran PLS File Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3429",
+    "module": "exploit_windows/fileformat/destinymediaplayer16",
+    "path": "/modules/exploits/windows/fileformat/destinymediaplayer16.rb",
+    "name": "Destiny Media Player 1.61 PLS M3U Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4656",
+    "module": "exploit_windows/fileformat/djstudio_pls_bof",
+    "path": "/modules/exploits/windows/fileformat/djstudio_pls_bof.rb",
+    "name": "DJ Studio Pro 5.1 .pls Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4225",
+    "module": "exploit_windows/fileformat/etrust_pestscan",
+    "path": "/modules/exploits/windows/fileformat/etrust_pestscan.rb",
+    "name": "CA eTrust PestPatrol ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1028",
+    "module": "exploit_windows/fileformat/ezip_wizard_bof",
+    "path": "/modules/exploits/windows/fileformat/ezip_wizard_bof.rb",
+    "name": "eZip Wizard 3.0 Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4962",
+    "module": "exploit_windows/fileformat/fatplayer_wav",
+    "path": "/modules/exploits/windows/fileformat/fatplayer_wav.rb",
+    "name": "Fat Player Media Player 0.6b0 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0184",
+    "module": "exploit_windows/fileformat/fdm_torrent",
+    "path": "/modules/exploits/windows/fileformat/fdm_torrent.rb",
+    "name": "Free Download Manager Torrent Parsing Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0546",
+    "module": "exploit_windows/fileformat/feeddemon_opml",
+    "path": "/modules/exploits/windows/fileformat/feeddemon_opml.rb",
+    "name": "FeedDemon Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0837",
+    "module": "exploit_windows/fileformat/foxit_reader_launch",
+    "path": "/modules/exploits/windows/fileformat/foxit_reader_launch.rb",
+    "name": "Foxit Reader 3.0 Open Execute Action Stack Based Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-20004",
+    "module": "exploit_windows/fileformat/galan_fileformat_bof",
+    "path": "/modules/exploits/windows/fileformat/galan_fileformat_bof.rb",
+    "name": "gAlan 0.2.1 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0133",
+    "module": "exploit_windows/fileformat/hhw_hhp_indexfile_bof",
+    "path": "/modules/exploits/windows/fileformat/hhw_hhp_indexfile_bof.rb",
+    "name": "HTML Help Workshop 4.74 (hhp Project File) Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2485",
+    "module": "exploit_windows/fileformat/ht_mp3player_ht3_bof",
+    "path": "/modules/exploits/windows/fileformat/ht_mp3player_ht3_bof.rb",
+    "name": "HT-MP3Player 1.0 HT3 File Parsing Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4265",
+    "module": "exploit_windows/fileformat/ideal_migration_ipj",
+    "path": "/modules/exploits/windows/fileformat/ideal_migration_ipj.rb",
+    "name": "PointDev IDEAL Migration Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2650",
+    "module": "exploit_windows/fileformat/mediajukebox",
+    "path": "/modules/exploits/windows/fileformat/mediajukebox.rb",
+    "name": "Media Jukebox 8.0.400 Buffer Overflow (SEH)"
+  },
+  {
+    "cve": "CVE-2009-20002",
+    "module": "exploit_windows/fileformat/millenium_mp3_pls",
+    "path": "/modules/exploits/windows/fileformat/millenium_mp3_pls.rb",
+    "name": "Millenium MP3 Studio 2.0 (PLS File) Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3129",
+    "module": "exploit_windows/fileformat/ms09_067_excel_featheader",
+    "path": "/modules/exploits/windows/fileformat/ms09_067_excel_featheader.rb",
+    "name": "MS09-067 Microsoft Excel Malformed FEATHEADER Record Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-3214",
+    "module": "exploit_windows/fileformat/proshow_cellimage_bof",
+    "path": "/modules/exploits/windows/fileformat/proshow_cellimage_bof.rb",
+    "name": "ProShow Gold v4.0.2549 (PSH File) Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3861",
+    "module": "exploit_windows/fileformat/safenet_softremote_groupname",
+    "path": "/modules/exploits/windows/fileformat/safenet_softremote_groupname.rb",
+    "name": "SafeNet SoftRemote GROUPNAME Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1641",
+    "module": "exploit_windows/fileformat/shadow_stream_recorder_bof",
+    "path": "/modules/exploits/windows/fileformat/shadow_stream_recorder_bof.rb",
+    "name": "Shadow Stream Recorder 3.0.1.7 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2566",
+    "module": "exploit_windows/fileformat/tfm_mmplayer_m3u_ppl_bof",
+    "path": "/modules/exploits/windows/fileformat/tfm_mmplayer_m3u_ppl_bof.rb",
+    "name": "TFM MMPlayer (m3u/ppl File) Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0261",
+    "module": "exploit_windows/fileformat/total_video_player_ini_bof",
+    "path": "/modules/exploits/windows/fileformat/total_video_player_ini_bof.rb",
+    "name": "Total Video Player 1.3.1 (Settings.ini) - SEH Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1260",
+    "module": "exploit_windows/fileformat/ultraiso_ccd",
+    "path": "/modules/exploits/windows/fileformat/ultraiso_ccd.rb",
+    "name": "UltraISO CCD File Parsing Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2484",
+    "module": "exploit_windows/fileformat/vlc_smb_uri",
+    "path": "/modules/exploits/windows/fileformat/vlc_smb_uri.rb",
+    "name": "VideoLAN Client (VLC) Win32 smb:// URI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0182",
+    "module": "exploit_windows/fileformat/vuplayer_cue",
+    "path": "/modules/exploits/windows/fileformat/vuplayer_cue.rb",
+    "name": "VUPlayer CUE Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1831",
+    "module": "exploit_windows/fileformat/winamp_maki_bof",
+    "path": "/modules/exploits/windows/fileformat/winamp_maki_bof.rb",
+    "name": "Winamp MAKI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-20003",
+    "module": "exploit_windows/fileformat/xenorate_xpl_bof",
+    "path": "/modules/exploits/windows/fileformat/xenorate_xpl_bof.rb",
+    "name": "Xenorate 2.50 (.xpl) Universal Local Buffer Overflow (SEH)"
+  },
+  {
+    "cve": "CVE-2009-1675",
+    "module": "exploit_windows/ftp/32bitftp_list_reply",
+    "path": "/modules/exploits/windows/ftp/32bitftp_list_reply.rb",
+    "name": "32bit FTP Client Stack Buffer Overflow "
+  },
+  {
+    "cve": "CVE-2009-4769",
+    "module": "exploit_windows/ftp/httpdx_tolog_format",
+    "path": "/modules/exploits/windows/ftp/httpdx_tolog_format.rb",
+    "name": "HTTPDX tolog() Function Format String Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-3023",
+    "module": "exploit_windows/ftp/ms09_053_ftpd_nlst",
+    "path": "/modules/exploits/windows/ftp/ms09_053_ftpd_nlst.rb",
+    "name": "MS09-053 Microsoft IIS FTP Server NLST Response Overflow"
+  },
+  {
+    "cve": "CVE-2009-3976",
+    "module": "exploit_windows/ftp/proftp_banner",
+    "path": "/modules/exploits/windows/ftp/proftp_banner.rb",
+    "name": "ProFTP 2.9 Banner Remote Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3068",
+    "module": "exploit_windows/http/adobe_robohelper_authbypass",
+    "path": "/modules/exploits/windows/http/adobe_robohelper_authbypass.rb",
+    "name": "Adobe RoboHelp Server 8 Arbitrary File Upload and Execute"
+  },
+  {
+    "cve": "CVE-2009-20009",
+    "module": "exploit_windows/http/belkin_bulldog",
+    "path": "/modules/exploits/windows/http/belkin_bulldog.rb",
+    "name": "Belkin Bulldog Plus Web Service Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2265",
+    "module": "exploit_windows/http/coldfusion_fckeditor",
+    "path": "/modules/exploits/windows/http/coldfusion_fckeditor.rb",
+    "name": "ColdFusion 8.0.1 Arbitrary File Upload and Execute"
+  },
+  {
+    "cve": "CVE-2009-0183",
+    "module": "exploit_windows/http/fdm_auth_header",
+    "path": "/modules/exploits/windows/http/fdm_auth_header.rb",
+    "name": "Free Download Manager Remote Control Server Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4179",
+    "module": "exploit_windows/http/hp_nnm_ovalarm_lang",
+    "path": "/modules/exploits/windows/http/hp_nnm_ovalarm_lang.rb",
+    "name": "HP OpenView Network Node Manager ovalarm.exe CGI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4178",
+    "module": "exploit_windows/http/hp_nnm_ovwebhelp",
+    "path": "/modules/exploits/windows/http/hp_nnm_ovwebhelp.rb",
+    "name": "HP OpenView Network Node Manager OvWebHelp.exe CGI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3849",
+    "module": "exploit_windows/http/hp_nnm_snmp",
+    "path": "/modules/exploits/windows/http/hp_nnm_snmp.rb",
+    "name": "HP OpenView Network Node Manager Snmp.exe CGI Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0920",
+    "module": "exploit_windows/http/hp_nnm_toolbar_02",
+    "path": "/modules/exploits/windows/http/hp_nnm_toolbar_02.rb",
+    "name": "HP OpenView Network Node Manager Toolbar.exe CGI Cookie Handling Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3999",
+    "module": "exploit_windows/http/hp_power_manager_filename",
+    "path": "/modules/exploits/windows/http/hp_power_manager_filename.rb",
+    "name": "HP Power Manager 'formExportDataLogs' Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2685",
+    "module": "exploit_windows/http/hp_power_manager_login",
+    "path": "/modules/exploits/windows/http/hp_power_manager_login.rb",
+    "name": "Hewlett-Packard Power Manager Administration Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3711",
+    "module": "exploit_windows/http/httpdx_handlepeer",
+    "path": "/modules/exploits/windows/http/httpdx_handlepeer.rb",
+    "name": "HTTPDX h_handlepeer() Function Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4769",
+    "module": "exploit_windows/http/httpdx_tolog_format",
+    "path": "/modules/exploits/windows/http/httpdx_tolog_format.rb",
+    "name": "HTTPDX tolog() Function Format String Vulnerability"
+  },
+  {
+    "cve": "CVE-2009-20005",
+    "module": "exploit_windows/http/intersystems_cache",
+    "path": "/modules/exploits/windows/http/intersystems_cache.rb",
+    "name": "InterSystems Cache UtilConfigHome.csp Argument Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4006",
+    "module": "exploit_windows/http/servu_session_cookie",
+    "path": "/modules/exploits/windows/http/servu_session_cookie.rb",
+    "name": "Rhinosoft Serv-U Session Cookie Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4660",
+    "module": "exploit_windows/misc/bigant_server_usv",
+    "path": "/modules/exploits/windows/misc/bigant_server_usv.rb",
+    "name": "BigAnt Server 2.52 USV Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-2227",
+    "module": "exploit_windows/misc/bopup_comm",
+    "path": "/modules/exploits/windows/misc/bopup_comm.rb",
+    "name": "Bopup Communications Server Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3837",
+    "module": "exploit_windows/misc/eureka_mail_err",
+    "path": "/modules/exploits/windows/misc/eureka_mail_err.rb",
+    "name": "Eureka Email 2.2q ERR Remote Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3844",
+    "module": "exploit_windows/misc/hp_omniinet_2",
+    "path": "/modules/exploits/windows/misc/hp_omniinet_2.rb",
+    "name": "HP OmniInet.exe MSG_PROTOCOL Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-0880",
+    "module": "exploit_windows/misc/ibm_director_cim_dllinject",
+    "path": "/modules/exploits/windows/misc/ibm_director_cim_dllinject.rb",
+    "name": "IBM System Director Agent DLL Injection"
+  },
+  {
+    "cve": "CVE-2009-3853",
+    "module": "exploit_windows/misc/ibm_tsm_cad_ping",
+    "path": "/modules/exploits/windows/misc/ibm_tsm_cad_ping.rb",
+    "name": "IBM Tivoli Storage Manager Express CAD Service Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-5109",
+    "module": "exploit_windows/misc/mini_stream",
+    "path": "/modules/exploits/windows/misc/mini_stream.rb",
+    "name": "Mini-Stream 3.0.1.1 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1029",
+    "module": "exploit_windows/misc/poppeeper_date",
+    "path": "/modules/exploits/windows/misc/poppeeper_date.rb",
+    "name": "POP Peeper v3.4 DATE Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1029",
+    "module": "exploit_windows/misc/poppeeper_uidl",
+    "path": "/modules/exploits/windows/misc/poppeeper_uidl.rb",
+    "name": "POP Peeper v3.4 UIDL Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-4988",
+    "module": "exploit_windows/misc/sap_2005_license",
+    "path": "/modules/exploits/windows/misc/sap_2005_license.rb",
+    "name": "SAP Business One License Manager 2005 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-20007",
+    "module": "exploit_windows/misc/talkative_response",
+    "path": "/modules/exploits/windows/misc/talkative_response.rb",
+    "name": "Talkative IRC v0.4.4.16 Response Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-10006",
+    "module": "exploit_windows/misc/ufo_ai",
+    "path": "/modules/exploits/windows/misc/ufo_ai.rb",
+    "name": "UFO: Alien Invasion IRC Client Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1979",
+    "module": "exploit_windows/oracle/tns_auth_sesskey",
+    "path": "/modules/exploits/windows/oracle/tns_auth_sesskey.rb",
+    "name": "Oracle 10gR2 TNS Listener AUTH_SESSKEY Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-3103",
+    "module": "exploit_windows/smb/ms09_050_smb2_negotiate_func_index",
+    "path": "/modules/exploits/windows/smb/ms09_050_smb2_negotiate_func_index.rb",
+    "name": "MS09-050 Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference"
+  },
+  {
+    "cve": "CVE-2009-1350",
+    "module": "exploit_windows/smb/netidentity_xtierrpcpipe",
+    "path": "/modules/exploits/windows/smb/netidentity_xtierrpcpipe.rb",
+    "name": "Novell NetIdentity Agent XTIERRPCPIPE Named Pipe Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1394",
+    "module": "exploit_windows/smb/timbuktu_plughntcommand_bof",
+    "path": "/modules/exploits/windows/smb/timbuktu_plughntcommand_bof.rb",
+    "name": "Timbuktu PlughNTCommand Named Pipe Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2009-1730",
+    "module": "exploit_windows/tftp/netdecision_tftp_traversal",
+    "path": "/modules/exploits/windows/tftp/netdecision_tftp_traversal.rb",
+    "name": "NetDecision 4.2 TFTP Writable Directory Traversal Execution"
+  },
+  {
+    "cve": "CVE-2009-1943",
+    "module": "exploit_windows/vpn/safenet_ike_11",
+    "path": "/modules/exploits/windows/vpn/safenet_ike_11.rb",
+    "name": "SafeNet SoftRemote IKE Service Buffer Overflow"
+  }
+]

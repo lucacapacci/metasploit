@@ -1,0 +1,20 @@
+[
+  {
+    "cve": "CVE-2026-1281",
+    "module": "exploit_linux/http/ivanti_epmm_rce",
+    "path": "/modules/exploits/linux/http/ivanti_epmm_rce.rb",
+    "name": "Ivanti Endpoint Manager Mobile (EPMM) unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2026-1340",
+    "module": "exploit_linux/http/ivanti_epmm_rce",
+    "path": "/modules/exploits/linux/http/ivanti_epmm_rce.rb",
+    "name": "Ivanti Endpoint Manager Mobile (EPMM) unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2026-24061",
+    "module": "exploit_linux/telnet/gnu_inetutils_auth_bypass",
+    "path": "/modules/exploits/linux/telnet/gnu_inetutils_auth_bypass.rb",
+    "name": "GNU Inetutils Telnet Authentication Bypass Exploit CVE-2026-24061"
+  }
+]

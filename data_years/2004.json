@@ -1,0 +1,284 @@
+[
+  {
+    "cve": "CVE-2004-0795",
+    "module": "auxiliary_admin/db2/db2rcmd",
+    "path": "/modules/auxiliary/admin/db2/db2rcmd.rb",
+    "name": "IBM DB2 db2rcmd.exe Command Execution Vulnerability"
+  },
+  {
+    "cve": "CVE-2004-1550",
+    "module": "auxiliary_admin/motorola/wr850g_cred",
+    "path": "/modules/auxiliary/admin/motorola/wr850g_cred.rb",
+    "name": "Motorola WR850G v4.03 Credentials"
+  },
+  {
+    "cve": "CVE-2004-2691",
+    "module": "auxiliary_dos/http/3com_superstack_switch",
+    "path": "/modules/auxiliary/dos/http/3com_superstack_switch.rb",
+    "name": "3Com SuperStack Switch Denial of Service"
+  },
+  {
+    "cve": "CVE-2004-0331",
+    "module": "auxiliary_dos/http/dell_openmanage_post",
+    "path": "/modules/auxiliary/dos/http/dell_openmanage_post.rb",
+    "name": "Dell OpenManage POST Request Heap Overflow (win32)"
+  },
+  {
+    "cve": "CVE-2004-2221",
+    "module": "exploit_bsdi/softcart/mercantec_softcart",
+    "path": "/modules/exploits/bsdi/softcart/mercantec_softcart.rb",
+    "name": "Mercantec SoftCart CGI Overflow"
+  },
+  {
+    "cve": "CVE-2004-0608",
+    "module": "exploit_linux/games/ut2004_secure",
+    "path": "/modules/exploits/linux/games/ut2004_secure.rb",
+    "name": "Unreal Tournament 2004 \"secure\" Overflow (Linux)"
+  },
+  {
+    "cve": "CVE-2004-1388",
+    "module": "exploit_linux/http/gpsd_format_string",
+    "path": "/modules/exploits/linux/http/gpsd_format_string.rb",
+    "name": "Berlios GPSD Format String Vulnerability"
+  },
+  {
+    "cve": "CVE-2004-0541",
+    "module": "exploit_linux/proxy/squid_ntlm_authenticate",
+    "path": "/modules/exploits/linux/proxy/squid_ntlm_authenticate.rb",
+    "name": "Squid NTLM Authenticate Overflow"
+  },
+  {
+    "cve": "CVE-2004-1389",
+    "module": "exploit_multi/misc/veritas_netbackup_cmdexec",
+    "path": "/modules/exploits/multi/misc/veritas_netbackup_cmdexec.rb",
+    "name": "VERITAS NetBackup Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2004-0397",
+    "module": "exploit_multi/svn/svnserve_date",
+    "path": "/modules/exploits/multi/svn/svnserve_date.rb",
+    "name": "Subversion Date Svnserve"
+  },
+  {
+    "cve": "CVE-2004-0430",
+    "module": "exploit_osx/afp/loginext",
+    "path": "/modules/exploits/osx/afp/loginext.rb",
+    "name": "AppleFileServer LoginExt PathName Overflow"
+  },
+  {
+    "cve": "CVE-2004-0695",
+    "module": "exploit_osx/ftp/webstar_ftp_user",
+    "path": "/modules/exploits/osx/ftp/webstar_ftp_user.rb",
+    "name": "WebSTAR FTP Server USER Overflow"
+  },
+  {
+    "cve": "CVE-2004-2687",
+    "module": "exploit_unix/misc/distcc_exec",
+    "path": "/modules/exploits/unix/misc/distcc_exec.rb",
+    "name": "DistCC Daemon Command Execution"
+  },
+  {
+    "cve": "CVE-2004-1315",
+    "module": "exploit_unix/webapp/phpbb_highlight",
+    "path": "/modules/exploits/unix/webapp/phpbb_highlight.rb",
+    "name": "phpBB viewtopic.php Arbitrary Code Execution"
+  },
+  {
+    "cve": "CVE-2004-1037",
+    "module": "exploit_unix/webapp/twiki_search",
+    "path": "/modules/exploits/unix/webapp/twiki_search.rb",
+    "name": "TWiki Search Function Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2004-1172",
+    "module": "exploit_windows/backupexec/name_service",
+    "path": "/modules/exploits/windows/backupexec/name_service.rb",
+    "name": "Veritas Backup Exec Name Service Overflow"
+  },
+  {
+    "cve": "CVE-2004-0636",
+    "module": "exploit_windows/browser/aim_goaway",
+    "path": "/modules/exploits/windows/browser/aim_goaway.rb",
+    "name": "AOL Instant Messenger goaway Overflow"
+  },
+  {
+    "cve": "CVE-2004-0363",
+    "module": "exploit_windows/browser/nis2004_antispam",
+    "path": "/modules/exploits/windows/browser/nis2004_antispam.rb",
+    "name": "Norton AntiSpam 2004 SymSpamHelper ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-0964",
+    "module": "exploit_windows/fileformat/zinfaudioplayer221_pls",
+    "path": "/modules/exploits/windows/fileformat/zinfaudioplayer221_pls.rb",
+    "name": "Zinf Audio Player 2.2.1 (PLS File) Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-0362",
+    "module": "exploit_windows/firewall/blackice_pam_icq",
+    "path": "/modules/exploits/windows/firewall/blackice_pam_icq.rb",
+    "name": "ISS PAM.dll ICQ Parser Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-1626",
+    "module": "exploit_windows/ftp/ability_server_stor",
+    "path": "/modules/exploits/windows/ftp/ability_server_stor.rb",
+    "name": "Ability Server 2.34 STOR Command Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-2074",
+    "module": "exploit_windows/ftp/dreamftp_format",
+    "path": "/modules/exploits/windows/ftp/dreamftp_format.rb",
+    "name": "BolinTech Dream FTP Server 1.02 Format String"
+  },
+  {
+    "cve": "CVE-2004-2111",
+    "module": "exploit_windows/ftp/servu_chmod",
+    "path": "/modules/exploits/windows/ftp/servu_chmod.rb",
+    "name": "Serv-U FTP Server Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-0330",
+    "module": "exploit_windows/ftp/servu_mdtm",
+    "path": "/modules/exploits/windows/ftp/servu_mdtm.rb",
+    "name": "Serv-U FTPD MDTM Overflow"
+  },
+  {
+    "cve": "CVE-2004-1135",
+    "module": "exploit_windows/ftp/wsftp_server_503_mkd",
+    "path": "/modules/exploits/windows/ftp/wsftp_server_503_mkd.rb",
+    "name": "WS-FTP Server 5.03 MKD Overflow"
+  },
+  {
+    "cve": "CVE-2004-0735",
+    "module": "exploit_windows/games/mohaa_getinfo",
+    "path": "/modules/exploits/windows/games/mohaa_getinfo.rb",
+    "name": "Medal of Honor Allied Assault getinfo Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-0608",
+    "module": "exploit_windows/games/ut2004_secure",
+    "path": "/modules/exploits/windows/games/ut2004_secure.rb",
+    "name": "Unreal Tournament 2004 \"secure\" Overflow (Win32)"
+  },
+  {
+    "cve": "CVE-2004-2466",
+    "module": "exploit_windows/http/efs_easychatserver_username",
+    "path": "/modules/exploits/windows/http/efs_easychatserver_username.rb",
+    "name": "EFS Easy Chat Server Authentication Request Handling Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-1561",
+    "module": "exploit_windows/http/icecast_header",
+    "path": "/modules/exploits/windows/http/icecast_header.rb",
+    "name": "Icecast Header Overwrite"
+  },
+  {
+    "cve": "CVE-2004-0798",
+    "module": "exploit_windows/http/ipswitch_wug_maincfgret",
+    "path": "/modules/exploits/windows/http/ipswitch_wug_maincfgret.rb",
+    "name": "Ipswitch WhatsUp Gold 8.03 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-2271",
+    "module": "exploit_windows/http/minishare_get_overflow",
+    "path": "/modules/exploits/windows/http/minishare_get_overflow.rb",
+    "name": "Minishare 1.4.1 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-0313",
+    "module": "exploit_windows/http/psoproxy91_overflow",
+    "path": "/modules/exploits/windows/http/psoproxy91_overflow.rb",
+    "name": "PSO Proxy v0.91 Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-2086",
+    "module": "exploit_windows/http/sambar6_search_results",
+    "path": "/modules/exploits/windows/http/sambar6_search_results.rb",
+    "name": "Sambar 6 Search Results Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-1373",
+    "module": "exploit_windows/http/shoutcast_format",
+    "path": "/modules/exploits/windows/http/shoutcast_format.rb",
+    "name": "SHOUTcast DNAS/win32 1.9.4 File Request Format String Overflow"
+  },
+  {
+    "cve": "CVE-2004-1520",
+    "module": "exploit_windows/imap/imail_delete",
+    "path": "/modules/exploits/windows/imap/imail_delete.rb",
+    "name": "IMail IMAP4D Delete Overflow"
+  },
+  {
+    "cve": "CVE-2004-1520",
+    "module": "exploit_windows/imap/mdaemon_cram_md5",
+    "path": "/modules/exploits/windows/imap/mdaemon_cram_md5.rb",
+    "name": "Mdaemon 8.0.3 IMAPD CRAM-MD5 Authentication Overflow"
+  },
+  {
+    "cve": "CVE-2004-1211",
+    "module": "exploit_windows/imap/mercury_rename",
+    "path": "/modules/exploits/windows/imap/mercury_rename.rb",
+    "name": "Mercury/32 v4.01a IMAP RENAME Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-1134",
+    "module": "exploit_windows/isapi/w3who_query",
+    "path": "/modules/exploits/windows/isapi/w3who_query.rb",
+    "name": "Microsoft IIS ISAPI w3who.dll Query String Overflow"
+  },
+  {
+    "cve": "CVE-2004-0297",
+    "module": "exploit_windows/ldap/imail_thc",
+    "path": "/modules/exploits/windows/ldap/imail_thc.rb",
+    "name": "IMail LDAP Service Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-1317",
+    "module": "exploit_windows/misc/netcat110_nt",
+    "path": "/modules/exploits/windows/misc/netcat110_nt.rb",
+    "name": "Netcat v1.10 NT Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-1595",
+    "module": "exploit_windows/misc/shixxnote_font",
+    "path": "/modules/exploits/windows/misc/shixxnote_font.rb",
+    "name": "ShixxNOTE 6.net Font Field Overflow"
+  },
+  {
+    "cve": "CVE-2004-2416",
+    "module": "exploit_windows/proxy/ccproxy_telnet_ping",
+    "path": "/modules/exploits/windows/proxy/ccproxy_telnet_ping.rb",
+    "name": "CCProxy Telnet Proxy Ping Overflow"
+  },
+  {
+    "cve": "CVE-2004-0326",
+    "module": "exploit_windows/proxy/proxypro_http_get",
+    "path": "/modules/exploits/windows/proxy/proxypro_http_get.rb",
+    "name": "Proxy-Pro Professional GateKeeper 4.7 GET Request Overflow"
+  },
+  {
+    "cve": "CVE-2004-0206",
+    "module": "exploit_windows/smb/ms04_031_netdde",
+    "path": "/modules/exploits/windows/smb/ms04_031_netdde.rb",
+    "name": "MS04-031 Microsoft NetDDE Service Overflow"
+  },
+  {
+    "cve": "CVE-2004-1638",
+    "module": "exploit_windows/smtp/mailcarrier_smtp_ehlo",
+    "path": "/modules/exploits/windows/smtp/mailcarrier_smtp_ehlo.rb",
+    "name": "TABS MailCarrier v2.51 SMTP EHLO Overflow"
+  },
+  {
+    "cve": "CVE-2004-1558",
+    "module": "exploit_windows/smtp/ypops_overflow1",
+    "path": "/modules/exploits/windows/smtp/ypops_overflow1.rb",
+    "name": "YPOPS 0.6 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2004-1080",
+    "module": "exploit_windows/wins/ms04_045_wins",
+    "path": "/modules/exploits/windows/wins/ms04_045_wins.rb",
+    "name": "MS04-045 Microsoft WINS Service Memory Overwrite"
+  }
+]

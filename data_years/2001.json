@@ -1,0 +1,104 @@
+[
+  {
+    "cve": "CVE-2001-1013",
+    "module": "auxiliary_scanner/http/apache_userdir_enum",
+    "path": "/modules/auxiliary/scanner/http/apache_userdir_enum.rb",
+    "name": "Apache \"mod_userdir\" User Enumeration"
+  },
+  {
+    "cve": "CVE-2001-0537",
+    "module": "auxiliary_scanner/http/cisco_ios_auth_bypass",
+    "path": "/modules/auxiliary/scanner/http/cisco_ios_auth_bypass.rb",
+    "name": "Cisco IOS HTTP Unauthorized Administrative Access"
+  },
+  {
+    "cve": "CVE-2001-0800",
+    "module": "exploit_irix/lpd/tagprinter_exec",
+    "path": "/modules/exploits/irix/lpd/tagprinter_exec.rb",
+    "name": "Irix LPD tagprinter Command Execution"
+  },
+  {
+    "cve": "CVE-2001-0311",
+    "module": "exploit_multi/misc/openview_omniback_exec",
+    "path": "/modules/exploits/multi/misc/openview_omniback_exec.rb",
+    "name": "HP OpenView OmniBack II Command Execution"
+  },
+  {
+    "cve": "CVE-2001-0414",
+    "module": "exploit_multi/ntp/ntp_overflow",
+    "path": "/modules/exploits/multi/ntp/ntp_overflow.rb",
+    "name": "NTP Daemon readvar Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2001-0797",
+    "module": "exploit_solaris/dialup/manyargs",
+    "path": "/modules/exploits/solaris/dialup/manyargs.rb",
+    "name": "System V Derived /bin/login Extraneous Arguments Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2001-0803",
+    "module": "exploit_solaris/dtspcd/heap_noir",
+    "path": "/modules/exploits/solaris/dtspcd/heap_noir.rb",
+    "name": "Solaris dtspcd Heap Overflow"
+  },
+  {
+    "cve": "CVE-2001-1583",
+    "module": "exploit_solaris/lpd/sendmail_exec",
+    "path": "/modules/exploits/solaris/lpd/sendmail_exec.rb",
+    "name": "Solaris LPD Command Execution"
+  },
+  {
+    "cve": "CVE-2001-0797",
+    "module": "exploit_solaris/telnet/ttyprompt",
+    "path": "/modules/exploits/solaris/telnet/ttyprompt.rb",
+    "name": "Solaris in.telnetd TTYPROMPT Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2001-0241",
+    "module": "exploit_windows/iis/ms01_023_printer",
+    "path": "/modules/exploits/windows/iis/ms01_023_printer.rb",
+    "name": "MS01-023 Microsoft IIS 5.0 Printer Host Header Overflow"
+  },
+  {
+    "cve": "CVE-2001-0333",
+    "module": "exploit_windows/iis/ms01_026_dbldecode",
+    "path": "/modules/exploits/windows/iis/ms01_026_dbldecode.rb",
+    "name": "MS01-026 Microsoft IIS/PWS CGI Filename Double Decode Command Execution"
+  },
+  {
+    "cve": "CVE-2001-0500",
+    "module": "exploit_windows/iis/ms01_033_idq",
+    "path": "/modules/exploits/windows/iis/ms01_033_idq.rb",
+    "name": "MS01-033 Microsoft IIS 5.0 IDQ Path Overflow"
+  },
+  {
+    "cve": "CVE-2001-1320",
+    "module": "exploit_windows/ldap/pgp_keyserver7",
+    "path": "/modules/exploits/windows/ldap/pgp_keyserver7.rb",
+    "name": "Network Associates PGP KeyServer 7 LDAP Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2001-0499",
+    "module": "exploit_windows/oracle/tns_arguments",
+    "path": "/modules/exploits/windows/oracle/tns_arguments.rb",
+    "name": "Oracle 8i TNS Listener (ARGUMENTS) Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2001-0167",
+    "module": "exploit_windows/vnc/realvnc_client",
+    "path": "/modules/exploits/windows/vnc/realvnc_client.rb",
+    "name": "RealVNC 3.3.7 Client Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2001-0168",
+    "module": "exploit_windows/vnc/winvnc_http_get",
+    "path": "/modules/exploits/windows/vnc/winvnc_http_get.rb",
+    "name": "WinVNC Web Server GET Overflow"
+  },
+  {
+    "cve": "CVE-2001-0152",
+    "module": "post_windows/gather/credentials/dynazip_log",
+    "path": "/modules/post/windows/gather/credentials/dynazip_log.rb",
+    "name": "Windows Gather DynaZIP Saved Password Extraction"
+  }
+]

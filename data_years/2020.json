@@ -1,0 +1,1220 @@
+[
+  {
+    "cve": "CVE-2020-1472",
+    "module": "auxiliary_admin/dcerpc/cve_2020_1472_zerologon",
+    "path": "/modules/auxiliary/admin/dcerpc/cve_2020_1472_zerologon.rb",
+    "name": "Netlogon Weak Cryptographic Authentication"
+  },
+  {
+    "cve": "CVE-2020-16137",
+    "module": "auxiliary_admin/http/cisco_7937g_ssh_privesc",
+    "path": "/modules/auxiliary/admin/http/cisco_7937g_ssh_privesc.py",
+    "name": "Cisco 7937G SSH Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-4427",
+    "module": "auxiliary_admin/http/ibm_drm_download",
+    "path": "/modules/auxiliary/admin/http/ibm_drm_download.rb",
+    "name": "IBM Data Risk Manager Arbitrary File Download"
+  },
+  {
+    "cve": "CVE-2020-4429",
+    "module": "auxiliary_admin/http/ibm_drm_download",
+    "path": "/modules/auxiliary/admin/http/ibm_drm_download.rb",
+    "name": "IBM Data Risk Manager Arbitrary File Download"
+  },
+  {
+    "cve": "CVE-2020-10923",
+    "module": "auxiliary_admin/http/netgear_r6700_pass_reset",
+    "path": "/modules/auxiliary/admin/http/netgear_r6700_pass_reset.rb",
+    "name": "Netgear R6700v3 Unauthenticated LAN Admin Password Reset"
+  },
+  {
+    "cve": "CVE-2020-10924",
+    "module": "auxiliary_admin/http/netgear_r6700_pass_reset",
+    "path": "/modules/auxiliary/admin/http/netgear_r6700_pass_reset.rb",
+    "name": "Netgear R6700v3 Unauthenticated LAN Admin Password Reset"
+  },
+  {
+    "cve": "CVE-2020-1938",
+    "module": "auxiliary_admin/http/tomcat_ghostcat",
+    "path": "/modules/auxiliary/admin/http/tomcat_ghostcat.rb",
+    "name": "Apache Tomcat AJP File Read"
+  },
+  {
+    "cve": "CVE-2020-3952",
+    "module": "auxiliary_admin/ldap/vmware_vcenter_vmdir_auth_bypass",
+    "path": "/modules/auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass.rb",
+    "name": "VMware vCenter Server vmdir Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2020-6207",
+    "module": "auxiliary_admin/sap/cve_2020_6207_solman_rce",
+    "path": "/modules/auxiliary/admin/sap/cve_2020_6207_solman_rce.rb",
+    "name": "SAP Solution Manager remote unauthorized OS commands execution"
+  },
+  {
+    "cve": "CVE-2020-6287",
+    "module": "auxiliary_admin/sap/cve_2020_6287_ws_add_user",
+    "path": "/modules/auxiliary/admin/sap/cve_2020_6287_ws_add_user.rb",
+    "name": "SAP Unauthenticated WebService User Creation"
+  },
+  {
+    "cve": "CVE-2020-16138",
+    "module": "auxiliary_dos/cisco/cisco_7937g_dos",
+    "path": "/modules/auxiliary/dos/cisco/cisco_7937g_dos.py",
+    "name": "Cisco 7937G Denial-of-Service Attack"
+  },
+  {
+    "cve": "CVE-2020-16139",
+    "module": "auxiliary_dos/cisco/cisco_7937g_dos_reboot",
+    "path": "/modules/auxiliary/dos/cisco/cisco_7937g_dos_reboot.py",
+    "name": "Cisco 7937G Denial-of-Service Reboot Attack"
+  },
+  {
+    "cve": "CVE-2020-8617",
+    "module": "auxiliary_dos/dns/bind_tsig_badtime",
+    "path": "/modules/auxiliary/dos/dns/bind_tsig_badtime.rb",
+    "name": "BIND TSIG Badtime Query Denial of Service"
+  },
+  {
+    "cve": "CVE-2020-5724",
+    "module": "auxiliary_gather/grandstream_ucm62xx_sql_account_guess",
+    "path": "/modules/auxiliary/gather/grandstream_ucm62xx_sql_account_guess.rb",
+    "name": "Grandstream UCM62xx IP PBX WebSocket Blind SQL Injection Credential Dump"
+  },
+  {
+    "cve": "CVE-2020-5723",
+    "module": "auxiliary_gather/grandstream_ucm62xx_sql_account_guess",
+    "path": "/modules/auxiliary/gather/grandstream_ucm62xx_sql_account_guess.rb",
+    "name": "Grandstream UCM62xx IP PBX WebSocket Blind SQL Injection Credential Dump"
+  },
+  {
+    "cve": "CVE-2020-11532",
+    "module": "auxiliary_gather/manageengine_adaudit_plus_xnode_enum",
+    "path": "/modules/auxiliary/gather/manageengine_adaudit_plus_xnode_enum.rb",
+    "name": "ManageEngine ADAudit Plus Xnode Enumeration"
+  },
+  {
+    "cve": "CVE-2020-11532",
+    "module": "auxiliary_gather/manageengine_datasecurity_plus_xnode_enum",
+    "path": "/modules/auxiliary/gather/manageengine_datasecurity_plus_xnode_enum.rb",
+    "name": "ManageEngine DataSecurity Plus Xnode Enumeration"
+  },
+  {
+    "cve": "CVE-2020-11651",
+    "module": "auxiliary_gather/saltstack_salt_root_key",
+    "path": "/modules/auxiliary/gather/saltstack_salt_root_key.rb",
+    "name": "SaltStack Salt Master Server Root Key Disclosure"
+  },
+  {
+    "cve": "CVE-2020-11652",
+    "module": "auxiliary_gather/saltstack_salt_root_key",
+    "path": "/modules/auxiliary/gather/saltstack_salt_root_key.rb",
+    "name": "SaltStack Salt Master Server Root Key Disclosure"
+  },
+  {
+    "cve": "CVE-2020-12720",
+    "module": "auxiliary_gather/vbulletin_getindexablecontent_sqli",
+    "path": "/modules/auxiliary/gather/vbulletin_getindexablecontent_sqli.rb",
+    "name": "vBulletin /ajax/api/content_infraction/getIndexableContent nodeid Parameter SQL Injection"
+  },
+  {
+    "cve": "CVE-2020-3952",
+    "module": "auxiliary_gather/vmware_vcenter_vmdir_ldap",
+    "path": "/modules/auxiliary/gather/vmware_vcenter_vmdir_ldap.rb",
+    "name": "VMware vCenter Server vmdir Information Disclosure"
+  },
+  {
+    "cve": "CVE-2020-17519",
+    "module": "auxiliary_scanner/http/apache_flink_jobmanager_traversal",
+    "path": "/modules/auxiliary/scanner/http/apache_flink_jobmanager_traversal.rb",
+    "name": "Apache Flink JobManager Traversal"
+  },
+  {
+    "cve": "CVE-2020-26948",
+    "module": "auxiliary_scanner/http/emby_ssrf_scanner",
+    "path": "/modules/auxiliary/scanner/http/emby_ssrf_scanner.rb",
+    "name": "Emby SSRF HTTP Scanner"
+  },
+  {
+    "cve": "CVE-2020-26948",
+    "module": "auxiliary_scanner/http/emby_version_ssrf",
+    "path": "/modules/auxiliary/scanner/http/emby_version_ssrf.rb",
+    "name": "Emby Version Scanner"
+  },
+  {
+    "cve": "CVE-2020-9294",
+    "module": "auxiliary_scanner/http/fortimail_login_bypass_detection",
+    "path": "/modules/auxiliary/scanner/http/fortimail_login_bypass_detection.rb",
+    "name": "FortiMail Unauthenticated Login Bypass Scanner"
+  },
+  {
+    "cve": "CVE-2020-14181",
+    "module": "auxiliary_scanner/http/jira_user_enum",
+    "path": "/modules/auxiliary/scanner/http/jira_user_enum.rb",
+    "name": "Jira Users Enumeration"
+  },
+  {
+    "cve": "CVE-2020-11455",
+    "module": "auxiliary_scanner/http/limesurvey_zip_traversals",
+    "path": "/modules/auxiliary/scanner/http/limesurvey_zip_traversals.rb",
+    "name": "LimeSurvey Zip Path Traversals"
+  },
+  {
+    "cve": "CVE-2020-5791",
+    "module": "auxiliary_scanner/http/nagios_xi_scanner",
+    "path": "/modules/auxiliary/scanner/http/nagios_xi_scanner.rb",
+    "name": "Nagios XI Scanner"
+  },
+  {
+    "cve": "CVE-2020-5792",
+    "module": "auxiliary_scanner/http/nagios_xi_scanner",
+    "path": "/modules/auxiliary/scanner/http/nagios_xi_scanner.rb",
+    "name": "Nagios XI Scanner"
+  },
+  {
+    "cve": "CVE-2020-35578",
+    "module": "auxiliary_scanner/http/nagios_xi_scanner",
+    "path": "/modules/auxiliary/scanner/http/nagios_xi_scanner.rb",
+    "name": "Nagios XI Scanner"
+  },
+  {
+    "cve": "CVE-2020-5410",
+    "module": "auxiliary_scanner/http/springcloud_directory_traversal",
+    "path": "/modules/auxiliary/scanner/http/springcloud_directory_traversal.rb",
+    "name": "Directory Traversal in Spring Cloud Config Server"
+  },
+  {
+    "cve": "CVE-2020-11530",
+    "module": "auxiliary_scanner/http/wp_chopslider_id_sqli",
+    "path": "/modules/auxiliary/scanner/http/wp_chopslider_id_sqli.rb",
+    "name": "WordPress ChopSlider3 id SQLi Scanner"
+  },
+  {
+    "cve": "CVE-2020-11738",
+    "module": "auxiliary_scanner/http/wp_duplicator_file_read",
+    "path": "/modules/auxiliary/scanner/http/wp_duplicator_file_read.rb",
+    "name": "WordPress Duplicator File Read Vulnerability"
+  },
+  {
+    "cve": "CVE-2020-35234",
+    "module": "auxiliary_scanner/http/wp_easy_wp_smtp",
+    "path": "/modules/auxiliary/scanner/http/wp_easy_wp_smtp.rb",
+    "name": "WordPress Easy WP SMTP Password Reset"
+  },
+  {
+    "cve": "CVE-2020-6010",
+    "module": "auxiliary_scanner/http/wp_learnpress_sqli",
+    "path": "/modules/auxiliary/scanner/http/wp_learnpress_sqli.rb",
+    "name": "Wordpress LearnPress current_items Authenticated SQLi"
+  },
+  {
+    "cve": "CVE-2020-27615",
+    "module": "auxiliary_scanner/http/wp_loginizer_log_sqli",
+    "path": "/modules/auxiliary/scanner/http/wp_loginizer_log_sqli.rb",
+    "name": "WordPress Loginizer log SQLi Scanner"
+  },
+  {
+    "cve": "CVE-2020-36848",
+    "module": "auxiliary_scanner/http/wp_total_upkeep_downloader",
+    "path": "/modules/auxiliary/scanner/http/wp_total_upkeep_downloader.rb",
+    "name": "WordPress Total Upkeep Unauthenticated Backup Downloader"
+  },
+  {
+    "cve": "CVE-2020-11491",
+    "module": "auxiliary_scanner/http/zenload_balancer_traversal",
+    "path": "/modules/auxiliary/scanner/http/zenload_balancer_traversal.rb",
+    "name": "Zen Load Balancer Directory Traversal"
+  },
+  {
+    "cve": "CVE-2020-13699",
+    "module": "auxiliary_server/teamviewer_uri_smb_redirect",
+    "path": "/modules/auxiliary/server/teamviewer_uri_smb_redirect.rb",
+    "name": "TeamViewer Unquoted URI Handler SMB Redirect"
+  },
+  {
+    "cve": "CVE-2020-7457",
+    "module": "exploit_freebsd/local/ip6_setpktopt_uaf_priv_esc",
+    "path": "/modules/exploits/freebsd/local/ip6_setpktopt_uaf_priv_esc.rb",
+    "name": "FreeBSD ip6_setpktopt Use-After-Free Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-11698",
+    "module": "exploit_freebsd/webapp/spamtitan_unauth_rce",
+    "path": "/modules/exploits/freebsd/webapp/spamtitan_unauth_rce.rb",
+    "name": "SpamTitan Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2020-11978",
+    "module": "exploit_linux/http/apache_airflow_dag_rce",
+    "path": "/modules/exploits/linux/http/apache_airflow_dag_rce.rb",
+    "name": "Apache Airflow 1.10.10 - Example DAG Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-13927",
+    "module": "exploit_linux/http/apache_airflow_dag_rce",
+    "path": "/modules/exploits/linux/http/apache_airflow_dag_rce.rb",
+    "name": "Apache Airflow 1.10.10 - Example DAG Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-9496",
+    "module": "exploit_linux/http/apache_ofbiz_deserialization",
+    "path": "/modules/exploits/linux/http/apache_ofbiz_deserialization.rb",
+    "name": "Apache OFBiz XML-RPC Java Deserialization"
+  },
+  {
+    "cve": "CVE-2020-17505",
+    "module": "exploit_linux/http/artica_proxy_auth_bypass_service_cmds_peform_command_injection",
+    "path": "/modules/exploits/linux/http/artica_proxy_auth_bypass_service_cmds_peform_command_injection.rb",
+    "name": "Artica proxy 4.30.000000 Auth Bypass service-cmds-peform Command Injection"
+  },
+  {
+    "cve": "CVE-2020-17506",
+    "module": "exploit_linux/http/artica_proxy_auth_bypass_service_cmds_peform_command_injection",
+    "path": "/modules/exploits/linux/http/artica_proxy_auth_bypass_service_cmds_peform_command_injection.rb",
+    "name": "Artica proxy 4.30.000000 Auth Bypass service-cmds-peform Command Injection"
+  },
+  {
+    "cve": "CVE-2020-7357",
+    "module": "exploit_linux/http/cayin_cms_ntp",
+    "path": "/modules/exploits/linux/http/cayin_cms_ntp.rb",
+    "name": "Cayin CMS NTP Server RCE"
+  },
+  {
+    "cve": "CVE-2020-3243",
+    "module": "exploit_linux/http/cisco_ucs_cloupia_script_rce",
+    "path": "/modules/exploits/linux/http/cisco_ucs_cloupia_script_rce.rb",
+    "name": "Cisco UCS Director Cloupia Script RCE"
+  },
+  {
+    "cve": "CVE-2020-3250",
+    "module": "exploit_linux/http/cisco_ucs_cloupia_script_rce",
+    "path": "/modules/exploits/linux/http/cisco_ucs_cloupia_script_rce.rb",
+    "name": "Cisco UCS Director Cloupia Script RCE"
+  },
+  {
+    "cve": "CVE-2020-8654",
+    "module": "exploit_linux/http/eyesofnetwork_autodiscovery_rce",
+    "path": "/modules/exploits/linux/http/eyesofnetwork_autodiscovery_rce.rb",
+    "name": "EyesOfNetwork 5.1-5.3 AutoDiscovery Target Command Execution"
+  },
+  {
+    "cve": "CVE-2020-8655",
+    "module": "exploit_linux/http/eyesofnetwork_autodiscovery_rce",
+    "path": "/modules/exploits/linux/http/eyesofnetwork_autodiscovery_rce.rb",
+    "name": "EyesOfNetwork 5.1-5.3 AutoDiscovery Target Command Execution"
+  },
+  {
+    "cve": "CVE-2020-8656",
+    "module": "exploit_linux/http/eyesofnetwork_autodiscovery_rce",
+    "path": "/modules/exploits/linux/http/eyesofnetwork_autodiscovery_rce.rb",
+    "name": "EyesOfNetwork 5.1-5.3 AutoDiscovery Target Command Execution"
+  },
+  {
+    "cve": "CVE-2020-8657",
+    "module": "exploit_linux/http/eyesofnetwork_autodiscovery_rce",
+    "path": "/modules/exploits/linux/http/eyesofnetwork_autodiscovery_rce.rb",
+    "name": "EyesOfNetwork 5.1-5.3 AutoDiscovery Target Command Execution"
+  },
+  {
+    "cve": "CVE-2020-9465",
+    "module": "exploit_linux/http/eyesofnetwork_autodiscovery_rce",
+    "path": "/modules/exploits/linux/http/eyesofnetwork_autodiscovery_rce.rb",
+    "name": "EyesOfNetwork 5.1-5.3 AutoDiscovery Target Command Execution"
+  },
+  {
+    "cve": "CVE-2020-5902",
+    "module": "exploit_linux/http/f5_bigip_tmui_rce_cve_2020_5902",
+    "path": "/modules/exploits/linux/http/f5_bigip_tmui_rce_cve_2020_5902.rb",
+    "name": "F5 BIG-IP TMUI Directory Traversal and File Upload RCE"
+  },
+  {
+    "cve": "CVE-2020-16205",
+    "module": "exploit_linux/http/geutebruck_testaction_exec",
+    "path": "/modules/exploits/linux/http/geutebruck_testaction_exec.rb",
+    "name": "Geutebruck testaction.cgi Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2020-5722",
+    "module": "exploit_linux/http/grandstream_ucm62xx_sendemail_rce",
+    "path": "/modules/exploits/linux/http/grandstream_ucm62xx_sendemail_rce.rb",
+    "name": "Grandstream UCM62xx IP PBX sendPasswordEmail RCE"
+  },
+  {
+    "cve": "CVE-2020-4427",
+    "module": "exploit_linux/http/ibm_drm_rce",
+    "path": "/modules/exploits/linux/http/ibm_drm_rce.rb",
+    "name": "IBM Data Risk Manager Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-4428",
+    "module": "exploit_linux/http/ibm_drm_rce",
+    "path": "/modules/exploits/linux/http/ibm_drm_rce.rb",
+    "name": "IBM Data Risk Manager Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-4429",
+    "module": "exploit_linux/http/ibm_drm_rce",
+    "path": "/modules/exploits/linux/http/ibm_drm_rce.rb",
+    "name": "IBM Data Risk Manager Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-7012",
+    "module": "exploit_linux/http/kibana_upgrade_assistant_telemetry_rce",
+    "path": "/modules/exploits/linux/http/kibana_upgrade_assistant_telemetry_rce.rb",
+    "name": "Kibana Upgrade Assistant Telemetry Collector Prototype Pollution"
+  },
+  {
+    "cve": "CVE-2020-35729",
+    "module": "exploit_linux/http/klog_server_authenticate_user_unauth_command_injection",
+    "path": "/modules/exploits/linux/http/klog_server_authenticate_user_unauth_command_injection.rb",
+    "name": "Klog Server authenticate.php user Unauthenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2020-7209",
+    "module": "exploit_linux/http/linuxki_rce",
+    "path": "/modules/exploits/linux/http/linuxki_rce.rb",
+    "name": "LinuxKI Toolset 6.01 Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2020-15920",
+    "module": "exploit_linux/http/mida_solutions_eframework_ajaxreq_rce",
+    "path": "/modules/exploits/linux/http/mida_solutions_eframework_ajaxreq_rce.rb",
+    "name": "Mida Solutions eFramework ajaxreq.php Command Injection"
+  },
+  {
+    "cve": "CVE-2020-15505",
+    "module": "exploit_linux/http/mobileiron_mdm_hessian_rce",
+    "path": "/modules/exploits/linux/http/mobileiron_mdm_hessian_rce.rb",
+    "name": "MobileIron MDM Hessian-Based Java Deserialization RCE"
+  },
+  {
+    "cve": "CVE-2020-5791",
+    "module": "exploit_linux/http/nagios_xi_mibs_authenticated_rce",
+    "path": "/modules/exploits/linux/http/nagios_xi_mibs_authenticated_rce.rb",
+    "name": "Nagios XI 5.6.0-5.7.3 - Mibs.php Authenticated Remote Code Exection"
+  },
+  {
+    "cve": "CVE-2020-35578",
+    "module": "exploit_linux/http/nagios_xi_plugins_filename_authenticated_rce",
+    "path": "/modules/exploits/linux/http/nagios_xi_plugins_filename_authenticated_rce.rb",
+    "name": "Nagios XI Prior to 5.8.0 - Plugins Filename Authenticated Remote Code Exection"
+  },
+  {
+    "cve": "CVE-2020-5792",
+    "module": "exploit_linux/http/nagios_xi_snmptrap_authenticated_rce",
+    "path": "/modules/exploits/linux/http/nagios_xi_snmptrap_authenticated_rce.rb",
+    "name": "Nagios XI 5.5.0-5.7.3 - Snmptrap Authenticated Remote Code Exection"
+  },
+  {
+    "cve": "CVE-2020-13167",
+    "module": "exploit_linux/http/netsweeper_webadmin_unixlogin",
+    "path": "/modules/exploits/linux/http/netsweeper_webadmin_unixlogin.rb",
+    "name": "Netsweeper WebAdmin unixlogin.php Python Code Injection"
+  },
+  {
+    "cve": "CVE-2020-10199",
+    "module": "exploit_linux/http/nexus_repo_manager_el_injection",
+    "path": "/modules/exploits/linux/http/nexus_repo_manager_el_injection.rb",
+    "name": "Nexus Repository Manager Java EL Injection RCE"
+  },
+  {
+    "cve": "CVE-2020-35476",
+    "module": "exploit_linux/http/opentsdb_yrange_cmd_injection",
+    "path": "/modules/exploits/linux/http/opentsdb_yrange_cmd_injection.rb",
+    "name": "OpenTSDB 2.4.0 unauthenticated command injection"
+  },
+  {
+    "cve": "CVE-2020-13851",
+    "module": "exploit_linux/http/pandora_fms_events_exec",
+    "path": "/modules/exploits/linux/http/pandora_fms_events_exec.rb",
+    "name": "Pandora FMS Events Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2020-2038",
+    "module": "exploit_linux/http/panos_op_cmd_exec",
+    "path": "/modules/exploits/linux/http/panos_op_cmd_exec.rb",
+    "name": "Palo Alto Networks Authenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-8260",
+    "module": "exploit_linux/http/pulse_secure_gzip_rce",
+    "path": "/modules/exploits/linux/http/pulse_secure_gzip_rce.rb",
+    "name": "Pulse Secure VPN gzip RCE"
+  },
+  {
+    "cve": "CVE-2020-10220",
+    "module": "exploit_linux/http/rconfig_ajaxarchivefiles_rce",
+    "path": "/modules/exploits/linux/http/rconfig_ajaxarchivefiles_rce.rb",
+    "name": "Rconfig 3.x Chained Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-16846",
+    "module": "exploit_linux/http/saltstack_salt_api_cmd_exec",
+    "path": "/modules/exploits/linux/http/saltstack_salt_api_cmd_exec.rb",
+    "name": "SaltStack Salt REST API Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2020-25592",
+    "module": "exploit_linux/http/saltstack_salt_api_cmd_exec",
+    "path": "/modules/exploits/linux/http/saltstack_salt_api_cmd_exec.rb",
+    "name": "SaltStack Salt REST API Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2020-25223",
+    "module": "exploit_linux/http/sophos_utm_webadmin_sid_cmd_injection",
+    "path": "/modules/exploits/linux/http/sophos_utm_webadmin_sid_cmd_injection.rb",
+    "name": "Sophos UTM WebAdmin SID Command Injection"
+  },
+  {
+    "cve": "CVE-2020-28328",
+    "module": "exploit_linux/http/suitecrm_log_file_rce",
+    "path": "/modules/exploits/linux/http/suitecrm_log_file_rce.rb",
+    "name": "SuiteCRM Log File Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-35665",
+    "module": "exploit_linux/http/terramaster_unauth_rce_cve_2020_35665",
+    "path": "/modules/exploits/linux/http/terramaster_unauth_rce_cve_2020_35665.rb",
+    "name": "TerraMaster TOS 4.2.06 or lower - Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-28188",
+    "module": "exploit_linux/http/terramaster_unauth_rce_cve_2020_35665",
+    "path": "/modules/exploits/linux/http/terramaster_unauth_rce_cve_2020_35665.rb",
+    "name": "TerraMaster TOS 4.2.06 or lower - Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-12109",
+    "module": "exploit_linux/http/tp_link_ncxxx_bonjour_command_injection",
+    "path": "/modules/exploits/linux/http/tp_link_ncxxx_bonjour_command_injection.rb",
+    "name": "TP-Link Cloud Cameras NCXXX Bonjour Command Injection"
+  },
+  {
+    "cve": "CVE-2020-8604",
+    "module": "exploit_linux/http/trendmicro_websecurity_exec",
+    "path": "/modules/exploits/linux/http/trendmicro_websecurity_exec.rb",
+    "name": "Trend Micro Web Security (Virtual Appliance) Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-8605",
+    "module": "exploit_linux/http/trendmicro_websecurity_exec",
+    "path": "/modules/exploits/linux/http/trendmicro_websecurity_exec.rb",
+    "name": "Trend Micro Web Security (Virtual Appliance) Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-8606",
+    "module": "exploit_linux/http/trendmicro_websecurity_exec",
+    "path": "/modules/exploits/linux/http/trendmicro_websecurity_exec.rb",
+    "name": "Trend Micro Web Security (Virtual Appliance) Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-5847",
+    "module": "exploit_linux/http/unraid_auth_bypass_exec",
+    "path": "/modules/exploits/linux/http/unraid_auth_bypass_exec.rb",
+    "name": "Unraid 6.8.0 Auth Bypass PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2020-5849",
+    "module": "exploit_linux/http/unraid_auth_bypass_exec",
+    "path": "/modules/exploits/linux/http/unraid_auth_bypass_exec.rb",
+    "name": "Unraid 6.8.0 Auth Bypass PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2020-10808",
+    "module": "exploit_linux/http/vestacp_exec",
+    "path": "/modules/exploits/linux/http/vestacp_exec.rb",
+    "name": "Vesta Control Panel Authenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-13151",
+    "module": "exploit_linux/misc/aerospike_database_udf_cmd_exec",
+    "path": "/modules/exploits/linux/misc/aerospike_database_udf_cmd_exec.rb",
+    "name": "Aerospike Database UDF Lua Code Execution"
+  },
+  {
+    "cve": "CVE-2020-13160",
+    "module": "exploit_linux/misc/cve_2020_13160_anydesk",
+    "path": "/modules/exploits/linux/misc/cve_2020_13160_anydesk.rb",
+    "name": "AnyDesk GUI Format String Write"
+  },
+  {
+    "cve": "CVE-2020-11651",
+    "module": "exploit_linux/misc/saltstack_salt_unauth_rce",
+    "path": "/modules/exploits/linux/misc/saltstack_salt_unauth_rce.rb",
+    "name": "SaltStack Salt Master/Minion Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2020-11652",
+    "module": "exploit_linux/misc/saltstack_salt_unauth_rce",
+    "path": "/modules/exploits/linux/misc/saltstack_salt_unauth_rce.rb",
+    "name": "SaltStack Salt Master/Minion Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2020-10882",
+    "module": "exploit_linux/misc/tplink_archer_a7_c7_lan_rce",
+    "path": "/modules/exploits/linux/misc/tplink_archer_a7_c7_lan_rce.rb",
+    "name": "TP-Link Archer A7/C7 Unauthenticated LAN Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-10883",
+    "module": "exploit_linux/misc/tplink_archer_a7_c7_lan_rce",
+    "path": "/modules/exploits/linux/misc/tplink_archer_a7_c7_lan_rce.rb",
+    "name": "TP-Link Archer A7/C7 Unauthenticated LAN Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-10884",
+    "module": "exploit_linux/misc/tplink_archer_a7_c7_lan_rce",
+    "path": "/modules/exploits/linux/misc/tplink_archer_a7_c7_lan_rce.rb",
+    "name": "TP-Link Archer A7/C7 Unauthenticated LAN Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-28347",
+    "module": "exploit_linux/misc/tplink_archer_a7_c7_lan_rce",
+    "path": "/modules/exploits/linux/misc/tplink_archer_a7_c7_lan_rce.rb",
+    "name": "TP-Link Archer A7/C7 Unauthenticated LAN Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-4429",
+    "module": "exploit_linux/ssh/ibm_drm_a3user",
+    "path": "/modules/exploits/linux/ssh/ibm_drm_a3user.rb",
+    "name": "IBM Data Risk Manager a3user Default Password"
+  },
+  {
+    "cve": "CVE-2020-11857",
+    "module": "exploit_linux/ssh/microfocus_obr_shrboadmin",
+    "path": "/modules/exploits/linux/ssh/microfocus_obr_shrboadmin.rb",
+    "name": "Micro Focus Operations Bridge Reporter shrboadmin default password"
+  },
+  {
+    "cve": "CVE-2020-15893",
+    "module": "exploit_linux/upnp/dlink_upnp_msearch_exec",
+    "path": "/modules/exploits/linux/upnp/dlink_upnp_msearch_exec.rb",
+    "name": "D-Link Unauthenticated Remote Command Execution using UPnP via a special crafted M-SEARCH packet."
+  },
+  {
+    "cve": "CVE-2020-6418",
+    "module": "exploit_multi/browser/chrome_jscreate_sideeffect",
+    "path": "/modules/exploits/multi/browser/chrome_jscreate_sideeffect.rb",
+    "name": "Google Chrome 80 JSCreate side-effect type confusion exploit"
+  },
+  {
+    "cve": "CVE-2020-16040",
+    "module": "exploit_multi/browser/chrome_simplifiedlowering_overflow",
+    "path": "/modules/exploits/multi/browser/chrome_simplifiedlowering_overflow.rb",
+    "name": "Google Chrome versions before 87.0.4280.88 integer overflow during SimplfiedLowering phase"
+  },
+  {
+    "cve": "CVE-2020-26950",
+    "module": "exploit_multi/browser/firefox_jit_use_after_free",
+    "path": "/modules/exploits/multi/browser/firefox_jit_use_after_free.rb",
+    "name": "Firefox MCallGetProperty Write Side Effects Use After Free Exploit"
+  },
+  {
+    "cve": "CVE-2020-28949",
+    "module": "exploit_multi/fileformat/archive_tar_arb_file_write",
+    "path": "/modules/exploits/multi/fileformat/archive_tar_arb_file_write.rb",
+    "name": "PEAR Archive_Tar 1.4.10 Arbitrary File Write"
+  },
+  {
+    "cve": "CVE-2020-13945",
+    "module": "exploit_multi/http/apache_apisix_api_default_token_rce",
+    "path": "/modules/exploits/multi/http/apache_apisix_api_default_token_rce.rb",
+    "name": "APISIX Admin API default access token RCE"
+  },
+  {
+    "cve": "CVE-2020-35847",
+    "module": "exploit_multi/http/cockpit_cms_rce",
+    "path": "/modules/exploits/multi/http/cockpit_cms_rce.rb",
+    "name": "Cockpit CMS NoSQLi to RCE"
+  },
+  {
+    "cve": "CVE-2020-35846",
+    "module": "exploit_multi/http/cockpit_cms_rce",
+    "path": "/modules/exploits/multi/http/cockpit_cms_rce.rb",
+    "name": "Cockpit CMS NoSQLi to RCE"
+  },
+  {
+    "cve": "CVE-2020-14144",
+    "module": "exploit_multi/http/gitea_git_hooks_rce",
+    "path": "/modules/exploits/multi/http/gitea_git_hooks_rce.rb",
+    "name": "Gitea Git Hooks Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-10977",
+    "module": "exploit_multi/http/gitlab_file_read_rce",
+    "path": "/modules/exploits/multi/http/gitlab_file_read_rce.rb",
+    "name": "GitLab File Read Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-15867",
+    "module": "exploit_multi/http/gogs_git_hooks_rce",
+    "path": "/modules/exploits/multi/http/gogs_git_hooks_rce.rb",
+    "name": "Gogs Git Hooks Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-8518",
+    "module": "exploit_multi/http/horde_csv_rce",
+    "path": "/modules/exploits/multi/http/horde_csv_rce.rb",
+    "name": "Horde CSV import arbitrary PHP code execution"
+  },
+  {
+    "cve": "CVE-2020-27387",
+    "module": "exploit_multi/http/horizontcms_upload_exec",
+    "path": "/modules/exploits/multi/http/horizontcms_upload_exec.rb",
+    "name": "HorizontCMS Arbitrary PHP File Upload"
+  },
+  {
+    "cve": "CVE-2020-7961",
+    "module": "exploit_multi/http/liferay_java_unmarshalling",
+    "path": "/modules/exploits/multi/http/liferay_java_unmarshalling.rb",
+    "name": "Liferay Portal Java Unmarshalling via JSONWS RCE"
+  },
+  {
+    "cve": "CVE-2020-25042",
+    "module": "exploit_multi/http/maracms_upload_exec",
+    "path": "/modules/exploits/multi/http/maracms_upload_exec.rb",
+    "name": "MaraCMS Arbitrary PHP File Upload"
+  },
+  {
+    "cve": "CVE-2020-11853",
+    "module": "exploit_multi/http/microfocus_obm_auth_rce",
+    "path": "/modules/exploits/multi/http/microfocus_obm_auth_rce.rb",
+    "name": "Micro Focus Operations Bridge Manager Authenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-11853",
+    "module": "exploit_multi/http/microfocus_ucmdb_unauth_deser",
+    "path": "/modules/exploits/multi/http/microfocus_ucmdb_unauth_deser.rb",
+    "name": "Micro Focus UCMDB Java Deserialization Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-11854",
+    "module": "exploit_multi/http/microfocus_ucmdb_unauth_deser",
+    "path": "/modules/exploits/multi/http/microfocus_ucmdb_unauth_deser.rb",
+    "name": "Micro Focus UCMDB Java Deserialization Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-28871",
+    "module": "exploit_multi/http/monitorr_webshell_rce_cve_2020_28871",
+    "path": "/modules/exploits/multi/http/monitorr_webshell_rce_cve_2020_28871.rb",
+    "name": "Monitorr unauthenticated Remote Code Execution (RCE)"
+  },
+  {
+    "cve": "CVE-2020-14321",
+    "module": "exploit_multi/http/moodle_teacher_enrollment_priv_esc_to_rce",
+    "path": "/modules/exploits/multi/http/moodle_teacher_enrollment_priv_esc_to_rce.rb",
+    "name": "Moodle Teacher Enrollment Privilege Escalation to RCE"
+  },
+  {
+    "cve": "CVE-2020-28653",
+    "module": "exploit_multi/http/opmanager_sumpdu_deserialization",
+    "path": "/modules/exploits/multi/http/opmanager_sumpdu_deserialization.rb",
+    "name": "ManageEngine OpManager SumPDU Java Deserialization"
+  },
+  {
+    "cve": "CVE-2020-8644",
+    "module": "exploit_multi/http/playsms_template_injection",
+    "path": "/modules/exploits/multi/http/playsms_template_injection.rb",
+    "name": "PlaySMS index.php Unauthenticated Template Injection Code Execution"
+  },
+  {
+    "cve": "CVE-2020-7246",
+    "module": "exploit_multi/http/qdpm_authenticated_rce",
+    "path": "/modules/exploits/multi/http/qdpm_authenticated_rce.rb",
+    "name": "qdPM 9.1 Authenticated Arbitrary PHP File Upload (RCE)"
+  },
+  {
+    "cve": "CVE-2020-17530",
+    "module": "exploit_multi/http/struts2_multi_eval_ognl",
+    "path": "/modules/exploits/multi/http/struts2_multi_eval_ognl.rb",
+    "name": "Apache Struts 2 Forced Multi OGNL Evaluation"
+  },
+  {
+    "cve": "CVE-2020-12720",
+    "module": "exploit_multi/http/vbulletin_getindexablecontent",
+    "path": "/modules/exploits/multi/http/vbulletin_getindexablecontent.rb",
+    "name": "vBulletin /ajax/api/content_infraction/getIndexableContent nodeid Parameter SQL Injection"
+  },
+  {
+    "cve": "CVE-2020-17496",
+    "module": "exploit_multi/http/vbulletin_widget_template_rce",
+    "path": "/modules/exploits/multi/http/vbulletin_widget_template_rce.rb",
+    "name": "vBulletin 5.x /ajax/render/widget_tabbedcontainer_tab_panel PHP remote code execution."
+  },
+  {
+    "cve": "CVE-2020-14882",
+    "module": "exploit_multi/http/weblogic_admin_handle_rce",
+    "path": "/modules/exploits/multi/http/weblogic_admin_handle_rce.rb",
+    "name": "Oracle WebLogic Server Administration Console Handle RCE"
+  },
+  {
+    "cve": "CVE-2020-14883",
+    "module": "exploit_multi/http/weblogic_admin_handle_rce",
+    "path": "/modules/exploits/multi/http/weblogic_admin_handle_rce.rb",
+    "name": "Oracle WebLogic Server Administration Console Handle RCE"
+  },
+  {
+    "cve": "CVE-2020-14750",
+    "module": "exploit_multi/http/weblogic_admin_handle_rce",
+    "path": "/modules/exploits/multi/http/weblogic_admin_handle_rce.rb",
+    "name": "Oracle WebLogic Server Administration Console Handle RCE"
+  },
+  {
+    "cve": "CVE-2020-36849",
+    "module": "exploit_multi/http/wp_ait_csv_rce",
+    "path": "/modules/exploits/multi/http/wp_ait_csv_rce.rb",
+    "name": "WordPress AIT CSV Import Export Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-12800",
+    "module": "exploit_multi/http/wp_dnd_mul_file_rce",
+    "path": "/modules/exploits/multi/http/wp_dnd_mul_file_rce.rb",
+    "name": "Wordpress Drag and Drop Multi File Uploader RCE"
+  },
+  {
+    "cve": "CVE-2020-25213",
+    "module": "exploit_multi/http/wp_file_manager_rce",
+    "path": "/modules/exploits/multi/http/wp_file_manager_rce.rb",
+    "name": "WordPress File Manager Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-36847",
+    "module": "exploit_multi/http/wp_simple_file_list_rce",
+    "path": "/modules/exploits/multi/http/wp_simple_file_list_rce.rb",
+    "name": "WordPress Simple File List Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-24719",
+    "module": "exploit_multi/misc/erlang_cookie_rce",
+    "path": "/modules/exploits/multi/misc/erlang_cookie_rce.rb",
+    "name": "Erlang Port Mapper Daemon Cookie RCE"
+  },
+  {
+    "cve": "CVE-2020-2883",
+    "module": "exploit_multi/misc/weblogic_deserialize_badattr_extcomp",
+    "path": "/modules/exploits/multi/misc/weblogic_deserialize_badattr_extcomp.rb",
+    "name": "WebLogic Server Deserialization RCE BadAttributeValueExpException ExtComp"
+  },
+  {
+    "cve": "CVE-2020-2555",
+    "module": "exploit_multi/misc/weblogic_deserialize_badattrval",
+    "path": "/modules/exploits/multi/misc/weblogic_deserialize_badattrval.rb",
+    "name": "WebLogic Server Deserialization RCE - BadAttributeValueExpException"
+  },
+  {
+    "cve": "CVE-2020-6207",
+    "module": "exploit_multi/sap/cve_2020_6207_solman_rs",
+    "path": "/modules/exploits/multi/sap/cve_2020_6207_solman_rs.rb",
+    "name": "SAP Solution Manager remote unauthorized OS commands execution"
+  },
+  {
+    "cve": "CVE-2020-10644",
+    "module": "exploit_multi/scada/inductive_ignition_rce",
+    "path": "/modules/exploits/multi/scada/inductive_ignition_rce.rb",
+    "name": "Inductive Automation Ignition Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-12004",
+    "module": "exploit_multi/scada/inductive_ignition_rce",
+    "path": "/modules/exploits/multi/scada/inductive_ignition_rce.rb",
+    "name": "Inductive Automation Ignition Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-9801",
+    "module": "exploit_osx/browser/safari_in_operator_side_effect",
+    "path": "/modules/exploits/osx/browser/safari_in_operator_side_effect.rb",
+    "name": "Safari in Operator Side Effect Exploit"
+  },
+  {
+    "cve": "CVE-2020-9850",
+    "module": "exploit_osx/browser/safari_in_operator_side_effect",
+    "path": "/modules/exploits/osx/browser/safari_in_operator_side_effect.rb",
+    "name": "Safari in Operator Side Effect Exploit"
+  },
+  {
+    "cve": "CVE-2020-9856",
+    "module": "exploit_osx/browser/safari_in_operator_side_effect",
+    "path": "/modules/exploits/osx/browser/safari_in_operator_side_effect.rb",
+    "name": "Safari in Operator Side Effect Exploit"
+  },
+  {
+    "cve": "CVE-2020-25736",
+    "module": "exploit_osx/local/acronis_trueimage_xpc_privesc",
+    "path": "/modules/exploits/osx/local/acronis_trueimage_xpc_privesc.rb",
+    "name": "Acronis TrueImage XPC Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-9839",
+    "module": "exploit_osx/local/cfprefsd_race_condition",
+    "path": "/modules/exploits/osx/local/cfprefsd_race_condition.rb",
+    "name": "macOS cfprefsd Arbitrary File Write Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-3950",
+    "module": "exploit_osx/local/vmware_fusion_lpe",
+    "path": "/modules/exploits/osx/local/vmware_fusion_lpe.rb",
+    "name": "VMware Fusion USB Arbitrator Setuid Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-14871",
+    "module": "exploit_solaris/ssh/pam_username_bof",
+    "path": "/modules/exploits/solaris/ssh/pam_username_bof.rb",
+    "name": "Oracle Solaris SunSSH PAM parse_user_name() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2020-7350",
+    "module": "exploit_unix/fileformat/metasploit_libnotify_cmd_injection",
+    "path": "/modules/exploits/unix/fileformat/metasploit_libnotify_cmd_injection.rb",
+    "name": "Metasploit Libnotify Plugin Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2020-7384",
+    "module": "exploit_unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection",
+    "path": "/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb",
+    "name": "Rapid7 Metasploit Framework msfvenom APK Template Command Injection"
+  },
+  {
+    "cve": "CVE-2020-14295",
+    "module": "exploit_unix/http/cacti_filter_sqli_rce",
+    "path": "/modules/exploits/unix/http/cacti_filter_sqli_rce.rb",
+    "name": "Cacti color filter authenticated SQLi to RCE"
+  },
+  {
+    "cve": "CVE-2020-11108",
+    "module": "exploit_unix/http/pihole_blocklist_exec",
+    "path": "/modules/exploits/unix/http/pihole_blocklist_exec.rb",
+    "name": "Pi-Hole heisenbergCompensator Blocklist OS Command Execution"
+  },
+  {
+    "cve": "CVE-2020-8816",
+    "module": "exploit_unix/http/pihole_dhcp_mac_exec",
+    "path": "/modules/exploits/unix/http/pihole_dhcp_mac_exec.rb",
+    "name": "Pi-Hole DHCP MAC OS Command Execution"
+  },
+  {
+    "cve": "CVE-2020-8794",
+    "module": "exploit_unix/local/opensmtpd_oob_read_lpe",
+    "path": "/modules/exploits/unix/local/opensmtpd_oob_read_lpe.rb",
+    "name": "OpenSMTPD OOB Read Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-7247",
+    "module": "exploit_unix/smtp/opensmtpd_mail_from_rce",
+    "path": "/modules/exploits/unix/smtp/opensmtpd_mail_from_rce.rb",
+    "name": "OpenSMTPD MAIL FROM Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-9015",
+    "module": "exploit_unix/ssh/arista_tacplus_shell",
+    "path": "/modules/exploits/unix/ssh/arista_tacplus_shell.rb",
+    "name": "Arista restricted shell escape (with privesc)"
+  },
+  {
+    "cve": "CVE-2020-16152",
+    "module": "exploit_unix/webapp/aerohive_netconfig_lfi_log_poison_rce",
+    "path": "/modules/exploits/unix/webapp/aerohive_netconfig_lfi_log_poison_rce.rb",
+    "name": "Aerohive NetConfig 10.0r8a LFI and log poisoning to RCE"
+  },
+  {
+    "cve": "CVE-2020-26124",
+    "module": "exploit_unix/webapp/openmediavault_rpc_rce",
+    "path": "/modules/exploits/unix/webapp/openmediavault_rpc_rce.rb",
+    "name": "OpenMediaVault rpc.php Authenticated PHP Code Injection"
+  },
+  {
+    "cve": "CVE-2020-13381",
+    "module": "exploit_unix/webapp/opensis_chain_exec",
+    "path": "/modules/exploits/unix/webapp/opensis_chain_exec.rb",
+    "name": "openSIS Unauthenticated PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2020-13382",
+    "module": "exploit_unix/webapp/opensis_chain_exec",
+    "path": "/modules/exploits/unix/webapp/opensis_chain_exec.rb",
+    "name": "openSIS Unauthenticated PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2020-13383",
+    "module": "exploit_unix/webapp/opensis_chain_exec",
+    "path": "/modules/exploits/unix/webapp/opensis_chain_exec.rb",
+    "name": "openSIS Unauthenticated PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2020-7351",
+    "module": "exploit_unix/webapp/trixbox_ce_endpoint_devicemap_rce",
+    "path": "/modules/exploits/unix/webapp/trixbox_ce_endpoint_devicemap_rce.rb",
+    "name": "TrixBox CE endpoint_devicemap.php Authenticated Command Execution"
+  },
+  {
+    "cve": "CVE-2020-8772",
+    "module": "exploit_unix/webapp/wp_infinitewp_auth_bypass",
+    "path": "/modules/exploits/unix/webapp/wp_infinitewp_auth_bypass.rb",
+    "name": "WordPress InfiniteWP Client Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2020-24186",
+    "module": "exploit_unix/webapp/wp_wpdiscuz_unauthenticated_file_upload",
+    "path": "/modules/exploits/unix/webapp/wp_wpdiscuz_unauthenticated_file_upload.rb",
+    "name": "WordPress wpDiscuz Unauthenticated File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2020-7374",
+    "module": "exploit_windows/fileformat/documalis_pdf_editor_and_scanner",
+    "path": "/modules/exploits/windows/fileformat/documalis_pdf_editor_and_scanner.rb",
+    "name": "Documalis Free PDF Editor and Scanner JPEG Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2020-7356",
+    "module": "exploit_windows/http/cayin_xpost_sql_rce",
+    "path": "/modules/exploits/windows/http/cayin_xpost_sql_rce.rb",
+    "name": "Cayin xPost wayfinder_seqid SQLi to RCE"
+  },
+  {
+    "cve": "CVE-2020-10189",
+    "module": "exploit_windows/http/desktopcentral_deserialization",
+    "path": "/modules/exploits/windows/http/desktopcentral_deserialization.rb",
+    "name": "ManageEngine Desktop Central Java Deserialization"
+  },
+  {
+    "cve": "CVE-2020-16875",
+    "module": "exploit_windows/http/exchange_ecp_dlp_policy",
+    "path": "/modules/exploits/windows/http/exchange_ecp_dlp_policy.rb",
+    "name": "Microsoft Exchange Server DlpUtils AddTenantDlpPolicy RCE"
+  },
+  {
+    "cve": "CVE-2020-17132",
+    "module": "exploit_windows/http/exchange_ecp_dlp_policy",
+    "path": "/modules/exploits/windows/http/exchange_ecp_dlp_policy.rb",
+    "name": "Microsoft Exchange Server DlpUtils AddTenantDlpPolicy RCE"
+  },
+  {
+    "cve": "CVE-2020-0688",
+    "module": "exploit_windows/http/exchange_ecp_viewstate",
+    "path": "/modules/exploits/windows/http/exchange_ecp_viewstate.rb",
+    "name": "Exchange Control Panel ViewState Deserialization"
+  },
+  {
+    "cve": "CVE-2020-27386",
+    "module": "exploit_windows/http/flexdotnetcms_upload_exec",
+    "path": "/modules/exploits/windows/http/flexdotnetcms_upload_exec.rb",
+    "name": "FlexDotnetCMS Arbitrary ASP File Upload"
+  },
+  {
+    "cve": "CVE-2020-27955",
+    "module": "exploit_windows/http/git_lfs_rce",
+    "path": "/modules/exploits/windows/http/git_lfs_rce.rb",
+    "name": "Git Remote Code Execution via git-lfs (CVE-2020-27955)"
+  },
+  {
+    "cve": "CVE-2020-7200",
+    "module": "exploit_windows/http/hpe_sim_76_amf_deserialization",
+    "path": "/modules/exploits/windows/http/hpe_sim_76_amf_deserialization.rb",
+    "name": "HPE Systems Insight Manager AMF Deserialization RCE"
+  },
+  {
+    "cve": "CVE-2020-13166",
+    "module": "exploit_windows/http/plesk_mylittleadmin_viewstate",
+    "path": "/modules/exploits/windows/http/plesk_mylittleadmin_viewstate.rb",
+    "name": "Plesk/myLittleAdmin ViewState .NET Deserialization"
+  },
+  {
+    "cve": "CVE-2020-5741",
+    "module": "exploit_windows/http/plex_unpickle_dict_rce",
+    "path": "/modules/exploits/windows/http/plex_unpickle_dict_rce.rb",
+    "name": "Plex Unpickle Dict Windows RCE"
+  },
+  {
+    "cve": "CVE-2020-1147",
+    "module": "exploit_windows/http/sharepoint_data_deserialization",
+    "path": "/modules/exploits/windows/http/sharepoint_data_deserialization.rb",
+    "name": "SharePoint DataSet / DataTable Deserialization"
+  },
+  {
+    "cve": "CVE-2020-16952",
+    "module": "exploit_windows/http/sharepoint_ssi_viewstate",
+    "path": "/modules/exploits/windows/http/sharepoint_ssi_viewstate.rb",
+    "name": "Microsoft SharePoint Server-Side Include and ViewState RCE"
+  },
+  {
+    "cve": "CVE-2020-0646",
+    "module": "exploit_windows/http/sharepoint_workflows_xoml",
+    "path": "/modules/exploits/windows/http/sharepoint_workflows_xoml.rb",
+    "name": "SharePoint Workflows XOML Injection"
+  },
+  {
+    "cve": "CVE-2020-0618",
+    "module": "exploit_windows/http/ssrs_navcorrector_viewstate",
+    "path": "/modules/exploits/windows/http/ssrs_navcorrector_viewstate.rb",
+    "name": "SQL Server Reporting Services (SSRS) ViewState Deserialization"
+  },
+  {
+    "cve": "CVE-2020-7361",
+    "module": "exploit_windows/http/zentao_pro_rce",
+    "path": "/modules/exploits/windows/http/zentao_pro_rce.rb",
+    "name": "ZenTao Pro 8.8.2 Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-3153",
+    "module": "exploit_windows/local/anyconnect_lpe",
+    "path": "/modules/exploits/windows/local/anyconnect_lpe.rb",
+    "name": "Cisco AnyConnect Privilege Escalations (CVE-2020-3153 and CVE-2020-3433)"
+  },
+  {
+    "cve": "CVE-2020-3433",
+    "module": "exploit_windows/local/anyconnect_lpe",
+    "path": "/modules/exploits/windows/local/anyconnect_lpe.rb",
+    "name": "Cisco AnyConnect Privilege Escalations (CVE-2020-3153 and CVE-2020-3433)"
+  },
+  {
+    "cve": "CVE-2020-0668",
+    "module": "exploit_windows/local/cve_2020_0668_service_tracing",
+    "path": "/modules/exploits/windows/local/cve_2020_0668_service_tracing.rb",
+    "name": "Service Tracing Privilege Elevation Vulnerability"
+  },
+  {
+    "cve": "CVE-2020-0787",
+    "module": "exploit_windows/local/cve_2020_0787_bits_arbitrary_file_move",
+    "path": "/modules/exploits/windows/local/cve_2020_0787_bits_arbitrary_file_move.rb",
+    "name": "Background Intelligent Transfer Service Arbitrary File Move Privilege Elevation Vulnerability"
+  },
+  {
+    "cve": "CVE-2020-0796",
+    "module": "exploit_windows/local/cve_2020_0796_smbghost",
+    "path": "/modules/exploits/windows/local/cve_2020_0796_smbghost.rb",
+    "name": "SMBv3 Compression Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2020-1048",
+    "module": "exploit_windows/local/cve_2020_1048_printerdemon",
+    "path": "/modules/exploits/windows/local/cve_2020_1048_printerdemon.rb",
+    "name": "Microsoft Spooler Local Privilege Elevation Vulnerability"
+  },
+  {
+    "cve": "CVE-2020-1054",
+    "module": "exploit_windows/local/cve_2020_1054_drawiconex_lpe",
+    "path": "/modules/exploits/windows/local/cve_2020_1054_drawiconex_lpe.rb",
+    "name": "Microsoft Windows DrawIconEx OOB Write Local Privilege Elevation"
+  },
+  {
+    "cve": "CVE-2020-1313",
+    "module": "exploit_windows/local/cve_2020_1313_system_orchestrator",
+    "path": "/modules/exploits/windows/local/cve_2020_1313_system_orchestrator.rb",
+    "name": "Windows Update Orchestrator unchecked ScheduleWork call"
+  },
+  {
+    "cve": "CVE-2020-1337",
+    "module": "exploit_windows/local/cve_2020_1337_printerdemon",
+    "path": "/modules/exploits/windows/local/cve_2020_1337_printerdemon.rb",
+    "name": "Microsoft Spooler Local Privilege Elevation Vulnerability"
+  },
+  {
+    "cve": "CVE-2020-17136",
+    "module": "exploit_windows/local/cve_2020_17136",
+    "path": "/modules/exploits/windows/local/cve_2020_17136.rb",
+    "name": "CVE-2020-1170 Cloud Filter Arbitrary File Creation EOP"
+  },
+  {
+    "cve": "CVE-2020-5752",
+    "module": "exploit_windows/local/druva_insync_insynccphwnet64_rcp_type_5_priv_esc",
+    "path": "/modules/exploits/windows/local/druva_insync_insynccphwnet64_rcp_type_5_priv_esc.rb",
+    "name": "Druva inSync inSyncCPHwnet64.exe RPC Type 5 Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-7352",
+    "module": "exploit_windows/local/gog_galaxyclientservice_privesc",
+    "path": "/modules/exploits/windows/local/gog_galaxyclientservice_privesc.rb",
+    "name": "GOG GalaxyClientService Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-11858",
+    "module": "exploit_windows/local/microfocus_operations_privesc",
+    "path": "/modules/exploits/windows/local/microfocus_operations_privesc.rb",
+    "name": "Micro Focus Operations Bridge Manager / Reporter Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-11855",
+    "module": "exploit_windows/local/microfocus_operations_privesc",
+    "path": "/modules/exploits/windows/local/microfocus_operations_privesc.rb",
+    "name": "Micro Focus Operations Bridge Manager / Reporter Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2020-10914",
+    "module": "exploit_windows/misc/veeam_one_agent_deserialization",
+    "path": "/modules/exploits/windows/misc/veeam_one_agent_deserialization.rb",
+    "name": "Veeam ONE Agent .NET Deserialization"
+  },
+  {
+    "cve": "CVE-2020-10915",
+    "module": "exploit_windows/misc/veeam_one_agent_deserialization",
+    "path": "/modules/exploits/windows/misc/veeam_one_agent_deserialization.rb",
+    "name": "Veeam ONE Agent .NET Deserialization"
+  },
+  {
+    "cve": "CVE-2020-8010",
+    "module": "exploit_windows/nimsoft/nimcontroller_bof",
+    "path": "/modules/exploits/windows/nimsoft/nimcontroller_bof.rb",
+    "name": "CA Unified Infrastructure Management Nimsoft 7.80 - Remote Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2020-8012",
+    "module": "exploit_windows/nimsoft/nimcontroller_bof",
+    "path": "/modules/exploits/windows/nimsoft/nimcontroller_bof.rb",
+    "name": "CA Unified Infrastructure Management Nimsoft 7.80 - Remote Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2020-7387",
+    "module": "exploit_windows/sage/x3_adxsrv_auth_bypass_cmd_exec",
+    "path": "/modules/exploits/windows/sage/x3_adxsrv_auth_bypass_cmd_exec.rb",
+    "name": "Sage X3 Administration Service Authentication Bypass Command Execution"
+  },
+  {
+    "cve": "CVE-2020-7388",
+    "module": "exploit_windows/sage/x3_adxsrv_auth_bypass_cmd_exec",
+    "path": "/modules/exploits/windows/sage/x3_adxsrv_auth_bypass_cmd_exec.rb",
+    "name": "Sage X3 Administration Service Authentication Bypass Command Execution"
+  },
+  {
+    "cve": "CVE-2020-12027",
+    "module": "exploit_windows/scada/rockwell_factorytalk_rce",
+    "path": "/modules/exploits/windows/scada/rockwell_factorytalk_rce.rb",
+    "name": "Rockwell FactoryTalk View SE SCADA Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-12028",
+    "module": "exploit_windows/scada/rockwell_factorytalk_rce",
+    "path": "/modules/exploits/windows/scada/rockwell_factorytalk_rce.rb",
+    "name": "Rockwell FactoryTalk View SE SCADA Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-12029",
+    "module": "exploit_windows/scada/rockwell_factorytalk_rce",
+    "path": "/modules/exploits/windows/scada/rockwell_factorytalk_rce.rb",
+    "name": "Rockwell FactoryTalk View SE SCADA Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2020-0796",
+    "module": "exploit_windows/smb/cve_2020_0796_smbghost",
+    "path": "/modules/exploits/windows/smb/cve_2020_0796_smbghost.rb",
+    "name": "SMBv3 Compression Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2020-8539",
+    "module": "post_android/local/koffee",
+    "path": "/modules/post/android/local/koffee.rb",
+    "name": "KOFFEE - Kia OFFensivE Exploit"
+  },
+  {
+    "cve": "CVE-2020-9934",
+    "module": "post_osx/escalate/tccbypass",
+    "path": "/modules/post/osx/escalate/tccbypass.rb",
+    "name": "Bypass the macOS TCC Framework"
+  },
+  {
+    "cve": "CVE-2020-8956",
+    "module": "post_windows/gather/credentials/pulse_secure",
+    "path": "/modules/post/windows/gather/credentials/pulse_secure.rb",
+    "name": "Windows Pulse Secure Connect Client Saved Password Extractor"
+  }
+]

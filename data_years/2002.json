@@ -1,0 +1,110 @@
+[
+  {
+    "cve": "CVE-2002-1214",
+    "module": "auxiliary_dos/pptp/ms02_063_pptp_dos",
+    "path": "/modules/auxiliary/dos/pptp/ms02_063_pptp_dos.rb",
+    "name": "MS02-063 PPTP Malformed Control Data Kernel Denial of Service"
+  },
+  {
+    "cve": "CVE-2002-0422",
+    "module": "auxiliary_scanner/http/iis_internal_ip",
+    "path": "/modules/auxiliary/scanner/http/iis_internal_ip.rb",
+    "name": "Microsoft IIS HTTP Internal IP Disclosure"
+  },
+  {
+    "cve": "CVE-2002-1864",
+    "module": "auxiliary_scanner/http/simple_webserver_traversal",
+    "path": "/modules/auxiliary/scanner/http/simple_webserver_traversal.rb",
+    "name": "Simple Web Server 2.3-RC1 Directory Traversal"
+  },
+  {
+    "cve": "CVE-2002-0422",
+    "module": "auxiliary_scanner/http/webdav_internal_ip",
+    "path": "/modules/auxiliary/scanner/http/webdav_internal_ip.rb",
+    "name": "HTTP WebDAV Internal IP Scanner"
+  },
+  {
+    "cve": "CVE-2002-1473",
+    "module": "exploit_hpux/lpd/cleanup_exec",
+    "path": "/modules/exploits/hpux/lpd/cleanup_exec.rb",
+    "name": "HP-UX LPD Command Execution"
+  },
+  {
+    "cve": "CVE-2002-1643",
+    "module": "exploit_multi/realserver/describe",
+    "path": "/modules/exploits/multi/realserver/describe.rb",
+    "name": "RealServer Describe Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2002-1318",
+    "module": "exploit_multi/samba/nttrans",
+    "path": "/modules/exploits/multi/samba/nttrans.rb",
+    "name": "Samba 2.2.2 - 2.2.6 nttrans Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2002-0392",
+    "module": "exploit_windows/http/apache_chunked",
+    "path": "/modules/exploits/windows/http/apache_chunked.rb",
+    "name": "Apache Win32 Chunked Encoding"
+  },
+  {
+    "cve": "CVE-2002-2268",
+    "module": "exploit_windows/http/kolibri_http",
+    "path": "/modules/exploits/windows/http/kolibri_http.rb",
+    "name": "Kolibri HTTP Server HEAD Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2002-1120",
+    "module": "exploit_windows/http/savant_31_overflow",
+    "path": "/modules/exploits/windows/http/savant_31_overflow.rb",
+    "name": "Savant 3.1 Web Server Overflow"
+  },
+  {
+    "cve": "CVE-2002-2268",
+    "module": "exploit_windows/http/webster_http",
+    "path": "/modules/exploits/windows/http/webster_http.rb",
+    "name": "Webster HTTP Server GET Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2002-1142",
+    "module": "exploit_windows/iis/ms02_065_msadc",
+    "path": "/modules/exploits/windows/iis/ms02_065_msadc.rb",
+    "name": "MS02-065 Microsoft IIS MDAC msadcs.dll RDS DataStub Content-Type Overflow"
+  },
+  {
+    "cve": "CVE-2002-0649",
+    "module": "exploit_windows/mssql/ms02_039_slammer",
+    "path": "/modules/exploits/windows/mssql/ms02_039_slammer.rb",
+    "name": "MS02-039 Microsoft SQL Server Resolution Overflow"
+  },
+  {
+    "cve": "CVE-2002-1123",
+    "module": "exploit_windows/mssql/ms02_056_hello",
+    "path": "/modules/exploits/windows/mssql/ms02_056_hello.rb",
+    "name": "MS02-056 Microsoft SQL Server Hello Overflow"
+  },
+  {
+    "cve": "CVE-2002-0965",
+    "module": "exploit_windows/oracle/tns_service_name",
+    "path": "/modules/exploits/windows/oracle/tns_service_name.rb",
+    "name": "Oracle 8i TNS Listener SERVICE_NAME Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2002-1359",
+    "module": "exploit_windows/ssh/putty_msg_debug",
+    "path": "/modules/exploits/windows/ssh/putty_msg_debug.rb",
+    "name": "PuTTY Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2002-1059",
+    "module": "exploit_windows/ssh/securecrt_ssh1",
+    "path": "/modules/exploits/windows/ssh/securecrt_ssh1.rb",
+    "name": "SecureCRT SSH1 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2002-2226",
+    "module": "exploit_windows/tftp/tftpd32_long_filename",
+    "path": "/modules/exploits/windows/tftp/tftpd32_long_filename.rb",
+    "name": "TFTPD32 Long Filename Buffer Overflow"
+  }
+]

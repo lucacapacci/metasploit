@@ -1,0 +1,1154 @@
+[
+  {
+    "cve": "CVE-2017-12542",
+    "module": "auxiliary_admin/hp/hp_ilo_create_admin_account",
+    "path": "/modules/auxiliary/admin/hp/hp_ilo_create_admin_account.rb",
+    "name": "HP iLO 4 1.00-2.50 Authentication Bypass Administrator Account Creation"
+  },
+  {
+    "cve": "CVE-2017-5259",
+    "module": "auxiliary_admin/http/cnpilot_r_cmd_exec",
+    "path": "/modules/auxiliary/admin/http/cnpilot_r_cmd_exec.rb",
+    "name": "Cambium cnPilot r200/r201 Command Execution as 'root'"
+  },
+  {
+    "cve": "CVE-2017-5261",
+    "module": "auxiliary_admin/http/cnpilot_r_fpt",
+    "path": "/modules/auxiliary/admin/http/cnpilot_r_fpt.rb",
+    "name": "Cambium cnPilot r200/r201 File Path Traversal"
+  },
+  {
+    "cve": "CVE-2017-7921",
+    "module": "auxiliary_admin/http/hikvision_unauth_pwd_reset_cve_2017_7921",
+    "path": "/modules/auxiliary/admin/http/hikvision_unauth_pwd_reset_cve_2017_7921.rb",
+    "name": "Hikvision IP Camera Unauthenticated Password Change Via Improper Authentication Logic"
+  },
+  {
+    "cve": "CVE-2017-7615",
+    "module": "auxiliary_admin/http/mantisbt_password_reset",
+    "path": "/modules/auxiliary/admin/http/mantisbt_password_reset.rb",
+    "name": "MantisBT password reset"
+  },
+  {
+    "cve": "CVE-2017-5930",
+    "module": "auxiliary_admin/http/pfadmin_set_protected_alias",
+    "path": "/modules/auxiliary/admin/http/pfadmin_set_protected_alias.rb",
+    "name": "Postfixadmin Protected Alias Deletion Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-7581",
+    "module": "auxiliary_admin/http/typo3_news_module_sqli",
+    "path": "/modules/auxiliary/admin/http/typo3_news_module_sqli.rb",
+    "name": "TYPO3 News Module SQL Injection"
+  },
+  {
+    "cve": "CVE-2017-16806",
+    "module": "auxiliary_admin/http/ulterius_file_download",
+    "path": "/modules/auxiliary/admin/http/ulterius_file_download.rb",
+    "name": "Ulterius Server File Download Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-0143",
+    "module": "auxiliary_admin/smb/ms17_010_command",
+    "path": "/modules/auxiliary/admin/smb/ms17_010_command.rb",
+    "name": "MS17-010 EternalRomance/EternalSynergy/EternalChampion SMB Remote Windows Command Execution"
+  },
+  {
+    "cve": "CVE-2017-0146",
+    "module": "auxiliary_admin/smb/ms17_010_command",
+    "path": "/modules/auxiliary/admin/smb/ms17_010_command.rb",
+    "name": "MS17-010 EternalRomance/EternalSynergy/EternalChampion SMB Remote Windows Command Execution"
+  },
+  {
+    "cve": "CVE-2017-0147",
+    "module": "auxiliary_admin/smb/ms17_010_command",
+    "path": "/modules/auxiliary/admin/smb/ms17_010_command.rb",
+    "name": "MS17-010 EternalRomance/EternalSynergy/EternalChampion SMB Remote Windows Command Execution"
+  },
+  {
+    "cve": "CVE-2017-3881",
+    "module": "auxiliary_dos/cisco/ios_telnet_rocem",
+    "path": "/modules/auxiliary/dos/cisco/ios_telnet_rocem.rb",
+    "name": "Cisco IOS Telnet Denial of Service"
+  },
+  {
+    "cve": "CVE-2017-16249",
+    "module": "auxiliary_dos/http/brother_debut_dos",
+    "path": "/modules/auxiliary/dos/http/brother_debut_dos.rb",
+    "name": "Brother Debut http Denial Of Service"
+  },
+  {
+    "cve": "CVE-2017-1129",
+    "module": "auxiliary_dos/http/ibm_lotus_notes",
+    "path": "/modules/auxiliary/dos/http/ibm_lotus_notes.rb",
+    "name": "IBM Notes encodeURI DOS"
+  },
+  {
+    "cve": "CVE-2017-1130",
+    "module": "auxiliary_dos/http/ibm_lotus_notes2",
+    "path": "/modules/auxiliary/dos/http/ibm_lotus_notes2.rb",
+    "name": "IBM Notes Denial Of Service"
+  },
+  {
+    "cve": "CVE-2017-16086",
+    "module": "auxiliary_dos/http/ua_parser_js_redos",
+    "path": "/modules/auxiliary/dos/http/ua_parser_js_redos.rb",
+    "name": "ua-parser-js npm module ReDoS"
+  },
+  {
+    "cve": "CVE-2017-8779",
+    "module": "auxiliary_dos/rpc/rpcbomb",
+    "path": "/modules/auxiliary/dos/rpc/rpcbomb.rb",
+    "name": "RPC DoS targeting *nix rpcbind/libtirpc"
+  },
+  {
+    "cve": "CVE-2017-7924",
+    "module": "auxiliary_dos/scada/allen_bradley_pccc",
+    "path": "/modules/auxiliary/dos/scada/allen_bradley_pccc.rb",
+    "name": "DoS Exploitation of Allen-Bradley's Legacy Protocol (PCCC)"
+  },
+  {
+    "cve": "CVE-2017-7921",
+    "module": "auxiliary_gather/hikvision_info_disclosure_cve_2017_7921",
+    "path": "/modules/auxiliary/gather/hikvision_info_disclosure_cve_2017_7921.rb",
+    "name": "Unauthenticated information disclosure such as configuration, credentials and camera snapshots of a vulnerable Hikvision IP Camera"
+  },
+  {
+    "cve": "CVE-2017-5521",
+    "module": "auxiliary_gather/netgear_password_disclosure",
+    "path": "/modules/auxiliary/gather/netgear_password_disclosure.rb",
+    "name": "NETGEAR Administrator Password Disclosure"
+  },
+  {
+    "cve": "CVE-2017-8835",
+    "module": "auxiliary_gather/peplink_bauth_sqli",
+    "path": "/modules/auxiliary/gather/peplink_bauth_sqli.rb",
+    "name": "Peplink Balance routers SQLi"
+  },
+  {
+    "cve": "CVE-2017-16651",
+    "module": "auxiliary_gather/roundcube_auth_file_read",
+    "path": "/modules/auxiliary/gather/roundcube_auth_file_read.rb",
+    "name": "Roundcube TimeZone Authenticated File Disclosure"
+  },
+  {
+    "cve": "CVE-2017-17692",
+    "module": "auxiliary_gather/samsung_browser_sop_bypass",
+    "path": "/modules/auxiliary/gather/samsung_browser_sop_bypass.rb",
+    "name": "Samsung Internet Browser SOP Bypass"
+  },
+  {
+    "cve": "CVE-2017-12635",
+    "module": "auxiliary_scanner/couchdb/couchdb_enum",
+    "path": "/modules/auxiliary/scanner/couchdb/couchdb_enum.rb",
+    "name": "CouchDB Enum Utility"
+  },
+  {
+    "cve": "CVE-2017-6510",
+    "module": "auxiliary_scanner/ftp/easy_file_sharing_ftp",
+    "path": "/modules/auxiliary/scanner/ftp/easy_file_sharing_ftp.rb",
+    "name": "Easy File Sharing FTP Server 3.6 Directory Traversal"
+  },
+  {
+    "cve": "CVE-2017-9798",
+    "module": "auxiliary_scanner/http/apache_optionsbleed",
+    "path": "/modules/auxiliary/scanner/http/apache_optionsbleed.rb",
+    "name": "Apache Optionsbleed Scanner"
+  },
+  {
+    "cve": "CVE-2017-5162",
+    "module": "auxiliary_scanner/http/binom3_login_config_pass_dump",
+    "path": "/modules/auxiliary/scanner/http/binom3_login_config_pass_dump.rb",
+    "name": "Binom3 Web Management Login Scanner, Config and Password File Dump"
+  },
+  {
+    "cve": "CVE-2017-5260",
+    "module": "auxiliary_scanner/http/cnpilot_r_web_login_loot",
+    "path": "/modules/auxiliary/scanner/http/cnpilot_r_web_login_loot.rb",
+    "name": "Cambium cnPilot r200/r201 Login Scanner and Config Dump"
+  },
+  {
+    "cve": "CVE-2017-6527",
+    "module": "auxiliary_scanner/http/dnalims_file_retrieve",
+    "path": "/modules/auxiliary/scanner/http/dnalims_file_retrieve.rb",
+    "name": "DnaLIMS Directory Traversal"
+  },
+  {
+    "cve": "CVE-2017-5255",
+    "module": "auxiliary_scanner/http/epmp1000_get_chart_cmd_exec",
+    "path": "/modules/auxiliary/scanner/http/epmp1000_get_chart_cmd_exec.rb",
+    "name": "Cambium ePMP 1000 'get_chart' Command Injection (v3.1-3.5-RC7)"
+  },
+  {
+    "cve": "CVE-2017-5255",
+    "module": "auxiliary_scanner/http/epmp1000_ping_cmd_exec",
+    "path": "/modules/auxiliary/scanner/http/epmp1000_ping_cmd_exec.rb",
+    "name": "Cambium ePMP 1000 'ping' Command Injection (up to v2.5)"
+  },
+  {
+    "cve": "CVE-2017-5254",
+    "module": "auxiliary_scanner/http/epmp1000_reset_pass",
+    "path": "/modules/auxiliary/scanner/http/epmp1000_reset_pass.rb",
+    "name": "Cambium ePMP 1000 Account Password Reset"
+  },
+  {
+    "cve": "CVE-2017-5146",
+    "module": "auxiliary_scanner/http/gavazzi_em_login_loot",
+    "path": "/modules/auxiliary/scanner/http/gavazzi_em_login_loot.rb",
+    "name": "Carlo Gavazzi Energy Meters - Login Brute Force, Extract Info and Dump Plant Database"
+  },
+  {
+    "cve": "CVE-2017-1000028",
+    "module": "auxiliary_scanner/http/glassfish_traversal",
+    "path": "/modules/auxiliary/scanner/http/glassfish_traversal.rb",
+    "name": "Path Traversal in Oracle GlassFish Server Open Source Edition"
+  },
+  {
+    "cve": "CVE-2017-5689",
+    "module": "auxiliary_scanner/http/intel_amt_digest_bypass",
+    "path": "/modules/auxiliary/scanner/http/intel_amt_digest_bypass.rb",
+    "name": "Intel AMT Digest Authentication Bypass Scanner"
+  },
+  {
+    "cve": "CVE-2017-12149",
+    "module": "auxiliary_scanner/http/jboss_vulnscan",
+    "path": "/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
+    "name": "JBoss Vulnerability Scanner"
+  },
+  {
+    "cve": "CVE-2017-5982",
+    "module": "auxiliary_scanner/http/kodi_traversal",
+    "path": "/modules/auxiliary/scanner/http/kodi_traversal.rb",
+    "name": "Kodi 17.0 Local File Inclusion Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-9554",
+    "module": "auxiliary_scanner/http/synology_forget_passwd_user_enum",
+    "path": "/modules/auxiliary/scanner/http/synology_forget_passwd_user_enum.rb",
+    "name": "Synology Forget Password User Enumeration Scanner"
+  },
+  {
+    "cve": "CVE-2017-1001000",
+    "module": "auxiliary_scanner/http/wordpress_content_injection",
+    "path": "/modules/auxiliary/scanner/http/wordpress_content_injection.rb",
+    "name": "WordPress REST API Content Injection"
+  },
+  {
+    "cve": "CVE-2017-0143",
+    "module": "auxiliary_scanner/smb/smb_ms17_010",
+    "path": "/modules/auxiliary/scanner/smb/smb_ms17_010.rb",
+    "name": "MS17-010 SMB RCE Detection"
+  },
+  {
+    "cve": "CVE-2017-0144",
+    "module": "auxiliary_scanner/smb/smb_ms17_010",
+    "path": "/modules/auxiliary/scanner/smb/smb_ms17_010.rb",
+    "name": "MS17-010 SMB RCE Detection"
+  },
+  {
+    "cve": "CVE-2017-0145",
+    "module": "auxiliary_scanner/smb/smb_ms17_010",
+    "path": "/modules/auxiliary/scanner/smb/smb_ms17_010.rb",
+    "name": "MS17-010 SMB RCE Detection"
+  },
+  {
+    "cve": "CVE-2017-0146",
+    "module": "auxiliary_scanner/smb/smb_ms17_010",
+    "path": "/modules/auxiliary/scanner/smb/smb_ms17_010.rb",
+    "name": "MS17-010 SMB RCE Detection"
+  },
+  {
+    "cve": "CVE-2017-0147",
+    "module": "auxiliary_scanner/smb/smb_ms17_010",
+    "path": "/modules/auxiliary/scanner/smb/smb_ms17_010.rb",
+    "name": "MS17-010 SMB RCE Detection"
+  },
+  {
+    "cve": "CVE-2017-0148",
+    "module": "auxiliary_scanner/smb/smb_ms17_010",
+    "path": "/modules/auxiliary/scanner/smb/smb_ms17_010.rb",
+    "name": "MS17-010 SMB RCE Detection"
+  },
+  {
+    "cve": "CVE-2017-5262",
+    "module": "auxiliary_scanner/snmp/cnpilot_r_snmp_loot",
+    "path": "/modules/auxiliary/scanner/snmp/cnpilot_r_snmp_loot.rb",
+    "name": "Cambium cnPilot r200/r201 SNMP Enumeration"
+  },
+  {
+    "cve": "CVE-2017-7918",
+    "module": "auxiliary_scanner/snmp/epmp1000_snmp_loot",
+    "path": "/modules/auxiliary/scanner/snmp/epmp1000_snmp_loot.rb",
+    "name": "Cambium ePMP 1000 SNMP Enumeration"
+  },
+  {
+    "cve": "CVE-2017-7922",
+    "module": "auxiliary_scanner/snmp/epmp1000_snmp_loot",
+    "path": "/modules/auxiliary/scanner/snmp/epmp1000_snmp_loot.rb",
+    "name": "Cambium ePMP 1000 SNMP Enumeration"
+  },
+  {
+    "cve": "CVE-2017-6168",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2017-17382",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2017-17427",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2017-17428",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2017-12373",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2017-13098",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2017-1000385",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2017-13099",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2017-6048",
+    "module": "auxiliary_scanner/telnet/satel_cmd_exec",
+    "path": "/modules/auxiliary/scanner/telnet/satel_cmd_exec.rb",
+    "name": "Satel Iberia SenNet Data Logger and Electricity Meters Command Injection Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-13872",
+    "module": "auxiliary_scanner/vnc/ard_root_pw",
+    "path": "/modules/auxiliary/scanner/vnc/ard_root_pw.rb",
+    "name": "Apple Remote Desktop Root Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-14117",
+    "module": "auxiliary_scanner/wproxy/att_open_proxy",
+    "path": "/modules/auxiliary/scanner/wproxy/att_open_proxy.py",
+    "name": "Open WAN-to-LAN proxy on AT&T routers"
+  },
+  {
+    "cve": "CVE-2017-13156",
+    "module": "exploit_android/local/janus",
+    "path": "/modules/exploits/android/local/janus.rb",
+    "name": "Android Janus APK Signature bypass"
+  },
+  {
+    "cve": "CVE-2017-13861",
+    "module": "exploit_apple_ios/browser/webkit_createthis",
+    "path": "/modules/exploits/apple_ios/browser/webkit_createthis.rb",
+    "name": "Safari Webkit Proxy Object Type Confusion"
+  },
+  {
+    "cve": "CVE-2017-12636",
+    "module": "exploit_linux/http/apache_couchdb_cmd_exec",
+    "path": "/modules/exploits/linux/http/apache_couchdb_cmd_exec.rb",
+    "name": "Apache CouchDB Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2017-12635",
+    "module": "exploit_linux/http/apache_couchdb_cmd_exec",
+    "path": "/modules/exploits/linux/http/apache_couchdb_cmd_exec.rb",
+    "name": "Apache CouchDB Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2017-1000002",
+    "module": "exploit_linux/http/atutor_filemanager_traversal",
+    "path": "/modules/exploits/linux/http/atutor_filemanager_traversal.rb",
+    "name": "ATutor 2.2.1 Directory Traversal / Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-20198",
+    "module": "exploit_linux/http/dcos_marathon",
+    "path": "/modules/exploits/linux/http/dcos_marathon.rb",
+    "name": "DC/OS Marathon UI Docker Exploit"
+  },
+  {
+    "cve": "CVE-2017-14706",
+    "module": "exploit_linux/http/denyall_waf_exec",
+    "path": "/modules/exploits/linux/http/denyall_waf_exec.rb",
+    "name": "DenyAll Web Application Firewall Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-6526",
+    "module": "exploit_linux/http/dnalims_admin_exec",
+    "path": "/modules/exploits/linux/http/dnalims_admin_exec.rb",
+    "name": "dnaLIMS Admin Module Command Execution"
+  },
+  {
+    "cve": "CVE-2017-18365",
+    "module": "exploit_linux/http/github_enterprise_secret",
+    "path": "/modules/exploits/linux/http/github_enterprise_secret.rb",
+    "name": "Github Enterprise Default Session Secret And Deserialization Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-17562",
+    "module": "exploit_linux/http/goahead_ldpreload",
+    "path": "/modules/exploits/linux/http/goahead_ldpreload.rb",
+    "name": "GoAhead Web Server LD_PRELOAD Arbitrary Module Load"
+  },
+  {
+    "cve": "CVE-2017-9757",
+    "module": "exploit_linux/http/ipfire_oinkcode_exec",
+    "path": "/modules/exploits/linux/http/ipfire_oinkcode_exec.rb",
+    "name": "IPFire proxy.cgi RCE"
+  },
+  {
+    "cve": "CVE-2017-1000353",
+    "module": "exploit_linux/http/jenkins_cli_deserialization",
+    "path": "/modules/exploits/linux/http/jenkins_cli_deserialization.rb",
+    "name": "Jenkins CLI Deserialization"
+  },
+  {
+    "cve": "CVE-2017-14143",
+    "module": "exploit_linux/http/kaltura_unserialize_cookie_rce",
+    "path": "/modules/exploits/linux/http/kaltura_unserialize_cookie_rce.rb",
+    "name": "Kaltura Remote PHP Code Execution over Cookie"
+  },
+  {
+    "cve": "CVE-2017-17411",
+    "module": "exploit_linux/http/linksys_wvbr0_user_agent_exec_noauth",
+    "path": "/modules/exploits/linux/http/linksys_wvbr0_user_agent_exec_noauth.rb",
+    "name": "Linksys WVBR0-25 User-Agent Command Execution"
+  },
+  {
+    "cve": "CVE-2017-6334",
+    "module": "exploit_linux/http/netgear_dnslookup_cmd_exec",
+    "path": "/modules/exploits/linux/http/netgear_dnslookup_cmd_exec.rb",
+    "name": "Netgear DGN2200 dnslookup.cgi Command Injection"
+  },
+  {
+    "cve": "CVE-2017-15944",
+    "module": "exploit_linux/http/panos_readsessionvars",
+    "path": "/modules/exploits/linux/http/panos_readsessionvars.rb",
+    "name": "Palo Alto Networks readSessionVarsFromFile() Session Corruption"
+  },
+  {
+    "cve": "CVE-2017-16524",
+    "module": "exploit_linux/http/samsung_srv_1670d_upload_exec",
+    "path": "/modules/exploits/linux/http/samsung_srv_1670d_upload_exec.rb",
+    "name": "Samsung SRN-1670D Web Viewer Version 1.0.0.193 Arbitrary File Read and Upload"
+  },
+  {
+    "cve": "CVE-2017-11610",
+    "module": "exploit_linux/http/supervisor_xmlrpc_exec",
+    "path": "/modules/exploits/linux/http/supervisor_xmlrpc_exec.rb",
+    "name": "Supervisor XML-RPC Authenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-6326",
+    "module": "exploit_linux/http/symantec_messaging_gateway_exec",
+    "path": "/modules/exploits/linux/http/symantec_messaging_gateway_exec.rb",
+    "name": "Symantec Messaging Gateway Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-15889",
+    "module": "exploit_linux/http/synology_dsm_smart_exec_auth",
+    "path": "/modules/exploits/linux/http/synology_dsm_smart_exec_auth.rb",
+    "name": "Synology DiskStation Manager smart.cgi Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2017-6398",
+    "module": "exploit_linux/http/trend_micro_imsva_exec",
+    "path": "/modules/exploits/linux/http/trend_micro_imsva_exec.rb",
+    "name": "Trend Micro InterScan Messaging Security (Virtual Appliance) Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-7896",
+    "module": "exploit_linux/http/trendmicro_imsva_widget_exec",
+    "path": "/modules/exploits/linux/http/trendmicro_imsva_widget_exec.rb",
+    "name": "Trend Micro InterScan Messaging Security (Virtual Appliance) Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-11392",
+    "module": "exploit_linux/http/trendmicro_imsva_widget_exec",
+    "path": "/modules/exploits/linux/http/trendmicro_imsva_widget_exec.rb",
+    "name": "Trend Micro InterScan Messaging Security (Virtual Appliance) Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-11391",
+    "module": "exploit_linux/http/trendmicro_imsva_widget_exec",
+    "path": "/modules/exploits/linux/http/trendmicro_imsva_widget_exec.rb",
+    "name": "Trend Micro InterScan Messaging Security (Virtual Appliance) Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-18369",
+    "module": "exploit_linux/http/trueonline_billion_5200w_rce",
+    "path": "/modules/exploits/linux/http/trueonline_billion_5200w_rce.rb",
+    "name": "TrueOnline / Billion 5200W-T Router Unauthenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2017-18372",
+    "module": "exploit_linux/http/trueonline_billion_5200w_rce",
+    "path": "/modules/exploits/linux/http/trueonline_billion_5200w_rce.rb",
+    "name": "TrueOnline / Billion 5200W-T Router Unauthenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2017-18368",
+    "module": "exploit_linux/http/trueonline_p660hn_v1_rce",
+    "path": "/modules/exploits/linux/http/trueonline_p660hn_v1_rce.rb",
+    "name": "TrueOnline / ZyXEL P660HN-T v1 Router Unauthenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2017-18370",
+    "module": "exploit_linux/http/trueonline_p660hn_v2_rce",
+    "path": "/modules/exploits/linux/http/trueonline_p660hn_v2_rce.rb",
+    "name": "TrueOnline / ZyXEL P660HN-T v2 Router Authenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2017-18371",
+    "module": "exploit_linux/http/trueonline_p660hn_v2_rce",
+    "path": "/modules/exploits/linux/http/trueonline_p660hn_v2_rce.rb",
+    "name": "TrueOnline / ZyXEL P660HN-T v2 Router Authenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2017-12478",
+    "module": "exploit_linux/http/ueb_api_rce",
+    "path": "/modules/exploits/linux/http/ueb_api_rce.rb",
+    "name": "Unitrends UEB http api remote code execution"
+  },
+  {
+    "cve": "CVE-2017-17560",
+    "module": "exploit_linux/http/wd_mycloud_multiupload_upload",
+    "path": "/modules/exploits/linux/http/wd_mycloud_multiupload_upload.rb",
+    "name": "Western Digital MyCloud multi_uploadify File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-16666",
+    "module": "exploit_linux/http/xplico_exec",
+    "path": "/modules/exploits/linux/http/xplico_exec.rb",
+    "name": "Xplico Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-7308",
+    "module": "exploit_linux/local/af_packet_packet_set_ring_priv_esc",
+    "path": "/modules/exploits/linux/local/af_packet_packet_set_ring_priv_esc.rb",
+    "name": "AF_PACKET packet_set_ring Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-16995",
+    "module": "exploit_linux/local/bpf_sign_extension_priv_esc",
+    "path": "/modules/exploits/linux/local/bpf_sign_extension_priv_esc.rb",
+    "name": "Linux BPF Sign Extension Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-9232",
+    "module": "exploit_linux/local/juju_run_agent_priv_esc",
+    "path": "/modules/exploits/linux/local/juju_run_agent_priv_esc.rb",
+    "name": "Juju-run Agent Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-0358",
+    "module": "exploit_linux/local/ntfs3g_priv_esc",
+    "path": "/modules/exploits/linux/local/ntfs3g_priv_esc.rb",
+    "name": "Debian/Ubuntu ntfs-3g Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-1000112",
+    "module": "exploit_linux/local/ufo_privilege_escalation",
+    "path": "/modules/exploits/linux/local/ufo_privilege_escalation.rb",
+    "name": "Linux Kernel UDP Fragmentation Offset (UFO) Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-4915",
+    "module": "exploit_linux/local/vmware_alsa_config",
+    "path": "/modules/exploits/linux/local/vmware_alsa_config.rb",
+    "name": "VMware Workstation ALSA Config File Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-2741",
+    "module": "exploit_linux/misc/hp_jetdirect_path_traversal",
+    "path": "/modules/exploits/linux/misc/hp_jetdirect_path_traversal.rb",
+    "name": "HP Jetdirect Path Traversal Arbitrary Code Execution"
+  },
+  {
+    "cve": "CVE-2017-13067",
+    "module": "exploit_linux/misc/qnap_transcode_server",
+    "path": "/modules/exploits/linux/misc/qnap_transcode_server.rb",
+    "name": "QNAP Transcode Server Command Execution"
+  },
+  {
+    "cve": "CVE-2017-6553",
+    "module": "exploit_linux/misc/quest_pmmasterd_bof",
+    "path": "/modules/exploits/linux/misc/quest_pmmasterd_bof.rb",
+    "name": "Quest Privilege Manager pmmasterd Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-12477",
+    "module": "exploit_linux/misc/ueb9_bpserverd",
+    "path": "/modules/exploits/linux/misc/ueb9_bpserverd.rb",
+    "name": "Unitrends UEB bpserverd authentication bypass RCE"
+  },
+  {
+    "cve": "CVE-2017-7494",
+    "module": "exploit_linux/samba/is_known_pipename",
+    "path": "/modules/exploits/linux/samba/is_known_pipename.rb",
+    "name": "Samba is_known_pipename() Arbitrary Module Load"
+  },
+  {
+    "cve": "CVE-2017-16709",
+    "module": "exploit_linux/snmp/awind_snmp_exec",
+    "path": "/modules/exploits/linux/snmp/awind_snmp_exec.rb",
+    "name": "AwindInc SNMP Service Command Injection"
+  },
+  {
+    "cve": "CVE-2017-9462",
+    "module": "exploit_linux/ssh/mercurial_ssh_exec",
+    "path": "/modules/exploits/linux/ssh/mercurial_ssh_exec.rb",
+    "name": "Mercurial Custom hg-ssh Wrapper Remote Code Exec"
+  },
+  {
+    "cve": "CVE-2017-7722",
+    "module": "exploit_linux/ssh/solarwinds_lem_exec",
+    "path": "/modules/exploits/linux/ssh/solarwinds_lem_exec.rb",
+    "name": "SolarWinds LEM Default SSH Password Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-1000083",
+    "module": "exploit_multi/fileformat/evince_cbt_cmd_injection",
+    "path": "/modules/exploits/multi/fileformat/evince_cbt_cmd_injection.rb",
+    "name": "Evince CBT File Command Injection"
+  },
+  {
+    "cve": "CVE-2017-1000117",
+    "module": "exploit_multi/http/git_submodule_command_exec",
+    "path": "/modules/exploits/multi/http/git_submodule_command_exec.rb",
+    "name": "Malicious Git HTTP Server For CVE-2017-1000117"
+  },
+  {
+    "cve": "CVE-2017-1092",
+    "module": "exploit_multi/http/ibm_openadmin_tool_soap_welcomeserver_exec",
+    "path": "/modules/exploits/multi/http/ibm_openadmin_tool_soap_welcomeserver_exec.rb",
+    "name": "IBM OpenAdmin Tool SOAP welcomeServer PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0372",
+    "module": "exploit_multi/http/mediawiki_syntaxhighlight",
+    "path": "/modules/exploits/multi/http/mediawiki_syntaxhighlight.rb",
+    "name": "MediaWiki SyntaxHighlight extension option injection vulnerability"
+  },
+  {
+    "cve": "CVE-2017-18048",
+    "module": "exploit_multi/http/monstra_fileupload_exec",
+    "path": "/modules/exploits/multi/http/monstra_fileupload_exec.rb",
+    "name": "Monstra CMS Authenticated Arbitrary File Upload"
+  },
+  {
+    "cve": "CVE-2017-1000119",
+    "module": "exploit_multi/http/october_upload_bypass_exec",
+    "path": "/modules/exploits/multi/http/october_upload_bypass_exec.rb",
+    "name": "October CMS Upload Protection Bypass Code Execution"
+  },
+  {
+    "cve": "CVE-2017-10271",
+    "module": "exploit_multi/http/oracle_weblogic_wsat_deserialization_rce",
+    "path": "/modules/exploits/multi/http/oracle_weblogic_wsat_deserialization_rce.rb",
+    "name": "Oracle WebLogic wls-wsat Component Deserialization RCE"
+  },
+  {
+    "cve": "CVE-2017-11467",
+    "module": "exploit_multi/http/orientdb_exec",
+    "path": "/modules/exploits/multi/http/orientdb_exec.rb",
+    "name": "OrientDB 2.2.x Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-9080",
+    "module": "exploit_multi/http/playsms_filename_exec",
+    "path": "/modules/exploits/multi/http/playsms_filename_exec.rb",
+    "name": "PlaySMS sendfromfile.php Authenticated \"Filename\" Field Code Execution"
+  },
+  {
+    "cve": "CVE-2017-9101",
+    "module": "exploit_multi/http/playsms_uploadcsv_exec",
+    "path": "/modules/exploits/multi/http/playsms_uploadcsv_exec.rb",
+    "name": "PlaySMS import.php Authenticated CSV File Upload Code Execution"
+  },
+  {
+    "cve": "CVE-2017-1000486",
+    "module": "exploit_multi/http/primefaces_weak_encryption_rce",
+    "path": "/modules/exploits/multi/http/primefaces_weak_encryption_rce.rb",
+    "name": "Primefaces Remote Code Execution Exploit"
+  },
+  {
+    "cve": "CVE-2017-18357",
+    "module": "exploit_multi/http/shopware_createinstancefromnamedarguments_rce",
+    "path": "/modules/exploits/multi/http/shopware_createinstancefromnamedarguments_rce.rb",
+    "name": "Shopware createInstanceFromNamedArguments PHP Object Instantiation RCE"
+  },
+  {
+    "cve": "CVE-2017-9791",
+    "module": "exploit_multi/http/struts2_code_exec_showcase",
+    "path": "/modules/exploits/multi/http/struts2_code_exec_showcase.rb",
+    "name": "Apache Struts 2 Struts 1 Plugin Showcase OGNL Code Execution"
+  },
+  {
+    "cve": "CVE-2017-5638",
+    "module": "exploit_multi/http/struts2_content_type_ognl",
+    "path": "/modules/exploits/multi/http/struts2_content_type_ognl.rb",
+    "name": "Apache Struts Jakarta Multipart Parser OGNL Injection"
+  },
+  {
+    "cve": "CVE-2017-9805",
+    "module": "exploit_multi/http/struts2_rest_xstream",
+    "path": "/modules/exploits/multi/http/struts2_rest_xstream.rb",
+    "name": "Apache Struts 2 REST Plugin XStream RCE"
+  },
+  {
+    "cve": "CVE-2017-12617",
+    "module": "exploit_multi/http/tomcat_jsp_upload_bypass",
+    "path": "/modules/exploits/multi/http/tomcat_jsp_upload_bypass.rb",
+    "name": "Tomcat RCE via JSP Upload Bypass"
+  },
+  {
+    "cve": "CVE-2017-6516",
+    "module": "exploit_multi/local/magnicomp_sysinfo_mcsiwrapper_priv_esc",
+    "path": "/modules/exploits/multi/local/magnicomp_sysinfo_mcsiwrapper_priv_esc.rb",
+    "name": "MagniComp SysInfo mcsiwrapper Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-3248",
+    "module": "exploit_multi/misc/weblogic_deserialize_unicastref",
+    "path": "/modules/exploits/multi/misc/weblogic_deserialize_unicastref.rb",
+    "name": "Oracle Weblogic Server Deserialization RCE - RMI UnicastRef"
+  },
+  {
+    "cve": "CVE-2017-13872",
+    "module": "exploit_osx/local/root_no_password",
+    "path": "/modules/exploits/osx/local/root_no_password.rb",
+    "name": "Mac OS X Root Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-3622",
+    "module": "exploit_solaris/local/extremeparr_dtappgather_priv_esc",
+    "path": "/modules/exploits/solaris/local/extremeparr_dtappgather_priv_esc.rb",
+    "name": "Solaris 'EXTREMEPARR' dtappgather Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-1000364",
+    "module": "exploit_solaris/local/rsh_stack_clash_priv_esc",
+    "path": "/modules/exploits/solaris/local/rsh_stack_clash_priv_esc.rb",
+    "name": "Solaris RSH Stack Clash Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-3629",
+    "module": "exploit_solaris/local/rsh_stack_clash_priv_esc",
+    "path": "/modules/exploits/solaris/local/rsh_stack_clash_priv_esc.rb",
+    "name": "Solaris RSH Stack Clash Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-3630",
+    "module": "exploit_solaris/local/rsh_stack_clash_priv_esc",
+    "path": "/modules/exploits/solaris/local/rsh_stack_clash_priv_esc.rb",
+    "name": "Solaris RSH Stack Clash Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-3631",
+    "module": "exploit_solaris/local/rsh_stack_clash_priv_esc",
+    "path": "/modules/exploits/solaris/local/rsh_stack_clash_priv_esc.rb",
+    "name": "Solaris RSH Stack Clash Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2017-8291",
+    "module": "exploit_unix/fileformat/ghostscript_type_confusion",
+    "path": "/modules/exploits/unix/fileformat/ghostscript_type_confusion.rb",
+    "name": "Ghostscript Type Confusion Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2017-5255",
+    "module": "exploit_unix/http/epmp1000_get_chart_cmd_shell",
+    "path": "/modules/exploits/unix/http/epmp1000_get_chart_cmd_shell.rb",
+    "name": "Cambium ePMP1000 'get_chart' Shell via Command Injection (v3.1-3.5-RC7)"
+  },
+  {
+    "cve": "CVE-2017-5255",
+    "module": "exploit_unix/http/epmp1000_ping_cmd_shell",
+    "path": "/modules/exploits/unix/http/epmp1000_ping_cmd_shell.rb",
+    "name": "Cambium ePMP1000 'ping' Shell via Command Injection (up to v2.5)"
+  },
+  {
+    "cve": "CVE-2017-16894",
+    "module": "exploit_unix/http/laravel_token_unserialize_exec",
+    "path": "/modules/exploits/unix/http/laravel_token_unserialize_exec.rb",
+    "name": "PHP Laravel Framework token Unserialize Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2017-1000479",
+    "module": "exploit_unix/http/pfsense_clickjacking",
+    "path": "/modules/exploits/unix/http/pfsense_clickjacking.rb",
+    "name": "Clickjacking Vulnerability In CSRF Error Page pfSense"
+  },
+  {
+    "cve": "CVE-2017-17105",
+    "module": "exploit_unix/http/zivif_ipcheck_exec",
+    "path": "/modules/exploits/unix/http/zivif_ipcheck_exec.rb",
+    "name": "Zivif Camera iptest.cgi Blind Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2017-8917",
+    "module": "exploit_unix/webapp/joomla_comfields_sqli_rce",
+    "path": "/modules/exploits/unix/webapp/joomla_comfields_sqli_rce.rb",
+    "name": "Joomla Component Fields SQLi Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-6090",
+    "module": "exploit_unix/webapp/phpcollab_upload_exec",
+    "path": "/modules/exploits/unix/webapp/phpcollab_upload_exec.rb",
+    "name": "phpCollab 2.5.1 Unauthenticated File Upload"
+  },
+  {
+    "cve": "CVE-2017-7411",
+    "module": "exploit_unix/webapp/tuleap_rest_unserialize_exec",
+    "path": "/modules/exploits/unix/webapp/tuleap_rest_unserialize_exec.rb",
+    "name": "Tuleap 9.6 Second-Order PHP Object Injection"
+  },
+  {
+    "cve": "CVE-2017-8895",
+    "module": "exploit_windows/backupexec/ssl_uaf",
+    "path": "/modules/exploits/windows/backupexec/ssl_uaf.rb",
+    "name": "Veritas/Symantec Backup Exec SSL NDMP Connection Use-After-Free"
+  },
+  {
+    "cve": "CVE-2017-3823",
+    "module": "exploit_windows/browser/cisco_webex_ext",
+    "path": "/modules/exploits/windows/browser/cisco_webex_ext.rb",
+    "name": "Cisco WebEx Chrome Extension RCE (CVE-2017-3823)"
+  },
+  {
+    "cve": "CVE-2017-8870",
+    "module": "exploit_windows/fileformat/audio_coder_m3u",
+    "path": "/modules/exploits/windows/fileformat/audio_coder_m3u.rb",
+    "name": "AudioCoder .M3U Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-8464",
+    "module": "exploit_windows/fileformat/cve_2017_8464_lnk_rce",
+    "path": "/modules/exploits/windows/fileformat/cve_2017_8464_lnk_rce.rb",
+    "name": "LNK Code Execution Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-14627",
+    "module": "exploit_windows/fileformat/cyberlink_lpp_bof",
+    "path": "/modules/exploits/windows/fileformat/cyberlink_lpp_bof.rb",
+    "name": "CyberLink LabelPrint 2.5 Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-7310",
+    "module": "exploit_windows/fileformat/dupscout_xml",
+    "path": "/modules/exploits/windows/fileformat/dupscout_xml.rb",
+    "name": "Dup Scout Enterprise v10.4.16 - Import Command Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-8869",
+    "module": "exploit_windows/fileformat/mediacoder_m3u",
+    "path": "/modules/exploits/windows/fileformat/mediacoder_m3u.rb",
+    "name": "MediaCoder .M3U Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-7442",
+    "module": "exploit_windows/fileformat/nitro_reader_jsapi",
+    "path": "/modules/exploits/windows/fileformat/nitro_reader_jsapi.rb",
+    "name": "Nitro Pro PDF Reader 11.0.3.173 Javascript API Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-11882",
+    "module": "exploit_windows/fileformat/office_ms17_11882",
+    "path": "/modules/exploits/windows/fileformat/office_ms17_11882.rb",
+    "name": "Microsoft Office CVE-2017-11882"
+  },
+  {
+    "cve": "CVE-2017-0199",
+    "module": "exploit_windows/fileformat/office_word_hta",
+    "path": "/modules/exploits/windows/fileformat/office_word_hta.rb",
+    "name": "Microsoft Office Word Malicious Hta Execution"
+  },
+  {
+    "cve": "CVE-2017-7310",
+    "module": "exploit_windows/fileformat/syncbreeze_xml",
+    "path": "/modules/exploits/windows/fileformat/syncbreeze_xml.rb",
+    "name": "Sync Breeze Enterprise 9.5.16 - Import Command Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-15222",
+    "module": "exploit_windows/ftp/ayukov_nftp",
+    "path": "/modules/exploits/windows/ftp/ayukov_nftp.rb",
+    "name": "Ayukov NFTP FTP Client Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-6465",
+    "module": "exploit_windows/ftp/ftpshell51_pwd_reply",
+    "path": "/modules/exploits/windows/ftp/ftpshell51_pwd_reply.rb",
+    "name": "FTPShell 5.1 Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-18047",
+    "module": "exploit_windows/ftp/labf_nfsaxe",
+    "path": "/modules/exploits/windows/ftp/labf_nfsaxe.rb",
+    "name": "LabF nfsAxe 3.7 FTP Client Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-13696",
+    "module": "exploit_windows/http/disk_pulse_enterprise_get",
+    "path": "/modules/exploits/windows/http/disk_pulse_enterprise_get.rb",
+    "name": "Disk Pulse Enterprise GET Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-6187",
+    "module": "exploit_windows/http/disksavvy_get_bof",
+    "path": "/modules/exploits/windows/http/disksavvy_get_bof.rb",
+    "name": "DiskSavvy Enterprise GET Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-7230",
+    "module": "exploit_windows/http/disksorter_bof",
+    "path": "/modules/exploits/windows/http/disksorter_bof.rb",
+    "name": "Disk Sorter Enterprise GET Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-9822",
+    "module": "exploit_windows/http/dnn_cookie_deserialization_rce",
+    "path": "/modules/exploits/windows/http/dnn_cookie_deserialization_rce.rb",
+    "name": "DotNetNuke Cookie Deserialization Remote Code Excecution"
+  },
+  {
+    "cve": "CVE-2017-13696",
+    "module": "exploit_windows/http/dup_scout_enterprise_login_bof",
+    "path": "/modules/exploits/windows/http/dup_scout_enterprise_login_bof.rb",
+    "name": "Dup Scout Enterprise Login Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-13696",
+    "module": "exploit_windows/http/dupscts_bof",
+    "path": "/modules/exploits/windows/http/dupscts_bof.rb",
+    "name": "Dup Scout Enterprise GET Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-9544",
+    "module": "exploit_windows/http/easychatserver_seh",
+    "path": "/modules/exploits/windows/http/easychatserver_seh.rb",
+    "name": "Easy Chat Server User Registeration Buffer Overflow (SEH)"
+  },
+  {
+    "cve": "CVE-2017-11517",
+    "module": "exploit_windows/http/geutebrueck_gcore_x64_rce_bo",
+    "path": "/modules/exploits/windows/http/geutebrueck_gcore_x64_rce_bo.rb",
+    "name": "Geutebrueck GCore - GCoreServer.exe Buffer Overflow RCE"
+  },
+  {
+    "cve": "CVE-2017-12557",
+    "module": "exploit_windows/http/hp_imc_java_deserialize",
+    "path": "/modules/exploits/windows/http/hp_imc_java_deserialize.rb",
+    "name": "HP Intelligent Management Java Deserialization RCE"
+  },
+  {
+    "cve": "CVE-2017-14980",
+    "module": "exploit_windows/http/syncbreeze_bof",
+    "path": "/modules/exploits/windows/http/syncbreeze_bof.rb",
+    "name": "Sync Breeze Enterprise GET Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-11317",
+    "module": "exploit_windows/http/telerik_rau_deserialization",
+    "path": "/modules/exploits/windows/http/telerik_rau_deserialization.rb",
+    "name": "Telerik UI ASP.NET AJAX RadAsyncUpload Deserialization"
+  },
+  {
+    "cve": "CVE-2017-11394",
+    "module": "exploit_windows/http/trendmicro_officescan_widget_exec",
+    "path": "/modules/exploits/windows/http/trendmicro_officescan_widget_exec.rb",
+    "name": "Trend Micro OfficeScan Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-13708",
+    "module": "exploit_windows/http/vxsrchs_bof",
+    "path": "/modules/exploits/windows/http/vxsrchs_bof.rb",
+    "name": "VX Search Enterprise GET Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-7269",
+    "module": "exploit_windows/iis/iis_webdav_scstoragepathfromurl",
+    "path": "/modules/exploits/windows/iis/iis_webdav_scstoragepathfromurl.rb",
+    "name": "Microsoft IIS WebDav ScStoragePathFromUrl Overflow"
+  },
+  {
+    "cve": "CVE-2017-8464",
+    "module": "exploit_windows/local/cve_2017_8464_lnk_lpe",
+    "path": "/modules/exploits/windows/local/cve_2017_8464_lnk_lpe.rb",
+    "name": "LNK Code Execution Vulnerability"
+  },
+  {
+    "cve": "CVE-2017-9769",
+    "module": "exploit_windows/local/razer_zwopenprocess",
+    "path": "/modules/exploits/windows/local/razer_zwopenprocess.rb",
+    "name": "Razer Synapse rzpnk.sys ZwOpenProcess"
+  },
+  {
+    "cve": "CVE-2017-17932",
+    "module": "exploit_windows/misc/allmediaserver_bof",
+    "path": "/modules/exploits/windows/misc/allmediaserver_bof.rb",
+    "name": "ALLMediaServer 0.8 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-18044",
+    "module": "exploit_windows/misc/commvault_cmd_exec",
+    "path": "/modules/exploits/windows/misc/commvault_cmd_exec.rb",
+    "name": "Commvault Communications Service (cvd) Command Injection"
+  },
+  {
+    "cve": "CVE-2017-5816",
+    "module": "exploit_windows/misc/hp_imc_dbman_restartdb_unauth_rce",
+    "path": "/modules/exploits/windows/misc/hp_imc_dbman_restartdb_unauth_rce.rb",
+    "name": "HPE iMC dbman RestartDB Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2017-5817",
+    "module": "exploit_windows/misc/hp_imc_dbman_restoredbase_unauth_rce",
+    "path": "/modules/exploits/windows/misc/hp_imc_dbman_restoredbase_unauth_rce.rb",
+    "name": "HPE iMC dbman RestoreDBase Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2017-17968",
+    "module": "exploit_windows/misc/nettransport",
+    "path": "/modules/exploits/windows/misc/nettransport.rb",
+    "name": "NetTransport Download Manager 2.90.510 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-14016",
+    "module": "exploit_windows/scada/advantech_webaccess_webvrpcs_bof",
+    "path": "/modules/exploits/windows/scada/advantech_webaccess_webvrpcs_bof.rb",
+    "name": "Advantech WebAccess Webvrpcs Service Opcode 80061 Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-0143",
+    "module": "exploit_windows/smb/ms17_010_eternalblue",
+    "path": "/modules/exploits/windows/smb/ms17_010_eternalblue.rb",
+    "name": "MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption"
+  },
+  {
+    "cve": "CVE-2017-0144",
+    "module": "exploit_windows/smb/ms17_010_eternalblue",
+    "path": "/modules/exploits/windows/smb/ms17_010_eternalblue.rb",
+    "name": "MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption"
+  },
+  {
+    "cve": "CVE-2017-0145",
+    "module": "exploit_windows/smb/ms17_010_eternalblue",
+    "path": "/modules/exploits/windows/smb/ms17_010_eternalblue.rb",
+    "name": "MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption"
+  },
+  {
+    "cve": "CVE-2017-0146",
+    "module": "exploit_windows/smb/ms17_010_eternalblue",
+    "path": "/modules/exploits/windows/smb/ms17_010_eternalblue.rb",
+    "name": "MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption"
+  },
+  {
+    "cve": "CVE-2017-0147",
+    "module": "exploit_windows/smb/ms17_010_eternalblue",
+    "path": "/modules/exploits/windows/smb/ms17_010_eternalblue.rb",
+    "name": "MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption"
+  },
+  {
+    "cve": "CVE-2017-0148",
+    "module": "exploit_windows/smb/ms17_010_eternalblue",
+    "path": "/modules/exploits/windows/smb/ms17_010_eternalblue.rb",
+    "name": "MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption"
+  },
+  {
+    "cve": "CVE-2017-0143",
+    "module": "exploit_windows/smb/ms17_010_psexec",
+    "path": "/modules/exploits/windows/smb/ms17_010_psexec.rb",
+    "name": "MS17-010 EternalRomance/EternalSynergy/EternalChampion SMB Remote Windows Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0146",
+    "module": "exploit_windows/smb/ms17_010_psexec",
+    "path": "/modules/exploits/windows/smb/ms17_010_psexec.rb",
+    "name": "MS17-010 EternalRomance/EternalSynergy/EternalChampion SMB Remote Windows Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0147",
+    "module": "exploit_windows/smb/ms17_010_psexec",
+    "path": "/modules/exploits/windows/smb/ms17_010_psexec.rb",
+    "name": "MS17-010 EternalRomance/EternalSynergy/EternalChampion SMB Remote Windows Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0143",
+    "module": "exploit_windows/smb/smb_doublepulsar_rce",
+    "path": "/modules/exploits/windows/smb/smb_doublepulsar_rce.rb",
+    "name": "SMB DOUBLEPULSAR Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0144",
+    "module": "exploit_windows/smb/smb_doublepulsar_rce",
+    "path": "/modules/exploits/windows/smb/smb_doublepulsar_rce.rb",
+    "name": "SMB DOUBLEPULSAR Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0145",
+    "module": "exploit_windows/smb/smb_doublepulsar_rce",
+    "path": "/modules/exploits/windows/smb/smb_doublepulsar_rce.rb",
+    "name": "SMB DOUBLEPULSAR Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0146",
+    "module": "exploit_windows/smb/smb_doublepulsar_rce",
+    "path": "/modules/exploits/windows/smb/smb_doublepulsar_rce.rb",
+    "name": "SMB DOUBLEPULSAR Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0147",
+    "module": "exploit_windows/smb/smb_doublepulsar_rce",
+    "path": "/modules/exploits/windows/smb/smb_doublepulsar_rce.rb",
+    "name": "SMB DOUBLEPULSAR Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-0148",
+    "module": "exploit_windows/smb/smb_doublepulsar_rce",
+    "path": "/modules/exploits/windows/smb/smb_doublepulsar_rce.rb",
+    "name": "SMB DOUBLEPULSAR Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2017-8461",
+    "module": "exploit_windows/smb/smb_rras_erraticgopher",
+    "path": "/modules/exploits/windows/smb/smb_rras_erraticgopher.rb",
+    "name": "Microsoft Windows RRAS Service MIBEntryGet Overflow"
+  },
+  {
+    "cve": "CVE-2017-6416",
+    "module": "exploit_windows/smtp/sysgauge_client_bof",
+    "path": "/modules/exploits/windows/smtp/sysgauge_client_bof.rb",
+    "name": "SysGauge SMTP Validation Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2017-14937",
+    "module": "post_hardware/automotive/pdt",
+    "path": "/modules/post/hardware/automotive/pdt.rb",
+    "name": "Check For and Prep the Pyrotechnic Devices (Airbags, Battery Clamps, etc.)"
+  }
+]

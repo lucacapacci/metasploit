@@ -1,0 +1,200 @@
+[
+  {
+    "cve": "CVE-2003-0027",
+    "module": "auxiliary_admin/sunrpc/solaris_kcms_readfile",
+    "path": "/modules/auxiliary/admin/sunrpc/solaris_kcms_readfile.rb",
+    "name": "Solaris KCMS + TTDB Arbitrary File Read"
+  },
+  {
+    "cve": "CVE-2003-0694",
+    "module": "auxiliary_dos/smtp/sendmail_prescan",
+    "path": "/modules/auxiliary/dos/smtp/sendmail_prescan.rb",
+    "name": "Sendmail SMTP Address prescan Memory Corruption"
+  },
+  {
+    "cve": "CVE-2003-0270",
+    "module": "auxiliary_scanner/acpp/login",
+    "path": "/modules/auxiliary/scanner/acpp/login.rb",
+    "name": "Apple Airport ACPP Authentication Scanner"
+  },
+  {
+    "cve": "CVE-2003-0190",
+    "module": "auxiliary_scanner/ssh/ssh_enumusers",
+    "path": "/modules/auxiliary/scanner/ssh/ssh_enumusers.rb",
+    "name": "SSH Username Enumeration"
+  },
+  {
+    "cve": "CVE-2003-0201",
+    "module": "exploit_freebsd/samba/trans2open",
+    "path": "/modules/exploits/freebsd/samba/trans2open.rb",
+    "name": "Samba trans2open Overflow (*BSD x86)"
+  },
+  {
+    "cve": "CVE-2003-0213",
+    "module": "exploit_linux/pptp/poptop_negative_read",
+    "path": "/modules/exploits/linux/pptp/poptop_negative_read.rb",
+    "name": "Poptop Negative Read Overflow"
+  },
+  {
+    "cve": "CVE-2003-0201",
+    "module": "exploit_linux/samba/trans2open",
+    "path": "/modules/exploits/linux/samba/trans2open.rb",
+    "name": "Samba trans2open Overflow (Linux x86)"
+  },
+  {
+    "cve": "CVE-2003-0201",
+    "module": "exploit_osx/samba/trans2open",
+    "path": "/modules/exploits/osx/samba/trans2open.rb",
+    "name": "Samba trans2open Overflow (Mac OS X PPC)"
+  },
+  {
+    "cve": "CVE-2003-0201",
+    "module": "exploit_solaris/samba/trans2open",
+    "path": "/modules/exploits/solaris/samba/trans2open.rb",
+    "name": "Samba trans2open Overflow (Solaris SPARC)"
+  },
+  {
+    "cve": "CVE-2003-0722",
+    "module": "exploit_solaris/sunrpc/sadmind_exec",
+    "path": "/modules/exploits/solaris/sunrpc/sadmind_exec.rb",
+    "name": "Solaris sadmind Command Execution"
+  },
+  {
+    "cve": "CVE-2003-0050",
+    "module": "exploit_unix/webapp/qtss_parse_xml_exec",
+    "path": "/modules/exploits/unix/webapp/qtss_parse_xml_exec.rb",
+    "name": "QuickTime Streaming Server parse_xml.cgi Remote Execution"
+  },
+  {
+    "cve": "CVE-2003-0990",
+    "module": "exploit_unix/webapp/squirrelmail_pgp_plugin",
+    "path": "/modules/exploits/unix/webapp/squirrelmail_pgp_plugin.rb",
+    "name": "SquirrelMail PGP Plugin Command Execution (SMTP)"
+  },
+  {
+    "cve": "CVE-2003-1336",
+    "module": "exploit_windows/browser/mirc_irc_url",
+    "path": "/modules/exploits/windows/browser/mirc_irc_url.rb",
+    "name": "mIRC IRC URL Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2003-0344",
+    "module": "exploit_windows/browser/ms03_020_ie_objecttype",
+    "path": "/modules/exploits/windows/browser/ms03_020_ie_objecttype.rb",
+    "name": "MS03-020 Microsoft Internet Explorer Object Type"
+  },
+  {
+    "cve": "CVE-2003-0352",
+    "module": "exploit_windows/dcerpc/ms03_026_dcom",
+    "path": "/modules/exploits/windows/dcerpc/ms03_026_dcom.rb",
+    "name": "MS03-026 Microsoft RPC DCOM Interface Overflow"
+  },
+  {
+    "cve": "CVE-2003-0220",
+    "module": "exploit_windows/firewall/kerio_auth",
+    "path": "/modules/exploits/windows/firewall/kerio_auth.rb",
+    "name": "Kerio Firewall 2.1.4 Authentication Packet Overflow"
+  },
+  {
+    "cve": "CVE-2003-0558",
+    "module": "exploit_windows/ftp/leapftp_pasv_reply",
+    "path": "/modules/exploits/windows/ftp/leapftp_pasv_reply.rb",
+    "name": "LeapWare LeapFTP v2.7.3.600 PASV Reply Client Overflow"
+  },
+  {
+    "cve": "CVE-2003-0727",
+    "module": "exploit_windows/ftp/oracle9i_xdb_ftp_pass",
+    "path": "/modules/exploits/windows/ftp/oracle9i_xdb_ftp_pass.rb",
+    "name": "Oracle 9i XDB FTP PASS Overflow (win32)"
+  },
+  {
+    "cve": "CVE-2003-0727",
+    "module": "exploit_windows/ftp/oracle9i_xdb_ftp_unlock",
+    "path": "/modules/exploits/windows/ftp/oracle9i_xdb_ftp_unlock.rb",
+    "name": "Oracle 9i XDB FTP UNLOCK Overflow (win32)"
+  },
+  {
+    "cve": "CVE-2003-0471",
+    "module": "exploit_windows/http/altn_webadmin",
+    "path": "/modules/exploits/windows/http/altn_webadmin.rb",
+    "name": "Alt-N WebAdmin USER Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2003-1192",
+    "module": "exploit_windows/http/ia_webmail",
+    "path": "/modules/exploits/windows/http/ia_webmail.rb",
+    "name": "IA WebMail 3.x Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2003-1200",
+    "module": "exploit_windows/http/mdaemon_worldclient_form2raw",
+    "path": "/modules/exploits/windows/http/mdaemon_worldclient_form2raw.rb",
+    "name": "MDaemon WorldClient form2raw.cgi Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2003-0727",
+    "module": "exploit_windows/http/oracle9i_xdb_pass",
+    "path": "/modules/exploits/windows/http/oracle9i_xdb_pass.rb",
+    "name": "Oracle 9i XDB HTTP PASS Overflow (win32)"
+  },
+  {
+    "cve": "CVE-2003-0109",
+    "module": "exploit_windows/iis/ms03_007_ntdll_webdav",
+    "path": "/modules/exploits/windows/iis/ms03_007_ntdll_webdav.rb",
+    "name": "MS03-007 Microsoft IIS 5.0 WebDAV ntdll.dll Path Overflow"
+  },
+  {
+    "cve": "CVE-2003-0349",
+    "module": "exploit_windows/isapi/ms03_022_nsiislog_post",
+    "path": "/modules/exploits/windows/isapi/ms03_022_nsiislog_post.rb",
+    "name": "MS03-022 Microsoft IIS ISAPI nsiislog.dll ISAPI POST Overflow"
+  },
+  {
+    "cve": "CVE-2003-0822",
+    "module": "exploit_windows/isapi/ms03_051_fp30reg_chunked",
+    "path": "/modules/exploits/windows/isapi/ms03_051_fp30reg_chunked.rb",
+    "name": "MS03-051 Microsoft IIS ISAPI FrontPage fp30reg.dll Chunked Overflow"
+  },
+  {
+    "cve": "CVE-2003-1141",
+    "module": "exploit_windows/lpd/niprint",
+    "path": "/modules/exploits/windows/lpd/niprint.rb",
+    "name": "NIPrint LPD Request Overflow"
+  },
+  {
+    "cve": "CVE-2003-0264",
+    "module": "exploit_windows/pop3/seattlelab_pass",
+    "path": "/modules/exploits/windows/pop3/seattlelab_pass.rb",
+    "name": "Seattle Lab Mail 5.5 POP3 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2003-0812",
+    "module": "exploit_windows/smb/ms03_049_netapi",
+    "path": "/modules/exploits/windows/smb/ms03_049_netapi.rb",
+    "name": "MS03-049 Microsoft Workstation Service NetAddAlternateComputerName Overflow"
+  },
+  {
+    "cve": "CVE-2003-0818",
+    "module": "exploit_windows/smb/ms04_007_killbill",
+    "path": "/modules/exploits/windows/smb/ms04_007_killbill.rb",
+    "name": "MS04-007 Microsoft ASN.1 Library Bitstring Heap Overflow"
+  },
+  {
+    "cve": "CVE-2003-0533",
+    "module": "exploit_windows/smb/ms04_011_lsass",
+    "path": "/modules/exploits/windows/smb/ms04_011_lsass.rb",
+    "name": "MS04-011 Microsoft LSASS Service DsRolerUpgradeDownlevelServer Overflow"
+  },
+  {
+    "cve": "CVE-2003-0714",
+    "module": "exploit_windows/smtp/ms03_046_exchange2000_xexch50",
+    "path": "/modules/exploits/windows/smtp/ms03_046_exchange2000_xexch50.rb",
+    "name": "MS03-046 Exchange 2000 XEXCH50 Heap Overflow"
+  },
+  {
+    "cve": "CVE-2003-0719",
+    "module": "exploit_windows/ssl/ms04_011_pct",
+    "path": "/modules/exploits/windows/ssl/ms04_011_pct.rb",
+    "name": "MS04-011 Microsoft Private Communications Transport Overflow"
+  }
+]

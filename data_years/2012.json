@@ -1,0 +1,1250 @@
+[
+  {
+    "cve": "CVE-2012-4940",
+    "module": "auxiliary_admin/http/axigen_file_access",
+    "path": "/modules/auxiliary/admin/http/axigen_file_access.rb",
+    "name": "Axigen Arbitrary File Read and Delete"
+  },
+  {
+    "cve": "CVE-2012-2626",
+    "module": "auxiliary_admin/http/scrutinizer_add_user",
+    "path": "/modules/auxiliary/admin/http/scrutinizer_add_user.rb",
+    "name": "Plixer Scrutinizer NetFlow and sFlow Analyzer HTTP Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2012-2983",
+    "module": "auxiliary_admin/webmin/edit_html_fileaccess",
+    "path": "/modules/auxiliary/admin/webmin/edit_html_fileaccess.rb",
+    "name": "Webmin edit_html.cgi file Parameter Traversal Arbitrary File Access"
+  },
+  {
+    "cve": "CVE-2012-6301",
+    "module": "auxiliary_dos/android/android_stock_browser_iframe",
+    "path": "/modules/auxiliary/dos/android/android_stock_browser_iframe.rb",
+    "name": "Android Stock Browser Iframe DOS"
+  },
+  {
+    "cve": "CVE-2012-4956",
+    "module": "auxiliary_dos/http/novell_file_reporter_heap_bof",
+    "path": "/modules/auxiliary/dos/http/novell_file_reporter_heap_bof.rb",
+    "name": "NFR Agent Heap Overflow Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-2686",
+    "module": "auxiliary_dos/ssl/openssl_aesni",
+    "path": "/modules/auxiliary/dos/ssl/openssl_aesni.rb",
+    "name": "OpenSSL TLS 1.1 and 1.2 AES-NI DoS"
+  },
+  {
+    "cve": "CVE-2012-0002",
+    "module": "auxiliary_dos/windows/rdp/ms12_020_maxchannelids",
+    "path": "/modules/auxiliary/dos/windows/rdp/ms12_020_maxchannelids.rb",
+    "name": "MS12-020 Microsoft Remote Desktop Use-After-Free DoS"
+  },
+  {
+    "cve": "CVE-2012-6663",
+    "module": "auxiliary_gather/d20pass",
+    "path": "/modules/auxiliary/gather/d20pass.rb",
+    "name": "General Electric D20 Password Recovery"
+  },
+  {
+    "cve": "CVE-2012-4554",
+    "module": "auxiliary_gather/drupal_openid_xxe",
+    "path": "/modules/auxiliary/gather/drupal_openid_xxe.rb",
+    "name": "Drupal OpenID External Entity Injection"
+  },
+  {
+    "cve": "CVE-2012-10024",
+    "module": "auxiliary_gather/xbmc_traversal",
+    "path": "/modules/auxiliary/gather/xbmc_traversal.rb",
+    "name": "XBMC Web Server Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-2926",
+    "module": "auxiliary_scanner/http/atlassian_crowd_fileaccess",
+    "path": "/modules/auxiliary/scanner/http/atlassian_crowd_fileaccess.rb",
+    "name": "Atlassian Crowd XML Entity Expansion Remote File Access"
+  },
+  {
+    "cve": "CVE-2012-5192",
+    "module": "auxiliary_scanner/http/bitweaver_overlay_type_traversal",
+    "path": "/modules/auxiliary/scanner/http/bitweaver_overlay_type_traversal.rb",
+    "name": "Bitweaver overlay_type Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-10034",
+    "module": "auxiliary_scanner/http/clansphere_traversal",
+    "path": "/modules/auxiliary/scanner/http/clansphere_traversal.rb",
+    "name": "ClanSphere 2011.3 Local File Inclusion Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-0419",
+    "module": "auxiliary_scanner/http/groupwise_agents_http_traversal",
+    "path": "/modules/auxiliary/scanner/http/groupwise_agents_http_traversal.rb",
+    "name": "Novell Groupwise Agents HTTP Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-5202",
+    "module": "auxiliary_scanner/http/hp_imc_faultdownloadservlet_traversal",
+    "path": "/modules/auxiliary/scanner/http/hp_imc_faultdownloadservlet_traversal.rb",
+    "name": "HP Intelligent Management FaultDownloadServlet Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-5204",
+    "module": "auxiliary_scanner/http/hp_imc_ictdownloadservlet_traversal",
+    "path": "/modules/auxiliary/scanner/http/hp_imc_ictdownloadservlet_traversal.rb",
+    "name": "HP Intelligent Management IctDownloadServlet Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-5203",
+    "module": "auxiliary_scanner/http/hp_imc_reportimgservlt_traversal",
+    "path": "/modules/auxiliary/scanner/http/hp_imc_reportimgservlt_traversal.rb",
+    "name": "HP Intelligent Management ReportImgServlt Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-1465",
+    "module": "auxiliary_scanner/http/netdecision_traversal",
+    "path": "/modules/auxiliary/scanner/http/netdecision_traversal.rb",
+    "name": "NetDecision NOCVision Server Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-4958",
+    "module": "auxiliary_scanner/http/novell_file_reporter_fsfui_fileaccess",
+    "path": "/modules/auxiliary/scanner/http/novell_file_reporter_fsfui_fileaccess.rb",
+    "name": "NFR Agent FSFUI Record Arbitrary Remote File Access"
+  },
+  {
+    "cve": "CVE-2012-4957",
+    "module": "auxiliary_scanner/http/novell_file_reporter_srs_fileaccess",
+    "path": "/modules/auxiliary/scanner/http/novell_file_reporter_srs_fileaccess.rb",
+    "name": "NFR Agent SRS Record Arbitrary Remote File Access"
+  },
+  {
+    "cve": "CVE-2012-10061",
+    "module": "auxiliary_scanner/http/sockso_traversal",
+    "path": "/modules/auxiliary/scanner/http/sockso_traversal.rb",
+    "name": "Sockso Music Host Server 1.5 Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-4347",
+    "module": "auxiliary_scanner/http/symantec_brightmail_logfile",
+    "path": "/modules/auxiliary/scanner/http/symantec_brightmail_logfile.rb",
+    "name": "Symantec Messaging Gateway 9.5 Log File Download Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-5687",
+    "module": "auxiliary_scanner/http/tplink_traversal_noauth",
+    "path": "/modules/auxiliary/scanner/http/tplink_traversal_noauth.rb",
+    "name": "TP-Link Wireless Lite N Access Point Directory Traversal Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-4031",
+    "module": "auxiliary_scanner/http/wangkongbao_traversal",
+    "path": "/modules/auxiliary/scanner/http/wangkongbao_traversal.rb",
+    "name": "WANGKONGBAO CNS-1000 and 1100 UTM Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-4933",
+    "module": "auxiliary_scanner/http/zenworks_assetmanagement_fileaccess",
+    "path": "/modules/auxiliary/scanner/http/zenworks_assetmanagement_fileaccess.rb",
+    "name": "Novell ZENworks Asset Management 7.5 Remote File Access"
+  },
+  {
+    "cve": "CVE-2012-4933",
+    "module": "auxiliary_scanner/http/zenworks_assetmanagement_getconfig",
+    "path": "/modules/auxiliary/scanner/http/zenworks_assetmanagement_getconfig.rb",
+    "name": "Novell ZENworks Asset Management 7.5 Configuration Access"
+  },
+  {
+    "cve": "CVE-2012-2215",
+    "module": "auxiliary_scanner/misc/zenworks_preboot_fileaccess",
+    "path": "/modules/auxiliary/scanner/misc/zenworks_preboot_fileaccess.rb",
+    "name": "Novell ZENworks Configuration Management Preboot Service Remote File Access"
+  },
+  {
+    "cve": "CVE-2012-2122",
+    "module": "auxiliary_scanner/mysql/mysql_authbypass_hashdump",
+    "path": "/modules/auxiliary/scanner/mysql/mysql_authbypass_hashdump.rb",
+    "name": "MySQL Authentication Bypass Password Dump"
+  },
+  {
+    "cve": "CVE-2012-1675",
+    "module": "auxiliary_scanner/oracle/tnspoison_checker",
+    "path": "/modules/auxiliary/scanner/oracle/tnspoison_checker.rb",
+    "name": "Oracle TNS Listener Checker"
+  },
+  {
+    "cve": "CVE-2012-0002",
+    "module": "auxiliary_scanner/rdp/ms12_020_check",
+    "path": "/modules/auxiliary/scanner/rdp/ms12_020_check.rb",
+    "name": "MS12-020 Microsoft Remote Desktop Checker"
+  },
+  {
+    "cve": "CVE-2012-4356",
+    "module": "auxiliary_scanner/scada/sielco_winlog_fileaccess",
+    "path": "/modules/auxiliary/scanner/scada/sielco_winlog_fileaccess.rb",
+    "name": "Sielco Sistemi Winlog Remote File Access"
+  },
+  {
+    "cve": "CVE-2012-5081",
+    "module": "auxiliary_scanner/ssl/bleichenbacher_oracle",
+    "path": "/modules/auxiliary/scanner/ssl/bleichenbacher_oracle.py",
+    "name": "Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5"
+  },
+  {
+    "cve": "CVE-2012-1803",
+    "module": "auxiliary_scanner/telnet/telnet_ruggedcom",
+    "path": "/modules/auxiliary/scanner/telnet/telnet_ruggedcom.rb",
+    "name": "RuggedCom Telnet Password Generator"
+  },
+  {
+    "cve": "CVE-2012-5958",
+    "module": "auxiliary_scanner/upnp/ssdp_msearch",
+    "path": "/modules/auxiliary/scanner/upnp/ssdp_msearch.rb",
+    "name": "UPnP SSDP M-SEARCH Information Discovery"
+  },
+  {
+    "cve": "CVE-2012-5959",
+    "module": "auxiliary_scanner/upnp/ssdp_msearch",
+    "path": "/modules/auxiliary/scanner/upnp/ssdp_msearch.rb",
+    "name": "UPnP SSDP M-SEARCH Information Discovery"
+  },
+  {
+    "cve": "CVE-2012-6636",
+    "module": "exploit_android/browser/webview_addjavascriptinterface",
+    "path": "/modules/exploits/android/browser/webview_addjavascriptinterface.rb",
+    "name": "Android Browser and WebView addJavascriptInterface Code Execution"
+  },
+  {
+    "cve": "CVE-2012-0217",
+    "module": "exploit_freebsd/local/intel_sysret_priv_esc",
+    "path": "/modules/exploits/freebsd/local/intel_sysret_priv_esc.rb",
+    "name": "FreeBSD Intel SYSRET Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2012-10021",
+    "module": "exploit_linux/http/dlink_dir605l_captcha_bof",
+    "path": "/modules/exploits/linux/http/dlink_dir605l_captcha_bof.rb",
+    "name": "D-Link DIR-605L Captcha Handling Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10059",
+    "module": "exploit_linux/http/dolibarr_cmd_exec",
+    "path": "/modules/exploits/linux/http/dolibarr_cmd_exec.rb",
+    "name": "Dolibarr ERP/CRM Post-Auth OS Command Injection"
+  },
+  {
+    "cve": "CVE-2012-10046",
+    "module": "exploit_linux/http/esva_exec",
+    "path": "/modules/exploits/linux/http/esva_exec.rb",
+    "name": "E-Mail Security Virtual Appliance learn-msg.cgi Command Injection"
+  },
+  {
+    "cve": "CVE-2012-10040",
+    "module": "exploit_linux/http/openfiler_networkcard_exec",
+    "path": "/modules/exploits/linux/http/openfiler_networkcard_exec.rb",
+    "name": "Openfiler v2.x NetworkCard Command Execution"
+  },
+  {
+    "cve": "CVE-2012-0297",
+    "module": "exploit_linux/http/symantec_web_gateway_exec",
+    "path": "/modules/exploits/linux/http/symantec_web_gateway_exec.rb",
+    "name": "Symantec Web Gateway 5.0.2.8 ipchange.php Command Injection"
+  },
+  {
+    "cve": "CVE-2012-0299",
+    "module": "exploit_linux/http/symantec_web_gateway_file_upload",
+    "path": "/modules/exploits/linux/http/symantec_web_gateway_file_upload.rb",
+    "name": "Symantec Web Gateway 5.0.2.8 Arbitrary PHP File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-0297",
+    "module": "exploit_linux/http/symantec_web_gateway_lfi",
+    "path": "/modules/exploits/linux/http/symantec_web_gateway_lfi.rb",
+    "name": "Symantec Web Gateway 5.0.2.8 relfile File Inclusion Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-2953",
+    "module": "exploit_linux/http/symantec_web_gateway_pbcontrol",
+    "path": "/modules/exploits/linux/http/symantec_web_gateway_pbcontrol.rb",
+    "name": "Symantec Web Gateway 5.0.2.18 pbcontrol.php Command Injection"
+  },
+  {
+    "cve": "CVE-2012-10041",
+    "module": "exploit_linux/http/wanem_exec",
+    "path": "/modules/exploits/linux/http/wanem_exec.rb",
+    "name": "WAN Emulator v2.3 Command Execution"
+  },
+  {
+    "cve": "CVE-2012-1495",
+    "module": "exploit_linux/http/webcalendar_settings_exec",
+    "path": "/modules/exploits/linux/http/webcalendar_settings_exec.rb",
+    "name": "WebCalendar 1.2.4 Pre-Auth Remote Code Injection"
+  },
+  {
+    "cve": "CVE-2012-10039",
+    "module": "exploit_linux/http/zen_load_balancer_exec",
+    "path": "/modules/exploits/linux/http/zen_load_balancer_exec.rb",
+    "name": "ZEN Load Balancer Filelog Command Execution"
+  },
+  {
+    "cve": "CVE-2012-10048",
+    "module": "exploit_linux/http/zenoss_showdaemonxmlconfig_exec",
+    "path": "/modules/exploits/linux/http/zenoss_showdaemonxmlconfig_exec.rb",
+    "name": "Zenoss 3 showDaemonXMLConfig Command Execution"
+  },
+  {
+    "cve": "CVE-2012-10022",
+    "module": "exploit_linux/local/kloxo_lxsuexec",
+    "path": "/modules/exploits/linux/local/kloxo_lxsuexec.rb",
+    "name": "Kloxo Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2012-0432",
+    "module": "exploit_linux/misc/novell_edirectory_ncp_bof",
+    "path": "/modules/exploits/linux/misc/novell_edirectory_ncp_bof.rb",
+    "name": "Novell eDirectory 8 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-1182",
+    "module": "exploit_linux/samba/setinfopolicy_heap",
+    "path": "/modules/exploits/linux/samba/setinfopolicy_heap.rb",
+    "name": "Samba SetInformationPolicy AuditEventsInfo Heap Overflow"
+  },
+  {
+    "cve": "CVE-2012-1493",
+    "module": "exploit_linux/ssh/f5_bigip_known_privkey",
+    "path": "/modules/exploits/linux/ssh/f5_bigip_known_privkey.rb",
+    "name": "F5 BIG-IP SSH Private Key Exposure"
+  },
+  {
+    "cve": "CVE-2012-3579",
+    "module": "exploit_linux/ssh/symantec_smg_ssh",
+    "path": "/modules/exploits/linux/ssh/symantec_smg_ssh.rb",
+    "name": "Symantec Messaging Gateway 9.5 Default SSH Password Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-3993",
+    "module": "exploit_multi/browser/firefox_proto_crmfrequest",
+    "path": "/modules/exploits/multi/browser/firefox_proto_crmfrequest.rb",
+    "name": "Firefox 5.0 - 15.0.1 __exposedProps__ XCS Code Execution"
+  },
+  {
+    "cve": "CVE-2012-0507",
+    "module": "exploit_multi/browser/java_atomicreferencearray",
+    "path": "/modules/exploits/multi/browser/java_atomicreferencearray.rb",
+    "name": "Java AtomicReferenceArray Type Violation Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-4681",
+    "module": "exploit_multi/browser/java_jre17_exec",
+    "path": "/modules/exploits/multi/browser/java_jre17_exec.rb",
+    "name": "Java 7 Applet Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-5076",
+    "module": "exploit_multi/browser/java_jre17_glassfish_averagerangestatisticimpl",
+    "path": "/modules/exploits/multi/browser/java_jre17_glassfish_averagerangestatisticimpl.rb",
+    "name": "Java Applet AverageRangeStatisticImpl Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-5076",
+    "module": "exploit_multi/browser/java_jre17_jaxws",
+    "path": "/modules/exploits/multi/browser/java_jre17_jaxws.rb",
+    "name": "Java Applet JAX-WS Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-5088",
+    "module": "exploit_multi/browser/java_jre17_method_handle",
+    "path": "/modules/exploits/multi/browser/java_jre17_method_handle.rb",
+    "name": "Java Applet Method Handle Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-1723",
+    "module": "exploit_multi/browser/java_verifier_field_access",
+    "path": "/modules/exploits/multi/browser/java_verifier_field_access.rb",
+    "name": "Java Applet Field Bytecode Verifier Cache Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-6554",
+    "module": "exploit_multi/http/activecollab_chat",
+    "path": "/modules/exploits/multi/http/activecollab_chat.rb",
+    "name": "Active Collab \"chat module\" Remote PHP Code Injection Exploit"
+  },
+  {
+    "cve": "CVE-2012-1153",
+    "module": "exploit_multi/http/apprain_upload_exec",
+    "path": "/modules/exploits/multi/http/apprain_upload_exec.rb",
+    "name": "appRain CMF Arbitrary PHP File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-10038",
+    "module": "exploit_multi/http/auxilium_upload_exec",
+    "path": "/modules/exploits/multi/http/auxilium_upload_exec.rb",
+    "name": "Auxilium RateMyPet Arbitrary File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-10050",
+    "module": "exploit_multi/http/cuteflow_upload_exec",
+    "path": "/modules/exploits/multi/http/cuteflow_upload_exec.rb",
+    "name": "CuteFlow v2.11.2 Arbitrary File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-6710",
+    "module": "exploit_multi/http/extplorer_upload_exec",
+    "path": "/modules/exploits/multi/http/extplorer_upload_exec.rb",
+    "name": "eXtplorer v2.1 Arbitrary File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-0209",
+    "module": "exploit_multi/http/horde_href_backdoor",
+    "path": "/modules/exploits/multi/http/horde_href_backdoor.rb",
+    "name": "Horde 3.3.12 Backdoor Arbitrary PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2012-3260",
+    "module": "exploit_multi/http/hp_sitescope_uploadfileshandler",
+    "path": "/modules/exploits/multi/http/hp_sitescope_uploadfileshandler.rb",
+    "name": "HP SiteScope Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-3261",
+    "module": "exploit_multi/http/hp_sitescope_uploadfileshandler",
+    "path": "/modules/exploits/multi/http/hp_sitescope_uploadfileshandler.rb",
+    "name": "HP SiteScope Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-10044",
+    "module": "exploit_multi/http/mobilecartly_upload_exec",
+    "path": "/modules/exploits/multi/http/mobilecartly_upload_exec.rb",
+    "name": "MobileCartly 1.0 Arbitrary File Creation Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-6315",
+    "module": "exploit_multi/http/movabletype_upgrade_exec",
+    "path": "/modules/exploits/multi/http/movabletype_upgrade_exec.rb",
+    "name": "Movable Type 4.2x, 4.3x Web Upgrade Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-3001",
+    "module": "exploit_multi/http/mutiny_subnetmask_exec",
+    "path": "/modules/exploits/multi/http/mutiny_subnetmask_exec.rb",
+    "name": "Mutiny Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-10028",
+    "module": "exploit_multi/http/netwin_surgeftp_exec",
+    "path": "/modules/exploits/multi/http/netwin_surgeftp_exec.rb",
+    "name": "Netwin SurgeFTP Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-0261",
+    "module": "exploit_multi/http/op5_license",
+    "path": "/modules/exploits/multi/http/op5_license.rb",
+    "name": "OP5 license.php Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-0262",
+    "module": "exploit_multi/http/op5_welcome",
+    "path": "/modules/exploits/multi/http/op5_welcome.rb",
+    "name": "OP5 welcome Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-3152",
+    "module": "exploit_multi/http/oracle_reports_rce",
+    "path": "/modules/exploits/multi/http/oracle_reports_rce.rb",
+    "name": "Oracle Forms and Reports Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-3153",
+    "module": "exploit_multi/http/oracle_reports_rce",
+    "path": "/modules/exploits/multi/http/oracle_reports_rce.rb",
+    "name": "Oracle Forms and Reports Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-1823",
+    "module": "exploit_multi/http/php_cgi_arg_injection",
+    "path": "/modules/exploits/multi/http/php_cgi_arg_injection.rb",
+    "name": "PHP CGI Argument Injection"
+  },
+  {
+    "cve": "CVE-2012-10056",
+    "module": "exploit_multi/http/php_volunteer_upload_exec",
+    "path": "/modules/exploits/multi/http/php_volunteer_upload_exec.rb",
+    "name": "PHP Volunteer Management System v1.0.2 Arbitrary File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-5159",
+    "module": "exploit_multi/http/phpmyadmin_3522_backdoor",
+    "path": "/modules/exploits/multi/http/phpmyadmin_3522_backdoor.rb",
+    "name": "phpMyAdmin 3.5.2.2 server_sync.php Backdoor"
+  },
+  {
+    "cve": "CVE-2012-10037",
+    "module": "exploit_multi/http/phptax_exec",
+    "path": "/modules/exploits/multi/http/phptax_exec.rb",
+    "name": "PhpTax pfilez Parameter Exec Remote Code Injection"
+  },
+  {
+    "cve": "CVE-2012-10042",
+    "module": "exploit_multi/http/sflog_upload_exec",
+    "path": "/modules/exploits/multi/http/sflog_upload_exec.rb",
+    "name": "Sflog! CMS 1.0 Arbitrary File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-0391",
+    "module": "exploit_multi/http/struts_code_exec_exception_delegator",
+    "path": "/modules/exploits/multi/http/struts_code_exec_exception_delegator.rb",
+    "name": "Apache Struts Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-0394",
+    "module": "exploit_multi/http/struts_dev_mode",
+    "path": "/modules/exploits/multi/http/struts_dev_mode.rb",
+    "name": "Apache Struts 2 Developer Mode OGNL Execution"
+  },
+  {
+    "cve": "CVE-2012-0938",
+    "module": "exploit_multi/http/testlink_upload_exec",
+    "path": "/modules/exploits/multi/http/testlink_upload_exec.rb",
+    "name": "TestLink v1.9.3 Arbitrary File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-5223",
+    "module": "exploit_multi/http/vbseo_proc_deutf",
+    "path": "/modules/exploits/multi/http/vbseo_proc_deutf.rb",
+    "name": "vBSEO proc_deutf() Remote PHP Code Injection"
+  },
+  {
+    "cve": "CVE-2012-10049",
+    "module": "exploit_multi/http/webpagetest_upload_exec",
+    "path": "/modules/exploits/multi/http/webpagetest_upload_exec.rb",
+    "name": "WebPageTest Arbitrary PHP File Upload"
+  },
+  {
+    "cve": "CVE-2012-4361",
+    "module": "exploit_multi/misc/hp_vsa_exec",
+    "path": "/modules/exploits/multi/misc/hp_vsa_exec.rb",
+    "name": "HP StorageWorks P4000 Virtual SAN Appliance Command Execution"
+  },
+  {
+    "cve": "CVE-2012-5958",
+    "module": "exploit_multi/upnp/libupnp_ssdp_overflow",
+    "path": "/modules/exploits/multi/upnp/libupnp_ssdp_overflow.rb",
+    "name": "Portable UPnP SDK unique_service_name() Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-3485",
+    "module": "exploit_osx/local/setuid_tunnelblick",
+    "path": "/modules/exploits/osx/local/setuid_tunnelblick.rb",
+    "name": "Setuid Tunnelblick Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2012-4284",
+    "module": "exploit_osx/local/setuid_viscosity",
+    "path": "/modules/exploits/osx/local/setuid_viscosity.rb",
+    "name": "Viscosity setuid-set ViscosityHelper Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2012-4869",
+    "module": "exploit_unix/http/freepbx_callmenum",
+    "path": "/modules/exploits/unix/http/freepbx_callmenum.rb",
+    "name": "FreePBX 2.10.0 / 2.9.0 callmenum Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-6610",
+    "module": "exploit_unix/misc/polycom_hdx_auth_bypass",
+    "path": "/modules/exploits/unix/misc/polycom_hdx_auth_bypass.rb",
+    "name": "Polycom Command Shell Authorization Bypass"
+  },
+  {
+    "cve": "CVE-2012-5975",
+    "module": "exploit_unix/ssh/tectia_passwd_changereq",
+    "path": "/modules/exploits/unix/ssh/tectia_passwd_changereq.rb",
+    "name": "Tectia SSH USERAUTH Change Request Password Reset Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-3399",
+    "module": "exploit_unix/webapp/basilic_diff_exec",
+    "path": "/modules/exploits/unix/webapp/basilic_diff_exec.rb",
+    "name": "Basilic 1.5.14 diff.php Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2012-10052",
+    "module": "exploit_unix/webapp/egallery_upload_exec",
+    "path": "/modules/exploits/unix/webapp/egallery_upload_exec.rb",
+    "name": "EGallery PHP File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-6329",
+    "module": "exploit_unix/webapp/foswiki_maketext",
+    "path": "/modules/exploits/unix/webapp/foswiki_maketext.rb",
+    "name": "Foswiki MAKETEXT Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-5692",
+    "module": "exploit_unix/webapp/invision_pboard_unserialize_exec",
+    "path": "/modules/exploits/unix/webapp/invision_pboard_unserialize_exec.rb",
+    "name": "Invision IP.Board unserialize() PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2012-6081",
+    "module": "exploit_unix/webapp/moinmoin_twikidraw",
+    "path": "/modules/exploits/unix/webapp/moinmoin_twikidraw.rb",
+    "name": "MoinMoin twikidraw Action Traversal File Upload"
+  },
+  {
+    "cve": "CVE-2012-6096",
+    "module": "exploit_unix/webapp/nagios3_history_cgi",
+    "path": "/modules/exploits/unix/webapp/nagios3_history_cgi.rb",
+    "name": "Nagios3 history.cgi Host Command Execution"
+  },
+  {
+    "cve": "CVE-2012-10029",
+    "module": "exploit_unix/webapp/nagios_graph_explorer",
+    "path": "/modules/exploits/unix/webapp/nagios_graph_explorer.rb",
+    "name": "Nagios XI Network Monitor Graph Explorer Component Command Injection"
+  },
+  {
+    "cve": "CVE-2012-10033",
+    "module": "exploit_unix/webapp/narcissus_backend_exec",
+    "path": "/modules/exploits/unix/webapp/narcissus_backend_exec.rb",
+    "name": "Narcissus Image Configuration Passthru Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-10036",
+    "module": "exploit_unix/webapp/projectpier_upload_exec",
+    "path": "/modules/exploits/unix/webapp/projectpier_upload_exec.rb",
+    "name": "Project Pier Arbitrary File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-0694",
+    "module": "exploit_unix/webapp/sugarcrm_unserialize_exec",
+    "path": "/modules/exploits/unix/webapp/sugarcrm_unserialize_exec.rb",
+    "name": "SugarCRM unserialize() PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2012-0911",
+    "module": "exploit_unix/webapp/tikiwiki_unserialize_exec",
+    "path": "/modules/exploits/unix/webapp/tikiwiki_unserialize_exec.rb",
+    "name": "Tiki Wiki unserialize() PHP Code Execution"
+  },
+  {
+    "cve": "CVE-2012-6329",
+    "module": "exploit_unix/webapp/twiki_maketext",
+    "path": "/modules/exploits/unix/webapp/twiki_maketext.rb",
+    "name": "TWiki MAKETEXT Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-2982",
+    "module": "exploit_unix/webapp/webmin_show_cgi_exec",
+    "path": "/modules/exploits/unix/webapp/webmin_show_cgi_exec.rb",
+    "name": "Webmin /file/show.cgi Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-10025",
+    "module": "exploit_unix/webapp/wp_advanced_custom_fields_exec",
+    "path": "/modules/exploits/unix/webapp/wp_advanced_custom_fields_exec.rb",
+    "name": "WordPress Plugin Advanced Custom Fields Remote File Inclusion"
+  },
+  {
+    "cve": "CVE-2012-10026",
+    "module": "exploit_unix/webapp/wp_asset_manager_upload_exec",
+    "path": "/modules/exploits/unix/webapp/wp_asset_manager_upload_exec.rb",
+    "name": "WordPress Asset-Manager PHP File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-10020",
+    "module": "exploit_unix/webapp/wp_foxypress_upload",
+    "path": "/modules/exploits/unix/webapp/wp_foxypress_upload.rb",
+    "name": "WordPress Plugin Foxypress uploadify.php Arbitrary Code Execution"
+  },
+  {
+    "cve": "CVE-2012-10019",
+    "module": "exploit_unix/webapp/wp_frontend_editor_file_upload",
+    "path": "/modules/exploits/unix/webapp/wp_frontend_editor_file_upload.rb",
+    "name": "Wordpress Front-end Editor File Upload"
+  },
+  {
+    "cve": "CVE-2012-4915",
+    "module": "exploit_unix/webapp/wp_google_document_embedder_exec",
+    "path": "/modules/exploits/unix/webapp/wp_google_document_embedder_exec.rb",
+    "name": "WordPress Plugin Google Document Embedder Arbitrary File Disclosure"
+  },
+  {
+    "cve": "CVE-2012-10027",
+    "module": "exploit_unix/webapp/wp_property_upload_exec",
+    "path": "/modules/exploits/unix/webapp/wp_property_upload_exec.rb",
+    "name": "WordPress WP-Property PHP File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-10045",
+    "module": "exploit_unix/webapp/xoda_file_upload",
+    "path": "/modules/exploits/unix/webapp/xoda_file_upload.rb",
+    "name": "XODA 0.4.5 Arbitrary PHP File Upload Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-0754",
+    "module": "exploit_windows/browser/adobe_flash_mp4_cprt",
+    "path": "/modules/exploits/windows/browser/adobe_flash_mp4_cprt.rb",
+    "name": "Adobe Flash Player MP4 'cprt' Overflow"
+  },
+  {
+    "cve": "CVE-2012-1535",
+    "module": "exploit_windows/browser/adobe_flash_otf_font",
+    "path": "/modules/exploits/windows/browser/adobe_flash_otf_font.rb",
+    "name": "Adobe Flash Player 11.3 Kern Table Parsing Integer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0779",
+    "module": "exploit_windows/browser/adobe_flash_rtmp",
+    "path": "/modules/exploits/windows/browser/adobe_flash_rtmp.rb",
+    "name": "Adobe Flash Player Object Type Confusion"
+  },
+  {
+    "cve": "CVE-2012-3753",
+    "module": "exploit_windows/browser/apple_quicktime_mime_type",
+    "path": "/modules/exploits/windows/browser/apple_quicktime_mime_type.rb",
+    "name": "Apple QuickTime 7.7.2 MIME Type Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-3752",
+    "module": "exploit_windows/browser/apple_quicktime_texml_font_table",
+    "path": "/modules/exploits/windows/browser/apple_quicktime_texml_font_table.rb",
+    "name": "Apple QuickTime 7.7.2 TeXML Style Element font-table Field Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-4924",
+    "module": "exploit_windows/browser/asus_net4switch_ipswcom",
+    "path": "/modules/exploits/windows/browser/asus_net4switch_ipswcom.rb",
+    "name": "ASUS Net4Switch ipswcom.dll ActiveX Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0284",
+    "module": "exploit_windows/browser/cisco_playerpt_setsource",
+    "path": "/modules/exploits/windows/browser/cisco_playerpt_setsource.rb",
+    "name": "Cisco Linksys PlayerPT ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0284",
+    "module": "exploit_windows/browser/cisco_playerpt_setsource_surl",
+    "path": "/modules/exploits/windows/browser/cisco_playerpt_setsource_surl.rb",
+    "name": "Cisco Linksys PlayerPT ActiveX Control SetSource sURL Argument Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0708",
+    "module": "exploit_windows/browser/clear_quest_cqole",
+    "path": "/modules/exploits/windows/browser/clear_quest_cqole.rb",
+    "name": "IBM Rational ClearQuest CQOle Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-5946",
+    "module": "exploit_windows/browser/ibm_spss_c1sizer",
+    "path": "/modules/exploits/windows/browser/ibm_spss_c1sizer.rb",
+    "name": "IBM SPSS SamplePower C1Tab ActiveX Heap Overflow"
+  },
+  {
+    "cve": "CVE-2012-0198",
+    "module": "exploit_windows/browser/ibm_tivoli_pme_activex_bof",
+    "path": "/modules/exploits/windows/browser/ibm_tivoli_pme_activex_bof.rb",
+    "name": "IBM Tivoli Provisioning Manager Express for Software Distribution Isig.isigCtl.1 ActiveX RunAndUploadFile() Method Overflow"
+  },
+  {
+    "cve": "CVE-2012-4792",
+    "module": "exploit_windows/browser/ie_cbutton_uaf",
+    "path": "/modules/exploits/windows/browser/ie_cbutton_uaf.rb",
+    "name": "MS13-008 Microsoft Internet Explorer CButton Object Use-After-Free Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-4969",
+    "module": "exploit_windows/browser/ie_execcommand_uaf",
+    "path": "/modules/exploits/windows/browser/ie_execcommand_uaf.rb",
+    "name": "MS12-063 Microsoft Internet Explorer execCommand Use-After-Free Vulnerability "
+  },
+  {
+    "cve": "CVE-2012-2175",
+    "module": "exploit_windows/browser/inotes_dwa85w_bof",
+    "path": "/modules/exploits/windows/browser/inotes_dwa85w_bof.rb",
+    "name": "IBM Lotus iNotes dwa85W ActiveX Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-5896",
+    "module": "exploit_windows/browser/intrust_annotatex_add",
+    "path": "/modules/exploits/windows/browser/intrust_annotatex_add.rb",
+    "name": "Quest InTrust Annotation Objects Uninitialized Pointer"
+  },
+  {
+    "cve": "CVE-2012-1533",
+    "module": "exploit_windows/browser/java_ws_double_quote",
+    "path": "/modules/exploits/windows/browser/java_ws_double_quote.rb",
+    "name": "Sun Java Web Start Double Quote Injection"
+  },
+  {
+    "cve": "CVE-2012-0500",
+    "module": "exploit_windows/browser/java_ws_vmargs",
+    "path": "/modules/exploits/windows/browser/java_ws_vmargs.rb",
+    "name": "Sun Java Web Start Plugin Command Line Argument Injection"
+  },
+  {
+    "cve": "CVE-2012-2516",
+    "module": "exploit_windows/browser/keyhelp_launchtripane_exec",
+    "path": "/modules/exploits/windows/browser/keyhelp_launchtripane_exec.rb",
+    "name": "KeyHelp ActiveX LaunchTriPane Remote Code Execution Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-10032",
+    "module": "exploit_windows/browser/maxthon_history_xcs",
+    "path": "/modules/exploits/windows/browser/maxthon_history_xcs.rb",
+    "name": "Maxthon3 about:history XCS Trusted Zone Code Execution"
+  },
+  {
+    "cve": "CVE-2012-4598",
+    "module": "exploit_windows/browser/mcafee_mvt_exec",
+    "path": "/modules/exploits/windows/browser/mcafee_mvt_exec.rb",
+    "name": "McAfee Virtual Technician MVTControl 6.3.0.1911 GetObject Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-0003",
+    "module": "exploit_windows/browser/ms12_004_midi",
+    "path": "/modules/exploits/windows/browser/ms12_004_midi.rb",
+    "name": "MS12-004 midiOutPlayNextPolyEvent Heap Overflow"
+  },
+  {
+    "cve": "CVE-2012-1876",
+    "module": "exploit_windows/browser/ms12_037_ie_colspan",
+    "path": "/modules/exploits/windows/browser/ms12_037_ie_colspan.rb",
+    "name": "MS12-037 Microsoft Internet Explorer Fixed Table Col Span Heap Overflow"
+  },
+  {
+    "cve": "CVE-2012-1875",
+    "module": "exploit_windows/browser/ms12_037_same_id",
+    "path": "/modules/exploits/windows/browser/ms12_037_same_id.rb",
+    "name": "MS12-037 Microsoft Internet Explorer Same ID Property Deleted Object Handling Memory Corruption"
+  },
+  {
+    "cve": "CVE-2012-1889",
+    "module": "exploit_windows/browser/msxml_get_definition_code_exec",
+    "path": "/modules/exploits/windows/browser/msxml_get_definition_code_exec.rb",
+    "name": "MS12-043 Microsoft XML Core Services MSXML Uninitialized Memory Corruption"
+  },
+  {
+    "cve": "CVE-2012-2174",
+    "module": "exploit_windows/browser/notes_handler_cmdinject",
+    "path": "/modules/exploits/windows/browser/notes_handler_cmdinject.rb",
+    "name": "IBM Lotus Notes Client URL Handler Command Injection"
+  },
+  {
+    "cve": "CVE-2012-0439",
+    "module": "exploit_windows/browser/novell_groupwise_gwcls1_actvx",
+    "path": "/modules/exploits/windows/browser/novell_groupwise_gwcls1_actvx.rb",
+    "name": "Novell GroupWise Client gwcls1.dll ActiveX Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-0266",
+    "module": "exploit_windows/browser/ntr_activex_check_bof",
+    "path": "/modules/exploits/windows/browser/ntr_activex_check_bof.rb",
+    "name": "NTR ActiveX Control Check() Method Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0267",
+    "module": "exploit_windows/browser/ntr_activex_stopmodule",
+    "path": "/modules/exploits/windows/browser/ntr_activex_stopmodule.rb",
+    "name": "NTR ActiveX Control StopModule() Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-0549",
+    "module": "exploit_windows/browser/oracle_autovue_setmarkupmode",
+    "path": "/modules/exploits/windows/browser/oracle_autovue_setmarkupmode.rb",
+    "name": "Oracle AutoVue ActiveX Control SetMarkupMode Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-3569",
+    "module": "exploit_windows/browser/ovftool_format_string",
+    "path": "/modules/exploits/windows/browser/ovftool_format_string.rb",
+    "name": "VMWare OVF Tools Format String Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-2176",
+    "module": "exploit_windows/browser/quickr_qp2_bof",
+    "path": "/modules/exploits/windows/browser/quickr_qp2_bof.rb",
+    "name": "IBM Lotus QuickR qp2 ActiveX Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-4333",
+    "module": "exploit_windows/browser/samsung_neti_wiewer_backuptoavi_bof",
+    "path": "/modules/exploits/windows/browser/samsung_neti_wiewer_backuptoavi_bof.rb",
+    "name": "Samsung NET-i Viewer Multiple ActiveX BackupToAvi() Remote Overflow"
+  },
+  {
+    "cve": "CVE-2012-4177",
+    "module": "exploit_windows/browser/ubisoft_uplay_cmd_exec",
+    "path": "/modules/exploits/windows/browser/ubisoft_uplay_cmd_exec.rb",
+    "name": "Ubisoft uplay 2.0.3 ActiveX Control Arbitrary Code Execution"
+  },
+  {
+    "cve": "CVE-2012-4876",
+    "module": "exploit_windows/browser/ultramjcam_openfiledig_bof",
+    "path": "/modules/exploits/windows/browser/ultramjcam_openfiledig_bof.rb",
+    "name": "TRENDnet SecurView Internet Camera UltraMJCam OpenFileDlg Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-1775",
+    "module": "exploit_windows/browser/vlc_mms_bof",
+    "path": "/modules/exploits/windows/browser/vlc_mms_bof.rb",
+    "name": "VLC MMS Stream Handling Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-2288",
+    "module": "exploit_windows/emc/networker_format_string",
+    "path": "/modules/exploits/windows/emc/networker_format_string.rb",
+    "name": "EMC Networker Format String"
+  },
+  {
+    "cve": "CVE-2012-10043",
+    "module": "exploit_windows/fileformat/actfax_import_users_bof",
+    "path": "/modules/exploits/windows/fileformat/actfax_import_users_bof.rb",
+    "name": "ActiveFax (ActFax) 4.3 Client Importer Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0663",
+    "module": "exploit_windows/fileformat/apple_quicktime_texml",
+    "path": "/modules/exploits/windows/fileformat/apple_quicktime_texml.rb",
+    "name": "Apple QuickTime TeXML Style Element Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10031",
+    "module": "exploit_windows/fileformat/blazedvd_hdtv_bof",
+    "path": "/modules/exploits/windows/fileformat/blazedvd_hdtv_bof.rb",
+    "name": "BlazeVideo HDTV Player Pro v6.6 Filename Handling Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-4914",
+    "module": "exploit_windows/fileformat/coolpdf_image_stream_bof",
+    "path": "/modules/exploits/windows/fileformat/coolpdf_image_stream_bof.rb",
+    "name": "Cool PDF Image Stream Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0270",
+    "module": "exploit_windows/fileformat/csound_getnum_bof",
+    "path": "/modules/exploits/windows/fileformat/csound_getnum_bof.rb",
+    "name": "Csound hetro File Handling Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-2515",
+    "module": "exploit_windows/fileformat/emc_appextender_keyworks",
+    "path": "/modules/exploits/windows/fileformat/emc_appextender_keyworks.rb",
+    "name": "EMC ApplicationXtender (KeyWorks) ActiveX Control Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0201",
+    "module": "exploit_windows/fileformat/ibm_pcm_ws",
+    "path": "/modules/exploits/windows/fileformat/ibm_pcm_ws.rb",
+    "name": "IBM Personal Communications iSeries Access WorkStation 5.9 Profile"
+  },
+  {
+    "cve": "CVE-2012-0897",
+    "module": "exploit_windows/fileformat/irfanview_jpeg2000_bof",
+    "path": "/modules/exploits/windows/fileformat/irfanview_jpeg2000_bof.rb",
+    "name": "Irfanview JPEG2000 jp2 Stack Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10057",
+    "module": "exploit_windows/fileformat/ispvm_xcf_ispxcf",
+    "path": "/modules/exploits/windows/fileformat/ispvm_xcf_ispxcf.rb",
+    "name": "Lattice Semiconductor ispVM System XCF File Handling Overflow"
+  },
+  {
+    "cve": "CVE-2012-4711",
+    "module": "exploit_windows/fileformat/kingview_kingmess_kvl",
+    "path": "/modules/exploits/windows/fileformat/kingview_kingmess_kvl.rb",
+    "name": "KingView Log File Parsing Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-2915",
+    "module": "exploit_windows/fileformat/lattice_pac_bof",
+    "path": "/modules/exploits/windows/fileformat/lattice_pac_bof.rb",
+    "name": "Lattice Semiconductor PAC-Designer 6.21 Symbol Value Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0013",
+    "module": "exploit_windows/fileformat/ms12_005",
+    "path": "/modules/exploits/windows/fileformat/ms12_005.rb",
+    "name": "MS12-005 Microsoft Office ClickOnce Unsafe Object Package Handling Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-0158",
+    "module": "exploit_windows/fileformat/ms12_027_mscomctl_bof",
+    "path": "/modules/exploits/windows/fileformat/ms12_027_mscomctl_bof.rb",
+    "name": "MS12-027 MSCOMCTL ActiveX Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-3569",
+    "module": "exploit_windows/fileformat/ovf_format_string",
+    "path": "/modules/exploits/windows/fileformat/ovf_format_string.rb",
+    "name": "VMWare OVF Tools Format String Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-10051",
+    "module": "exploit_windows/fileformat/proshow_load_bof",
+    "path": "/modules/exploits/windows/fileformat/proshow_load_bof.rb",
+    "name": "Photodex ProShow Producer 5.0.3256 load File Handling Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-5691",
+    "module": "exploit_windows/fileformat/real_player_url_property_bof",
+    "path": "/modules/exploits/windows/fileformat/real_player_url_property_bof.rb",
+    "name": "RealPlayer RealMedia File Handling Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10053",
+    "module": "exploit_windows/fileformat/somplplayer_m3u",
+    "path": "/modules/exploits/windows/fileformat/somplplayer_m3u.rb",
+    "name": "S.O.M.P.L 1.0 Player Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10055",
+    "module": "exploit_windows/ftp/comsnd_ftpd_fmtstr",
+    "path": "/modules/exploits/windows/ftp/comsnd_ftpd_fmtstr.rb",
+    "name": "ComSndFTP v1.3.7 Beta USER Format String (Write4) Vulnerability"
+  },
+  {
+    "cve": "CVE-2012-10023",
+    "module": "exploit_windows/ftp/freefloatftp_user",
+    "path": "/modules/exploits/windows/ftp/freefloatftp_user.rb",
+    "name": "Free Float FTP Server USER Command Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10030",
+    "module": "exploit_windows/ftp/freefloatftp_wbem",
+    "path": "/modules/exploits/windows/ftp/freefloatftp_wbem.rb",
+    "name": "FreeFloat FTP Server Arbitrary File Upload"
+  },
+  {
+    "cve": "CVE-2012-5002",
+    "module": "exploit_windows/ftp/ricoh_dl_bof",
+    "path": "/modules/exploits/windows/ftp/ricoh_dl_bof.rb",
+    "name": "Ricoh DC DL-10 SR10 FTP USER Command Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10035",
+    "module": "exploit_windows/ftp/turboftp_port",
+    "path": "/modules/exploits/windows/ftp/turboftp_port.rb",
+    "name": "Turbo FTP Server 1.30.823 PORT Overflow"
+  },
+  {
+    "cve": "CVE-2012-3811",
+    "module": "exploit_windows/http/avaya_ccr_imageupload_exec",
+    "path": "/modules/exploits/windows/http/avaya_ccr_imageupload_exec.rb",
+    "name": "Avaya IP Office Customer Call Reporter ImageUpload.ashx Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-10047",
+    "module": "exploit_windows/http/cyclope_ess_sqli",
+    "path": "/modules/exploits/windows/http/cyclope_ess_sqli.rb",
+    "name": "Cyclope Employee Surveillance Solution v6 SQL Injection"
+  },
+  {
+    "cve": "CVE-2012-5357",
+    "module": "exploit_windows/http/ektron_xslt_exec",
+    "path": "/modules/exploits/windows/http/ektron_xslt_exec.rb",
+    "name": "Ektron 8.02 XSLT Transform Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2012-5201",
+    "module": "exploit_windows/http/hp_imc_mibfileupload",
+    "path": "/modules/exploits/windows/http/hp_imc_mibfileupload.rb",
+    "name": "HP Intelligent Management Center Arbitrary File Upload"
+  },
+  {
+    "cve": "CVE-2012-1195",
+    "module": "exploit_windows/http/landesk_thinkmanagement_upload_asp",
+    "path": "/modules/exploits/windows/http/landesk_thinkmanagement_upload_asp.rb",
+    "name": "LANDesk Lenovo ThinkManagement Console Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-1196",
+    "module": "exploit_windows/http/landesk_thinkmanagement_upload_asp",
+    "path": "/modules/exploits/windows/http/landesk_thinkmanagement_upload_asp.rb",
+    "name": "LANDesk Lenovo ThinkManagement Console Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-1465",
+    "module": "exploit_windows/http/netdecision_http_bof",
+    "path": "/modules/exploits/windows/http/netdecision_http_bof.rb",
+    "name": "NetDecision 4.5.1 HTTP Server Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-2329",
+    "module": "exploit_windows/http/php_apache_request_headers_bof",
+    "path": "/modules/exploits/windows/http/php_apache_request_headers_bof.rb",
+    "name": "PHP apache_request_headers Function Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10058",
+    "module": "exploit_windows/http/rabidhamster_r4_log",
+    "path": "/modules/exploits/windows/http/rabidhamster_r4_log.rb",
+    "name": "RabidHamster R4 Log Entry sprintf() Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-2962",
+    "module": "exploit_windows/http/sonicwall_scrutinizer_sqli",
+    "path": "/modules/exploits/windows/http/sonicwall_scrutinizer_sqli.rb",
+    "name": "Dell SonicWALL (Plixer) Scrutinizer 9 SQL Injection"
+  },
+  {
+    "cve": "CVE-2012-10053",
+    "module": "exploit_windows/http/sws_connection_bof",
+    "path": "/modules/exploits/windows/http/sws_connection_bof.rb",
+    "name": "Simple Web Server Connection Header Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-6530",
+    "module": "exploit_windows/http/sysax_create_folder",
+    "path": "/modules/exploits/windows/http/sysax_create_folder.rb",
+    "name": "Sysax Multi Server 5.64 Create Folder Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-10054",
+    "module": "exploit_windows/http/umbraco_upload_aspx",
+    "path": "/modules/exploits/windows/http/umbraco_upload_aspx.rb",
+    "name": "Umbraco CMS Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2012-10062",
+    "module": "exploit_windows/http/xampp_webdav_upload_php",
+    "path": "/modules/exploits/windows/http/xampp_webdav_upload_php.rb",
+    "name": "XAMPP WebDAV PHP Upload"
+  },
+  {
+    "cve": "CVE-2012-6274",
+    "module": "exploit_windows/misc/bigant_server_dupf_upload",
+    "path": "/modules/exploits/windows/misc/bigant_server_dupf_upload.rb",
+    "name": "BigAnt Server DUPF Command Arbitrary File Upload"
+  },
+  {
+    "cve": "CVE-2012-6275",
+    "module": "exploit_windows/misc/bigant_server_sch_dupf_bof",
+    "path": "/modules/exploits/windows/misc/bigant_server_sch_dupf_bof.rb",
+    "name": "BigAnt Server 2 SCH And DUPF Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-2763",
+    "module": "exploit_windows/misc/gimp_script_fu",
+    "path": "/modules/exploits/windows/misc/gimp_script_fu.rb",
+    "name": "GIMP script-fu Server Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0124",
+    "module": "exploit_windows/misc/hp_dataprotector_new_folder",
+    "path": "/modules/exploits/windows/misc/hp_dataprotector_new_folder.rb",
+    "name": "HP Data Protector Create New Folder Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-3274",
+    "module": "exploit_windows/misc/hp_imc_uam",
+    "path": "/modules/exploits/windows/misc/hp_imc_uam.rb",
+    "name": "HP Intelligent Management Center UAM Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-2019",
+    "module": "exploit_windows/misc/hp_operations_agent_coda_34",
+    "path": "/modules/exploits/windows/misc/hp_operations_agent_coda_34.rb",
+    "name": "HP Operations Agent Opcode coda.exe 0x34 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-2020",
+    "module": "exploit_windows/misc/hp_operations_agent_coda_8c",
+    "path": "/modules/exploits/windows/misc/hp_operations_agent_coda_8c.rb",
+    "name": "HP Operations Agent Opcode coda.exe 0x8c Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-0202",
+    "module": "exploit_windows/misc/ibm_cognos_tm1admsd_bof",
+    "path": "/modules/exploits/windows/misc/ibm_cognos_tm1admsd_bof.rb",
+    "name": "IBM Cognos tm1admsd.exe Overflow"
+  },
+  {
+    "cve": "CVE-2012-2611",
+    "module": "exploit_windows/misc/sap_netweaver_dispatcher",
+    "path": "/modules/exploits/windows/misc/sap_netweaver_dispatcher.rb",
+    "name": "SAP NetWeaver Dispatcher DiagTraceR3Info Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-5613",
+    "module": "exploit_windows/mysql/mysql_mof",
+    "path": "/modules/exploits/windows/mysql/mysql_mof.rb",
+    "name": "Oracle MySQL for Microsoft Windows MOF Execution"
+  },
+  {
+    "cve": "CVE-2012-5613",
+    "module": "exploit_windows/mysql/mysql_start_up",
+    "path": "/modules/exploits/windows/mysql/mysql_start_up.rb",
+    "name": "Oracle MySQL for Microsoft Windows FILE Privilege Abuse"
+  },
+  {
+    "cve": "CVE-2012-3951",
+    "module": "exploit_windows/mysql/scrutinizer_upload_exec",
+    "path": "/modules/exploits/windows/mysql/scrutinizer_upload_exec.rb",
+    "name": "Plixer Scrutinizer NetFlow and sFlow Analyzer 9 Default MySQL Credential"
+  },
+  {
+    "cve": "CVE-2012-4959",
+    "module": "exploit_windows/novell/file_reporter_fsfui_upload",
+    "path": "/modules/exploits/windows/novell/file_reporter_fsfui_upload.rb",
+    "name": "NFR Agent FSFUI Record File Upload RCE"
+  },
+  {
+    "cve": "CVE-2012-5932",
+    "module": "exploit_windows/novell/netiq_pum_eval",
+    "path": "/modules/exploits/windows/novell/netiq_pum_eval.rb",
+    "name": "NetIQ Privileged User Manager 2.3.1 ldapagnt_eval() Remote Perl Code Execution"
+  },
+  {
+    "cve": "CVE-2012-2215",
+    "module": "exploit_windows/novell/zenworks_preboot_op21_bof",
+    "path": "/modules/exploits/windows/novell/zenworks_preboot_op21_bof.rb",
+    "name": "Novell ZENworks Configuration Management Preboot Service 0x21 Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-4705",
+    "module": "exploit_windows/scada/codesys_gateway_server_traversal",
+    "path": "/modules/exploits/windows/scada/codesys_gateway_server_traversal.rb",
+    "name": "SCADA 3S CoDeSys Gateway Server Directory Traversal"
+  },
+  {
+    "cve": "CVE-2012-3815",
+    "module": "exploit_windows/scada/winlog_runtime_2",
+    "path": "/modules/exploits/windows/scada/winlog_runtime_2.rb",
+    "name": "Sielco Sistemi Winlog Buffer Overflow 2.07.14 - 2.07.16"
+  },
+  {
+    "cve": "CVE-2012-6066",
+    "module": "exploit_windows/ssh/freesshd_authbypass",
+    "path": "/modules/exploits/windows/ssh/freesshd_authbypass.rb",
+    "name": "Freesshd Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2012-10060",
+    "module": "exploit_windows/ssh/sysax_ssh_username",
+    "path": "/modules/exploits/windows/ssh/sysax_ssh_username.rb",
+    "name": "Sysax 5.53 SSH Username Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2012-6664",
+    "module": "exploit_windows/tftp/distinct_tftp_traversal",
+    "path": "/modules/exploits/windows/tftp/distinct_tftp_traversal.rb",
+    "name": "Distinct TFTP 3.10 Writable Directory Traversal Execution"
+  },
+  {
+    "cve": "CVE-2012-5525",
+    "module": "post_linux/dos/xen_420_dos",
+    "path": "/modules/post/linux/dos/xen_420_dos.rb",
+    "name": "Linux DoS Xen 4.2.0 2012-5525"
+  },
+  {
+    "cve": "CVE-2012-5519",
+    "module": "post_multi/escalate/cups_root_file_read",
+    "path": "/modules/post/multi/escalate/cups_root_file_read.rb",
+    "name": "CUPS 1.6.1 Root File Read"
+  }
+]

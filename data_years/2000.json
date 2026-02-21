@@ -1,0 +1,86 @@
+[
+  {
+    "cve": "CVE-2000-0380",
+    "module": "auxiliary_dos/cisco/ios_http_percentpercent",
+    "path": "/modules/auxiliary/dos/cisco/ios_http_percentpercent.rb",
+    "name": "Cisco IOS HTTP GET /%% Request Denial of Service"
+  },
+  {
+    "cve": "CVE-2000-0945",
+    "module": "auxiliary_scanner/http/cisco_device_manager",
+    "path": "/modules/auxiliary/scanner/http/cisco_device_manager.rb",
+    "name": "Cisco Device HTTP Device Manager Access"
+  },
+  {
+    "cve": "CVE-2000-0649",
+    "module": "auxiliary_scanner/http/iis_internal_ip",
+    "path": "/modules/auxiliary/scanner/http/iis_internal_ip.rb",
+    "name": "Microsoft IIS HTTP Internal IP Disclosure"
+  },
+  {
+    "cve": "CVE-2000-0248",
+    "module": "exploit_linux/http/piranha_passwd_exec",
+    "path": "/modules/exploits/linux/http/piranha_passwd_exec.rb",
+    "name": "RedHat Piranha Virtual Server Package passwd.php3 Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2000-0322",
+    "module": "exploit_linux/http/piranha_passwd_exec",
+    "path": "/modules/exploits/linux/http/piranha_passwd_exec.rb",
+    "name": "RedHat Piranha Virtual Server Package passwd.php3 Arbitrary Command Execution"
+  },
+  {
+    "cve": "CVE-2000-0284",
+    "module": "exploit_linux/imap/imap_uw_lsub",
+    "path": "/modules/exploits/linux/imap/imap_uw_lsub.rb",
+    "name": "UoW IMAP Server LSUB Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2000-0917",
+    "module": "exploit_linux/misc/lprng_format_string",
+    "path": "/modules/exploits/linux/misc/lprng_format_string.rb",
+    "name": "LPRng use_syslog Remote Format String Vulnerability"
+  },
+  {
+    "cve": "CVE-2000-0573",
+    "module": "exploit_multi/ftp/wuftpd_site_exec_format",
+    "path": "/modules/exploits/multi/ftp/wuftpd_site_exec_format.rb",
+    "name": "WU-FTPD SITE EXEC/INDEX Format String Vulnerability"
+  },
+  {
+    "cve": "CVE-2000-1089",
+    "module": "exploit_windows/isapi/ms00_094_pbserver",
+    "path": "/modules/exploits/windows/isapi/ms00_094_pbserver.rb",
+    "name": "MS00-094 Microsoft IIS Phone Book Service Overflow"
+  },
+  {
+    "cve": "CVE-2000-0402",
+    "module": "exploit_windows/mssql/mssql_payload",
+    "path": "/modules/exploits/windows/mssql/mssql_payload.rb",
+    "name": "Microsoft SQL Server Payload Execution"
+  },
+  {
+    "cve": "CVE-2000-1209",
+    "module": "exploit_windows/mssql/mssql_payload",
+    "path": "/modules/exploits/windows/mssql/mssql_payload.rb",
+    "name": "Microsoft SQL Server Payload Execution"
+  },
+  {
+    "cve": "CVE-2000-0402",
+    "module": "exploit_windows/mssql/mssql_payload_sqli",
+    "path": "/modules/exploits/windows/mssql/mssql_payload_sqli.rb",
+    "name": "Microsoft SQL Server Payload Execution via SQL Injection"
+  },
+  {
+    "cve": "CVE-2000-1209",
+    "module": "exploit_windows/mssql/mssql_payload_sqli",
+    "path": "/modules/exploits/windows/mssql/mssql_payload_sqli.rb",
+    "name": "Microsoft SQL Server Payload Execution via SQL Injection"
+  },
+  {
+    "cve": "CVE-2000-0665",
+    "module": "exploit_windows/telnet/gamsoft_telsrv_username",
+    "path": "/modules/exploits/windows/telnet/gamsoft_telsrv_username.rb",
+    "name": "GAMSoft TelSrv 1.5 Username Buffer Overflow"
+  }
+]

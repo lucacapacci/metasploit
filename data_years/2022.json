@@ -1,0 +1,746 @@
+[
+  {
+    "cve": "CVE-2022-26923",
+    "module": "auxiliary_admin/dcerpc/cve_2022_26923_certifried",
+    "path": "/modules/auxiliary/admin/dcerpc/cve_2022_26923_certifried.rb",
+    "name": "Active Directory Certificate Services (ADCS) privilege escalation (Certifried)"
+  },
+  {
+    "cve": "CVE-2022-0441",
+    "module": "auxiliary_admin/http/wp_masterstudy_privesc",
+    "path": "/modules/auxiliary/admin/http/wp_masterstudy_privesc.rb",
+    "name": "Wordpress MasterStudy Admin Account Creation"
+  },
+  {
+    "cve": "CVE-2022-46770",
+    "module": "auxiliary_dos/mirageos/qubes_mirage_firewall_dos",
+    "path": "/modules/auxiliary/dos/mirageos/qubes_mirage_firewall_dos.rb",
+    "name": "Mirage firewall for QubesOS 0.8.0-0.8.3 Denial of Service (DoS) Exploit"
+  },
+  {
+    "cve": "CVE-2022-30995",
+    "module": "auxiliary_gather/acronis_cyber_protect_machine_info_disclosure",
+    "path": "/modules/auxiliary/gather/acronis_cyber_protect_machine_info_disclosure.rb",
+    "name": "Acronis Cyber Protect/Backup machine info disclosure"
+  },
+  {
+    "cve": "CVE-2022-3405",
+    "module": "auxiliary_gather/acronis_cyber_protect_machine_info_disclosure",
+    "path": "/modules/auxiliary/gather/acronis_cyber_protect_machine_info_disclosure.rb",
+    "name": "Acronis Cyber Protect/Backup machine info disclosure"
+  },
+  {
+    "cve": "CVE-2022-38120",
+    "module": "auxiliary_gather/upsmon_traversal",
+    "path": "/modules/auxiliary/gather/upsmon_traversal.rb",
+    "name": "POWERCOM UPSMON PRO Path Traversal (CVE-2022-38120) and Credential Harvester (CVE-2022-38121)"
+  },
+  {
+    "cve": "CVE-2022-38121",
+    "module": "auxiliary_gather/upsmon_traversal",
+    "path": "/modules/auxiliary/gather/upsmon_traversal.rb",
+    "name": "POWERCOM UPSMON PRO Path Traversal (CVE-2022-38120) and Credential Harvester (CVE-2022-38121)"
+  },
+  {
+    "cve": "CVE-2022-0739",
+    "module": "auxiliary_gather/wp_bookingpress_category_services_sqli",
+    "path": "/modules/auxiliary/gather/wp_bookingpress_category_services_sqli.rb",
+    "name": "Wordpress BookingPress bookingpress_front_get_category_services SQLi"
+  },
+  {
+    "cve": "CVE-2022-0169",
+    "module": "auxiliary_gather/wp_photo_gallery_sqli",
+    "path": "/modules/auxiliary/gather/wp_photo_gallery_sqli.rb",
+    "name": "WordPress Photo Gallery Plugin SQL Injection (CVE-2022-0169)"
+  },
+  {
+    "cve": "CVE-2022-24716",
+    "module": "auxiliary_scanner/http/icinga_static_library_file_directory_traversal",
+    "path": "/modules/auxiliary/scanner/http/icinga_static_library_file_directory_traversal.rb",
+    "name": "Icingaweb Directory Traversal in Static Library File Requests"
+  },
+  {
+    "cve": "CVE-2022-36536",
+    "module": "auxiliary_scanner/http/syncovery_linux_token_cve_2022_36536",
+    "path": "/modules/auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536.rb",
+    "name": "Syncovery For Linux Web-GUI Session Token Brute-Forcer"
+  },
+  {
+    "cve": "CVE-2022-34876",
+    "module": "auxiliary_scanner/http/vicidial_multiple_sqli",
+    "path": "/modules/auxiliary/scanner/http/vicidial_multiple_sqli.rb",
+    "name": "VICIdial Multiple Authenticated SQLi"
+  },
+  {
+    "cve": "CVE-2022-34877",
+    "module": "auxiliary_scanner/http/vicidial_multiple_sqli",
+    "path": "/modules/auxiliary/scanner/http/vicidial_multiple_sqli.rb",
+    "name": "VICIdial Multiple Authenticated SQLi"
+  },
+  {
+    "cve": "CVE-2022-34878",
+    "module": "auxiliary_scanner/http/vicidial_multiple_sqli",
+    "path": "/modules/auxiliary/scanner/http/vicidial_multiple_sqli.rb",
+    "name": "VICIdial Multiple Authenticated SQLi"
+  },
+  {
+    "cve": "CVE-2022-3358",
+    "module": "auxiliary_scanner/ssl/ssl_version",
+    "path": "/modules/auxiliary/scanner/ssl/ssl_version.rb",
+    "name": "SSL/TLS Version Detection"
+  },
+  {
+    "cve": "CVE-2022-30333",
+    "module": "exploit_linux/fileformat/unrar_cve_2022_30333",
+    "path": "/modules/exploits/linux/fileformat/unrar_cve_2022_30333.rb",
+    "name": "UnRAR Path Traversal (CVE-2022-30333)"
+  },
+  {
+    "cve": "CVE-2022-33891",
+    "module": "exploit_linux/http/apache_spark_rce_cve_2022_33891",
+    "path": "/modules/exploits/linux/http/apache_spark_rce_cve_2022_33891.rb",
+    "name": "Apache Spark Unauthenticated Command Injection RCE"
+  },
+  {
+    "cve": "CVE-2022-36804",
+    "module": "exploit_linux/http/bitbucket_git_cmd_injection",
+    "path": "/modules/exploits/linux/http/bitbucket_git_cmd_injection.rb",
+    "name": "Bitbucket Git Command Injection"
+  },
+  {
+    "cve": "CVE-2022-46169",
+    "module": "exploit_linux/http/cacti_unauthenticated_cmd_injection",
+    "path": "/modules/exploits/linux/http/cacti_unauthenticated_cmd_injection.rb",
+    "name": "Cacti 1.2.22 unauthenticated command injection"
+  },
+  {
+    "cve": "CVE-2022-20828",
+    "module": "exploit_linux/http/cisco_asax_sfr_rce",
+    "path": "/modules/exploits/linux/http/cisco_asax_sfr_rce.rb",
+    "name": "Cisco ASA-X with FirePOWER Services Authenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2022-20705",
+    "module": "exploit_linux/http/cisco_rv340_lan",
+    "path": "/modules/exploits/linux/http/cisco_rv340_lan.rb",
+    "name": "Cisco RV Series Authentication Bypass and Command Injection"
+  },
+  {
+    "cve": "CVE-2022-20707",
+    "module": "exploit_linux/http/cisco_rv340_lan",
+    "path": "/modules/exploits/linux/http/cisco_rv340_lan.rb",
+    "name": "Cisco RV Series Authentication Bypass and Command Injection"
+  },
+  {
+    "cve": "CVE-2022-44877",
+    "module": "exploit_linux/http/control_web_panel_login_cmd_exec",
+    "path": "/modules/exploits/linux/http/control_web_panel_login_cmd_exec.rb",
+    "name": "CWP login.php Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2022-1388",
+    "module": "exploit_linux/http/f5_icontrol_rce",
+    "path": "/modules/exploits/linux/http/f5_icontrol_rce.rb",
+    "name": "F5 BIG-IP iControl RCE via REST Authentication Bypass"
+  },
+  {
+    "cve": "CVE-2022-41800",
+    "module": "exploit_linux/http/f5_icontrol_rpmspec_rce_cve_2022_41800",
+    "path": "/modules/exploits/linux/http/f5_icontrol_rpmspec_rce_cve_2022_41800.rb",
+    "name": "F5 BIG-IP iControl Authenticated RCE via RPM Creator"
+  },
+  {
+    "cve": "CVE-2022-41622",
+    "module": "exploit_linux/http/f5_icontrol_soap_csrf_rce_cve_2022_41622",
+    "path": "/modules/exploits/linux/http/f5_icontrol_soap_csrf_rce_cve_2022_41622.rb",
+    "name": "F5 BIG-IP iControl CSRF File Write SOAP API"
+  },
+  {
+    "cve": "CVE-2022-37061",
+    "module": "exploit_linux/http/flir_ax8_unauth_rce_cve_2022_37061",
+    "path": "/modules/exploits/linux/http/flir_ax8_unauth_rce_cve_2022_37061.rb",
+    "name": "FLIR AX8 unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2022-39952",
+    "module": "exploit_linux/http/fortinac_keyupload_file_write",
+    "path": "/modules/exploits/linux/http/fortinac_keyupload_file_write.rb",
+    "name": "Fortinet FortiNAC keyUpload.jsp arbitrary file write"
+  },
+  {
+    "cve": "CVE-2022-40684",
+    "module": "exploit_linux/http/fortinet_authentication_bypass_cve_2022_40684",
+    "path": "/modules/exploits/linux/http/fortinet_authentication_bypass_cve_2022_40684.rb",
+    "name": "Fortinet FortiOS, FortiProxy, and FortiSwitchManager authentication bypass."
+  },
+  {
+    "cve": "CVE-2022-35914",
+    "module": "exploit_linux/http/glpi_htmlawed_php_injection",
+    "path": "/modules/exploits/linux/http/glpi_htmlawed_php_injection.rb",
+    "name": "GLPI htmLawed php command injection"
+  },
+  {
+    "cve": "CVE-2022-21587",
+    "module": "exploit_linux/http/oracle_ebs_rce_cve_2022_21587",
+    "path": "/modules/exploits/linux/http/oracle_ebs_rce_cve_2022_21587.rb",
+    "name": "Oracle E-Business Suite (EBS) Unauthenticated Arbitrary File Upload"
+  },
+  {
+    "cve": "CVE-2022-44384",
+    "module": "exploit_linux/http/rconfig_vendors_auth_file_upload_rce",
+    "path": "/modules/exploits/linux/http/rconfig_vendors_auth_file_upload_rce.rb",
+    "name": "rConfig Vendors Auth File Upload RCE"
+  },
+  {
+    "cve": "CVE-2022-31137",
+    "module": "exploit_linux/http/roxy_wi_exec",
+    "path": "/modules/exploits/linux/http/roxy_wi_exec.rb",
+    "name": "Roxy-WI Prior to 6.1.1.0 Unauthenticated Command Injection RCE"
+  },
+  {
+    "cve": "CVE-2022-28108",
+    "module": "exploit_linux/http/selenium_greed_chrome_rce_cve_2022_28108",
+    "path": "/modules/exploits/linux/http/selenium_greed_chrome_rce_cve_2022_28108.rb",
+    "name": "Selenium chrome RCE"
+  },
+  {
+    "cve": "CVE-2022-28108",
+    "module": "exploit_linux/http/selenium_greed_firefox_rce_cve_2022_28108",
+    "path": "/modules/exploits/linux/http/selenium_greed_firefox_rce_cve_2022_28108.rb",
+    "name": "Selenium geckodriver RCE"
+  },
+  {
+    "cve": "CVE-2022-23642",
+    "module": "exploit_linux/http/sourcegraph_gitserver_sshcmd",
+    "path": "/modules/exploits/linux/http/sourcegraph_gitserver_sshcmd.rb",
+    "name": "Sourcegraph gitserver sshCommand RCE"
+  },
+  {
+    "cve": "CVE-2022-22947",
+    "module": "exploit_linux/http/spring_cloud_gateway_rce",
+    "path": "/modules/exploits/linux/http/spring_cloud_gateway_rce.rb",
+    "name": "Spring Cloud Gateway Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2022-40022",
+    "module": "exploit_linux/http/symmetricom_syncserver_rce",
+    "path": "/modules/exploits/linux/http/symmetricom_syncserver_rce.rb",
+    "name": "Symmetricom SyncServer Unauthenticated Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2022-24990",
+    "module": "exploit_linux/http/terramaster_unauth_rce_cve_2022_24990",
+    "path": "/modules/exploits/linux/http/terramaster_unauth_rce_cve_2022_24990.rb",
+    "name": "TerraMaster TOS 4.2.29 or lower - Unauthenticated RCE chaining CVE-2022-24990 and CVE-2022-24989"
+  },
+  {
+    "cve": "CVE-2022-24989",
+    "module": "exploit_linux/http/terramaster_unauth_rce_cve_2022_24990",
+    "path": "/modules/exploits/linux/http/terramaster_unauth_rce_cve_2022_24990.rb",
+    "name": "TerraMaster TOS 4.2.29 or lower - Unauthenticated RCE chaining CVE-2022-24990 and CVE-2022-24989"
+  },
+  {
+    "cve": "CVE-2022-31706",
+    "module": "exploit_linux/http/vmware_vrli_rce",
+    "path": "/modules/exploits/linux/http/vmware_vrli_rce.rb",
+    "name": "VMware vRealize Log Insight Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2022-31704",
+    "module": "exploit_linux/http/vmware_vrli_rce",
+    "path": "/modules/exploits/linux/http/vmware_vrli_rce.rb",
+    "name": "VMware vRealize Log Insight Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2022-31711",
+    "module": "exploit_linux/http/vmware_vrli_rce",
+    "path": "/modules/exploits/linux/http/vmware_vrli_rce.rb",
+    "name": "VMware vRealize Log Insight Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2022-22954",
+    "module": "exploit_linux/http/vmware_workspace_one_access_cve_2022_22954",
+    "path": "/modules/exploits/linux/http/vmware_workspace_one_access_cve_2022_22954.rb",
+    "name": "VMware Workspace ONE Access CVE-2022-22954"
+  },
+  {
+    "cve": "CVE-2022-22956",
+    "module": "exploit_linux/http/vmware_workspace_one_access_vmsa_2022_0011_chain",
+    "path": "/modules/exploits/linux/http/vmware_workspace_one_access_vmsa_2022_0011_chain.rb",
+    "name": "VMware Workspace ONE Access VMSA-2022-0011 exploit chain"
+  },
+  {
+    "cve": "CVE-2022-22957",
+    "module": "exploit_linux/http/vmware_workspace_one_access_vmsa_2022_0011_chain",
+    "path": "/modules/exploits/linux/http/vmware_workspace_one_access_vmsa_2022_0011_chain.rb",
+    "name": "VMware Workspace ONE Access VMSA-2022-0011 exploit chain"
+  },
+  {
+    "cve": "CVE-2022-26318",
+    "module": "exploit_linux/http/watchguard_firebox_unauth_rce_cve_2022_26318",
+    "path": "/modules/exploits/linux/http/watchguard_firebox_unauth_rce_cve_2022_26318.rb",
+    "name": "WatchGuard XTM Firebox Unauthenticated Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2022-0824",
+    "module": "exploit_linux/http/webmin_file_manager_rce",
+    "path": "/modules/exploits/linux/http/webmin_file_manager_rce.rb",
+    "name": "Webmin File Manager RCE"
+  },
+  {
+    "cve": "CVE-2022-36446",
+    "module": "exploit_linux/http/webmin_package_updates_rce",
+    "path": "/modules/exploits/linux/http/webmin_package_updates_rce.rb",
+    "name": "Webmin Package Updates RCE"
+  },
+  {
+    "cve": "CVE-2022-41352",
+    "module": "exploit_linux/http/zimbra_cpio_cve_2022_41352",
+    "path": "/modules/exploits/linux/http/zimbra_cpio_cve_2022_41352.rb",
+    "name": "TAR Path Traversal in Zimbra (CVE-2022-41352)"
+  },
+  {
+    "cve": "CVE-2022-27925",
+    "module": "exploit_linux/http/zimbra_mboximport_cve_2022_27925",
+    "path": "/modules/exploits/linux/http/zimbra_mboximport_cve_2022_27925.rb",
+    "name": "Zip Path Traversal in Zimbra (mboximport) (CVE-2022-27925)"
+  },
+  {
+    "cve": "CVE-2022-37042",
+    "module": "exploit_linux/http/zimbra_mboximport_cve_2022_27925",
+    "path": "/modules/exploits/linux/http/zimbra_mboximport_cve_2022_27925.rb",
+    "name": "Zip Path Traversal in Zimbra (mboximport) (CVE-2022-27925)"
+  },
+  {
+    "cve": "CVE-2022-30333",
+    "module": "exploit_linux/http/zimbra_unrar_cve_2022_30333",
+    "path": "/modules/exploits/linux/http/zimbra_unrar_cve_2022_30333.rb",
+    "name": "UnRAR Path Traversal in Zimbra (CVE-2022-30333)"
+  },
+  {
+    "cve": "CVE-2022-30525",
+    "module": "exploit_linux/http/zyxel_ztp_rce",
+    "path": "/modules/exploits/linux/http/zyxel_ztp_rce.rb",
+    "name": "Zyxel Firewall ZTP Unauthenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2022-0847",
+    "module": "exploit_linux/local/cve_2022_0847_dirtypipe",
+    "path": "/modules/exploits/linux/local/cve_2022_0847_dirtypipe.rb",
+    "name": "Dirty Pipe Local Privilege Escalation via CVE-2022-0847"
+  },
+  {
+    "cve": "CVE-2022-0995",
+    "module": "exploit_linux/local/cve_2022_0995_watch_queue",
+    "path": "/modules/exploits/linux/local/cve_2022_0995_watch_queue.rb",
+    "name": "Watch Queue Out of Bounds Write"
+  },
+  {
+    "cve": "CVE-2022-1043",
+    "module": "exploit_linux/local/cve_2022_1043_io_uring_priv_esc",
+    "path": "/modules/exploits/linux/local/cve_2022_1043_io_uring_priv_esc.rb",
+    "name": "io_uring Same Type Object Reuse Priv Esc"
+  },
+  {
+    "cve": "CVE-2022-0492",
+    "module": "exploit_linux/local/docker_cgroup_escape",
+    "path": "/modules/exploits/linux/local/docker_cgroup_escape.rb",
+    "name": "Docker cgroups Container Escape"
+  },
+  {
+    "cve": "CVE-2022-34918",
+    "module": "exploit_linux/local/netfilter_nft_set_elem_init_privesc",
+    "path": "/modules/exploits/linux/local/netfilter_nft_set_elem_init_privesc.rb",
+    "name": "Netfilter nft_set_elem_init Heap Overflow Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2022-37706",
+    "module": "exploit_linux/local/ubuntu_enlightenment_mount_priv_esc",
+    "path": "/modules/exploits/linux/local/ubuntu_enlightenment_mount_priv_esc.rb",
+    "name": "Ubuntu Enlightenment Mount Priv Esc"
+  },
+  {
+    "cve": "CVE-2022-31660",
+    "module": "exploit_linux/local/vmware_workspace_one_access_certproxy_lpe",
+    "path": "/modules/exploits/linux/local/vmware_workspace_one_access_certproxy_lpe.rb",
+    "name": "VMware Workspace ONE Access CVE-2022-31660"
+  },
+  {
+    "cve": "CVE-2022-22960",
+    "module": "exploit_linux/local/vmware_workspace_one_access_cve_2022_22960",
+    "path": "/modules/exploits/linux/local/vmware_workspace_one_access_cve_2022_22960.rb",
+    "name": "VMware Workspace ONE Access CVE-2022-22960"
+  },
+  {
+    "cve": "CVE-2022-22942",
+    "module": "exploit_linux/local/vmwgfx_fd_priv_esc",
+    "path": "/modules/exploits/linux/local/vmwgfx_fd_priv_esc.rb",
+    "name": "vmwgfx Driver File Descriptor Handling Priv Esc"
+  },
+  {
+    "cve": "CVE-2022-3569",
+    "module": "exploit_linux/local/zimbra_postfix_priv_esc",
+    "path": "/modules/exploits/linux/local/zimbra_postfix_priv_esc.rb",
+    "name": "Zimbra sudo + postfix privilege escalation"
+  },
+  {
+    "cve": "CVE-2022-37393",
+    "module": "exploit_linux/local/zimbra_slapper_priv_esc",
+    "path": "/modules/exploits/linux/local/zimbra_slapper_priv_esc.rb",
+    "name": "Zimbra zmslapd arbitrary module load"
+  },
+  {
+    "cve": "CVE-2022-30526",
+    "module": "exploit_linux/local/zyxel_suid_cp_lpe",
+    "path": "/modules/exploits/linux/local/zyxel_suid_cp_lpe.rb",
+    "name": "Zyxel Firewall SUID Binary Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2022-20699",
+    "module": "exploit_linux/misc/cisco_rv340_sslvpn",
+    "path": "/modules/exploits/linux/misc/cisco_rv340_sslvpn.rb",
+    "name": "Cisco RV340 SSL VPN Unauthenticated Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2022-0543",
+    "module": "exploit_linux/redis/redis_debian_sandbox_escape",
+    "path": "/modules/exploits/linux/redis/redis_debian_sandbox_escape.rb",
+    "name": "Redis Lua Sandbox Escape"
+  },
+  {
+    "cve": "CVE-2022-3405",
+    "module": "exploit_multi/http/acronis_cyber_protect_unauth_rce_cve_2022_3405",
+    "path": "/modules/exploits/multi/http/acronis_cyber_protect_unauth_rce_cve_2022_3405.rb",
+    "name": "Acronis Cyber Protect/Backup remote code execution"
+  },
+  {
+    "cve": "CVE-2022-24112",
+    "module": "exploit_multi/http/apache_apisix_api_default_token_rce",
+    "path": "/modules/exploits/multi/http/apache_apisix_api_default_token_rce.rb",
+    "name": "APISIX Admin API default access token RCE"
+  },
+  {
+    "cve": "CVE-2022-42889",
+    "module": "exploit_multi/http/apache_commons_text4shell",
+    "path": "/modules/exploits/multi/http/apache_commons_text4shell.rb",
+    "name": "Apache Commons Text RCE"
+  },
+  {
+    "cve": "CVE-2022-24706",
+    "module": "exploit_multi/http/apache_couchdb_erlang_rce",
+    "path": "/modules/exploits/multi/http/apache_couchdb_erlang_rce.rb",
+    "name": "Apache Couchdb Erlang RCE"
+  },
+  {
+    "cve": "CVE-2022-26134",
+    "module": "exploit_multi/http/atlassian_confluence_namespace_ognl_injection",
+    "path": "/modules/exploits/multi/http/atlassian_confluence_namespace_ognl_injection.rb",
+    "name": "Atlassian Confluence Namespace OGNL Injection"
+  },
+  {
+    "cve": "CVE-2022-43781",
+    "module": "exploit_multi/http/bitbucket_env_var_rce",
+    "path": "/modules/exploits/multi/http/bitbucket_env_var_rce.rb",
+    "name": "Bitbucket Environment Variable RCE"
+  },
+  {
+    "cve": "CVE-2022-40471",
+    "module": "exploit_multi/http/clinic_pms_fileupload_rce",
+    "path": "/modules/exploits/multi/http/clinic_pms_fileupload_rce.rb",
+    "name": "Clinic's Patient Management System 1.0 - Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2022-2297",
+    "module": "exploit_multi/http/clinic_pms_sqli_to_rce",
+    "path": "/modules/exploits/multi/http/clinic_pms_sqli_to_rce.rb",
+    "name": "Clinic's Patient Management System 1.0 - Unauthenticated RCE"
+  },
+  {
+    "cve": "CVE-2022-26352",
+    "module": "exploit_multi/http/dotcms_file_upload_rce",
+    "path": "/modules/exploits/multi/http/dotcms_file_upload_rce.rb",
+    "name": "DotCMS RCE via Arbitrary File Upload."
+  },
+  {
+    "cve": "CVE-2022-30781",
+    "module": "exploit_multi/http/gitea_git_fetch_rce",
+    "path": "/modules/exploits/multi/http/gitea_git_fetch_rce.rb",
+    "name": "Gitea Git Fetch Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2022-2992",
+    "module": "exploit_multi/http/gitlab_github_import_rce_cve_2022_2992",
+    "path": "/modules/exploits/multi/http/gitlab_github_import_rce_cve_2022_2992.rb",
+    "name": "GitLab GitHub Repo Import Deserialization RCE"
+  },
+  {
+    "cve": "CVE-2022-47966",
+    "module": "exploit_multi/http/manageengine_adselfservice_plus_saml_rce_cve_2022_47966",
+    "path": "/modules/exploits/multi/http/manageengine_adselfservice_plus_saml_rce_cve_2022_47966.rb",
+    "name": "ManageEngine ADSelfService Plus Unauthenticated SAML RCE"
+  },
+  {
+    "cve": "CVE-2022-47966",
+    "module": "exploit_multi/http/manageengine_servicedesk_plus_saml_rce_cve_2022_47966",
+    "path": "/modules/exploits/multi/http/manageengine_servicedesk_plus_saml_rce_cve_2022_47966.rb",
+    "name": "ManageEngine ServiceDesk Plus Unauthenticated SAML RCE"
+  },
+  {
+    "cve": "CVE-2022-24734",
+    "module": "exploit_multi/http/mybb_rce_cve_2022_24734",
+    "path": "/modules/exploits/multi/http/mybb_rce_cve_2022_24734.rb",
+    "name": "MyBB Admin Control Code Injection RCE"
+  },
+  {
+    "cve": "CVE-2022-24637",
+    "module": "exploit_multi/http/open_web_analytics_rce",
+    "path": "/modules/exploits/multi/http/open_web_analytics_rce.rb",
+    "name": "Open Web Analytics 1.7.3 - Remote Code Execution (RCE)"
+  },
+  {
+    "cve": "CVE-2022-43769",
+    "module": "exploit_multi/http/pentaho_business_server_authbypass_and_ssti",
+    "path": "/modules/exploits/multi/http/pentaho_business_server_authbypass_and_ssti.rb",
+    "name": "Pentaho Business Server Auth Bypass and Server Side Template Injection RCE"
+  },
+  {
+    "cve": "CVE-2022-43939",
+    "module": "exploit_multi/http/pentaho_business_server_authbypass_and_ssti",
+    "path": "/modules/exploits/multi/http/pentaho_business_server_authbypass_and_ssti.rb",
+    "name": "Pentaho Business Server Auth Bypass and Server Side Template Injection RCE"
+  },
+  {
+    "cve": "CVE-2022-43571",
+    "module": "exploit_multi/http/splunk_auth_rce_cve_2022_43571",
+    "path": "/modules/exploits/multi/http/splunk_auth_rce_cve_2022_43571.rb",
+    "name": "Authenticated RCE in Splunk (SimpleXML dashboard PDF generation)"
+  },
+  {
+    "cve": "CVE-2022-22963",
+    "module": "exploit_multi/http/spring_cloud_function_spel_injection",
+    "path": "/modules/exploits/multi/http/spring_cloud_function_spel_injection.rb",
+    "name": "Spring Cloud Function SpEL Injection"
+  },
+  {
+    "cve": "CVE-2022-22965",
+    "module": "exploit_multi/http/spring_framework_rce_spring4shell",
+    "path": "/modules/exploits/multi/http/spring_framework_rce_spring4shell.rb",
+    "name": "Spring Framework Class property RCE (Spring4Shell)"
+  },
+  {
+    "cve": "CVE-2022-1471",
+    "module": "exploit_multi/http/torchserver_cve_2023_43654",
+    "path": "/modules/exploits/multi/http/torchserver_cve_2023_43654.rb",
+    "name": "PyTorch Model Server Registration and Deserialization RCE"
+  },
+  {
+    "cve": "CVE-2022-1329",
+    "module": "exploit_multi/http/wp_plugin_elementor_auth_upload_rce",
+    "path": "/modules/exploits/multi/http/wp_plugin_elementor_auth_upload_rce.rb",
+    "name": "Wordpress Plugin Elementor Authenticated Upload Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2022-29464",
+    "module": "exploit_multi/http/wso2_file_upload_rce",
+    "path": "/modules/exploits/multi/http/wso2_file_upload_rce.rb",
+    "name": "WSO2 Arbitrary File Upload to RCE"
+  },
+  {
+    "cve": "CVE-2022-41034",
+    "module": "exploit_multi/misc/vscode_ipynb_remote_dev_exec",
+    "path": "/modules/exploits/multi/misc/vscode_ipynb_remote_dev_exec.rb",
+    "name": "VSCode ipynb Remote Development RCE"
+  },
+  {
+    "cve": "CVE-2022-22616",
+    "module": "exploit_osx/browser/osx_gatekeeper_bypass",
+    "path": "/modules/exploits/osx/browser/osx_gatekeeper_bypass.rb",
+    "name": "macOS Gatekeeper check bypass"
+  },
+  {
+    "cve": "CVE-2022-46689",
+    "module": "exploit_osx/local/mac_dirty_cow",
+    "path": "/modules/exploits/osx/local/mac_dirty_cow.rb",
+    "name": "macOS Dirty Cow Arbitrary File Write Local Privilege Escalation"
+  },
+  {
+    "cve": "CVE-2022-31814",
+    "module": "exploit_unix/http/pfsense_pfblockerng_webshell",
+    "path": "/modules/exploits/unix/http/pfsense_pfblockerng_webshell.rb",
+    "name": "pfSense plugin pfBlockerNG unauthenticated RCE as root"
+  },
+  {
+    "cve": "CVE-2022-39986",
+    "module": "exploit_unix/http/raspap_rce",
+    "path": "/modules/exploits/unix/http/raspap_rce.rb",
+    "name": "RaspAP Unauthenticated Command Injection"
+  },
+  {
+    "cve": "CVE-2022-36534",
+    "module": "exploit_unix/http/syncovery_linux_rce_2022_36534",
+    "path": "/modules/exploits/unix/http/syncovery_linux_rce_2022_36534.rb",
+    "name": "Syncovery For Linux Web-GUI Authenticated Remote Command Execution"
+  },
+  {
+    "cve": "CVE-2022-29806",
+    "module": "exploit_unix/webapp/zoneminder_lang_exec",
+    "path": "/modules/exploits/unix/webapp/zoneminder_lang_exec.rb",
+    "name": "ZoneMinder Language Settings Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2022-30190",
+    "module": "exploit_windows/fileformat/word_msdtjs_rce",
+    "path": "/modules/exploits/windows/fileformat/word_msdtjs_rce.rb",
+    "name": "Microsoft Office Word MSDTJS"
+  },
+  {
+    "cve": "CVE-2022-2143",
+    "module": "exploit_windows/http/advantech_iview_networkservlet_cmd_inject",
+    "path": "/modules/exploits/windows/http/advantech_iview_networkservlet_cmd_inject.rb",
+    "name": "Advantech iView NetworkServlet Command Injection"
+  },
+  {
+    "cve": "CVE-2022-23277",
+    "module": "exploit_windows/http/exchange_chainedserializationbinder_rce",
+    "path": "/modules/exploits/windows/http/exchange_chainedserializationbinder_rce.rb",
+    "name": "Microsoft Exchange Server ChainedSerializationBinder RCE"
+  },
+  {
+    "cve": "CVE-2022-41040",
+    "module": "exploit_windows/http/exchange_proxynotshell_rce",
+    "path": "/modules/exploits/windows/http/exchange_proxynotshell_rce.rb",
+    "name": "Microsoft Exchange ProxyNotShell RCE"
+  },
+  {
+    "cve": "CVE-2022-41082",
+    "module": "exploit_windows/http/exchange_proxynotshell_rce",
+    "path": "/modules/exploits/windows/http/exchange_proxynotshell_rce.rb",
+    "name": "Microsoft Exchange ProxyNotShell RCE"
+  },
+  {
+    "cve": "CVE-2022-28219",
+    "module": "exploit_windows/http/manageengine_adaudit_plus_cve_2022_28219",
+    "path": "/modules/exploits/windows/http/manageengine_adaudit_plus_cve_2022_28219.rb",
+    "name": "ManageEngine ADAudit Plus CVE-2022-28219"
+  },
+  {
+    "cve": "CVE-2022-28810",
+    "module": "exploit_windows/http/manageengine_adselfservice_plus_cve_2022_28810",
+    "path": "/modules/exploits/windows/http/manageengine_adselfservice_plus_cve_2022_28810.rb",
+    "name": "ManageEngine ADSelfService Plus Custom Script Execution"
+  },
+  {
+    "cve": "CVE-2022-47966",
+    "module": "exploit_windows/http/manageengine_endpoint_central_saml_rce_cve_2022_47966",
+    "path": "/modules/exploits/windows/http/manageengine_endpoint_central_saml_rce_cve_2022_47966.rb",
+    "name": "ManageEngine Endpoint Central Unauthenticated SAML RCE"
+  },
+  {
+    "cve": "CVE-2022-1373",
+    "module": "exploit_windows/http/softing_sis_rce",
+    "path": "/modules/exploits/windows/http/softing_sis_rce.rb",
+    "name": "Softing Secure Integration Server v1.22 Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2022-2334",
+    "module": "exploit_windows/http/softing_sis_rce",
+    "path": "/modules/exploits/windows/http/softing_sis_rce.rb",
+    "name": "Softing Secure Integration Server v1.22 Remote Code Execution"
+  },
+  {
+    "cve": "CVE-2022-35405",
+    "module": "exploit_windows/http/zoho_password_manager_pro_xml_rpc_rce",
+    "path": "/modules/exploits/windows/http/zoho_password_manager_pro_xml_rpc_rce.rb",
+    "name": "Zoho Password Manager Pro XML-RPC Java Deserialization"
+  },
+  {
+    "cve": "CVE-2022-21882",
+    "module": "exploit_windows/local/cve_2022_21882_win32k",
+    "path": "/modules/exploits/windows/local/cve_2022_21882_win32k.rb",
+    "name": "Win32k ConsoleControl Offset Confusion"
+  },
+  {
+    "cve": "CVE-2022-21999",
+    "module": "exploit_windows/local/cve_2022_21999_spoolfool_privesc",
+    "path": "/modules/exploits/windows/local/cve_2022_21999_spoolfool_privesc.rb",
+    "name": "CVE-2022-21999 SpoolFool Privesc"
+  },
+  {
+    "cve": "CVE-2022-26904",
+    "module": "exploit_windows/local/cve_2022_26904_superprofile",
+    "path": "/modules/exploits/windows/local/cve_2022_26904_superprofile.rb",
+    "name": "User Profile Arbitrary Junction Creation Local Privilege Elevation"
+  },
+  {
+    "cve": "CVE-2022-3699",
+    "module": "exploit_windows/local/cve_2022_3699_lenovo_diagnostics_driver",
+    "path": "/modules/exploits/windows/local/cve_2022_3699_lenovo_diagnostics_driver.rb",
+    "name": "Lenovo Diagnostics Driver IOCTL memmove"
+  },
+  {
+    "cve": "CVE-2022-28381",
+    "module": "exploit_windows/misc/cve_2022_28381_allmediaserver_bof",
+    "path": "/modules/exploits/windows/misc/cve_2022_28381_allmediaserver_bof.rb",
+    "name": "ALLMediaServer 1.6 SEH Buffer Overflow"
+  },
+  {
+    "cve": "CVE-2022-4978",
+    "module": "exploit_windows/misc/remote_control_collection_rce",
+    "path": "/modules/exploits/windows/misc/remote_control_collection_rce.rb",
+    "name": "Remote Control Collection RCE"
+  },
+  {
+    "cve": "CVE-2022-3365",
+    "module": "exploit_windows/misc/remote_mouse_rce",
+    "path": "/modules/exploits/windows/misc/remote_mouse_rce.rb",
+    "name": "Remote Mouse RCE"
+  },
+  {
+    "cve": "CVE-2022-38108",
+    "module": "exploit_windows/misc/solarwinds_amqp_deserialization",
+    "path": "/modules/exploits/windows/misc/solarwinds_amqp_deserialization.rb",
+    "name": "SolarWinds Information Service (SWIS) .NET Deserialization From AMQP RCE"
+  },
+  {
+    "cve": "CVE-2022-3229",
+    "module": "exploit_windows/misc/unified_remote_rce",
+    "path": "/modules/exploits/windows/misc/unified_remote_rce.rb",
+    "name": "Unified Remote Auth Bypass to RCE"
+  },
+  {
+    "cve": "CVE-2022-3218",
+    "module": "exploit_windows/misc/wifi_mouse_rce",
+    "path": "/modules/exploits/windows/misc/wifi_mouse_rce.rb",
+    "name": "Wifi Mouse RCE"
+  },
+  {
+    "cve": "CVE-2022-22948",
+    "module": "post_linux/gather/vcenter_secrets_dump",
+    "path": "/modules/post/linux/gather/vcenter_secrets_dump.rb",
+    "name": "VMware vCenter Secrets Dump"
+  },
+  {
+    "cve": "CVE-2022-29845",
+    "module": "post_windows/gather/credentials/whatsupgold_credential_dump",
+    "path": "/modules/post/windows/gather/credentials/whatsupgold_credential_dump.rb",
+    "name": "WhatsUp Gold Credentials Dump"
+  },
+  {
+    "cve": "CVE-2022-29846",
+    "module": "post_windows/gather/credentials/whatsupgold_credential_dump",
+    "path": "/modules/post/windows/gather/credentials/whatsupgold_credential_dump.rb",
+    "name": "WhatsUp Gold Credentials Dump"
+  },
+  {
+    "cve": "CVE-2022-29847",
+    "module": "post_windows/gather/credentials/whatsupgold_credential_dump",
+    "path": "/modules/post/windows/gather/credentials/whatsupgold_credential_dump.rb",
+    "name": "WhatsUp Gold Credentials Dump"
+  },
+  {
+    "cve": "CVE-2022-29848",
+    "module": "post_windows/gather/credentials/whatsupgold_credential_dump",
+    "path": "/modules/post/windows/gather/credentials/whatsupgold_credential_dump.rb",
+    "name": "WhatsUp Gold Credentials Dump"
+  }
+]
