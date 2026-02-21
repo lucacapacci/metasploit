@@ -1,0 +1,36 @@
+name: Update Metasploit CVE Mapping
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Download Metasploit Metadata
+        run: |
+          curl -L -o modules_metadata_base.json https://raw.githubusercontent.com/rapid7/metasploit-framework/refs/heads/master/db/modules_metadata_base.json
+
+      - name: Process and Split Data
+        run: python split_metasploit.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data_years/ data_single/ modules_metadata_base.json
+          git commit -m "Update Metasploit Metadata: $(date -u)" || echo "No changes to commit"
+          git push
