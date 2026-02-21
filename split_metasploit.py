@@ -7,11 +7,12 @@ def process_metasploit():
     with open('modules_metadata_base.json', 'r') as f:
         data = json.load(f)
 
-    # Prepare directories
+    # Clean and Recreate directories to prevent duplicates from previous runs
     dirs = ['data_years', 'data_single']
     for d in dirs:
-        if not os.path.exists(d):
-            os.makedirs(d)
+        if os.path.exists(d):
+            shutil.rmtree(d)
+        os.makedirs(d)
 
     year_map = {}
 
