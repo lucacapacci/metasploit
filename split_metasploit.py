@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import shutil
 
 def process_metasploit():
     # Load the raw data
