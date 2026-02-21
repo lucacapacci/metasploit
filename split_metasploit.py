@@ -4,62 +4,66 @@ import re
 import shutil
 
 def process_metasploit():
-    # Load the raw data
-    with open('modules_metadata_base.json', 'r') as f:
+    # 1. Load the raw data
+    source_file = 'modules_metadata_base.json'
+    if not os.path.exists(source_file):
+        print(f"Error: {source_file} not found.")
+        return
+        
+    with open(source_file, 'r') as f:
         data = json.load(f)
 
-    # Clean and Recreate directories to prevent duplicates from previous runs
-    dirs = ['data_years', 'data_single']
-    for d in dirs:
-        if os.path.exists(d):
-            shutil.rmtree(d)
-        os.makedirs(d)
-
-    year_map = {}
+    # 2. Clean and Recreate the data_single directory
+    target_dir = 'data_single'
+    if os.path.exists(target_dir):
+        shutil.rmtree(target_dir) # Prevents duplicates from previous runs
+    os.makedirs(target_dir)
 
     for module_key, info in data.items():
         references = info.get('references', [])
         path = info.get('path', 'unknown')
         
-        # Find all CVEs in the references list
-        cves = [ref for ref in references if ref.startswith('CVE-')]
+        # Filter for unique CVEs in this specific module
+        cves = list(set([ref for ref in references if ref.startswith('CVE-')]))
         
         for cve in cves:
-            # Extract year from CVE-YYYY-NNNN
+            # Extract year (e.g., '2014' from 'CVE-2014-6041')
             match = re.search(r'CVE-(\d{4})-', cve)
             if not match:
                 continue
             year = match.group(1)
 
+            # Create the year directory inside data_single
+            year_dir = os.path.join(target_dir, year)
+            if not os.path.exists(year_dir):
+                os.makedirs(year_dir)
+
+            # Prepare the metadata entry
             entry = {
                 "cve": cve,
                 "module": module_key,
                 "path": f"https://github.com/rapid7/metasploit-framework/blob/master{path}",
-                "name": info.get('name')
+                "name": info.get('name'),
+                "disclosure_date": info.get('disclosure_date')
             }
 
-            # Individual CVE files
-            single_path = f"data_single/{cve}.json"
-            # If multiple modules exploit the same CVE, we append to a list
-            if os.path.exists(single_path):
-                with open(single_path, 'r+') as sf:
-                    existing = json.load(sf)
-                    existing.append(entry)
-                    sf.seek(0)
-                    json.dump(existing, sf, indent=2)
-            else:
-                with open(single_path, 'w') as sf:
-                    json.dump([entry], sf, indent=2)
+            # File path: data_single/YYYY/CVE-XXXX-YYYY.json
+            file_path = os.path.join(year_dir, f"{cve}.json")
 
-            # Year-based grouping
-            if year not in year_map:
-                year_map[year] = []
-            year_map[year].append(entry)
+            # Check for existing data to handle cases where multiple modules exploit one CVE
+            existing_data = []
+            if os.path.exists(file_path):
+                with open(file_path, 'r') as ef:
+                    try:
+                        existing_data = json.load(ef)
+                    except json.JSONDecodeError:
+                        existing_data = []
 
-    # Write year files
-    for year, entries in year_map.items():
-        with open(f"data_years/{year}.json", 'w') as yf:
-            json.dump(entries, yf, indent=2)
+            # Append only if this module key isn't already in the file
+            if not any(e['module'] == module_key for e in existing_data):
+                existing_data.append(entry)
+                with open(file_path, 'w') as wf:
+                    json.dump(existing_data, wf, indent=2)
 
 if __name__ == "__main__":
     process_metasploit()
