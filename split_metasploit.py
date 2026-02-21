@@ -32,7 +32,7 @@ def process_metasploit():
             entry = {
                 "cve": cve,
                 "module": module_key,
-                "path": path,
+                "path": f"https://github.com/rapid7/metasploit-framework/blob/master{path}",
                 "name": info.get('name')
             }
 
