@@ -126781,6 +126781,65 @@
     "session_types": false,
     "needs_cleanup": true
   },
+  "exploit_multi/http/wp_plugin_supsystic_contact_form_rce": {
+    "name": "Supsystic Contact Form Wordpress Plugin SSTI RCE",
+    "fullname": "exploit/multi/http/wp_plugin_supsystic_contact_form_rce",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-03-30",
+    "type": "exploit",
+    "author": [
+      "Azril Fathoni",
+      "bootstrapbool <bootstrapbool@gmail.com>"
+    ],
+    "description": "This module performs SSTI achieving RCE in webpages containing the\n          Contact Form Wordpress plugin by Supsystic in versions 1.7.36 and\n          before.",
+    "references": [
+      "CVE-2026-4257",
+      "URL-https://github.com/bootstrapbool/cve-2026-4257"
+    ],
+    "platform": "Linux,Unix,Windows",
+    "arch": "cmd",
+    "rport": 80,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Unix/Linux Command Shell",
+      "Windows Command Shell"
+    ],
+    "mod_time": "2026-05-24 20:43:09 +0000",
+    "path": "/modules/exploits/multi/http/wp_plugin_supsystic_contact_form_rce.rb",
+    "is_install_path": true,
+    "ref_name": "multi/http/wp_plugin_supsystic_contact_form_rce",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
   "exploit_multi/http/wp_popular_posts_rce": {
     "name": "Wordpress Popular Posts Authenticated RCE",
     "fullname": "exploit/multi/http/wp_popular_posts_rce",
