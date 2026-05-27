@@ -23532,6 +23532,7 @@
     ],
     "description": "This module forges access tickets for the Gladinet CentreStack/Triofox\n          `/storage/filesvr.dn` endpoint. The vulnerability exists because\n          the application uses hardcoded cryptographic keys in GladCtrl64.dll to encrypt/decrypt\n          access tickets.\n\n          The access ticket is an encrypted string that contains:\n          - Filepath: The absolute path to the file on the server\n          - Username: Empty (Application Pool Identity will be used)\n          - Password: Empty\n          - Timestamp: Creation time (set to excessive year to never expire)\n\n          This module can forge tickets to read arbitrary files from the server's file system.\n\n          Gladinet CentreStack versions up to 16.12.10420.56791 are vulnerable.\n          Gladinet Triofox versions up to 16.12.10420.56791 are vulnerable.",
     "references": [
+      "CVE-2025-14611",
       "URL-https://www.huntress.com/blog/active-exploitation-gladinet-centrestack-triofox-insecure-cryptography-vulnerability"
     ],
     "platform": "",
@@ -23553,7 +23554,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-01-26 18:43:16 +0000",
+    "mod_time": "2026-05-26 13:05:42 +0000",
     "path": "/modules/auxiliary/gather/gladinet_storage_access_ticket_forge.rb",
     "is_install_path": true,
     "ref_name": "gather/gladinet_storage_access_ticket_forge",
@@ -33642,6 +33643,7 @@
     ],
     "description": "This module exploits an unauthenticated directory traversal vulnerability in Cassandra Web\n          'Cassandra Web' version 0.5.0 and earlier, allowing arbitrary file read with the web server privileges.\n          This vulnerability occurred due to the disabled Rack::Protection module",
     "references": [
+      "CVE-2020-36939",
       "URL-https://github.com/avalanche123/cassandra-web/commit/f11e47a26f316827f631d7bcfec14b9dd94f44be",
       "EDB-49362"
     ],
@@ -33664,7 +33666,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2026-05-27 08:49:48 +0000",
     "path": "/modules/auxiliary/scanner/http/cassandra_web_file_read.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/cassandra_web_file_read",
@@ -42339,14 +42341,19 @@
     "fullname": "auxiliary/scanner/http/pretalx_file_read_cve_2023_28459",
     "aliases": [],
     "rank": 300,
-    "disclosure_date": null,
+    "disclosure_date": "2023-03-07",
     "type": "auxiliary",
     "author": [
       "Stefan Schiller",
       "msutovsky-r7"
     ],
     "description": "This module exploits functionality in Pretalx that export conference schedule as zipped file. The Pretalx will iteratively include any file referenced by any HTML tag and does not properly check the path of the file, which can lead to arbitrary file read. The module requires credentials that allow schedule export, schedule release and approval of proposals. Additionally, module requires conference name and URL for media files.",
-    "references": [],
+    "references": [
+      "CVE-2023-28459",
+      "CVE-2023-28458",
+      "URL-https://www.sonarsource.com/blog/pretalx-vulnerabilities-how-to-get-accepted-at-every-conference/",
+      "URL-https://pretalx.com/p/news/security-release-232/"
+    ],
     "platform": "",
     "arch": "",
     "rport": 80,
@@ -42366,7 +42373,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-22 11:52:36 +0000",
+    "mod_time": "2026-05-26 13:05:42 +0000",
     "path": "/modules/auxiliary/scanner/http/pretalx_file_read_cve_2023_28459.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/pretalx_file_read_cve_2023_28459",
@@ -71926,6 +71933,7 @@
     ],
     "description": "An authenticated user with sufficient administrative rights to manage pollers can use this functionality to\n          execute arbitrary commands remotely. Usually, the miscellaneous commands are used by the additional modules\n          (to perform certain actions), by the scheduler for data processing, etc.\n\n          This module uses this functionality to obtain a remote shell on the target.",
     "references": [
+      "CVE-2019-19699",
       "EDB-47977"
     ],
     "platform": "Linux,Unix",
@@ -71950,7 +71958,7 @@
       "Reverse shell (In-Memory)",
       "Meterpreter (Dropper)"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-26 13:05:42 +0000",
     "path": "/modules/exploits/linux/http/centreon_pollers_auth_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/http/centreon_pollers_auth_rce",
@@ -99440,7 +99448,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-02-23 18:29:22 +0000",
+    "mod_time": "2026-05-26 15:36:36 +0000",
     "path": "/modules/exploits/linux/persistence/wsl/startup_folder.rb",
     "is_install_path": true,
     "ref_name": "linux/persistence/wsl/startup_folder",
@@ -126980,6 +126988,7 @@
     ],
     "description": "This module exploits an arbitrary file upload vulnerability in Responsive Thumbnail Slider\n          Plugin v1.0 for WordPress post authentication.",
     "references": [
+      "CVE-2015-10144",
       "EDB-37998"
     ],
     "platform": "PHP",
@@ -127003,7 +127012,7 @@
     "targets": [
       "Responsive Thumbnail Slider Plugin v1.0"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-05-26 13:05:42 +0000",
     "path": "/modules/exploits/multi/http/wp_responsive_thumbnail_slider_upload.rb",
     "is_install_path": true,
     "ref_name": "multi/http/wp_responsive_thumbnail_slider_upload",
@@ -127716,6 +127725,7 @@
     ],
     "description": "This module exploits an authentication bypass allowing arbitrary\n          file upload in versions 3.14 and earlier to upload and execute a shell.\n          Specifically, this targets /website_code/php/import/import.php\n\n          OPSEC\n          This module results in directories being created and database entries which can\n          not easily be cleaned up automatically.",
     "references": [
+      "CVE-2026-32985",
       "URL-https://blog.haicen.me/posts/xerte-online-toolkits/",
       "URL-https://www.xerte.org.uk/index.php/en/news/blog/80-news/357-xerte-3-13-en-3-14-important-security-update-now-available"
     ],
@@ -127740,7 +127750,7 @@
     "targets": [
       "PHP"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-05-26 13:05:42 +0000",
     "path": "/modules/exploits/multi/http/xerte_unauthenticated_template_import_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/xerte_unauthenticated_template_import_rce",
@@ -187851,6 +187861,7 @@
     ],
     "description": "This module exploits a SQL injection found in Solarwinds Storage Manager\n          login interface.  It will send a malicious SQL query to create a JSP file\n          under the web root directory, and then let it download and execute our malicious\n          executable under the context of SYSTEM.",
     "references": [
+      "CVE-2012-2576",
       "OSVDB-81634",
       "EDB-18818",
       "URL-http://ddilabs.blogspot.com/2012/02/solarwinds-storage-manager-server-sql.html",
@@ -187877,7 +187888,7 @@
     "targets": [
       "Windows Universal"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-05-26 13:05:42 +0000",
     "path": "/modules/exploits/windows/http/solarwinds_storage_manager_sql.rb",
     "is_install_path": true,
     "ref_name": "windows/http/solarwinds_storage_manager_sql",
