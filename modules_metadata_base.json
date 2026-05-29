@@ -105694,6 +105694,67 @@
     "session_types": false,
     "needs_cleanup": null
   },
+  "exploit_multi/http/apache_activemq_jolokia_rce": {
+    "name": "Apache ActiveMQ RCE via Jolokia addNetworkConnector",
+    "fullname": "exploit/multi/http/apache_activemq_jolokia_rce",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-04-29",
+    "type": "exploit",
+    "author": [
+      "dinosn",
+      "h00die"
+    ],
+    "description": "Apache ActiveMQ exposes a Jolokia JMX-over-HTTP API at /api/jolokia/.\n          An authenticated attacker can invoke the addNetworkConnector() MBean\n          operation with a crafted URI that causes the broker to fetch a remote\n          Spring XML configuration over HTTP. The Spring XML instantiates a\n          ProcessBuilder bean that executes attacker-supplied OS commands.\n\n          Default credentials (admin:admin) are accepted by many installations.\n\n          Verified on docker image",
+    "references": [
+      "CVE-2026-34197",
+      "URL-https://github.com/dinosn/CVE-2026-34197",
+      "URL-https://horizon3.ai/attack-research/disclosures/cve-2026-34197-activemq-rce-jolokia/"
+    ],
+    "platform": "Linux,Unix,Windows",
+    "arch": "cmd",
+    "rport": 8161,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Windows",
+      "Linux",
+      "Unix"
+    ],
+    "mod_time": "2026-05-28 12:56:10 +0000",
+    "path": "/modules/exploits/multi/http/apache_activemq_jolokia_rce.rb",
+    "is_install_path": true,
+    "ref_name": "multi/http/apache_activemq_jolokia_rce",
+    "check": true,
+    "post_auth": true,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
   "exploit_multi/http/apache_activemq_upload_jsp": {
     "name": "ActiveMQ web shell upload",
     "fullname": "exploit/multi/http/apache_activemq_upload_jsp",
