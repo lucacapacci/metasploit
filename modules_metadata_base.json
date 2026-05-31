@@ -307764,6 +307764,44 @@
     "needs_cleanup": null,
     "actions": []
   },
+  "post_windows/gather/windows_kernel_pointer_enum": {
+    "name": "Windows Kernel Pointer Exposure Enumerator",
+    "fullname": "post/windows/gather/windows_kernel_pointer_enum",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": null,
+    "type": "post",
+    "author": [
+      "CharlesQuinnDev"
+    ],
+    "description": "This module enumerates kernel object pointers exposed via\n          NtQuerySystemInformation with SystemExtendedHandleInformation.\n\n          It categorizes exposed pointers by object type and provides\n          observational data about kernel address space layout for\n          research and educational purposes.",
+    "references": [],
+    "platform": "Windows",
+    "arch": "",
+    "rport": null,
+    "autofilter_ports": null,
+    "autofilter_services": null,
+    "targets": null,
+    "mod_time": "2026-05-30 16:42:18 +0000",
+    "path": "/modules/post/windows/gather/windows_kernel_pointer_enum.rb",
+    "is_install_path": true,
+    "ref_name": "windows/gather/windows_kernel_pointer_enum",
+    "check": false,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [],
+      "SideEffects": []
+    },
+    "session_types": [
+      "meterpreter"
+    ],
+    "needs_cleanup": null,
+    "actions": []
+  },
   "post_windows/gather/wmic_command": {
     "name": "Windows Gather Run WMIC Commands",
     "fullname": "post/windows/gather/wmic_command",
