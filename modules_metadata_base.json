@@ -37518,7 +37518,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-21 10:45:08 +0000",
+    "mod_time": "2026-06-02 17:22:45 +0000",
     "path": "/modules/auxiliary/scanner/http/gitlab_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/gitlab_version",
