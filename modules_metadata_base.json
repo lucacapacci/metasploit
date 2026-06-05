@@ -1378,7 +1378,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-21 08:32:40 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/hp/hp_data_protector_cmd.rb",
     "is_install_path": true,
     "ref_name": "admin/hp/hp_data_protector_cmd",
@@ -1966,6 +1966,7 @@
     "description": "This module exploits an improper access control vulnerability in Cisco Smart Software Manager (SSM) On-Prem <= 8-202206. An unauthenticated remote attacker\n          can change the password of any existing user, including administrative users.",
     "references": [
       "CVE-2024-20419",
+      "EDB-52155",
       "URL-https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cssm-auth-sLw3uhUy#vp",
       "URL-https://www.0xpolar.com/blog/CVE-2024-20419"
     ],
@@ -1988,7 +1989,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-15 11:57:01 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/auxiliary/admin/http/cisco_ssm_onprem_account.rb",
     "is_install_path": true,
     "ref_name": "admin/http/cisco_ssm_onprem_account",
@@ -2045,7 +2046,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/cnpilot_r_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "admin/http/cnpilot_r_cmd_exec",
@@ -2099,7 +2100,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/cnpilot_r_fpt.rb",
     "is_install_path": true,
     "ref_name": "admin/http/cnpilot_r_fpt",
@@ -2154,7 +2155,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/contentkeeper_fileaccess.rb",
     "is_install_path": true,
     "ref_name": "admin/http/contentkeeper_fileaccess",
@@ -2212,7 +2213,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/dlink_dir_300_600_exec_noauth.rb",
     "is_install_path": true,
     "ref_name": "admin/http/dlink_dir_300_600_exec_noauth",
@@ -2268,7 +2269,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/dlink_dir_645_password_extractor.rb",
     "is_install_path": true,
     "ref_name": "admin/http/dlink_dir_645_password_extractor",
@@ -2323,7 +2324,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/dlink_dsl320b_password_extractor.rb",
     "is_install_path": true,
     "ref_name": "admin/http/dlink_dsl320b_password_extractor",
@@ -2416,6 +2417,8 @@
     "description": "This auxiliary module exploits an authentication bypass via path traversal vulnerability in the Fortinet\n          FortiWeb management interface to create a new local administrator user account. This vulnerability affects the\n          following versions:\n\n          * FortiWeb 8.0.0 through 8.0.1 (Patched in 8.0.2 and above)\n          * FortiWeb 7.6.0 through 7.6.4 (Patched in 7.6.5 and above)\n          * FortiWeb 7.4.0 through 7.4.9 (Patched in 7.4.10 and above)\n          * FortiWeb 7.2.0 through 7.2.11 (Patched in 7.2.12 and above)\n          * FortiWeb 7.0.0 through 7.0.11 (Patched in 7.0.12 and above)",
     "references": [
       "CVE-2025-64446",
+      "EDB-52495",
+      "EDB-52502",
       "URL-https://x.com/defusedcyber/status/1975242250373517373",
       "URL-https://github.com/watchtowrlabs/watchTowr-vs-Fortiweb-AuthBypass",
       "URL-https://www.pwndefend.com/2025/11/13/suspected-fortinet-zero-day-exploited-in-the-wild/",
@@ -2441,7 +2444,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-15 11:57:01 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/auxiliary/admin/http/fortinet_fortiweb_create_admin.rb",
     "is_install_path": true,
     "ref_name": "admin/http/fortinet_fortiweb_create_admin",
@@ -3073,7 +3076,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/iomega_storcenterpro_sessionid.rb",
     "is_install_path": true,
     "ref_name": "admin/http/iomega_storcenterpro_sessionid",
@@ -3609,7 +3612,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/linksys_e1500_e2500_exec.rb",
     "is_install_path": true,
     "ref_name": "admin/http/linksys_e1500_e2500_exec",
@@ -5325,7 +5328,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/telpho10_credential_dump.rb",
     "is_install_path": true,
     "ref_name": "admin/http/telpho10_credential_dump",
@@ -5477,7 +5480,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/tomcat_utf8_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/http/tomcat_utf8_traversal",
@@ -5536,7 +5539,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/trendmicro_dlp_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/http/trendmicro_dlp_traversal",
@@ -5647,7 +5650,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_sa_2009_001.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_sa_2009_001",
@@ -5765,7 +5768,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_sa_2010_020.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_sa_2010_020",
@@ -5818,7 +5821,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_winstaller_default_enc_keys.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_winstaller_default_enc_keys",
@@ -6717,7 +6720,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/http/zyxel_admin_password_extractor.rb",
     "is_install_path": true,
     "ref_name": "admin/http/zyxel_admin_password_extractor",
@@ -7805,7 +7808,7 @@
       "sybase"
     ],
     "targets": null,
-    "mod_time": "2025-05-17 13:21:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/mssql/mssql_enum_domain_accounts.rb",
     "is_install_path": true,
     "ref_name": "admin/mssql/mssql_enum_domain_accounts",
@@ -7911,7 +7914,7 @@
       "sybase"
     ],
     "targets": null,
-    "mod_time": "2025-05-17 13:21:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/mssql/mssql_enum_sql_logins.rb",
     "is_install_path": true,
     "ref_name": "admin/mssql/mssql_enum_sql_logins",
@@ -7963,7 +7966,7 @@
       "sybase"
     ],
     "targets": null,
-    "mod_time": "2025-05-17 13:21:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/mssql/mssql_escalate_dbowner.rb",
     "is_install_path": true,
     "ref_name": "admin/mssql/mssql_escalate_dbowner",
@@ -8070,7 +8073,7 @@
       "sybase"
     ],
     "targets": null,
-    "mod_time": "2025-05-17 13:21:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/mssql/mssql_escalate_execute_as.rb",
     "is_install_path": true,
     "ref_name": "admin/mssql/mssql_escalate_execute_as",
@@ -8238,7 +8241,7 @@
       "sybase"
     ],
     "targets": null,
-    "mod_time": "2025-05-17 13:21:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/mssql/mssql_findandsampledata.rb",
     "is_install_path": true,
     "ref_name": "admin/mssql/mssql_findandsampledata",
@@ -9090,7 +9093,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-18 00:49:03 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/networking/cisco_secure_acs_bypass.rb",
     "is_install_path": true,
     "ref_name": "admin/networking/cisco_secure_acs_bypass",
@@ -10012,7 +10015,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-28 00:10:48 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/oracle/sid_brute.rb",
     "is_install_path": true,
     "ref_name": "admin/oracle/sid_brute",
@@ -10048,7 +10051,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-28 00:10:48 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/oracle/tnscmd.rb",
     "is_install_path": true,
     "ref_name": "admin/oracle/tnscmd",
@@ -10132,7 +10135,7 @@
       "postgres"
     ],
     "targets": null,
-    "mod_time": "2025-05-21 08:32:40 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/postgres/postgres_readfile.rb",
     "is_install_path": true,
     "ref_name": "admin/postgres/postgres_readfile",
@@ -10179,7 +10182,7 @@
       "postgres"
     ],
     "targets": null,
-    "mod_time": "2025-05-21 08:32:40 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/postgres/postgres_sql.rb",
     "is_install_path": true,
     "ref_name": "admin/postgres/postgres_sql",
@@ -10495,7 +10498,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-21 08:32:40 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/sap/sap_configservlet_exec_noauth.rb",
     "is_install_path": true,
     "ref_name": "admin/sap/sap_configservlet_exec_noauth",
@@ -10614,7 +10617,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-21 08:32:40 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/sap/sap_mgmt_con_osexec.rb",
     "is_install_path": true,
     "ref_name": "admin/sap/sap_mgmt_con_osexec",
@@ -10716,7 +10719,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-26 20:49:19 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/scada/ge_proficy_substitute_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/ge_proficy_substitute_traversal",
@@ -10803,7 +10806,7 @@
       "ftp"
     ],
     "targets": null,
-    "mod_time": "2026-04-15 11:57:01 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/scada/modicon_password_recovery.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/modicon_password_recovery",
@@ -10844,7 +10847,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-26 20:49:19 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/scada/modicon_stux_transfer.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/modicon_stux_transfer",
@@ -10931,7 +10934,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-26 20:49:19 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/scada/multi_cip_command.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/multi_cip_command",
@@ -11869,7 +11872,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-21 08:32:40 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/admin/tftp/tftp_transfer_util.rb",
     "is_install_path": true,
     "ref_name": "admin/tftp/tftp_transfer_util",
@@ -13986,7 +13989,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/cisco/ios_telnet_rocem.rb",
     "is_install_path": true,
     "ref_name": "dos/cisco/ios_telnet_rocem",
@@ -14321,7 +14324,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/3com_superstack_switch.rb",
     "is_install_path": true,
     "ref_name": "dos/http/3com_superstack_switch",
@@ -14476,7 +14479,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-08-01 10:48:54 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/apache_range_dos.rb",
     "is_install_path": true,
     "ref_name": "dos/http/apache_range_dos",
@@ -14530,7 +14533,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/apache_tomcat_transfer_encoding.rb",
     "is_install_path": true,
     "ref_name": "dos/http/apache_tomcat_transfer_encoding",
@@ -14695,7 +14698,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/canon_wireless_printer.rb",
     "is_install_path": true,
     "ref_name": "dos/http/canon_wireless_printer",
@@ -14936,7 +14939,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/hashcollision_dos.rb",
     "is_install_path": true,
     "ref_name": "dos/http/hashcollision_dos",
@@ -15130,7 +15133,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/metasploit_httphandler_dos.rb",
     "is_install_path": true,
     "ref_name": "dos/http/metasploit_httphandler_dos",
@@ -15170,7 +15173,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/monkey_headers.rb",
     "is_install_path": true,
     "ref_name": "dos/http/monkey_headers",
@@ -15512,7 +15515,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/sonicwall_ssl_format.rb",
     "is_install_path": true,
     "ref_name": "dos/http/sonicwall_ssl_format",
@@ -15565,7 +15568,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2021-10-21 19:15:30 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/squid_range_dos.rb",
     "is_install_path": true,
     "ref_name": "dos/http/squid_range_dos",
@@ -15781,7 +15784,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/webrick_regex.rb",
     "is_install_path": true,
     "ref_name": "dos/http/webrick_regex",
@@ -15835,7 +15838,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/wordpress_directory_traversal_dos.rb",
     "is_install_path": true,
     "ref_name": "dos/http/wordpress_directory_traversal_dos",
@@ -15891,7 +15894,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-09 00:08:33 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/http/wordpress_long_password_dos.rb",
     "is_install_path": true,
     "ref_name": "dos/http/wordpress_long_password_dos",
@@ -16068,7 +16071,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2023-02-05 12:04:59 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/mirageos/qubes_mirage_firewall_dos.rb",
     "is_install_path": true,
     "ref_name": "dos/mirageos/qubes_mirage_firewall_dos",
@@ -16243,7 +16246,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/misc/memcached.rb",
     "is_install_path": true,
     "ref_name": "dos/misc/memcached",
@@ -16558,7 +16561,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/sap/sap_soap_rfc_eps_delete_file.rb",
     "is_install_path": true,
     "ref_name": "dos/sap/sap_soap_rfc_eps_delete_file",
@@ -16680,7 +16683,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/scada/d20_tftp_overflow.rb",
     "is_install_path": true,
     "ref_name": "dos/scada/d20_tftp_overflow",
@@ -16886,7 +16889,7 @@
       "smtps"
     ],
     "targets": null,
-    "mod_time": "2025-06-02 16:05:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/smtp/sendmail_prescan.rb",
     "is_install_path": true,
     "ref_name": "dos/smtp/sendmail_prescan",
@@ -17013,7 +17016,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/ssl/dtls_fragment_overflow.rb",
     "is_install_path": true,
     "ref_name": "dos/ssl/dtls_fragment_overflow",
@@ -17203,7 +17206,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/tcp/synflood.rb",
     "is_install_path": true,
     "ref_name": "dos/tcp/synflood",
@@ -17246,7 +17249,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/upnp/miniupnpd_dos.rb",
     "is_install_path": true,
     "ref_name": "dos/upnp/miniupnpd_dos",
@@ -18017,7 +18020,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-13 23:28:13 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/windows/http/pi3web_isapi.rb",
     "is_install_path": true,
     "ref_name": "dos/windows/http/pi3web_isapi",
@@ -18146,7 +18149,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-13 23:28:13 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/windows/rdp/ms12_020_maxchannelids.rb",
     "is_install_path": true,
     "ref_name": "dos/windows/rdp/ms12_020_maxchannelids",
@@ -18861,7 +18864,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/dos/wireshark/capwap.rb",
     "is_install_path": true,
     "ref_name": "dos/wireshark/capwap",
@@ -20780,7 +20783,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/gather/apache_rave_creds.rb",
     "is_install_path": true,
     "ref_name": "gather/apache_rave_creds",
@@ -20998,7 +21001,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-01-31 12:49:35 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/gather/argus_dvr_4_lfi_cve_2018_15745.rb",
     "is_install_path": true,
     "ref_name": "gather/argus_dvr_4_lfi_cve_2018_15745",
@@ -21436,6 +21439,7 @@
     "description": "Exploits CVE-2024-46987, an authenticated directory traversal\n          vulnerability in Camaleon CMS versions <= 2.8.0 and 2.9.0",
     "references": [
       "CVE-2024-46987",
+      "EDB-52531",
       "URL-https://securitylab.github.com/advisories/GHSL-2024-182_GHSL-2024-186_Camaleon_CMS/",
       "URL-https://github.com/Goultarde/CVE-2024-46987"
     ],
@@ -21458,7 +21462,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-22 11:52:36 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/auxiliary/gather/camaleon_download_private_file.rb",
     "is_install_path": true,
     "ref_name": "gather/camaleon_download_private_file",
@@ -22042,6 +22046,7 @@
     "description": "This module exploits an Improper Access Vulnerability in Adobe Coldfusion versions prior to version\n          '2023 Update 6' and '2021 Update 12'. The vulnerability allows unauthenticated attackers to request authentication\n          token in the form of a UUID from the /CFIDE/adminapi/_servermanager/servermanager.cfc endpoint. Using that\n          UUID attackers can hit the /pms endpoint in order to exploit the Arbitrary File Read Vulnerability.",
     "references": [
       "CVE-2024-20767",
+      "EDB-52387",
       "URL-https://helpx.adobe.com/security/products/coldfusion/apsb24-14.html",
       "URL-https://jeva.cc/2973.html"
     ],
@@ -22064,7 +22069,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-05-02 09:47:22 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/auxiliary/gather/coldfusion_pms_servlet_file_read.rb",
     "is_install_path": true,
     "ref_name": "gather/coldfusion_pms_servlet_file_read",
@@ -22396,7 +22401,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-15 11:57:01 +0000",
+    "mod_time": "2026-06-05 11:39:07 +0000",
     "path": "/modules/auxiliary/gather/cve_2021_27850_apache_tapestry_hmac_key.rb",
     "is_install_path": true,
     "ref_name": "gather/cve_2021_27850_apache_tapestry_hmac_key",
@@ -24372,7 +24377,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/gather/impersonate_ssl.rb",
     "is_install_path": true,
     "ref_name": "gather/impersonate_ssl",
@@ -24603,7 +24608,8 @@
       "URL-https://github.com/binganao/CVE-2024-23897",
       "URL-https://github.com/h4x0r-dz/CVE-2024-23897",
       "URL-https://github.com/Vozec/CVE-2024-23897",
-      "CVE-2024-23897"
+      "CVE-2024-23897",
+      "EDB-51993"
     ],
     "platform": "",
     "arch": "",
@@ -24624,7 +24630,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-03-28 15:54:58 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/auxiliary/gather/jenkins_cli_ampersand_arbitrary_file_read.rb",
     "is_install_path": true,
     "ref_name": "gather/jenkins_cli_ampersand_arbitrary_file_read",
@@ -26767,7 +26773,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-03-28 01:55:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/gather/osticket_arbitrary_file_read.rb",
     "is_install_path": true,
     "ref_name": "gather/osticket_arbitrary_file_read",
@@ -28389,6 +28395,7 @@
     "description": "This module exploits an unauthenticated file read vulnerability, due to directory traversal, affecting\n          SolarWinds Serv-U FTP Server 15.4, Serv-U Gateway 15.4, and Serv-U MFT Server 15.4. All versions prior to\n          the vendor supplied hotfix \"15.4.2 Hotfix 2\" (version 15.4.2.157) are affected.",
     "references": [
       "CVE-2024-28995",
+      "EDB-52311",
       "URL-http://web.archive.org/web/20250213123538/https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28995",
       "URL-https://attackerkb.com/topics/2k7UrkHyl3/cve-2024-28995/rapid7-analysis"
     ],
@@ -28411,7 +28418,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-15 11:57:01 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/auxiliary/gather/solarwinds_servu_fileread_cve_2024_28995.rb",
     "is_install_path": true,
     "ref_name": "gather/solarwinds_servu_fileread_cve_2024_28995",
@@ -28814,7 +28821,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/gather/trackit_sql_domain_creds.rb",
     "is_install_path": true,
     "ref_name": "gather/trackit_sql_domain_creds",
@@ -29374,6 +29381,7 @@
     "description": "The Slider & Popup Builder by Depicter plugin for WordPress <= 3.6.1\n          is vulnerable to unauthenticated SQL injection via the 's' parameter\n          in admin-ajax.php.",
     "references": [
       "CVE-2025-2011",
+      "EDB-52285",
       "WPVDB-6f894272-3eb6-4595-ae00-1c4b0c0b6564",
       "URL-https://cloud.projectdiscovery.io/library/CVE-2025-2011",
       "URL-https://plugins.trac.wordpress.org/browser/depicter/trunk/app/src/Controllers/Ajax/LeadsAjaxController.php?rev=3156664#L179"
@@ -29397,7 +29405,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-22 11:52:36 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/auxiliary/gather/wp_depicter_sqli_cve_2025_2011.rb",
     "is_install_path": true,
     "ref_name": "gather/wp_depicter_sqli_cve_2025_2011",
@@ -29662,7 +29670,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/gather/xbmc_traversal.rb",
     "is_install_path": true,
     "ref_name": "gather/xbmc_traversal",
@@ -29894,7 +29902,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2023-02-03 18:12:53 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/gather/zookeeper_info_disclosure.rb",
     "is_install_path": true,
     "ref_name": "gather/zookeeper_info_disclosure",
@@ -30147,7 +30155,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-23 00:47:48 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/afp/afp_server_info.rb",
     "is_install_path": true,
     "ref_name": "scanner/afp/afp_server_info",
@@ -30294,7 +30302,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-23 00:27:45 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/chargen/chargen_probe.rb",
     "is_install_path": true,
     "ref_name": "scanner/chargen/chargen_probe",
@@ -30399,7 +30407,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-24 14:17:49 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/couchdb/couchdb_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/couchdb/couchdb_login",
@@ -30479,7 +30487,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-24 14:23:30 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/db2/db2_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/db2/db2_version",
@@ -31424,7 +31432,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/finger/finger_users.rb",
     "is_install_path": true,
     "ref_name": "scanner/finger/finger_users",
@@ -31658,7 +31666,7 @@
       "ftp"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/ftp/ftp_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/ftp/ftp_login",
@@ -31931,7 +31939,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/h323/h323_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/h323/h323_version",
@@ -32094,7 +32102,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/adobe_xml_inject.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/adobe_xml_inject",
@@ -32255,7 +32263,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/apache_activemq_source_disclosure.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/apache_activemq_source_disclosure",
@@ -32314,7 +32322,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/apache_activemq_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/apache_activemq_traversal",
@@ -32834,7 +32842,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-16 16:27:36 +0000",
     "path": "/modules/auxiliary/scanner/http/atlassian_crowd_fileaccess.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/atlassian_crowd_fileaccess",
@@ -33173,7 +33181,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/binom3_login_config_pass_dump.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/binom3_login_config_pass_dump",
@@ -33608,7 +33616,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/canon_wireless.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/canon_wireless",
@@ -34069,7 +34077,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/cisco_device_manager.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/cisco_device_manager",
@@ -34295,7 +34303,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/cisco_ios_auth_bypass.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/cisco_ios_auth_bypass",
@@ -34348,7 +34356,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/cisco_ironport_enum.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/cisco_ironport_enum",
@@ -34404,7 +34412,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/cisco_nac_manager_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/cisco_nac_manager_traversal",
@@ -34789,7 +34797,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/cnpilot_r_web_login_loot.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/cnpilot_r_web_login_loot",
@@ -35543,7 +35551,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/dlink_user_agent_backdoor.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/dlink_user_agent_backdoor",
@@ -35704,7 +35712,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-22 11:52:36 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/dolibarr_16_contact_dump.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/dolibarr_16_contact_dump",
@@ -36189,7 +36197,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/epmp1000_dump_config.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/epmp1000_dump_config",
@@ -36246,7 +36254,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-09-08 17:30:59 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/epmp1000_dump_hashes.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/epmp1000_dump_hashes",
@@ -36302,7 +36310,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/epmp1000_get_chart_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/epmp1000_get_chart_cmd_exec",
@@ -36359,7 +36367,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/epmp1000_ping_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/epmp1000_ping_cmd_exec",
@@ -36415,7 +36423,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/epmp1000_reset_pass.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/epmp1000_reset_pass",
@@ -37263,7 +37271,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/gavazzi_em_login_loot.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/gavazzi_em_login_loot",
@@ -37732,7 +37740,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-22 11:52:36 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/grafana_plugin_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/grafana_plugin_traversal",
@@ -37786,7 +37794,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-02-23 10:43:35 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/graphql_introspection_scanner.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/graphql_introspection_scanner",
@@ -37843,7 +37851,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/groupwise_agents_http_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/groupwise_agents_http_traversal",
@@ -37900,7 +37908,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/host_header_injection.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/host_header_injection",
@@ -37959,7 +37967,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/hp_imc_bims_downloadservlet_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/hp_imc_bims_downloadservlet_traversal",
@@ -38018,7 +38026,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/hp_imc_faultdownloadservlet_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/hp_imc_faultdownloadservlet_traversal",
@@ -38077,7 +38085,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/hp_imc_ictdownloadservlet_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/hp_imc_ictdownloadservlet_traversal",
@@ -38136,7 +38144,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/hp_imc_reportimgservlt_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/hp_imc_reportimgservlt_traversal",
@@ -38718,7 +38726,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/http_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/http_traversal",
@@ -39169,7 +39177,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/infovista_enum.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/infovista_enum",
@@ -39318,7 +39326,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/jboss_status.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/jboss_status",
@@ -39368,7 +39376,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/jboss_vulnscan",
@@ -39692,7 +39700,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/joomla_bruteforce_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/joomla_bruteforce_login",
@@ -40200,7 +40208,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/linksys_e1500_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/linksys_e1500_traversal",
@@ -40412,7 +40420,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/majordomo2_directory_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/majordomo2_directory_traversal",
@@ -40732,7 +40740,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/meteocontrol_weblog_extractadmin.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/meteocontrol_weblog_extractadmin",
@@ -40898,7 +40906,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/ms09_020_webdav_unicode_bypass.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/ms09_020_webdav_unicode_bypass",
@@ -41062,7 +41070,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-12-11 18:57:18 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/nable_ncentral_auth_bypass_xxe.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/nable_ncentral_auth_bypass_xxe",
@@ -41119,7 +41127,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2022-02-05 18:21:18 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/nagios_xi_scanner.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/nagios_xi_scanner",
@@ -41956,7 +41964,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/oracle_demantra_file_retrieval.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/oracle_demantra_file_retrieval",
@@ -42536,7 +42544,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/rails_json_yaml_scanner.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/rails_json_yaml_scanner",
@@ -42648,7 +42656,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/rails_xml_yaml_scanner.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/rails_xml_yaml_scanner",
@@ -42840,7 +42848,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/rewrite_proxy_bypass.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/rewrite_proxy_bypass",
@@ -42883,7 +42891,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/rfcode_reader_enum.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/rfcode_reader_enum",
@@ -43179,7 +43187,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/sap_businessobjects_user_brute.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/sap_businessobjects_user_brute",
@@ -43225,7 +43233,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/sap_businessobjects_user_brute_web.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/sap_businessobjects_user_brute_web",
@@ -43270,7 +43278,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/sap_businessobjects_user_enum.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/sap_businessobjects_user_enum",
@@ -43315,7 +43323,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/sap_businessobjects_version_enum.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/sap_businessobjects_version_enum",
@@ -43401,7 +43409,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/sentry_cdu_enum.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/sentry_cdu_enum",
@@ -43510,7 +43518,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/sevone_enum.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/sevone_enum",
@@ -44943,6 +44951,7 @@
     "description": "This module exploits an authentication bypass vulnerability in Telerik Report Server versions 10.0.24.305 and\n          prior which allows an unauthenticated attacker to create a new account with administrative privileges. The\n          vulnerability leverages the initial setup page which is still accessible once the setup process has completed.\n\n          If either USERNAME or PASSWORD are not specified, then a random value will be selected. The module will fail if\n          the specified USERNAME already exists.",
     "references": [
       "CVE-2024-4358",
+      "EDB-52103",
       "URL-https://summoning.team/blog/progress-report-server-rce-cve-2024-4358-cve-2024-1800/"
     ],
     "platform": "",
@@ -44964,7 +44973,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-06-07 11:27:42 +0000",
+    "mod_time": "2026-06-03 06:46:27 +0000",
     "path": "/modules/auxiliary/scanner/http/telerik_report_server_auth_bypass.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/telerik_report_server_auth_bypass",
@@ -45245,7 +45254,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/tomcat_mgr_login",
@@ -45366,7 +45375,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/tplink_traversal_noauth.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/tplink_traversal_noauth",
@@ -45413,7 +45422,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-30 16:35:21 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/trace.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/trace",
@@ -47392,6 +47401,7 @@
     "description": "The LearnPress WordPress LMS Plugin up to version 4.2.7 is vulnerable to SQL injection via\n          the 'c_only_fields' and 'c_fields' parameters. This allows unauthenticated attackers to exploit blind SQL injections\n          and extract sensitive information.",
     "references": [
       "CVE-2024-8522",
+      "EDB-52171",
       "CVE-2024-8529",
       "URL-https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/learnpress/learnpress-wordpress-lms-plugin-427-unauthenticated-sql-injection-via-c-only-fields",
       "URL-https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/learnpress/learnpress-wordpress-lms-plugin-427-unauthenticated-sql-injection-via-c-fields"
@@ -47415,7 +47425,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-10-02 18:03:19 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/auxiliary/scanner/http/wp_learnpress_c_fields_sqli.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/wp_learnpress_c_fields_sqli",
@@ -48811,7 +48821,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/zenworks_assetmanagement_fileaccess.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/zenworks_assetmanagement_fileaccess",
@@ -48867,7 +48877,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/http/zenworks_assetmanagement_getconfig.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/zenworks_assetmanagement_getconfig",
@@ -49629,7 +49639,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/misc/cctv_dvr_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/cctv_dvr_login",
@@ -49894,7 +49904,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/misc/dvr_config_disclosure.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/dvr_config_disclosure",
@@ -50037,7 +50047,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/misc/ibm_mq_channel_brute.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/ibm_mq_channel_brute",
@@ -50107,7 +50117,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/misc/ibm_mq_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/ibm_mq_login",
@@ -50141,7 +50151,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/misc/java_jmx_server.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/java_jmx_server",
@@ -50176,7 +50186,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/misc/java_rmi_server.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/java_rmi_server",
@@ -50279,7 +50289,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/misc/raysharp_dvr_passwords.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/raysharp_dvr_passwords",
@@ -51130,7 +51140,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/mysql/mysql_authbypass_hashdump.rb",
     "is_install_path": true,
     "ref_name": "scanner/mysql/mysql_authbypass_hashdump",
@@ -51229,7 +51239,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/mysql/mysql_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/mysql/mysql_login",
@@ -51301,7 +51311,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/mysql/mysql_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/mysql/mysql_version",
@@ -51759,7 +51769,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-04-22 11:52:36 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/ntp/ntp_nak_to_the_future.rb",
     "is_install_path": true,
     "ref_name": "scanner/ntp/ntp_nak_to_the_future",
@@ -52465,7 +52475,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/oracle/spy_sid.rb",
     "is_install_path": true,
     "ref_name": "scanner/oracle/spy_sid",
@@ -52701,7 +52711,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/pcanywhere/pcanywhere_tcp.rb",
     "is_install_path": true,
     "ref_name": "scanner/pcanywhere/pcanywhere_tcp",
@@ -53019,7 +53029,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/postgres/postgres_dbname_flag_injection.rb",
     "is_install_path": true,
     "ref_name": "scanner/postgres/postgres_dbname_flag_injection",
@@ -53147,7 +53157,7 @@
       "postgres"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/postgres/postgres_schemadump.rb",
     "is_install_path": true,
     "ref_name": "scanner/postgres/postgres_schemadump",
@@ -53185,7 +53195,7 @@
       "postgres"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/postgres/postgres_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/postgres/postgres_version",
@@ -53578,7 +53588,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/printer/printer_upload_file.rb",
     "is_install_path": true,
     "ref_name": "scanner/printer/printer_upload_file",
@@ -54083,7 +54093,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/rservices/rlogin_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/rservices/rlogin_login",
@@ -54116,7 +54126,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/rservices/rsh_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/rservices/rsh_login",
@@ -54229,7 +54239,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_ctc_verb_tampering_user_mgmt.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_ctc_verb_tampering_user_mgmt",
@@ -54287,7 +54297,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_hostctrl_getcomputersystem.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_hostctrl_getcomputersystem",
@@ -54389,7 +54399,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_icm_urlscan.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_icm_urlscan",
@@ -54441,7 +54451,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_abaplog.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_abaplog",
@@ -54548,7 +54558,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-16 16:27:36 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_extractusers.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_extractusers",
@@ -54600,7 +54610,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_getaccesspoints.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_getaccesspoints",
@@ -54652,7 +54662,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_getenv.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_getenv",
@@ -54705,7 +54715,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_getlogfiles.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_getlogfiles",
@@ -54758,7 +54768,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_getprocesslist.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_getprocesslist",
@@ -54810,7 +54820,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_getprocessparameter.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_getprocessparameter",
@@ -54862,7 +54872,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_instanceproperties.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_instanceproperties",
@@ -54915,7 +54925,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_listconfigfiles.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_listconfigfiles",
@@ -54967,7 +54977,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_listlogfiles.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_listlogfiles",
@@ -55019,7 +55029,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_startprofile.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_startprofile",
@@ -55071,7 +55081,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_mgmt_con_version",
@@ -55155,7 +55165,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-09-02 10:05:42 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_router_portscanner.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_router_portscanner",
@@ -55246,7 +55256,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_smb_relay.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_smb_relay",
@@ -55515,7 +55525,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_eps_get_directory_listing.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_soap_rfc_eps_get_directory_listing",
@@ -55569,7 +55579,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_pfl_check_os_file_existence.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_soap_rfc_pfl_check_os_file_existence",
@@ -55726,7 +55736,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_rzl_read_dir.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_soap_rfc_rzl_read_dir",
@@ -55778,7 +55788,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_susr_rfc_user_interface.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_soap_rfc_susr_rfc_user_interface",
@@ -56045,7 +56055,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-28 22:15:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/sap/sap_web_gui_brute_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/sap/sap_web_gui_brute_login",
@@ -56275,7 +56285,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess.rb",
     "is_install_path": true,
     "ref_name": "scanner/scada/indusoft_ntwebserver_fileaccess",
@@ -56308,7 +56318,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/scada/koyo_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/scada/koyo_login",
@@ -57564,7 +57574,7 @@
       "smtps"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/smtp/smtp_enum.rb",
     "is_install_path": true,
     "ref_name": "scanner/smtp/smtp_enum",
@@ -57606,7 +57616,7 @@
       "smtps"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/smtp/smtp_ntlm_domain.rb",
     "is_install_path": true,
     "ref_name": "scanner/smtp/smtp_ntlm_domain",
@@ -58448,7 +58458,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-09-16 18:31:30 +0000",
+    "mod_time": "2026-04-16 16:27:36 +0000",
     "path": "/modules/auxiliary/scanner/ssh/apache_karaf_command_execution.rb",
     "is_install_path": true,
     "ref_name": "scanner/ssh/apache_karaf_command_execution",
@@ -59463,7 +59473,7 @@
       "telnet"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/telnet/satel_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "scanner/telnet/satel_cmd_exec",
@@ -60057,7 +60067,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-26 21:30:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/vmware/esx_fingerprint.rb",
     "is_install_path": true,
     "ref_name": "scanner/vmware/esx_fingerprint",
@@ -60135,7 +60145,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-26 21:30:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/vmware/vmauthd_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/vmware/vmauthd_version",
@@ -60431,7 +60441,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-26 21:30:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/vmware/vmware_http_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/vmware/vmware_http_login",
@@ -60589,7 +60599,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-26 21:30:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/scanner/vmware/vmware_update_manager_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/vmware/vmware_update_manager_traversal",
@@ -64730,7 +64740,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-07 00:47:05 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/auxiliary/voip/asterisk_login.rb",
     "is_install_path": true,
     "ref_name": "voip/asterisk_login",
@@ -68135,7 +68145,7 @@
     "targets": [
       "Apple iOS"
     ],
-    "mod_time": "2025-11-20 11:19:31 +0000",
+    "mod_time": "2026-04-16 16:27:36 +0000",
     "path": "/modules/exploits/apple_ios/ssh/cydia_default_ssh.rb",
     "is_install_path": true,
     "ref_name": "apple_ios/ssh/cydia_default_ssh",
@@ -68966,6 +68976,7 @@
     "description": "This module exploits a command injection vulnerability (CVE-2025-14558)\n          in FreeBSD's rtsol(8) and rtsold(8) programs. These programs do not\n          validate the domain search list options provided in IPv6 Router\n          Advertisement messages; the option body is passed to resolvconf(8)\n          unmodified. resolvconf(8) is a shell script which does not validate\n          its input. A lack of quoting means that shell commands passed as input\n          to resolvconf(8) may be executed, enabling command injection via $()\n          substitution in the DNSSL domain name fields.\n\n          This exploit requires Layer 2 adjacency to the target (same network\n          segment) and root privileges to send raw packets. Router advertisement\n          messages are not routable and should be dropped by routers, so the\n          attack does not cross network boundaries.",
     "references": [
       "CVE-2025-14558",
+      "EDB-52463",
       "URL-https://security.FreeBSD.org/advisories/FreeBSD-SA-25:12.rtsold.asc",
       "URL-https://github.com/JohannesLks/CVE-2025-14558"
     ],
@@ -68977,7 +68988,7 @@
     "targets": [
       "FreeBSD (all versions before 13.5-RELEASE-p8 / 14.3-RELEASE-p7 / 15.0-RELEASE-p1)"
     ],
-    "mod_time": "2026-02-12 13:45:06 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/freebsd/misc/rtsold_dnssl_cmdinject.rb",
     "is_install_path": true,
     "ref_name": "freebsd/misc/rtsold_dnssl_cmdinject",
@@ -70338,7 +70349,8 @@
     "description": "This module exploits CVE-2024-27348 which is a Remote Code Execution (RCE) vulnerability that exists in\n          Apache HugeGraph Server in versions before 1.3.0. An attacker can bypass the sandbox restrictions and achieve\n          RCE through Gremlin, resulting in complete control over the server",
     "references": [
       "URL-https://blog.securelayer7.net/remote-code-execution-in-apache-hugegraph/",
-      "CVE-2024-27348"
+      "CVE-2024-27348",
+      "EDB-52149"
     ],
     "platform": "Linux,Unix",
     "arch": "cmd",
@@ -70361,7 +70373,7 @@
     "targets": [
       "Automatic Target"
     ],
-    "mod_time": "2024-08-13 08:48:33 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/http/apache_hugegraph_gremlin_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/http/apache_hugegraph_gremlin_rce",
@@ -70899,6 +70911,7 @@
     "description": "A Command Injection vulnerability in Artica Proxy appliance version 4.50 and 4.40\n          allows remote attackers to run arbitrary commands via unauthenticated HTTP request.\n          The Artica Proxy administrative web application will deserialize arbitrary PHP objects\n          supplied by unauthenticated users and subsequently enable code execution as the \"www-data\" user.",
     "references": [
       "CVE-2024-2054",
+      "EDB-52146",
       "URL-https://attackerkb.com/topics/q1JUcEJjXZ/cve-2024-2054",
       "PACKETSTORM-177482"
     ],
@@ -70925,7 +70938,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/http/artica_proxy_unauth_rce_cve_2024_2054.rb",
     "is_install_path": true,
     "ref_name": "linux/http/artica_proxy_unauth_rce_cve_2024_2054",
@@ -73205,6 +73218,7 @@
     "description": "This module exploits an unauthenticated remote code execution vulnerability\n          in Craft CMS versions 3.x, 4.x, and 5.x < 5.6.17 via the image transform endpoint.\n          It injects a PHP Meterpreter payload into the Craft session, then triggers its execution\n          by abusing the Yii behavior gadget chain (PhpManager) on the generate-transform endpoint.\n          Discovered in the wild by Orange Cyberdefense CSIRT and assigned CVE-2025-32432.",
     "references": [
       "CVE-2025-32432",
+      "EDB-52525",
       "URL-https://sensepost.com/blog/2025/investigating-an-in-the-wild-campaign-using-rce-in-craftcms/",
       "URL-https://blog.onyphe.io/en/cve-2025-32432-0day-craft-cms-discovered-by-orange-cyberdefense/"
     ],
@@ -73230,7 +73244,7 @@
       "PHP In-Memory",
       "Unix/Linux Command Shell"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-03 06:46:27 +0000",
     "path": "/modules/exploits/linux/http/craftcms_preauth_rce_cve_2025_32432.rb",
     "is_install_path": true,
     "ref_name": "linux/http/craftcms_preauth_rce_cve_2025_32432",
@@ -73728,7 +73742,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/dlink_command_php_exec_noauth.rb",
     "is_install_path": true,
     "ref_name": "linux/http/dlink_command_php_exec_noauth",
@@ -73909,7 +73923,7 @@
       "CMD",
       "Linux mipsel Payload"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/dlink_diagnostic_exec_noauth.rb",
     "is_install_path": true,
     "ref_name": "linux/http/dlink_diagnostic_exec_noauth",
@@ -73970,7 +73984,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/dlink_dir300_exec_telnet.rb",
     "is_install_path": true,
     "ref_name": "linux/http/dlink_dir300_exec_telnet",
@@ -74091,7 +74105,7 @@
       "CMD",
       "Linux mipsel Payload"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/dlink_dir615_up_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/dlink_dir615_up_exec",
@@ -74389,7 +74403,7 @@
       "CMD",
       "Linux mips Payload"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/dlink_dwl_2600_command_injection.rb",
     "is_install_path": true,
     "ref_name": "linux/http/dlink_dwl_2600_command_injection",
@@ -74637,7 +74651,7 @@
       "Dlink DIR-818 / 822 / 823 / 850 [MIPS]",
       "Dlink DIR-868 (rev. B and C) / 880 / 885 / 890 / 895 [ARM]"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/dlink_hnap_login_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/http/dlink_hnap_login_bof",
@@ -74935,7 +74949,7 @@
     "targets": [
       "Automatic Target"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/dreambox_openpli_shell.rb",
     "is_install_path": true,
     "ref_name": "linux/http/dreambox_openpli_shell",
@@ -76180,6 +76194,8 @@
     "description": "This exploit module exploits an authentication bypass via path traversal vulnerability in the Fortinet\n          FortiWeb management interface to create a new local administrator user account. From there a command\n          injection vulnerability is leveraged to achieve RCE with root privileges.\n\n          The auth bypass CVE-2025-64446 affects the following versions:\n\n          * FortiWeb 8.0.0 through 8.0.1 (Patched in 8.0.2 and above)\n          * FortiWeb 7.6.0 through 7.6.4 (Patched in 7.6.5 and above)\n          * FortiWeb 7.4.0 through 7.4.9 (Patched in 7.4.10 and above)\n          * FortiWeb 7.2.0 through 7.2.11 (Patched in 7.2.12 and above)\n          * FortiWeb 7.0.0 through 7.0.11 (Patched in 7.0.12 and above)\n\n          The command injection CVE-2025-58034 affects the following versions (Note the 7.6 and 7.4 branches are very\n          slightly different when compared to the patch versions for CVE-2025-64446:\n\n          * FortiWeb 8.0.0 through 8.0.1 (Patched in 8.0.2 and above)\n          * FortiWeb 7.6.0 through 7.6.5 (Patched in 7.6.6 and above) <-- slight difference\n          * FortiWeb 7.4.0 through 7.4.10 (Patched in 7.4.11 and above) <-- slight difference\n          * FortiWeb 7.2.0 through 7.2.11 (Patched in 7.2.12 and above)\n          * FortiWeb 7.0.0 through 7.0.11 (Patched in 7.0.12 and above)\n\n          Note: Unsupported versions 6.* are also affected.\n\n          This exploit module has been confirmed to work against 8.0.1, 7.4.8, 6.4.3, and 6.3.9.",
     "references": [
       "CVE-2025-64446",
+      "EDB-52495",
+      "EDB-52502",
       "CVE-2025-58034",
       "URL-https://attackerkb.com/topics/zClpINmLCh/cve-2025-58034/rapid7-analysis",
       "URL-https://x.com/defusedcyber/status/1975242250373517373",
@@ -76211,7 +76227,7 @@
       "FortiWeb 8.x",
       "FortiWeb 7.x and 6.x"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/http/fortinet_fortiweb_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/http/fortinet_fortiweb_rce",
@@ -76414,7 +76430,7 @@
       "CVE-2021-33553 - testcmd.cgi",
       "CVE-2021-33554 - tmpapp.cgi"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/geutebruck_cmdinject_cve_2021_335xx.rb",
     "is_install_path": true,
     "ref_name": "linux/http/geutebruck_cmdinject_cve_2021_335xx",
@@ -76474,7 +76490,7 @@
     "targets": [
       "Automatic Target"
     ],
-    "mod_time": "2025-02-28 11:29:59 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/geutebruck_instantrec_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/http/geutebruck_instantrec_bof",
@@ -76533,7 +76549,7 @@
     "targets": [
       "Automatic Target"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/geutebruck_testaction_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/geutebruck_testaction_exec",
@@ -77522,7 +77538,7 @@
       "HP System Management 7.1.1 - Linux (CentOS)",
       "HP System Management 6.3.0 - Linux (CentOS)"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/hp_system_management.rb",
     "is_install_path": true,
     "ref_name": "linux/http/hp_system_management",
@@ -77698,7 +77714,7 @@
     "targets": [
       "Linux mipsbe Payload"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/huawei_hg532n_cmdinject.rb",
     "is_install_path": true,
     "ref_name": "linux/http/huawei_hg532n_cmdinject",
@@ -77737,6 +77753,7 @@
       "URL-https://github.com/zhblue/hustoj/commit/902bd09e6d0011fe89cd84d4236899314b33101f",
       "URL-https://github.com/zhblue/hustoj/security/advisories/GHSA-xmgg-2rw4-7fxj",
       "CVE-2026-24479",
+      "EDB-52539",
       "CWE-22"
     ],
     "platform": "Linux",
@@ -77760,7 +77777,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-05-12 14:38:14 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/http/hustoj_problem_import_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/http/hustoj_problem_import_rce",
@@ -78722,7 +78739,7 @@
     "targets": [
       "Unix/Linux Command Shell"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/ivanti_connect_secure_stack_overflow_rce_cve_2025_22457.rb",
     "is_install_path": true,
     "ref_name": "linux/http/ivanti_connect_secure_stack_overflow_rce_cve_2025_22457",
@@ -79932,7 +79949,7 @@
       "CMD",
       "Linux mipsel Payload"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/linksys_e1500_apply_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/linksys_e1500_apply_exec",
@@ -80060,7 +80077,7 @@
     "targets": [
       "Linux mipsel Payload"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/linksys_wrt110_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/linksys_wrt110_cmd_exec",
@@ -80122,7 +80139,7 @@
       "CMD",
       "Linux mipsel Payload"
     ],
-    "mod_time": "2025-12-17 17:11:13 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/linksys_wrt160nv2_apply_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/linksys_wrt160nv2_apply_exec",
@@ -80184,7 +80201,7 @@
       "CMD",
       "Linux mipsel Payload"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/linksys_wrt54gl_apply_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/linksys_wrt54gl_apply_exec",
@@ -81083,7 +81100,8 @@
       "URL-https://blog.redteam-pentesting.de/2024/moodle-rce/",
       "URL-https://www.redteam-pentesting.de/en/advisories/rt-sa-2024-009/",
       "URL-https://moodle.org/mod/forum/discuss.php?d=461193",
-      "CVE-2024-43425"
+      "CVE-2024-43425",
+      "EDB-52350"
     ],
     "platform": "Linux",
     "arch": "cmd",
@@ -81106,7 +81124,7 @@
     "targets": [
       "Linux Command"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/http/moodle_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/http/moodle_rce",
@@ -81141,6 +81159,7 @@
     "description": "This module exploits a template injection vulnerability in the MotionEye Frontend.\n\n          MotionEye Frontend versions 0.43.1b4 and prior are vulnerable to OS Command Injection in configuration parameters such as image_file_name.\n          Unsanitized user input is written to MotionEye Frontend configuration files, allowing remote authenticated attackers with admin access to achieve code execution.\n\n          Successful exploitation will result in the command executing as the user running\n          the web server, potentially exposing sensitive data or disrupting survey operations.\n\n          An attacker can execute arbitrary system commands in the context of the user running the web server.",
     "references": [
       "CVE-2025-60787",
+      "EDB-52481",
       "URL-https://github.com/prabhatverma47/motionEye-RCE-through-config-parameter"
     ],
     "platform": "Linux,Unix",
@@ -81164,7 +81183,7 @@
     "targets": [
       "Unix Command"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/http/motioneye_auth_rce_cve_2025_60787.rb",
     "is_install_path": true,
     "ref_name": "linux/http/motioneye_auth_rce_cve_2025_60787",
@@ -82082,7 +82101,7 @@
       "CMD",
       "Linux mipsbe Payload"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/netgear_dgn1000b_setup_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/netgear_dgn1000b_setup_exec",
@@ -82144,7 +82163,7 @@
       "CMD",
       "Linux mipsbe Payload"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/netgear_dgn2200b_pppoe_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/netgear_dgn2200b_pppoe_exec",
@@ -83511,6 +83530,7 @@
       "URL-https://attackerkb.com/topics/JwTzQJuBmn/cve-2024-5910",
       "URL-https://attackerkb.com/topics/ky1MIrne9r/cve-2024-9464",
       "CVE-2024-5910",
+      "EDB-52129",
       "CVE-2024-24809"
     ],
     "platform": "Linux,Unix",
@@ -83534,7 +83554,7 @@
     "targets": [
       "Linux Command"
     ],
-    "mod_time": "2026-04-22 11:55:15 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/http/paloalto_expedition_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/http/paloalto_expedition_rce",
@@ -84228,6 +84248,7 @@
     "description": "This module exploits two vulnerabilities in Palo Alto Networks PAN-OS that\n          allow an unauthenticated attacker to create arbitrarily named files and execute\n          shell commands. Configuration requirements are PAN-OS with GlobalProtect Gateway or\n          GlobalProtect Portal enabled and telemetry collection on (default). Affected versions\n          include < 11.1.0-h3, < 11.1.1-h1, < 11.1.2-h3, < 11.0.2-h4, < 11.0.3-h10, < 11.0.4-h1,\n          < 10.2.5-h6, < 10.2.6-h3, < 10.2.8-h3, and < 10.2.9-h1. Payloads may take up to\n          one hour to execute, depending on how often the telemetry service is set to run.",
     "references": [
       "CVE-2024-3400",
+      "EDB-51996",
       "URL-https://security.paloaltonetworks.com/CVE-2024-3400",
       "URL-https://www.volexity.com/blog/2024/04/12/zero-day-exploitation-of-unauthenticated-remote-code-execution-vulnerability-in-globalprotect-cve-2024-3400/",
       "URL-https://attackerkb.com/topics/SSTk336Tmf/cve-2024-3400/rapid7-analysis"
@@ -84253,7 +84274,7 @@
     "targets": [
       "Default"
     ],
-    "mod_time": "2024-04-18 18:34:18 +0000",
+    "mod_time": "2026-06-03 06:46:27 +0000",
     "path": "/modules/exploits/linux/http/panos_telemetry_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/panos_telemetry_cmd_exec",
@@ -84428,7 +84449,7 @@
     "targets": [
       "PineApp Mail-SeCure 3.70"
     ],
-    "mod_time": "2026-04-22 11:55:15 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/pineapp_ldapsyncnow_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/pineapp_ldapsyncnow_exec",
@@ -84486,7 +84507,7 @@
     "targets": [
       "PineApp Mail-SeCure 3.70"
     ],
-    "mod_time": "2026-04-22 11:55:15 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/pineapp_livelog_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/pineapp_livelog_exec",
@@ -84545,7 +84566,7 @@
     "targets": [
       "PineApp Mail-SeCure 3.70"
     ],
-    "mod_time": "2026-04-22 11:55:15 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/pineapp_test_li_conn_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/pineapp_test_li_conn_exec",
@@ -85248,6 +85269,7 @@
     "references": [
       "CVE-2024-39205",
       "CVE-2024-28397",
+      "EDB-52532",
       "URL-https://github.com/Marven11/CVE-2024-39205-Pyload-RCE",
       "GHSA-w7hq-f2pj-c53g",
       "URL-https://github.com/Marven11/CVE-2024-28397-js2py-Sandbox-Escape"
@@ -85274,7 +85296,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2026-02-09 15:17:23 +0000",
+    "mod_time": "2026-06-03 06:46:27 +0000",
     "path": "/modules/exploits/linux/http/pyload_js2py_cve_2024_39205.rb",
     "is_install_path": true,
     "ref_name": "linux/http/pyload_js2py_cve_2024_39205",
@@ -85522,7 +85544,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/raidsonic_nas_ib5220_exec_noauth.rb",
     "is_install_path": true,
     "ref_name": "linux/http/raidsonic_nas_ib5220_exec_noauth",
@@ -86856,7 +86878,7 @@
     "targets": [
       "Sophos Web Protection Appliance 3.7.0"
     ],
-    "mod_time": "2026-04-22 11:55:15 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/sophos_wpa_sblistpack_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/sophos_wpa_sblistpack_exec",
@@ -86979,7 +87001,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:55:15 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/spark_unauth_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/http/spark_unauth_rce",
@@ -87464,7 +87486,7 @@
     "targets": [
       "Symantec Web Gateway 5.0.2.8"
     ],
-    "mod_time": "2026-04-22 11:55:15 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/symantec_web_gateway_lfi.rb",
     "is_install_path": true,
     "ref_name": "linux/http/symantec_web_gateway_lfi",
@@ -87645,7 +87667,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:55:15 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/symmetricom_syncserver_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/http/symmetricom_syncserver_rce",
@@ -88200,7 +88222,7 @@
       "TP-Link NC200, NC220, NC230, NC250",
       "TP-Link NC260, NC450"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/tp_link_ncxxx_bonjour_command_injection.rb",
     "is_install_path": true,
     "ref_name": "linux/http/tp_link_ncxxx_bonjour_command_injection",
@@ -90112,7 +90134,7 @@
       "Unix In-Memory",
       "Linux Dropper"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/http/wd_mycloud_unauthenticated_cmd_injection.rb",
     "is_install_path": true,
     "ref_name": "linux/http/wd_mycloud_unauthenticated_cmd_injection",
@@ -92611,6 +92633,8 @@
     "description": "CVE-2026-43284 is a Linux kernel page-cache write vulnerability in the IPsec/xfrm\n          subsystem affecting ESP (Encapsulating Security Payload) fragmentation. Dubbed\n          \"DirtyFrag\", the bug allows a local unprivileged user to gain write access to read-only\n          page-cache pages by triggering a race condition in how the kernel handles shared fragments\n          when processing ESP-encapsulated UDP packets. The exploit overwrites a SUID binary on disk\n          to execute an arbitrary payload as root.",
     "references": [
       "CVE-2026-43284",
+      "EDB-52585",
+      "EDB-52591",
       "URL-https://github.com/V4bel/dirtyfrag"
     ],
     "platform": "Linux,Unix",
@@ -92621,7 +92645,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-05-21 11:49:08 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/local/cve_2026_43284_dirty_frag.rb",
     "is_install_path": true,
     "ref_name": "linux/local/cve_2026_43284_dirty_frag",
@@ -92661,6 +92685,8 @@
     "description": "CVE-2026-43500 exploits a memory-corruption vulnerability in the Linux kernel's RxRPC\n          authentication subsystem (rxkad). When a crafted DATA packet is delivered to an AF_RXRPC\n          socket configured with an attacker-controlled rxkad session key, the kernel's\n          rxkad_verify_packet_1() function performs an in-place 8-byte pcbc(fcrypt) decryption\n          directly on the page-cache page referenced by the splice offset. Because the decryption\n          mutates the page in-place without marking it dirty, the corrupted in-memory view is\n          immediately visible to all processes reading from the page cache. This allows a local\n          attacker to corrupt the in-memory contents of a SUID binary and escalate privileges to root.",
     "references": [
       "CVE-2026-43500",
+      "EDB-52585",
+      "EDB-52591",
       "URL-https://github.com/V4bel/dirtyfrag"
     ],
     "platform": "Linux,Unix",
@@ -92671,7 +92697,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-05-21 11:49:08 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/local/cve_2026_43500_dirty_frag.rb",
     "is_install_path": true,
     "ref_name": "linux/local/cve_2026_43500_dirty_frag",
@@ -96959,7 +96985,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 13:20:20 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/misc/hid_discoveryd_command_blink_on_unauth_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/hid_discoveryd_command_blink_on_unauth_rce",
@@ -97194,7 +97220,7 @@
     "targets": [
       "HP VSA 9"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/misc/hp_vsa_login_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/hp_vsa_login_bof",
@@ -99606,7 +99632,7 @@
       "Linux x86",
       "Linux x86_64"
     ],
-    "mod_time": "2025-06-12 21:03:41 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/postgres/postgres_payload.rb",
     "is_install_path": true,
     "ref_name": "linux/postgres/postgres_payload",
@@ -100268,7 +100294,7 @@
     "targets": [
       "Unix Command"
     ],
-    "mod_time": "2026-03-23 12:40:48 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/smtp/barracuda_esg_tarfile_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/smtp/barracuda_esg_tarfile_rce",
@@ -100326,7 +100352,7 @@
     "targets": [
       "Linux x86"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/smtp/exim4_dovecot_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/smtp/exim4_dovecot_exec",
@@ -100559,7 +100585,7 @@
     "targets": [
       "Universal"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/ceragon_fibeair_known_privkey.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/ceragon_fibeair_known_privkey",
@@ -100603,7 +100629,7 @@
     "targets": [
       "Cisco UCS Director < 6.7.2.0"
     ],
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/cisco_ucs_scpuser.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/cisco_ucs_scpuser",
@@ -100647,7 +100673,7 @@
     "targets": [
       "Universal"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/exagrid_known_privkey.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/exagrid_known_privkey",
@@ -100692,7 +100718,7 @@
     "targets": [
       "Universal"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/f5_bigip_known_privkey.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/f5_bigip_known_privkey",
@@ -100779,7 +100805,7 @@
     "targets": [
       "Universal"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/loadbalancerorg_enterprise_known_privkey.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/loadbalancerorg_enterprise_known_privkey",
@@ -100822,7 +100848,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/mercurial_ssh_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/mercurial_ssh_exec",
@@ -100866,7 +100892,7 @@
     "targets": [
       "Micro Focus Operations Bridge Reporter (Linux) versions <= 10.40"
     ],
-    "mod_time": "2024-11-18 17:32:48 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/microfocus_obr_shrboadmin.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/microfocus_obr_shrboadmin",
@@ -100908,7 +100934,7 @@
     "targets": [
       "Universal"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/quantum_dxi_known_privkey.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/quantum_dxi_known_privkey",
@@ -100949,7 +100975,7 @@
     "targets": [
       "Quantum vmPRO 3.1.2"
     ],
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-04-16 16:27:36 +0000",
     "path": "/modules/exploits/linux/ssh/quantum_vmpro_backdoor.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/quantum_vmpro_backdoor",
@@ -100992,7 +101018,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/solarwinds_lem_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/solarwinds_lem_exec",
@@ -101089,7 +101115,7 @@
     "targets": [
       "Symantec Messaging Gateway 9.5"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/symantec_smg_ssh.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/symantec_smg_ssh",
@@ -101132,7 +101158,7 @@
     "targets": [
       "Universal"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/vmware_vdp_known_privkey.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/vmware_vdp_known_privkey",
@@ -101202,7 +101228,7 @@
       "6.10_platform",
       "All"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/vmware_vrni_known_privkey.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/vmware_vrni_known_privkey",
@@ -101249,7 +101275,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 13:20:20 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/linux/ssh/vyos_restricted_shell_privesc.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/vyos_restricted_shell_privesc",
@@ -101282,6 +101308,7 @@
     "description": "The telnetd service from GNU InetUtils is vulnerable to authentication-bypass, tracked as CVE-2026-24061, in\n          versions up to version 2.7. During Telnet authentication the SB byte can be sent to indicate sub-negotiation which\n          allows for the exchange of sub-option parameters after both parties have agreed to enable a specific functional option.\n          Environment variables can be sent as sub-options and it's the USER environment variable which introduces the\n          authentication bypass in this scenario. When the USER environment variable gets sent to the GNU inetutils telnetd\n          service during authentication, the variable gets appended without proper sanitization to an execv call to the\n          /usr/bin/login binary. The login binary has a -f flag which skips authentication for a specific user. So the exploit\n          sets the `USER` environment variable to -f root and the telnetd service responds with a root shell.",
     "references": [
       "CVE-2026-24061",
+      "EDB-52524",
       "URL-https://github.com/DeadlyHollows/CVE-2026-24061-setup",
       "URL-https://www.safebreach.com/blog/safebreach-labs-root-cause-analysis-and-poc-exploit-for-cve-2026-24061/",
       "ATT&CK-T1021"
@@ -101298,7 +101325,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-02-11 08:54:09 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/linux/telnet/gnu_inetutils_auth_bypass.rb",
     "is_install_path": true,
     "ref_name": "linux/telnet/gnu_inetutils_auth_bypass",
@@ -105486,7 +105513,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/activecollab_chat.rb",
     "is_install_path": true,
     "ref_name": "multi/http/activecollab_chat",
@@ -106392,6 +106419,7 @@
       "URL-https://github.com/Mr-xn/CVE-2024-32113",
       "URL-https://xz.aliyun.com/t/14733?time__1311=mqmx9Qwx0WDsd5YK0%3Dai%3Dmd7KbxGupD&alichlgref=https%3A%2F%2Fgithub.com%2FMr-xn%2FCVE-2024-32113",
       "CVE-2024-32113",
+      "EDB-52020",
       "CVE-2024-38856"
     ],
     "platform": "Linux,Unix,Windows",
@@ -106416,7 +106444,7 @@
       "Linux Command",
       "Windows Command"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/apache_ofbiz_forgot_password_directory_traversal.rb",
     "is_install_path": true,
     "ref_name": "multi/http/apache_ofbiz_forgot_password_directory_traversal",
@@ -107386,7 +107414,7 @@
       "Windows Universal",
       "Linux X86"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/axis2_deployer.rb",
     "is_install_path": true,
     "ref_name": "multi/http/axis2_deployer",
@@ -107507,7 +107535,7 @@
     "targets": [
       "Bassmaster <= 1.5.1"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/bassmaster_js_injection.rb",
     "is_install_path": true,
     "ref_name": "multi/http/bassmaster_js_injection",
@@ -107783,7 +107811,8 @@
     "references": [
       "URL-https://karmainsecurity.com/KIS-2024-04",
       "GHSA-7cmj-g5qc-pj88",
-      "CVE-2024-25641"
+      "CVE-2024-25641",
+      "EDB-52225"
     ],
     "platform": "Linux,PHP,Unix,Windows",
     "arch": "php, cmd",
@@ -107808,7 +107837,7 @@
       "Linux Command",
       "Windows Command"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/cacti_package_import_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/cacti_package_import_rce",
@@ -109118,6 +109147,7 @@
     "description": "Exploits CVE-2026-41940, a CRLF injection in cPanel/WHM's cpsrvd daemon\n          that allows unauthenticated remote code execution as root.\n\n          The Basic-auth handler writes the password to the raw session file without\n          stripping newlines. Omitting the ob-part of the session cookie bypasses the\n          encoder, so injected fields land verbatim in the raw file. A subsequent\n          request to /scripts2/listaccts triggers Cpanel::Session::Modify to promote\n          those fields into the authoritative session cache, granting root WHM access.\n\n          RCE uses the WHM JSON API passwd endpoint to set a temporary root password,\n          then delivers the payload over SSH. The password is rotated after exploitation.\n          This module does not restore the original root password.\n\n          Affects all versions after 11.40. Fixed per branch: 11.86.0.41, 11.110.0.97,\n          11.118.0.63, 11.124.0.35, 11.126.0.54, 11.130.0.19, 11.132.0.29, 11.134.0.20,\n          11.136.0.5 (cPanel/WHM) and 136.1.7 (WP2).",
     "references": [
       "CVE-2026-41940",
+      "EDB-52574",
       "URL-https://support.cpanel.net/hc/en-us/articles/40073787579671",
       "URL-https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
       "URL-https://slcyber.io/research-center/high-fidelity-check-for-the-cpanel-authentication-bypass-cve-2026-41940/",
@@ -109144,7 +109174,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-05-18 10:52:42 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/cpanel_whm_auth_bypass_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/cpanel_whm_auth_bypass_rce",
@@ -109755,7 +109785,7 @@
       "Generic (PHP Payload)",
       "Linux x86"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/eaton_nsm_code_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/eaton_nsm_code_exec",
@@ -110095,6 +110125,7 @@
     "description": "This module exploits a vulnerability in Fortra GoAnywhere MFT that allows an unauthenticated attacker to\n          create a new administrator account. This can be leveraged to upload a JSP payload and achieve RCE. GoAnywhere\n          MFT versions 6.x from 6.0.1, and 7.x before 7.4.1 are vulnerable.",
     "references": [
       "CVE-2024-0204",
+      "EDB-52308",
       "URL-https://www.fortra.com/security/advisory/fi-2024-001",
       "URL-https://www.horizon3.ai/cve-2024-0204-fortra-goanywhere-mft-authentication-bypass-deep-dive/"
     ],
@@ -110121,7 +110152,7 @@
       "Linux",
       "Windows"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/fortra_goanywhere_mft_rce_cve_2024_0204.rb",
     "is_install_path": true,
     "ref_name": "multi/http/fortra_goanywhere_mft_rce_cve_2024_0204",
@@ -110317,7 +110348,7 @@
       "Windows Command Shell",
       "Windows Dropper"
     ],
-    "mod_time": "2026-03-27 19:30:47 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/freescout_htaccess_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/freescout_htaccess_rce",
@@ -110542,6 +110573,7 @@
     "description": "This module exploits a command execution via file upload.\n          If GestioIP is configured to use no authentication for admin account,\n          no password is required to exploit the vulnerability. Otherwise, an authenticated\n          user with admin right on the web site is required to exploit.",
     "references": [
       "CVE-2024-48760",
+      "EDB-52204",
       "URL-https://github.com/maxibelino/CVEs/tree/main/CVE-2024-48760"
     ],
     "platform": "Linux",
@@ -110565,7 +110597,7 @@
     "targets": [
       "Linux/unix Command"
     ],
-    "mod_time": "2026-05-14 10:47:45 +0000",
+    "mod_time": "2026-06-03 06:32:04 +0000",
     "path": "/modules/exploits/multi/http/gestioip_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/gestioip_rce",
@@ -112287,7 +112319,7 @@
       "Linux",
       "Unix CMD"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/hyperic_hq_script_console.rb",
     "is_install_path": true,
     "ref_name": "multi/http/hyperic_hq_script_console",
@@ -112383,6 +112415,7 @@
     "description": "Invision Community up to and including version 5.0.6 contains a remote code\n          execution vulnerability in the theme editor's customCss endpoint. By crafting\n          a specially formatted `content` parameter with a `{expression=\"...\"}`\n          construct, arbitrary PHP can be evaluated. This module leverages that flaw\n          to execute payloads or system commands as the webserver user.",
     "references": [
       "CVE-2025-47916",
+      "EDB-52294",
       "URL-https://karmainsecurity.com/KIS-2025-02",
       "URL-https://invisioncommunity.com"
     ],
@@ -112409,7 +112442,7 @@
       "Unix/Linux Command Shell",
       "Windows Command Shell"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-05 12:12:10 +0000",
     "path": "/modules/exploits/multi/http/invision_customcss_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/invision_customcss_rce",
@@ -112503,6 +112536,7 @@
     "description": "This module exploits an unauthenticated remote code execution exploit chain for Ivanti EPMM,\n          tracked as CVE-2025-4427 and CVE-2025-4428. An authentication flaw permits unauthenticated\n          access to an administrator web API endpoint, which allows for code execution via expression\n          language injection. This module executes in the context of the 'tomcat' user. This module\n          should also work on many versions of MobileIron Core (rebranded as Ivanti EPMM).",
     "references": [
       "CVE-2025-4427",
+      "EDB-52421",
       "CVE-2025-4428",
       "URL-https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM?language=en_US",
       "URL-https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428",
@@ -112529,7 +112563,7 @@
     "targets": [
       "Default"
     ],
-    "mod_time": "2025-06-03 13:39:01 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/ivanti_epmm_rce_cve_2025_4427_4428.rb",
     "is_install_path": true,
     "ref_name": "multi/http/ivanti_epmm_rce_cve_2025_4427_4428",
@@ -112846,7 +112880,7 @@
     "targets": [
       "Java Universal"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/jboss_seam_upload_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/jboss_seam_upload_exec",
@@ -112979,7 +113013,7 @@
       "Linux",
       "Unix CMD"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/jenkins_script_console.rb",
     "is_install_path": true,
     "ref_name": "multi/http/jenkins_script_console",
@@ -113137,6 +113171,7 @@
     "description": "This module exploits an authentication bypass vulnerability in JetBrains TeamCity. An unauthenticated\n          attacker can leverage this to access the REST API and create a new administrator access token. This token\n          can be used to upload a plugin which contains a Metasploit payload, allowing the attacker to achieve\n          unauthenticated RCE on the target TeamCity server. On older versions of TeamCity, access tokens do not exist\n          so the exploit will instead create a new administrator account before uploading a plugin. Older version of\n          TeamCity have a debug endpoint (/app/rest/debug/process) that allows for arbitrary commands to be executed,\n          however recent version of TeamCity no longer ship this endpoint, hence why a plugin is leveraged for code\n          execution instead, as this is supported on all versions tested.",
     "references": [
       "CVE-2024-27198",
+      "EDB-52411",
       "URL-https://www.rapid7.com/blog/post/2024/03/04/etr-cve-2024-27198-and-cve-2024-27199-jetbrains-teamcity-multiple-authentication-bypass-vulnerabilities-fixed/",
       "URL-https://blog.jetbrains.com/teamcity/2024/03/teamcity-2023-11-4-is-out/"
     ],
@@ -113165,7 +113200,7 @@
       "Linux Command",
       "Unix Command"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/jetbrains_teamcity_rce_cve_2024_27198.rb",
     "is_install_path": true,
     "ref_name": "multi/http/jetbrains_teamcity_rce_cve_2024_27198",
@@ -113563,6 +113598,8 @@
     "description": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint.\n          A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrary code.",
     "references": [
       "CVE-2025-3248",
+      "EDB-52262",
+      "EDB-52364",
       "URL-https://www.horizon3.ai/attack-research/disclosures/unsafe-at-any-speed-abusing-python-exec-for-unauth-rce-in-langflow-ai/"
     ],
     "platform": "Python",
@@ -113586,7 +113623,7 @@
     "targets": [
       "Python payload"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/langflow_unauth_rce_cve_2025_3248.rb",
     "is_install_path": true,
     "ref_name": "multi/http/langflow_unauth_rce_cve_2025_3248",
@@ -114634,7 +114671,7 @@
       "Windows",
       "Linux"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/manageengine_search_sqli.rb",
     "is_install_path": true,
     "ref_name": "multi/http/manageengine_search_sqli",
@@ -116273,7 +116310,7 @@
       "Windows",
       "Unix"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/netwin_surgeftp_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/netwin_surgeftp_exec",
@@ -116630,7 +116667,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/op5_license.rb",
     "is_install_path": true,
     "ref_name": "multi/http/op5_license",
@@ -116688,7 +116725,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/op5_welcome.rb",
     "is_install_path": true,
     "ref_name": "multi/http/op5_welcome",
@@ -117492,7 +117529,7 @@
       "Unix CMD",
       "Windows"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/orientdb_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/orientdb_exec",
@@ -118888,7 +118925,7 @@
     "targets": [
       "PhpTax 0.8"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-04-16 16:27:36 +0000",
     "path": "/modules/exploits/multi/http/phptax_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/phptax_exec",
@@ -119848,7 +119885,7 @@
     "targets": [
       "Ruby on Rails 4.0.8 July 2, 2014"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/rails_dynamic_render_code_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/rails_dynamic_render_code_exec",
@@ -119907,7 +119944,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/rails_json_yaml_code_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/rails_json_yaml_code_exec",
@@ -120086,7 +120123,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/rails_xml_yaml_code_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/rails_xml_yaml_code_exec",
@@ -120123,6 +120160,7 @@
     "description": "A critical unauthenticated Remote Code Execution (RCE) vulnerability exists in React Server\n          Components (RSC) Flight protocol. The vulnerability allows attackers to achieve prototype\n          pollution during deserialization of RSC payloads by sending specially crafted multipart\n          requests with \"__proto__\", \"constructor\", or \"prototype\" as module names.\n\n          This module supports multiple vulnerable frameworks including Next.js and Waku.",
     "references": [
       "CVE-2025-55182",
+      "EDB-52506",
       "CVE-2025-66478",
       "URL-https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
       "URL-https://gist.github.com/maple3142/48bc9393f45e068cf8c90ab865c0f5f3",
@@ -120152,7 +120190,7 @@
       "Waku - Unix Command",
       "Waku - Windows Command"
     ],
-    "mod_time": "2026-01-08 18:01:14 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/react2shell_unauth_rce_cve_2025_55182.rb",
     "is_install_path": true,
     "ref_name": "multi/http/react2shell_unauth_rce_cve_2025_55182",
@@ -120253,6 +120291,7 @@
     "description": "Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution\n          by authenticated users because the _from parameter in a URL is not validated\n          in program/actions/settings/upload.php, leading to PHP Object Deserialization.\n\n          An attacker can execute arbitrary system commands as the web server.",
     "references": [
       "CVE-2025-49113",
+      "EDB-52324",
       "URL-https://fearsoff.org/research/roundcube"
     ],
     "platform": "Linux,Unix",
@@ -120277,7 +120316,7 @@
       "Linux Dropper",
       "Linux Command"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/roundcube_auth_rce_cve_2025_49113.rb",
     "is_install_path": true,
     "ref_name": "multi/http/roundcube_auth_rce_cve_2025_49113",
@@ -121260,7 +121299,7 @@
       "Unix/Linux Command Shell",
       "Windows Command Shell"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/spip_connect_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/spip_connect_exec",
@@ -121386,7 +121425,7 @@
       "Unix/Linux Command Shell",
       "Windows Command Shell"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/spip_rce_form.rb",
     "is_install_path": true,
     "ref_name": "multi/http/spip_rce_form",
@@ -122581,7 +122620,7 @@
       "Windows",
       "Linux"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/struts_default_action_mapper.rb",
     "is_install_path": true,
     "ref_name": "multi/http/struts_default_action_mapper",
@@ -123606,6 +123645,7 @@
     "description": "This module exploits a Java deserialization vulnerability in Apache\n          Tomcat's session restoration functionality that can be exploited with a partial HTTP PUT request to\n          place an attacker controlled deserialization payload in the <tomcat_root_dir>/webapps/ROOT/ directory.\n\n          For the exploit to succeed, writes must be enabled for the default servlet,\n          and org.apache.catalina.session.PersistentManager must be configured to use\n          org.apache.catalina.session.FileStore.\n\n          Verified working on 10.1.16-1",
     "references": [
       "CVE-2025-24813",
+      "EDB-52134",
       "URL-https://lists.apache.org/thread/j5fkjv2k477os90nczf2v9l61fb0kkgq",
       "URL-https://nvd.nist.gov/vuln/detail/CVE-2025-24813"
     ],
@@ -123631,7 +123671,7 @@
       "Unix Command",
       "Windows Command"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/tomcat_partial_put_deserialization.rb",
     "is_install_path": true,
     "ref_name": "multi/http/tomcat_partial_put_deserialization",
@@ -123877,7 +123917,7 @@
     "targets": [
       "Trend Micro Threat Discovery Appliance 2.6.1062r1"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/trendmicro_threat_discovery_admin_sys_time_cmdi.rb",
     "is_install_path": true,
     "ref_name": "multi/http/trendmicro_threat_discovery_admin_sys_time_cmdi",
@@ -124298,7 +124338,7 @@
       "Unix/Linux Command Shell",
       "Windows Command Shell"
     ],
-    "mod_time": "2026-04-22 11:58:04 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/http/vbulletin_replace_ad_template_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/vbulletin_replace_ad_template_rce",
@@ -125447,6 +125487,7 @@
     "description": "Wing FTP Server allows arbitrary Lua code injection via a NULL-byte (%00) truncation bug (CVE-2025-47812).\n          Supplying <valid-user>%00<lua-payload> as the username makes the C++ authentication routine validate only the prefix,\n          while the full string is written unfiltered into the session file and later executed with root/SYSTEM privileges,\n          leading to Remote Code Execution.",
     "references": [
       "CVE-2025-47812",
+      "EDB-52347",
       "URL-https://www.rcesecurity.com/2025/06/what-the-null-wing-ftp-server-rce-cve-2025-47812/"
     ],
     "platform": "Linux,Unix,Windows",
@@ -125471,7 +125512,7 @@
       "Unix/Linux Command Shell",
       "Windows Command Shell"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/wingftp_null_byte_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/wingftp_null_byte_rce",
@@ -126433,7 +126474,8 @@
     "description": "This module exploits an unauthenticated account takeover vulnerability in LiteSpeed Cache, a Wordpress plugin\n          that currently has around 6 million active installations. In LiteSpeed Cache versions prior to 6.5.0.1, when\n          the Debug Logging feature is enabled, the plugin will log admin cookies to the /wp-content/debug.log endpoint\n          which is accessible without authentication. The Debug Logging feature in the plugin is not enabled by default.\n          The admin cookies found in the debug.log can be used to upload and execute a malicious plugin containing a payload.",
     "references": [
       "URL-https://patchstack.com/articles/critical-account-takeover-vulnerability-patched-in-litespeed-cache-plugin/",
-      "CVE-2024-44000"
+      "CVE-2024-44000",
+      "EDB-52099"
     ],
     "platform": "Linux,PHP,Unix,Windows",
     "arch": "php, cmd",
@@ -126458,7 +126500,7 @@
       "Unix In-Memory",
       "Windows In-Memory"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/wp_litespeed_cookie_theft.rb",
     "is_install_path": true,
     "ref_name": "multi/http/wp_litespeed_cookie_theft",
@@ -127047,6 +127089,7 @@
     "description": "This module exploits an authentication bypass vulnerability in the WordPress Really Simple SSL plugin\n          (versions 9.0.0 to 9.1.1.1). The vulnerability allows bypassing two-factor authentication (2FA) and\n          uploading a plugin to achieve remote code execution (RCE). Note: For the system to be vulnerable,\n          2FA must be enabled on the target site; otherwise, the exploit will not work.",
     "references": [
       "CVE-2024-10924",
+      "EDB-52207",
       "URL-https://github.com/RandomRobbieBF/CVE-2024-10924",
       "URL-https://www.wordfence.com/threat-intel/vulnerabilities/detail/really-simple-security-free-pro-and-pro-multisite-900-9111-authentication-bypass"
     ],
@@ -127073,7 +127116,7 @@
       "Unix In-Memory",
       "Windows In-Memory"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/wp_reallysimplessl_2fa_bypass_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/wp_reallysimplessl_2fa_bypass_rce",
@@ -127291,6 +127334,7 @@
     "references": [
       "CVE-2025-3102",
       "CVE-2025-27007",
+      "EDB-52286",
       "URL-https://github.com/Nxploited/CVE-2025-3102",
       "URL-https://www.wordfence.com/blog/2025/04/100000-wordpress-sites-affected-by-administrative-user-creation-vulnerability-in-suretriggers-wordpress-plugin/",
       "URL-https://patchstack.com/articles/additional-critical-ottokit-formerly-suretriggers-vulnerability-patched?_s_id=cve",
@@ -127319,7 +127363,7 @@
       "Unix In-Memory",
       "Windows In-Memory"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/wp_suretriggers_auth_bypass.rb",
     "is_install_path": true,
     "ref_name": "multi/http/wp_suretriggers_auth_bypass",
@@ -127424,6 +127468,7 @@
     "description": "This module exploits an arbitrary file upload vulnerability in the WordPress WP Time Capsule plugin\n          (versions <= 1.22.21). The vulnerability allows uploading a malicious PHP file to achieve remote\n          code execution (RCE).\n\n          The validation logic in the vulnerable function improperly checks for allowed extensions.\n          If no valid extension is found, the check can be bypassed by using a filename of specific length\n          (e.g., \"00.php\") matching the length of allowed extensions like \".crypt\".",
     "references": [
       "CVE-2024-8856",
+      "EDB-52131",
       "URL-https://hacked.be/posts/CVE-2024-8856",
       "URL-https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/wp-time-capsule/backup-and-staging-by-wp-time-capsule-12221-unauthenticated-arbitrary-file-upload"
     ],
@@ -127450,7 +127495,7 @@
       "Unix/Linux Command Shell",
       "Windows Command Shell"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/wp_time_capsule_file_upload_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/wp_time_capsule_file_upload_rce",
@@ -127906,6 +127951,8 @@
     "description": "This module exploits a template injection vulnerability in the the XWiki Platform.\n          XWiki includes a macro called SolrSearch (defined in Main.SolrSearchMacros) that enables full-text search through the embedded Solr engine.\n          The vulnerability stems from the way this macro evaluates search parameters in Groovy, failing to sanitize or restrict malicious input.\n\n          This vulnerability affects XWiki Platform versions >= 5.3-milestone-2 and < 15.10.11, and versions >= 16.0.0-rc-1 and < 16.4.1.\n          Successful exploitation may result in the remote code execution under the privileges\n          of the web server, potentially exposing sensitive data or disrupting survey operations.\n\n          An attacker can execute arbitrary system commands in the context of the user running the web server.",
     "references": [
       "CVE-2025-24893",
+      "EDB-52136",
+      "EDB-52429",
       "GHSA-rr6p-3pfg-562j"
     ],
     "platform": "Linux,Unix,Windows",
@@ -127930,7 +127977,7 @@
       "Unix Command",
       "Windows Command"
     ],
-    "mod_time": "2026-02-09 15:17:23 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/multi/http/xwiki_unauth_rce_cve_2025_24893.rb",
     "is_install_path": true,
     "ref_name": "multi/http/xwiki_unauth_rce_cve_2025_24893",
@@ -128289,7 +128336,7 @@
       "Windows Universal",
       "Redhat 8"
     ],
-    "mod_time": "2025-12-17 17:11:13 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/ids/snort_dce_rpc.rb",
     "is_install_path": true,
     "ref_name": "multi/ids/snort_dce_rpc",
@@ -128772,7 +128819,7 @@
       "Windows",
       "Linux"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-05 11:39:07 +0000",
     "path": "/modules/exploits/multi/misc/arkeia_agent_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/arkeia_agent_exec",
@@ -129039,6 +129086,59 @@
       ],
       "SideEffects": [
         "unknown-side-effects"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
+  "exploit_multi/misc/clickfix_server": {
+    "name": "ClickFix Server",
+    "fullname": "exploit/multi/misc/clickfix_server",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2023-01-01",
+    "type": "exploit",
+    "author": [
+      "h00die",
+      "boredchilada"
+    ],
+    "description": "This creates a Web Server which hosts a ClickFix type exploit.\n          When a user visits the site they are given instructions on pasting\n          our payload into a run dialog.\n\n          When using a custom html page, please use INSERT_PAYLOAD_HERE as the\n          spot to put the generated payload in.",
+    "references": [
+      "URL-https://www.hhs.gov/sites/default/files/clickfix-attacks-sector-alert-tlpclear.pdf",
+      "URL-https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/",
+      "URL-https://github.com/boredchilada/clickfix-simulator-2025",
+      "URL-https://www.recordedfuture.com/research/clickfix-campaigns-targeting-windows-and-macos"
+    ],
+    "platform": "Linux,Unix,Windows",
+    "arch": "cmd",
+    "rport": null,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "Windows",
+      "Linux"
+    ],
+    "mod_time": "2026-05-08 08:50:24 +0000",
+    "path": "/modules/exploits/multi/misc/clickfix_server.rb",
+    "is_install_path": true,
+    "ref_name": "multi/misc/clickfix_server",
+    "check": false,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "AKA": [
+        "ClickFix",
+        "ClearFake",
+        "Fake Update",
+        "CrashFix"
+      ],
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [],
+      "Reliability": [
+        "repeatable-session",
+        "event-dependent"
       ]
     },
     "session_types": false,
@@ -129396,7 +129496,7 @@
       "HP VSA up to 8.5",
       "HP VSA 9"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/misc/hp_vsa_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/hp_vsa_exec",
@@ -129904,7 +130004,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-05 11:39:07 +0000",
     "path": "/modules/exploits/multi/misc/jboss_remoting_unified_invoker_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/jboss_remoting_unified_invoker_rce",
@@ -129951,7 +130051,7 @@
     "targets": [
       "Legend IRC Bot"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-05 11:39:07 +0000",
     "path": "/modules/exploits/multi/misc/legend_bot_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/legend_bot_exec",
@@ -130276,7 +130376,7 @@
       "Linux (Bash Payload)",
       "Windows (Powershell Payload)"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/misc/osgi_console_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/osgi_console_exec",
@@ -130324,7 +130424,7 @@
     "targets": [
       "pbot"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-05 11:39:07 +0000",
     "path": "/modules/exploits/multi/misc/pbot_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/pbot_exec",
@@ -130468,7 +130568,7 @@
       "Ra1NX / Unix",
       "Ra1NX / Windows"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-05 11:39:07 +0000",
     "path": "/modules/exploits/multi/misc/ra1nx_pubcall_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/ra1nx_pubcall_exec",
@@ -130662,7 +130762,7 @@
     "targets": [
       "w3tw0rk"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-05 11:39:07 +0000",
     "path": "/modules/exploits/multi/misc/w3tw0rk_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/w3tw0rk_exec",
@@ -131163,7 +131263,7 @@
     "targets": [
       "xdh Botnet / LinuxNet perlbot"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-05 11:39:07 +0000",
     "path": "/modules/exploits/multi/misc/xdh_x_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/xdh_x_exec",
@@ -132335,7 +132435,7 @@
       "Linux",
       "Windows Universal"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/sap/sap_mgmt_con_osexec_payload.rb",
     "is_install_path": true,
     "ref_name": "multi/sap/sap_mgmt_con_osexec_payload",
@@ -132393,7 +132493,7 @@
       "Linux",
       "Windows x64"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/sap/sap_soap_rfc_sxpg_call_system_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/sap/sap_soap_rfc_sxpg_call_system_exec",
@@ -132442,7 +132542,7 @@
       "Linux",
       "Windows x64"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/sap/sap_soap_rfc_sxpg_command_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/sap/sap_soap_rfc_sxpg_command_exec",
@@ -132819,7 +132919,7 @@
       "VNC Windows / VBScript CMDStager",
       "VNC Linux / Unix"
     ],
-    "mod_time": "2025-12-17 17:11:13 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/multi/vnc/vnc_keyboard_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/vnc/vnc_keyboard_exec",
@@ -133871,7 +133971,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-04-22 11:59:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/osx/http/remote_for_mac_rce.rb",
     "is_install_path": true,
     "ref_name": "osx/http/remote_for_mac_rce",
@@ -136917,7 +137017,7 @@
     "targets": [
       "CMD"
     ],
-    "mod_time": "2026-04-22 11:59:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/http/epmp1000_get_chart_cmd_shell.rb",
     "is_install_path": true,
     "ref_name": "unix/http/epmp1000_get_chart_cmd_shell",
@@ -136975,7 +137075,7 @@
     "targets": [
       "EPMP"
     ],
-    "mod_time": "2026-04-22 11:59:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/http/epmp1000_ping_cmd_shell.rb",
     "is_install_path": true,
     "ref_name": "unix/http/epmp1000_ping_cmd_shell",
@@ -137034,7 +137134,7 @@
     "targets": [
       "Automatic Target"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/http/freepbx_callmenum.rb",
     "is_install_path": true,
     "ref_name": "unix/http/freepbx_callmenum",
@@ -138596,7 +138696,7 @@
     "targets": [
       "Linux/Unix Command"
     ],
-    "mod_time": "2026-04-22 11:59:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/irc/unreal_ircd_3281_backdoor.rb",
     "is_install_path": true,
     "ref_name": "unix/irc/unreal_ircd_3281_backdoor",
@@ -138986,7 +139086,7 @@
     "targets": [
       "Universal"
     ],
-    "mod_time": "2026-04-22 11:59:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/misc/polycom_hdx_auth_bypass.rb",
     "is_install_path": true,
     "ref_name": "unix/misc/polycom_hdx_auth_bypass",
@@ -139125,7 +139225,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/misc/xerox_mfp.rb",
     "is_install_path": true,
     "ref_name": "unix/misc/xerox_mfp",
@@ -139289,7 +139389,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/smtp/exim4_string_format.rb",
     "is_install_path": true,
     "ref_name": "unix/smtp/exim4_string_format",
@@ -139444,7 +139544,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/smtp/qmail_bash_env_exec.rb",
     "is_install_path": true,
     "ref_name": "unix/smtp/qmail_bash_env_exec",
@@ -139503,7 +139603,7 @@
     "targets": [
       "SonicWall Global Management System Virtual Appliance"
     ],
-    "mod_time": "2026-04-22 11:59:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/sonicwall/sonicwall_xmlrpc_rce.rb",
     "is_install_path": true,
     "ref_name": "unix/sonicwall/sonicwall_xmlrpc_rce",
@@ -139548,7 +139648,7 @@
     "targets": [
       "Universal"
     ],
-    "mod_time": "2026-04-22 11:59:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/ssh/arista_tacplus_shell.rb",
     "is_install_path": true,
     "ref_name": "unix/ssh/arista_tacplus_shell",
@@ -139595,7 +139695,7 @@
     "targets": [
       "vAPV 8.3.2.17 / vxAG 9.2.0.34"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/ssh/array_vxag_vapv_privkey_privesc.rb",
     "is_install_path": true,
     "ref_name": "unix/ssh/array_vxag_vapv_privkey_privesc",
@@ -139643,7 +139743,7 @@
     "targets": [
       "Unix-based Tectia SSH 6.3 or prior"
     ],
-    "mod_time": "2026-04-22 11:59:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/ssh/tectia_passwd_changereq.rb",
     "is_install_path": true,
     "ref_name": "unix/ssh/tectia_passwd_changereq",
@@ -140753,6 +140853,7 @@
       "CVE-2024-51567",
       "CVE-2024-51568",
       "CVE-2024-51378",
+      "EDB-52172",
       "URL-https://dreyand.rs/code/review/2024/10/27/what-are-my-options-cyberpanel-v236-pre-auth-rce",
       "URL-https://refr4g.github.io/posts/cyberpanel-command-injection-vulnerability/",
       "URL-https://github.com/DreyAnd/CyberPanel-RCE",
@@ -140781,7 +140882,7 @@
     "targets": [
       "Unix/Linux Command Shell"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/unix/webapp/cyberpanel_preauth_rce_multi_cve.rb",
     "is_install_path": true,
     "ref_name": "unix/webapp/cyberpanel_preauth_rce_multi_cve",
@@ -143141,7 +143242,7 @@
       "Appliance Nagios XI 2012R1.3 (CentOS 6.x)",
       "Debian 5 (nagios3_3.0.6-4~lenny2_i386.deb)"
     ],
-    "mod_time": "2026-04-22 11:59:12 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/webapp/nagios3_history_cgi.rb",
     "is_install_path": true,
     "ref_name": "unix/webapp/nagios3_history_cgi",
@@ -143198,7 +143299,7 @@
     "targets": [
       "Automatic Target"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/webapp/nagios3_statuswml_ping.rb",
     "is_install_path": true,
     "ref_name": "unix/webapp/nagios3_statuswml_ping",
@@ -143504,7 +143605,7 @@
     "targets": [
       "OpenEMR"
     ],
-    "mod_time": "2026-04-22 11:59:12 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/webapp/openemr_sqli_privesc_upload.rb",
     "is_install_path": true,
     "ref_name": "unix/webapp/openemr_sqli_privesc_upload",
@@ -146429,7 +146530,7 @@
     "targets": [
       "CMD"
     ],
-    "mod_time": "2026-04-22 11:59:12 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/webapp/vicidial_manager_send_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "unix/webapp/vicidial_manager_send_cmd_exec",
@@ -149276,7 +149377,7 @@
       "xterm (Generic)",
       "gnome-terminal (Ubuntu)"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/unix/x11/x11_keyboard_exec.rb",
     "is_install_path": true,
     "ref_name": "unix/x11/x11_keyboard_exec",
@@ -175007,7 +175108,7 @@
     "targets": [
       "Windows XP SP3"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/ftp/ricoh_dl_bof.rb",
     "is_install_path": true,
     "ref_name": "windows/ftp/ricoh_dl_bof",
@@ -175804,6 +175905,7 @@
     "description": "This module exploits the embedded Lua interpreter in the admin web interface for\n          versions 3.0.0 and above. When supplying a specially crafted HTTP POST request\n          an attacker can use os.execute() to execute arbitrary system commands on\n          the target with SYSTEM privileges.",
     "references": [
       "CVE-2025-47812",
+      "EDB-52347",
       "URL-http://www.wftpserver.com",
       "URL-https://www.wftpserver.com/help/ftpserver/index.html?administrator_console.htm"
     ],
@@ -175828,7 +175930,7 @@
     "targets": [
       "Wing FTP Server >= 3.0.0"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/windows/ftp/wing_ftp_admin_exec.rb",
     "is_install_path": true,
     "ref_name": "windows/ftp/wing_ftp_admin_exec",
@@ -177199,7 +177301,7 @@
       "BEA WebLogic 8.1 SP5 - mod_wl_20.so / Apache 2.0 / Windows [XP/2000]",
       "BEA WebLogic 8.1 SP4 - mod_wl_20.so / Apache 2.0 / Windows [XP/2000]"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/http/bea_weblogic_post_bof.rb",
     "is_install_path": true,
     "ref_name": "windows/http/bea_weblogic_post_bof",
@@ -177649,7 +177751,7 @@
     "targets": [
       "Windows XP SP3 English / Cogent DataHub 7.3.0"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/http/cogent_datahub_request_headers_bof.rb",
     "is_install_path": true,
     "ref_name": "windows/http/cogent_datahub_request_headers_bof",
@@ -184825,7 +184927,7 @@
     "targets": [
       "NetDecision 4.5.1 on XP SP3"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/http/netdecision_http_bof.rb",
     "is_install_path": true,
     "ref_name": "windows/http/netdecision_http_bof",
@@ -186001,6 +186103,7 @@
     "description": "This module exploits a PHP CGI argument injection vulnerability affecting PHP in certain configurations\n          on a Windows target. A vulnerable configuration is locale dependant (such as Chinese or Japanese), such that\n          the Unicode best-fit conversion scheme will unexpectedly convert a soft hyphen (0xAD) into a dash (0x2D)\n          character. Additionally a target web server must be configured to run PHP under CGI mode, or directly expose\n          the PHP binary. This issue has been fixed in PHP 8.3.8 (for the 8.3.x branch), 8.2.20 (for the 8.2.x branch),\n          and 8.1.29 (for the 8.1.x branch). PHP 8.0.x and below are end of life and have note received patches.\n\n          XAMPP is vulnerable in a default configuration, and we can target the /php-cgi/php-cgi.exe endpoint. To target\n          an explicit .php endpoint (e.g. /index.php), the server must be configured to run PHP scripts in CGI mode.",
     "references": [
       "CVE-2024-4577",
+      "EDB-52331",
       "URL-https://devco.re/blog/2024/06/06/security-alert-cve-2024-4577-php-cgi-argument-injection-vulnerability-en/",
       "URL-https://labs.watchtowr.com/no-way-php-strikes-again-cve-2024-4577/"
     ],
@@ -186026,7 +186129,7 @@
       "Windows PHP",
       "Windows Command"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/windows/http/php_cgi_arg_injection_rce_cve_2024_4577.rb",
     "is_install_path": true,
     "ref_name": "windows/http/php_cgi_arg_injection_rce_cve_2024_4577",
@@ -186539,6 +186642,7 @@
     "description": "The Rejetto HTTP File Server (HFS) version 2.x is vulnerable to an unauthenticated server side template\n          injection (SSTI) vulnerability. A remote unauthenticated attacker can execute code with the privileges\n          of the user account running the HFS.exe server process. This exploit has been tested to work against version\n          2.4.0 RC7 and 2.3m. The Rejetto HTTP File Server (HFS) version 2.x is no longer supported by the maintainers\n          and no patch is available. Users are recommended to upgrade to newer supported versions.",
     "references": [
       "CVE-2024-23692",
+      "EDB-52102",
       "URL-https://mohemiv.com/all/rejetto-http-file-server-2-3m-unauthenticated-rce/"
     ],
     "platform": "Windows",
@@ -186562,7 +186666,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/windows/http/rejetto_hfs_rce_cve_2024_23692.rb",
     "is_install_path": true,
     "ref_name": "windows/http/rejetto_hfs_rce_cve_2024_23692",
@@ -186671,7 +186775,7 @@
     "targets": [
       "Windows generic"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/http/sap_configservlet_exec_noauth.rb",
     "is_install_path": true,
     "ref_name": "windows/http/sap_configservlet_exec_noauth",
@@ -187234,6 +187338,7 @@
       "CVE-2025-49704",
       "CVE-2025-49706",
       "CVE-2025-53770",
+      "EDB-52405",
       "CVE-2025-53771",
       "URL-https://blog.viettelcybersecurity.com/sharepoint-toolshell/",
       "URL-https://blog.leakix.net/2025/07/using-their-own-weapons-for-defense-a-sharepoint-story/",
@@ -187272,7 +187377,7 @@
     "targets": [
       "Default"
     ],
-    "mod_time": "2025-08-06 15:33:57 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/windows/http/sharepoint_toolpane_rce.rb",
     "is_install_path": true,
     "ref_name": "windows/http/sharepoint_toolpane_rce",
@@ -187614,6 +187719,7 @@
     "description": "This module exploits a .NET deserialization vulnerability in Sitecore Experience Manager (XM) and Experience\n          Platform (XP) 10.4 by injecting a malicious Base64-encoded BinaryFormatter payload into an HTTP header.",
     "references": [
       "CVE-2025-27218",
+      "EDB-52344",
       "URL-https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1003535",
       "URL-https://attackerkb.com/topics/Dyo4zUm2tv/cve-2025-27218"
     ],
@@ -187639,7 +187745,7 @@
       "Windows Command",
       "PowerShell Stager"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-06-02 10:32:30 +0000",
     "path": "/modules/exploits/windows/http/sitecore_xp_cve_2025_27218.rb",
     "is_install_path": true,
     "ref_name": "windows/http/sitecore_xp_cve_2025_27218",
@@ -188008,7 +188114,7 @@
     "targets": [
       "Windows Universal"
     ],
-    "mod_time": "2026-05-26 13:05:42 +0000",
+    "mod_time": "2026-06-05 12:12:10 +0000",
     "path": "/modules/exploits/windows/http/solarwinds_storage_manager_sql.rb",
     "is_install_path": true,
     "ref_name": "windows/http/solarwinds_storage_manager_sql",
@@ -188535,6 +188641,7 @@
     "references": [
       "CVE-2024-1800",
       "CVE-2024-4358",
+      "EDB-52103",
       "URL-https://summoning.team/blog/progress-report-server-rce-cve-2024-4358-cve-2024-1800/"
     ],
     "platform": "Windows",
@@ -188558,7 +188665,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2024-06-06 14:56:33 +0000",
+    "mod_time": "2026-06-03 06:46:27 +0000",
     "path": "/modules/exploits/windows/http/telerik_report_server_deserialization.rb",
     "is_install_path": true,
     "ref_name": "windows/http/telerik_report_server_deserialization",
@@ -197739,7 +197846,7 @@
     "targets": [
       "Windows 2003 (with tftp client available)"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/misc/altiris_ds_sqli.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/altiris_ds_sqli",
@@ -197881,7 +197988,7 @@
       "Avaya WinPMD 3.8.2 / Windows XP SP3",
       "Avaya WinPMD 3.8.2 / Windows 2003 SP2"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/misc/avaya_winpmd_unihostrouter.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/avaya_winpmd_unihostrouter",
@@ -199187,7 +199294,7 @@
       "Enterasys NetSight 4.0.1.34 / Windows XP SP3",
       "Enterasys NetSight 4.0.1.34 / Windows 2003 SP2"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/misc/enterasys_netsight_syslog_bof.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/enterasys_netsight_syslog_bof",
@@ -199284,7 +199391,7 @@
       "Windows FB 2.1.4.18393",
       "Debug"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/misc/fb_cnct_group.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/fb_cnct_group",
@@ -201195,7 +201302,7 @@
       "Lianja SQL 1.0.0RC5.1 / Windows Server 2003 SP1-SP2",
       "Lianja SQL 1.0.0RC5.1 / Windows XP SP3"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/misc/lianja_db_net.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/lianja_db_net",
@@ -201582,7 +201689,7 @@
     "targets": [
       "Windows"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/misc/ncr_cmcagent_rce.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/ncr_cmcagent_rce",
@@ -203080,7 +203187,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/motorola/timbuktu_fileupload.rb",
     "is_install_path": true,
     "ref_name": "windows/motorola/timbuktu_fileupload",
@@ -203506,7 +203613,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/mssql/mssql_linkcrawler.rb",
     "is_install_path": true,
     "ref_name": "windows/mssql/mssql_linkcrawler",
@@ -206195,7 +206302,7 @@
       "Windows x86",
       "Windows x64"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/postgres/postgres_payload.rb",
     "is_install_path": true,
     "ref_name": "windows/postgres/postgres_payload",
@@ -211099,7 +211206,7 @@
       "Sysax 5.53 on Win XP SP3 / Win2k3 SP0",
       "Sysax 5.53 on Win2K3 SP1/SP2"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-04-02 17:30:43 +0000",
     "path": "/modules/exploits/windows/ssh/sysax_ssh_username.rb",
     "is_install_path": true,
     "ref_name": "windows/ssh/sysax_ssh_username",
