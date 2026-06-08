@@ -113137,7 +113137,7 @@
       "Windows",
       "Linux"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-06-06 22:48:55 +0000",
     "path": "/modules/exploits/multi/http/jetbrains_teamcity_rce_cve_2023_42793.rb",
     "is_install_path": true,
     "ref_name": "multi/http/jetbrains_teamcity_rce_cve_2023_42793",
@@ -129183,7 +129183,7 @@
     "targets": [
       "Linux"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-06 22:48:55 +0000",
     "path": "/modules/exploits/multi/misc/consul_rexec_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/consul_rexec_exec",
@@ -129244,7 +129244,7 @@
       "Linux",
       "Windows"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-06 22:48:55 +0000",
     "path": "/modules/exploits/multi/misc/consul_service_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/consul_service_exec",
@@ -130239,7 +130239,7 @@
       "Linux",
       "Windows"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-06 22:48:55 +0000",
     "path": "/modules/exploits/multi/misc/nomad_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/nomad_exec",
@@ -161143,7 +161143,7 @@
     "targets": [
       "Samsung Security Manager 1.32 & 1.4 Universal"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-06-06 22:48:55 +0000",
     "path": "/modules/exploits/windows/browser/samsung_security_manager_put.rb",
     "is_install_path": true,
     "ref_name": "windows/browser/samsung_security_manager_put",
@@ -196697,7 +196697,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:58:46 +0000",
+    "mod_time": "2026-06-06 22:48:55 +0000",
     "path": "/modules/exploits/windows/local/tokenmagic.rb",
     "is_install_path": true,
     "ref_name": "windows/local/tokenmagic",
@@ -296422,7 +296422,7 @@
     "autofilter_ports": null,
     "autofilter_services": null,
     "targets": null,
-    "mod_time": "2023-02-03 18:12:53 +0000",
+    "mod_time": "2026-06-06 22:48:55 +0000",
     "path": "/modules/post/multi/gather/enum_software_versions.rb",
     "is_install_path": true,
     "ref_name": "multi/gather/enum_software_versions",
