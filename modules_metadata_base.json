@@ -11660,7 +11660,7 @@
       "microsoft-ds"
     ],
     "targets": null,
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-04-27 15:15:54 +0000",
     "path": "/modules/auxiliary/admin/smb/samba_symlink_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/smb/samba_symlink_traversal",
@@ -57642,7 +57642,8 @@
     "description": "This module tests if an SMTP server will accept (via a code 250)\n        an e-mail by using a variation of testing methods.\n        Some of the extended methods will try to abuse configuration or mailserver flaws.",
     "references": [
       "URL-http://www.ietf.org/rfc/rfc2821.txt",
-      "URL-https://svn.nmap.org/nmap/scripts/smtp-open-relay.nse"
+      "URL-https://svn.nmap.org/nmap/scripts/smtp-open-relay.nse",
+      "CVE-1999-0512"
     ],
     "platform": "",
     "arch": "",
@@ -57660,7 +57661,7 @@
       "smtps"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-07 22:34:59 +0000",
     "path": "/modules/auxiliary/scanner/smtp/smtp_relay.rb",
     "is_install_path": true,
     "ref_name": "scanner/smtp/smtp_relay",
@@ -125139,7 +125140,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-06-08 15:55:57 +0000",
+    "mod_time": "2026-06-09 14:36:18 +0000",
     "path": "/modules/exploits/multi/http/webdav_upload_php.rb",
     "is_install_path": true,
     "ref_name": "multi/http/webdav_upload_php",
