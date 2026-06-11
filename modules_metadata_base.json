@@ -84297,6 +84297,66 @@
     "session_types": false,
     "needs_cleanup": true
   },
+  "exploit_linux/http/paperclipai_unauth_rce_cve_2026_41679": {
+    "name": "Paperclip AI RCE using a chain of six API calls (CVE-2026-41679).",
+    "fullname": "exploit/linux/http/paperclipai_unauth_rce_cve_2026_41679",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-04-10",
+    "type": "exploit",
+    "author": [
+      "h00die-gr3y <h00die.gr3y@gmail.com>",
+      "Sagilayani https://github.com/sagilayani"
+    ],
+    "description": "Paperclip is the operating system for your AI company.\n          You set the goals, hire AI agents as employees, and watch them plan and execute work.\n          Prior to version 2026.410.0, Paperclip allows for an unauthenticated RCE, tracked as CVE-2026-41679.\n          An unauthenticated attacker can achieve full remote code execution on any network-accessible Paperclip\n          instance running in authenticated mode with default configuration. The entire chain is six API calls.",
+    "references": [
+      "CVE-2026-41679",
+      "GHSA-GHSA-68qg-g8mg-6pr7",
+      "URL-https://attackerkb.com/topics/86rSV7hsXi/cve-2026-41679"
+    ],
+    "platform": "Linux,OSX,Unix",
+    "arch": "cmd",
+    "rport": 3100,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Unix/Linux Command"
+    ],
+    "mod_time": "2026-06-10 20:17:46 +0000",
+    "path": "/modules/exploits/linux/http/paperclipai_unauth_rce_cve_2026_41679.rb",
+    "is_install_path": true,
+    "ref_name": "linux/http/paperclipai_unauth_rce_cve_2026_41679",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
   "exploit_linux/http/peercast_url": {
     "name": "PeerCast URL Handling Buffer Overflow",
     "fullname": "exploit/linux/http/peercast_url",
