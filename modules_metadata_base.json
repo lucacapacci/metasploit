@@ -32789,7 +32789,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 09:30:35 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/appletv_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/appletv_login",
@@ -32934,7 +32934,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/axis_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/axis_login",
@@ -33457,7 +33457,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/buffalo_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/buffalo_login",
@@ -35763,7 +35763,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/dolibarr_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/dolibarr_login",
@@ -37428,7 +37428,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-08-10 12:06:20 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/gitlab_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/gitlab_login",
@@ -39277,7 +39277,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/ipboard_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/ipboard_login",
@@ -41022,7 +41022,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/mybook_live_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/mybook_live_login",
@@ -41565,7 +41565,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/octopusdeploy_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/octopusdeploy_login",
@@ -41798,7 +41798,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-04-02 14:33:27 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/opnsense_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/opnsense_login",
@@ -42215,7 +42215,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-03-28 17:35:10 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/pfsense_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/pfsense_login",
@@ -45254,7 +45254,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/tomcat_mgr_login",
@@ -45608,7 +45608,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/vcms_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/vcms_login",
@@ -46662,7 +46662,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-06-03 22:53:21 +0000",
     "path": "/modules/auxiliary/scanner/http/wordpress_xmlrpc_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/wordpress_xmlrpc_login",
@@ -131815,6 +131815,57 @@
     "session_types": [
       "meterpreter",
       "shell"
+    ],
+    "needs_cleanup": null,
+    "actions": []
+  },
+  "exploit_multi/persistence/vscode_extension": {
+    "name": "VS Code Extension Persistence",
+    "fullname": "exploit/multi/persistence/vscode_extension",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2015-04-29",
+    "type": "exploit",
+    "author": [
+      "h00die"
+    ],
+    "description": "This module installs a malicious VS Code extension into the target's\n          VS Code extensions directory. The extension executes the payload each time\n          VS Code is launched, providing persistent code execution. Supports VS Code,\n          VS Code Insiders, VSCodium, VS Code Server, and Cursor.\n\n          Tested against 1.120.0 on Kali and Windows 10",
+    "references": [
+      "URL-https://code.visualstudio.com/api/get-started/your-first-extension",
+      "ATT&CK-T1546",
+      "ATT&CK-T1176"
+    ],
+    "platform": "Linux,Unix,Windows",
+    "arch": "cmd",
+    "rport": null,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "Windows",
+      "Linux"
+    ],
+    "mod_time": "2026-06-04 13:56:50 +0000",
+    "path": "/modules/exploits/multi/persistence/vscode_extension.rb",
+    "is_install_path": true,
+    "ref_name": "multi/persistence/vscode_extension",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "config-changes"
+      ]
+    },
+    "session_types": [
+      "shell",
+      "meterpreter"
     ],
     "needs_cleanup": null,
     "actions": []
