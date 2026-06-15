@@ -294376,6 +294376,56 @@
     "needs_cleanup": null,
     "actions": []
   },
+  "post_linux/gather/cve_2026_46333_chage": {
+    "name": "Linux Kernel __ptrace_may_access() Exit Race chage File Disclosure",
+    "fullname": "post/linux/gather/cve_2026_46333_chage",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": "2026-05-14",
+    "type": "post",
+    "author": [
+      "0xdeadbeefnetwork",
+      "bhaskarbhar"
+    ],
+    "description": "This module exploits a race condition in the Linux kernel\n          do_exit() teardown path affecting __ptrace_may_access().\n\n          During process termination, privileged file descriptors may\n          remain accessible through pidfd_getfd() after task->mm becomes\n          NULL, allowing sensitive file disclosure from privileged SUID\n          binaries such as chage.\n\n          This module targets chage to disclose /etc/shadow.\n\n          This module performs information disclosure only and does not\n          create a new session.",
+    "references": [
+      "CVE-2026-46333",
+      "URL-https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn"
+    ],
+    "platform": "Linux",
+    "arch": "",
+    "rport": null,
+    "autofilter_ports": null,
+    "autofilter_services": null,
+    "targets": null,
+    "mod_time": "2026-06-04 11:38:35 +0000",
+    "path": "/modules/post/linux/gather/cve_2026_46333_chage.rb",
+    "is_install_path": true,
+    "ref_name": "linux/gather/cve_2026_46333_chage",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "AKA": [
+        "ssh-keysign-pwn"
+      ],
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk"
+      ]
+    },
+    "session_types": [
+      "shell",
+      "meterpreter"
+    ],
+    "needs_cleanup": true,
+    "actions": []
+  },
   "post_linux/gather/ecryptfs_creds": {
     "name": "Gather eCryptfs Metadata",
     "fullname": "post/linux/gather/ecryptfs_creds",
@@ -295002,7 +295052,7 @@
     "autofilter_ports": null,
     "autofilter_services": null,
     "targets": null,
-    "mod_time": "2025-09-16 18:31:30 +0000",
+    "mod_time": "2026-06-04 11:38:35 +0000",
     "path": "/modules/post/linux/gather/hashdump.rb",
     "is_install_path": true,
     "ref_name": "linux/gather/hashdump",
