@@ -127939,6 +127939,67 @@
     "session_types": false,
     "needs_cleanup": true
   },
+  "exploit_multi/http/xerte_unauthenticated_mediaupload": {
+    "name": "Xerte Online Toolkits Arbitrary File Upload - Unauthenticated Media Upload",
+    "fullname": "exploit/multi/http/xerte_unauthenticated_mediaupload",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-04-22",
+    "type": "exploit",
+    "author": [
+      "bootstrapbool <bootstrapbool@gmail.com>"
+    ],
+    "description": "This module bypasses authentication failure, extension blacklist,\n          and path traversal vulnerabilities in the /editor/elfinder/php/connector.php\n          endpoint to upload and execute a shell in Xerte Online Toolkits\n          versions 3.15 (commit 4e40f8030a2e3267267db7ce03e0ff57270be6f5 as\n          there's no patch versions used) and earlier.",
+    "references": [
+      "CVE-2026-34413",
+      "CVE-2026-34414",
+      "CVE-2026-34415",
+      "CVE-2026-41459",
+      "URL-https://github.com/bootstrapbool/xerteonlinetoolkits-rce"
+    ],
+    "platform": "Linux,PHP",
+    "arch": "php",
+    "rport": 80,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "PHP"
+    ],
+    "mod_time": "2026-06-13 16:01:29 +0000",
+    "path": "/modules/exploits/multi/http/xerte_unauthenticated_mediaupload.rb",
+    "is_install_path": true,
+    "ref_name": "multi/http/xerte_unauthenticated_mediaupload",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": true
+  },
   "exploit_multi/http/xerte_unauthenticated_template_import_rce": {
     "name": "Xerte Online Toolkits Arbitrary File Upload - Unauthenticated Template Import",
     "fullname": "exploit/multi/http/xerte_unauthenticated_template_import_rce",
@@ -196015,6 +196076,51 @@
       "Stability": [],
       "SideEffects": [],
       "Reliability": []
+    },
+    "session_types": [
+      "meterpreter"
+    ],
+    "needs_cleanup": null,
+    "actions": []
+  },
+  "exploit_windows/local/ntlm_relay_2_self": {
+    "name": "NTLM Relay to Self (HTTP to LDAP) - Post Exploitation",
+    "fullname": "exploit/windows/local/ntlm_relay_2_self",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": "2001-01-01",
+    "type": "exploit",
+    "author": [
+      "jheysel-r7"
+    ],
+    "description": "This module performs an NTLM relay-to-self privilege escalation attack. It starts an HTTP-to-LDAP\n          relay server on the compromised host, then triggers the WebClient service via an ETW event\n          (allowing a low-privilege user to start it), and coerces the local machine account to authenticate\n          via OpenEncryptedFileRaw to the relay listener over WebDAV.\n\n          The coerced machine account NTLM authentication is relayed to a Domain Controller's LDAP service,\n          where the module writes Shadow Credentials (msDS-KeyCredentialLink) to its own AD object and\n          obtains a Kerberos TGT via PKINIT. The module then performs S4U2Proxy to obtain an impersonating\n          service ticket for Administrator, enabling psexec back to itself for SYSTEM access.\n\n          RUN_GET_TICKET and RUN_PSEXEC are independent toggles. An operator can obtain a ticket without running\n          psexec, run psexec with a previously obtained ticket, or run both sequentially. RUN_PSEXEC defaults to\n          false so the module does not automatically attempt lateral movement.",
+    "references": [],
+    "platform": "Windows",
+    "arch": "x64, x86",
+    "rport": 389,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "Windows"
+    ],
+    "mod_time": "2026-05-07 09:13:00 +0000",
+    "path": "/modules/exploits/windows/local/ntlm_relay_2_self.rb",
+    "is_install_path": true,
+    "ref_name": "windows/local/ntlm_relay_2_self",
+    "check": false,
+    "post_auth": true,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "config-changes"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
     },
     "session_types": [
       "meterpreter"
