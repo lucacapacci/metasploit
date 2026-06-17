@@ -1780,7 +1780,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/admin/http/cfme_manageiq_evm_pass_reset.rb",
     "is_install_path": true,
     "ref_name": "admin/http/cfme_manageiq_evm_pass_reset",
@@ -2382,7 +2382,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/admin/http/foreman_openstack_satellite_priv_esc.rb",
     "is_install_path": true,
     "ref_name": "admin/http/foreman_openstack_satellite_priv_esc",
@@ -3497,7 +3497,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/admin/http/katello_satellite_priv_esc.rb",
     "is_install_path": true,
     "ref_name": "admin/http/katello_satellite_priv_esc",
@@ -4429,7 +4429,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-05-16 01:16:37 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/admin/http/netgear_soap_password_extractor.rb",
     "is_install_path": true,
     "ref_name": "admin/http/netgear_soap_password_extractor",
@@ -5480,7 +5480,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/admin/http/tomcat_utf8_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/http/tomcat_utf8_traversal",
@@ -5539,7 +5539,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/admin/http/trendmicro_dlp_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/http/trendmicro_dlp_traversal",
@@ -5650,7 +5650,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_sa_2009_001.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_sa_2009_001",
@@ -11802,7 +11802,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-21 08:32:40 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/admin/sunrpc/solaris_kcms_readfile.rb",
     "is_install_path": true,
     "ref_name": "admin/sunrpc/solaris_kcms_readfile",
@@ -16031,7 +16031,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/dos/mdns/avahi_portzero.rb",
     "is_install_path": true,
     "ref_name": "dos/mdns/avahi_portzero",
@@ -17095,7 +17095,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/dos/syslog/rsyslog_long_tag.rb",
     "is_install_path": true,
     "ref_name": "dos/syslog/rsyslog_long_tag",
@@ -18060,7 +18060,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-13 23:28:13 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/dos/windows/llmnr/ms11_030_dnsapi.rb",
     "is_install_path": true,
     "ref_name": "dos/windows/llmnr/ms11_030_dnsapi",
@@ -18984,7 +18984,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-15 08:43:24 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/dos/wireshark/ldap.rb",
     "is_install_path": true,
     "ref_name": "dos/wireshark/ldap",
@@ -19281,7 +19281,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/fileformat/odt_badodt.rb",
     "is_install_path": true,
     "ref_name": "fileformat/odt_badodt",
@@ -21412,7 +21412,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/gather/c2s_dvr_password_disclosure.rb",
     "is_install_path": true,
     "ref_name": "gather/c2s_dvr_password_disclosure",
@@ -21558,7 +21558,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/gather/cerberus_helpdesk_hash_disclosure.rb",
     "is_install_path": true,
     "ref_name": "gather/cerberus_helpdesk_hash_disclosure",
@@ -24435,7 +24435,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/gather/ipcamera_password_disclosure.rb",
     "is_install_path": true,
     "ref_name": "gather/ipcamera_password_disclosure",
@@ -30302,7 +30302,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/chargen/chargen_probe.rb",
     "is_install_path": true,
     "ref_name": "scanner/chargen/chargen_probe",
@@ -31215,7 +31215,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-04-22 11:52:36 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/dlsw/dlsw_leak_capture.rb",
     "is_install_path": true,
     "ref_name": "scanner/dlsw/dlsw_leak_capture",
@@ -31355,7 +31355,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/etcd/open_key_scanner.rb",
     "is_install_path": true,
     "ref_name": "scanner/etcd/open_key_scanner",
@@ -31402,7 +31402,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2022-01-23 15:28:32 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/etcd/version.rb",
     "is_install_path": true,
     "ref_name": "scanner/etcd/version",
@@ -31843,7 +31843,7 @@
       "ftp"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ftp/titanftp_xcrc_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/ftp/titanftp_xcrc_traversal",
@@ -33082,7 +33082,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/barracuda_directory_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/barracuda_directory_traversal",
@@ -35551,7 +35551,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/dlink_user_agent_backdoor.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/dlink_user_agent_backdoor",
@@ -36592,7 +36592,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-23 09:30:35 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/es_file_explorer_open_port.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/es_file_explorer_open_port",
@@ -39234,7 +39234,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/intel_amt_digest_bypass.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/intel_amt_digest_bypass",
@@ -40420,7 +40420,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/majordomo2_directory_traversal.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/majordomo2_directory_traversal",
@@ -41384,7 +41384,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/novell_file_reporter_fsfui_fileaccess.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/novell_file_reporter_fsfui_fileaccess",
@@ -41431,7 +41431,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/novell_file_reporter_srs_fileaccess.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/novell_file_reporter_srs_fileaccess",
@@ -42100,7 +42100,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/owa_iis_internal_ip.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/owa_iis_internal_ip",
@@ -43006,7 +43006,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/riverbed_steelhead_vcx_file_read.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/riverbed_steelhead_vcx_file_read",
@@ -43797,7 +43797,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/http/smt_ipmi_static_cert_scanner.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/smt_ipmi_static_cert_scanner",
@@ -49033,7 +49033,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-05-29 16:53:50 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ipmi/ipmi_cipher_zero.rb",
     "is_install_path": true,
     "ref_name": "scanner/ipmi/ipmi_cipher_zero",
@@ -49070,7 +49070,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-05-29 16:55:40 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ipmi/ipmi_dumphashes.rb",
     "is_install_path": true,
     "ref_name": "scanner/ipmi/ipmi_dumphashes",
@@ -49577,7 +49577,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/memcached/memcached_amp.rb",
     "is_install_path": true,
     "ref_name": "scanner/memcached/memcached_amp",
@@ -49609,7 +49609,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/memcached/memcached_udp_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/memcached/memcached_udp_version",
@@ -50151,7 +50151,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/misc/java_jmx_server.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/java_jmx_server",
@@ -50186,7 +50186,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/misc/java_rmi_server.rb",
     "is_install_path": true,
     "ref_name": "scanner/misc/java_rmi_server",
@@ -51140,7 +51140,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/mysql/mysql_authbypass_hashdump.rb",
     "is_install_path": true,
     "ref_name": "scanner/mysql/mysql_authbypass_hashdump",
@@ -51813,7 +51813,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ntp/ntp_peer_list_dos.rb",
     "is_install_path": true,
     "ref_name": "scanner/ntp/ntp_peer_list_dos",
@@ -51847,7 +51847,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ntp/ntp_peer_list_sum_dos.rb",
     "is_install_path": true,
     "ref_name": "scanner/ntp/ntp_peer_list_sum_dos",
@@ -51925,7 +51925,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ntp/ntp_req_nonce_dos.rb",
     "is_install_path": true,
     "ref_name": "scanner/ntp/ntp_req_nonce_dos",
@@ -51959,7 +51959,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ntp/ntp_reslist_dos.rb",
     "is_install_path": true,
     "ref_name": "scanner/ntp/ntp_reslist_dos",
@@ -51993,7 +51993,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ntp/ntp_unsettrap_dos.rb",
     "is_install_path": true,
     "ref_name": "scanner/ntp/ntp_unsettrap_dos",
@@ -56318,7 +56318,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/scada/koyo_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/scada/koyo_login",
@@ -56518,7 +56518,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/scada/modbusdetect.rb",
     "is_install_path": true,
     "ref_name": "scanner/scada/modbusdetect",
@@ -59085,7 +59085,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ssl/openssl_ccs.rb",
     "is_install_path": true,
     "ref_name": "scanner/ssl/openssl_ccs",
@@ -59210,7 +59210,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-09-03 11:08:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/scanner/ssl/ssl_version.rb",
     "is_install_path": true,
     "ref_name": "scanner/ssl/ssl_version",
@@ -62147,7 +62147,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/server/dhclient_bash_env.rb",
     "is_install_path": true,
     "ref_name": "server/dhclient_bash_env",
@@ -62480,7 +62480,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/server/jsse_skiptls_mitm_proxy.rb",
     "is_install_path": true,
     "ref_name": "server/jsse_skiptls_mitm_proxy",
@@ -62654,7 +62654,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/server/netbios_spoof_nat.rb",
     "is_install_path": true,
     "ref_name": "server/netbios_spoof_nat",
@@ -62695,7 +62695,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/server/openssl_altchainsforgery_mitm_proxy.rb",
     "is_install_path": true,
     "ref_name": "server/openssl_altchainsforgery_mitm_proxy",
@@ -62739,7 +62739,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/server/openssl_heartbeat_client_memory.rb",
     "is_install_path": true,
     "ref_name": "server/openssl_heartbeat_client_memory",
@@ -63309,7 +63309,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/server/wget_symlink_file_write.rb",
     "is_install_path": true,
     "ref_name": "server/wget_symlink_file_write",
@@ -63433,7 +63433,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-05-13 19:36:21 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/auxiliary/spoof/arp/arp_poisoning.rb",
     "is_install_path": true,
     "ref_name": "spoof/arp/arp_poisoning",
@@ -72148,7 +72148,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:54:55 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/linux/http/cfme_manageiq_evm_upload_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/cfme_manageiq_evm_upload_exec",
@@ -76045,7 +76045,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/linux/http/foreman_openstack_satellite_code_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/http/foreman_openstack_satellite_code_exec",
@@ -98509,7 +98509,7 @@
     "targets": [
       "Zabbix 1.6.7"
     ],
-    "mod_time": "2026-04-22 13:20:20 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/linux/misc/zabbix_server_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/zabbix_server_exec",
@@ -105320,7 +105320,7 @@
       "RedHat 6.2 (Version wu-2.6.0(1) Mon Feb 28 10:30:36 EST 2000)",
       "Debug"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/multi/ftp/wuftpd_site_exec_format.rb",
     "is_install_path": true,
     "ref_name": "multi/ftp/wuftpd_site_exec_format",
@@ -129783,7 +129783,7 @@
       "OSX (Native Payload)",
       "Windows (Native Payload)"
     ],
-    "mod_time": "2026-04-22 11:58:09 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/multi/misc/java_jdwp_debugger.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/java_jdwp_debugger",
@@ -132666,7 +132666,7 @@
       "Linux",
       "Windows x64"
     ],
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/multi/sap/sap_soap_rfc_sxpg_call_system_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/sap/sap_soap_rfc_sxpg_call_system_exec",
@@ -132715,7 +132715,7 @@
       "Linux",
       "Windows x64"
     ],
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/multi/sap/sap_soap_rfc_sxpg_command_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/sap/sap_soap_rfc_sxpg_command_exec",
@@ -132897,7 +132897,7 @@
       "Unix Cmd",
       "Interactive SSH"
     ],
-    "mod_time": "2025-12-17 17:11:13 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/multi/ssh/sshexec.rb",
     "is_install_path": true,
     "ref_name": "multi/ssh/sshexec",
@@ -166798,7 +166798,7 @@
       "ERS Viewer 2013 13.0.0.1151 / NO DEP / NO ASLR",
       "ERS Viewer 2013 13.0.0.1151 / DEP & ASLR bypass"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/fileformat/erdas_er_viewer_rf_report_error.rb",
     "is_install_path": true,
     "ref_name": "windows/fileformat/erdas_er_viewer_rf_report_error",
@@ -177260,7 +177260,7 @@
     "targets": [
       "Avaya IP Office Customer Call Reporter 7.0 and 8.0 / Microsoft Windows Server 2003 SP2"
     ],
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/avaya_ccr_imageupload_exec.rb",
     "is_install_path": true,
     "ref_name": "windows/http/avaya_ccr_imageupload_exec",
@@ -177873,7 +177873,7 @@
     "targets": [
       "Cogent DataHub < 7.3.5"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/cogent_datahub_command.rb",
     "is_install_path": true,
     "ref_name": "windows/http/cogent_datahub_command",
@@ -180877,7 +180877,7 @@
     "targets": [
       "HP Managed Printing Administration 2.6.3 / Microsoft Windows [XP SP3 | Server 2003 SP2]"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/hp_mpa_job_acct.rb",
     "is_install_path": true,
     "ref_name": "windows/http/hp_mpa_job_acct",
@@ -183595,7 +183595,7 @@
     "targets": [
       "LANDesk Lenovo ThinkManagement Suite 9.0.2 / 9.0.3 / Microsoft Windows Server 2003 SP2"
     ],
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/landesk_thinkmanagement_upload_asp.rb",
     "is_install_path": true,
     "ref_name": "windows/http/landesk_thinkmanagement_upload_asp",
@@ -184419,7 +184419,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/manageengine_apps_mngr.rb",
     "is_install_path": true,
     "ref_name": "windows/http/manageengine_apps_mngr",
@@ -185408,7 +185408,7 @@
     "targets": [
       "Novell Zenworks Mobile Device Management on Windows"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/novell_mdm_lfi.rb",
     "is_install_path": true,
     "ref_name": "windows/http/novell_mdm_lfi",
@@ -185959,7 +185959,7 @@
     "targets": [
       "Oracle Endeca Server 7.4.0 / Microsoft Windows 2008 R2 64 bits"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/oracle_endeca_exec.rb",
     "is_install_path": true,
     "ref_name": "windows/http/oracle_endeca_exec",
@@ -187007,7 +187007,7 @@
     "targets": [
       "SAP NetWeaver 7.02 SP6 / Windows with WebClient enabled"
     ],
-    "mod_time": "2026-04-22 11:58:31 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/sap_host_control_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "windows/http/sap_host_control_cmd_exec",
@@ -189266,7 +189266,7 @@
     "targets": [
       "Umbraco CMS 4.7.0.378 / Microsoft Windows 7 Professional 32-bit SP1"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/http/umbraco_upload_aspx.rb",
     "is_install_path": true,
     "ref_name": "windows/http/umbraco_upload_aspx",
@@ -190020,7 +190020,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/iis/iis_webdav_upload_asp.rb",
     "is_install_path": true,
     "ref_name": "windows/iis/iis_webdav_upload_asp",
@@ -190433,7 +190433,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/iis/msadc.rb",
     "is_install_path": true,
     "ref_name": "windows/iis/msadc",
@@ -196635,7 +196635,7 @@
     "targets": [
       "Windows Universal"
     ],
-    "mod_time": "2026-02-15 20:36:01 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/local/pxeexploit.rb",
     "is_install_path": true,
     "ref_name": "windows/local/pxeexploit",
@@ -199609,7 +199609,7 @@
       "Windows FB 2.1.4.18393",
       "Debug"
     ],
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/misc/fb_cnct_group.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/fb_cnct_group",
@@ -200753,7 +200753,7 @@
       "HP Operations Agent 11.00 / Windows XP SP3",
       "HP Operations Agent 11.00 / Windows 2003 SP2"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/misc/hp_operations_agent_coda_34.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/hp_operations_agent_coda_34",
@@ -200791,7 +200791,7 @@
       "HP Operations Agent 11.00 / Windows XP SP3",
       "HP Operations Agent 11.00 / Windows 2003 SP2"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/misc/hp_operations_agent_coda_8c.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/hp_operations_agent_coda_8c",
@@ -201152,7 +201152,7 @@
     "targets": [
       "IBM System Director Agent 5.20.3 / Windows with WebClient enabled"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/misc/ibm_director_cim_dllinject.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/ibm_director_cim_dllinject",
@@ -201871,7 +201871,7 @@
     "targets": [
       "Microsoft Office SharePoint Server 2007 SP2 / Microsoft Windows Server 2003 SP2"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/misc/ms10_104_sharepoint.rb",
     "is_install_path": true,
     "ref_name": "windows/misc/ms10_104_sharepoint",
@@ -207484,7 +207484,7 @@
     "targets": [
       "GE Proficy CIMPLICITY 7.5 (embedded CimWebServer)"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-06-17 11:11:50 +0000",
     "path": "/modules/exploits/windows/scada/ge_proficy_cimplicity_gefebt.rb",
     "is_install_path": true,
     "ref_name": "windows/scada/ge_proficy_cimplicity_gefebt",
