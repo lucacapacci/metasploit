@@ -54049,7 +54049,7 @@
     "author": [
       "jduck <jduck@metasploit.com>"
     ],
-    "description": "This module will test an rexec service on a range of machines and\n        report successful logins.\n\n        NOTE: This module requires access to bind to privileged ports (below 1024).",
+    "description": "This module will test a range of machines for a remote execution (rexec)\n        service (part of the r-commands suite) and report successful logins,\n        optionally attempt to spawn a session.",
     "references": [
       "CVE-1999-0651",
       "CVE-1999-0502"
@@ -54060,7 +54060,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-06-20 13:20:44 +0000",
+    "mod_time": "2026-06-16 08:02:33 +0000",
     "path": "/modules/auxiliary/scanner/rservices/rexec_login.rb",
     "is_install_path": true,
     "ref_name": "scanner/rservices/rexec_login",
