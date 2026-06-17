@@ -6500,7 +6500,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2022-10-13 10:13:27 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/auxiliary/admin/http/wp_masterstudy_privesc.rb",
     "is_install_path": true,
     "ref_name": "admin/http/wp_masterstudy_privesc",
@@ -48392,7 +48392,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-07-09 19:48:16 +0000",
+    "mod_time": "2026-06-16 16:35:58 +0000",
     "path": "/modules/auxiliary/scanner/http/wp_woocommerce_payments_add_user.rb",
     "is_install_path": true,
     "ref_name": "scanner/http/wp_woocommerce_payments_add_user",
@@ -69363,7 +69363,7 @@
     "targets": [
       "eScan 5.5-2 / Linux"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/antivirus/escan_password_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/antivirus/escan_password_exec",
@@ -69508,7 +69508,7 @@
       "Debug",
       "ProFTPD 1.3.0 (source install) / Debian 3.1"
     ],
-    "mod_time": "2025-06-10 22:36:46 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/ftp/proftp_sreplace.rb",
     "is_install_path": true,
     "ref_name": "linux/ftp/proftp_sreplace",
@@ -69558,7 +69558,7 @@
       "ProFTPD 1_3_3a Server (Debian) - Squeeze Beta1 (Debug)",
       "ProFTPD 1.3.2c Server (Ubuntu 10.04)"
     ],
-    "mod_time": "2025-06-10 22:36:46 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/ftp/proftp_telnet_iac.rb",
     "is_install_path": true,
     "ref_name": "linux/ftp/proftp_telnet_iac",
@@ -91547,7 +91547,7 @@
     "targets": [
       "Linux Bruteforce"
     ],
-    "mod_time": "2025-05-20 23:42:47 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/imap/imap_uw_lsub.rb",
     "is_install_path": true,
     "ref_name": "linux/imap/imap_uw_lsub",
@@ -92049,7 +92049,7 @@
       "Linux x86",
       "Linux x64"
     ],
-    "mod_time": "2026-05-25 08:39:44 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/local/bpf_priv_esc.rb",
     "is_install_path": true,
     "ref_name": "linux/local/bpf_priv_esc",
@@ -92548,7 +92548,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-05-25 09:47:44 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/local/cve_2022_1043_io_uring_priv_esc.rb",
     "is_install_path": true,
     "ref_name": "linux/local/cve_2022_1043_io_uring_priv_esc",
@@ -92654,7 +92654,7 @@
     "targets": [
       "Linux Command"
     ],
-    "mod_time": "2026-05-18 17:53:44 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/local/cve_2026_31431_copy_fail.rb",
     "is_install_path": true,
     "ref_name": "linux/local/cve_2026_31431_copy_fail",
@@ -93394,7 +93394,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-05-25 10:35:33 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/local/glibc_realpath_priv_esc.rb",
     "is_install_path": true,
     "ref_name": "linux/local/glibc_realpath_priv_esc",
@@ -93967,7 +93967,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-05-25 08:39:44 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/local/nested_namespace_idmap_limit_priv_esc.rb",
     "is_install_path": true,
     "ref_name": "linux/local/nested_namespace_idmap_limit_priv_esc",
@@ -95198,7 +95198,7 @@
     "targets": [
       "Linux x86"
     ],
-    "mod_time": "2026-05-25 08:32:47 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/local/sock_sendpage.rb",
     "is_install_path": true,
     "ref_name": "linux/local/sock_sendpage",
@@ -96571,7 +96571,7 @@
       "Unix Command",
       "Linux (Dropper)"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/aerospike_database_udf_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/aerospike_database_udf_cmd_exec",
@@ -96731,7 +96731,7 @@
       "Linux Command",
       "Unix Command"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/cisco_ios_xe_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/cisco_ios_xe_rce",
@@ -96792,7 +96792,7 @@
     "targets": [
       "Cisco RV340 Firmware Version <= 1.0.03.24"
     ],
-    "mod_time": "2022-06-10 14:01:57 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/cisco_rv340_sslvpn.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/cisco_rv340_sslvpn",
@@ -96836,7 +96836,7 @@
       "Anydesk 5.5.2 Ubuntu 20.04 x64",
       "Anydesk 5.5.2 Ubuntu 18.04 x64"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/cve_2020_13160_anydesk.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/cve_2020_13160_anydesk",
@@ -96900,7 +96900,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/cve_2021_38647_omigod.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/cve_2021_38647_omigod",
@@ -96950,7 +96950,7 @@
     "targets": [
       "Default"
     ],
-    "mod_time": "2024-12-02 18:16:43 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/fortimanager_rce_cve_2024_47575.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/fortimanager_rce_cve_2024_47575",
@@ -97046,7 +97046,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/hid_discoveryd_command_blink_on_unauth_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/hid_discoveryd_command_blink_on_unauth_rce",
@@ -97234,7 +97234,7 @@
       "HP NNMi 9.10 / CentOS 5",
       "HP NNMi 9.20 / CentOS 6"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/hp_nnmi_pmd_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/hp_nnmi_pmd_bof",
@@ -97281,7 +97281,7 @@
     "targets": [
       "HP VSA 9"
     ],
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/hp_vsa_login_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/hp_vsa_login_bof",
@@ -97567,7 +97567,7 @@
       "Secure Terminal Service",
       "Secure Shadow Service"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/igel_command_injection.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/igel_command_injection",
@@ -97621,7 +97621,7 @@
     "targets": [
       "Jenkins 1.637"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/jenkins_java_deserialize.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/jenkins_java_deserialize",
@@ -97671,7 +97671,7 @@
     "targets": [
       "Jenkins 2.31"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/jenkins_ldap_deserialize.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/jenkins_ldap_deserialize",
@@ -97817,7 +97817,7 @@
     "targets": [
       "Nagios Remote Plugin Executor prior to 2.14"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/nagios_nrpe_arguments.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/nagios_nrpe_arguments",
@@ -97865,7 +97865,7 @@
       "MIPS Little Endian",
       "MIPS Big Endian"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/netcore_udp_53413_backdoor.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/netcore_udp_53413_backdoor",
@@ -98011,7 +98011,7 @@
     "targets": [
       "Novell eDirectory 8.8.7 v20701.33/ SLES 10 SP3"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/novell_edirectory_ncp_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/novell_edirectory_ncp_bof",
@@ -98103,7 +98103,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-04-22 13:20:20 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/qnap_transcode_server.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/qnap_transcode_server",
@@ -98259,7 +98259,7 @@
       "Netgear DSG835",
       "Netgear WPNT834"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/sercomm_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/sercomm_exec",
@@ -98327,7 +98327,7 @@
     "targets": [
       "TP-Link Archer A7/C7 (AC1750) v5 (firmware up to 201029/30)"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/tplink_archer_a7_c7_lan_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/tplink_archer_a7_c7_lan_rce",
@@ -98420,7 +98420,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/unidata_udadmin_auth_bypass.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/unidata_udadmin_auth_bypass",
@@ -98463,7 +98463,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/unidata_udadmin_password_stack_overflow.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/unidata_udadmin_password_stack_overflow",
@@ -98509,7 +98509,7 @@
     "targets": [
       "Zabbix 1.6.7"
     ],
-    "mod_time": "2026-06-17 11:11:50 +0000",
+    "mod_time": "2026-06-17 09:16:11 +0000",
     "path": "/modules/exploits/linux/misc/zabbix_server_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/zabbix_server_exec",
@@ -98554,7 +98554,7 @@
     "targets": [
       "Default"
     ],
-    "mod_time": "2023-06-09 09:36:50 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/zyxel_ike_decoder_rce_cve_2023_28771.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/zyxel_ike_decoder_rce_cve_2023_28771",
@@ -98615,7 +98615,7 @@
     "targets": [
       "Zyxel Device"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/misc/zyxel_multiple_devices_zhttp_lan_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/misc/zyxel_multiple_devices_zhttp_lan_rce",
@@ -99693,7 +99693,7 @@
       "Linux x86",
       "Linux x86_64"
     ],
-    "mod_time": "2026-04-02 17:30:43 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/postgres/postgres_payload.rb",
     "is_install_path": true,
     "ref_name": "linux/postgres/postgres_payload",
@@ -99743,7 +99743,7 @@
     "targets": [
       "Linux Bruteforce"
     ],
-    "mod_time": "2025-06-12 21:14:25 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/pptp/poptop_negative_read.rb",
     "is_install_path": true,
     "ref_name": "linux/pptp/poptop_negative_read",
@@ -99885,7 +99885,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2026-03-11 21:31:08 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/redis/redis_replication_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/redis/redis_replication_cmd_exec",
@@ -100011,7 +100011,7 @@
       "Linux SPARC64",
       "Linux s390x"
     ],
-    "mod_time": "2025-09-17 11:04:28 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/samba/is_known_pipename.rb",
     "is_install_path": true,
     "ref_name": "linux/samba/is_known_pipename",
@@ -100071,7 +100071,7 @@
       "Linux Heap Brute Force (OpenWRT MIPS)",
       "DEBUG"
     ],
-    "mod_time": "2026-04-22 13:20:20 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/samba/lsa_transnames_heap.rb",
     "is_install_path": true,
     "ref_name": "linux/samba/lsa_transnames_heap",
@@ -100132,7 +100132,7 @@
       "2:3.5.6~dfsg-3squeeze6 on Debian Squeeze",
       "3.5.10-0.107.el5 on CentOS 5"
     ],
-    "mod_time": "2025-06-15 00:09:09 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/samba/setinfopolicy_heap.rb",
     "is_install_path": true,
     "ref_name": "linux/samba/setinfopolicy_heap",
@@ -100236,7 +100236,7 @@
       "Bash Completion",
       "Cron"
     ],
-    "mod_time": "2025-06-23 12:43:46 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/smtp/apache_james_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/smtp/apache_james_exec",
@@ -100462,7 +100462,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2025-06-25 09:25:53 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/smtp/exim_gethostbyname_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/smtp/exim_gethostbyname_bof",
@@ -100553,7 +100553,7 @@
       "Unix In-Memory",
       "Linux Dropper"
     ],
-    "mod_time": "2026-04-22 13:20:20 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/snmp/awind_snmp_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/snmp/awind_snmp_exec",
@@ -101127,7 +101127,7 @@
       "Linux Command",
       "Unix Command"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/ssh/ssh_erlangotp_rce.rb",
     "is_install_path": true,
     "ref_name": "linux/ssh/ssh_erlangotp_rce",
@@ -101434,7 +101434,7 @@
       "TCP (typically older devices)",
       "UDP (typically newer devices)"
     ],
-    "mod_time": "2025-09-22 19:52:39 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/telnet/netgear_telnetenable.rb",
     "is_install_path": true,
     "ref_name": "linux/telnet/netgear_telnetenable",
@@ -101554,7 +101554,7 @@
       "Unix In-Memory",
       "Linux Dropper"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/upnp/belkin_wemo_upnp_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/upnp/belkin_wemo_upnp_exec",
@@ -101731,7 +101731,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2025-12-17 16:12:31 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/upnp/dlink_upnp_msearch_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/upnp/dlink_upnp_msearch_exec",
@@ -101795,7 +101795,7 @@
       "Debian GNU/Linux 6.0 / MiniUPnPd 1.0",
       "Airties RT-212 v1.2.0.23 / MiniUPnPd 1.0"
     ],
-    "mod_time": "2026-04-22 13:20:20 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/linux/upnp/miniupnpd_soap_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/upnp/miniupnpd_soap_bof",
@@ -114487,7 +114487,7 @@
       "Password Manager Pro [MSP] v6 >= b6800 / v7 < b7003 (PostgreSQL) on Linux",
       "Password Manager Pro v6 >= b6500 / v7 < b7003 (MySQL) on Linux"
     ],
-    "mod_time": "2026-04-22 11:57:58 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/multi/http/manage_engine_dc_pmp_sqli.rb",
     "is_install_path": true,
     "ref_name": "multi/http/manage_engine_dc_pmp_sqli",
@@ -117706,7 +117706,7 @@
     "targets": [
       "osCommerce 2.3.4.1"
     ],
-    "mod_time": "2025-10-06 17:15:11 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/multi/http/oscommerce_installer_unauth_code_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/http/oscommerce_installer_unauth_code_exec",
@@ -127050,7 +127050,7 @@
       "Unix/Linux Command Shell",
       "Windows Command Shell"
     ],
-    "mod_time": "2026-05-24 20:43:09 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/multi/http/wp_plugin_supsystic_contact_form_rce.rb",
     "is_install_path": true,
     "ref_name": "multi/http/wp_plugin_supsystic_contact_form_rce",
@@ -130839,7 +130839,7 @@
       "Windows",
       "Linux File-Dropper"
     ],
-    "mod_time": "2026-02-09 15:17:23 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/multi/misc/vscode_ipynb_remote_dev_exec.rb",
     "is_install_path": true,
     "ref_name": "multi/misc/vscode_ipynb_remote_dev_exec",
@@ -137888,7 +137888,7 @@
       "Unix Command",
       "BSD Dropper"
     ],
-    "mod_time": "2025-12-17 17:11:13 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/unix/http/pfsense_diag_routes_webshell.rb",
     "is_install_path": true,
     "ref_name": "unix/http/pfsense_diag_routes_webshell",
@@ -206873,7 +206873,7 @@
       "Windows DLL",
       "Windows Executable"
     ],
-    "mod_time": "2026-04-22 11:58:58 +0000",
+    "mod_time": "2026-05-14 11:43:36 +0000",
     "path": "/modules/exploits/windows/sage/x3_adxsrv_auth_bypass_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "windows/sage/x3_adxsrv_auth_bypass_cmd_exec",
