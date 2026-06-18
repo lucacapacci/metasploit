@@ -14214,7 +14214,7 @@
     "actions": []
   },
   "auxiliary_dos/ftp/vsftpd_232": {
-    "name": "VSFTPD 2.3.2 Denial of Service",
+    "name": "VSFTPD 2.3.2 and Earlier STAT Denial of Service",
     "fullname": "auxiliary/dos/ftp/vsftpd_232",
     "aliases": [],
     "rank": 300,
@@ -14224,9 +14224,10 @@
       "Nick Cottrell (Rad10Logic) <ncottrellweb@gmail.com>",
       "Anna Graterol <annagraterol95@gmail.com>",
       "Mana Mostaani <mana.mostaani@gmail.com>",
-      "Maksymilian Arciemowicz"
+      "Maksymilian Arciemowicz",
+      "g0tmi1k"
     ],
-    "description": "This module triggers a Denial of Service condition in the VSFTPD server in\n          versions before 2.3.3. So far, it has been tested on 2.3.0, 2.3.1, and 2.3.2.",
+    "description": "This module triggers a Denial of Service condition in the VSFTPD server in\n          versions before 2.3.3 (tested on 2.3.0, 2.3.1, and 2.3.2).\n          Version 2.3.3 and higher should not be vulnerable.",
     "references": [
       "BID-46617",
       "CVE-2011-0762",
@@ -14243,7 +14244,7 @@
       "ftp"
     ],
     "targets": null,
-    "mod_time": "2026-04-15 11:57:01 +0000",
+    "mod_time": "2026-05-19 14:22:39 +0000",
     "path": "/modules/auxiliary/dos/ftp/vsftpd_232.rb",
     "is_install_path": true,
     "ref_name": "dos/ftp/vsftpd_232",
@@ -98072,6 +98073,51 @@
       ],
       "SideEffects": [
         "unknown-side-effects"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
+  "exploit_linux/misc/poly_unauth_rce_cve_2026_0826": {
+    "name": "HP Poly Voice Unauthenticated Remote Code Execution",
+    "fullname": "exploit/linux/misc/poly_unauth_rce_cve_2026_0826",
+    "aliases": [],
+    "rank": 500,
+    "disclosure_date": "2026-06-01",
+    "type": "exploit",
+    "author": [
+      "sfewer-r7"
+    ],
+    "description": "CVE-2026-0826 is a critical unauthenticated stack-based buffer overflow vulnerability affecting all\n          models in the VVX series (VVX 150, VVX 250, VVX 350, and VVX 450), as well as three models from the Trio IP\n          Conference series (Trio 8800, Trio 8500, and Trio 8300). A remote attacker can leverage CVE-2026-0826 to achieve\n          unauthenticated remote code execution (RCE) with root privileges on a target device. The vulnerability is present\n          in the device's parsing of Session Description Protocol (SDP) attributes for Interactive Connectivity Establishment\n          (ICE). The ICE feature, which is not enabled by default, must be enabled for the device to be exploitable by a\n          remote attacker.",
+    "references": [
+      "CVE-2026-0826",
+      "URL-https://support.hp.com/us-en/document/ish_15052661-15052687-16/hpsbpy04083",
+      "URL-https://www.rapid7.com/blog/post/ve-cve-2026-0826-critical-unauthenticated-stack-buffer-overflow-hp-poly-vvx-trio-voip-phones-fixed/"
+    ],
+    "platform": "Unix",
+    "arch": "cmd",
+    "rport": 5060,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "Automatic"
+    ],
+    "mod_time": "2026-06-05 11:39:49 +0000",
+    "path": "/modules/exploits/linux/misc/poly_unauth_rce_cve_2026_0826.rb",
+    "is_install_path": true,
+    "ref_name": "linux/misc/poly_unauth_rce_cve_2026_0826",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-os-restarts"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
       ]
     },
     "session_types": false,
@@ -228272,6 +228318,37 @@
     "payload_type": 1,
     "staged": false
   },
+  "payload_cmd/unix/bind_socat_tcp": {
+    "name": "Unix Command Shell, Bind TCP (via socat)",
+    "fullname": "payload/cmd/unix/bind_socat_tcp",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": null,
+    "type": "payload",
+    "author": [
+      "sfewer-r7"
+    ],
+    "description": "Creates an interactive shell via socat",
+    "references": [],
+    "platform": "Unix",
+    "arch": "cmd",
+    "rport": null,
+    "autofilter_ports": null,
+    "autofilter_services": null,
+    "targets": null,
+    "mod_time": "2026-06-05 12:35:30 +0000",
+    "path": "/modules/payloads/singles/cmd/unix/bind_socat_tcp.rb",
+    "is_install_path": true,
+    "ref_name": "cmd/unix/bind_socat_tcp",
+    "check": false,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {},
+    "session_types": false,
+    "needs_cleanup": false,
+    "payload_type": 1,
+    "staged": false
+  },
   "payload_cmd/unix/bind_socat_udp": {
     "name": "Unix Command Shell, Bind UDP (via socat)",
     "fullname": "payload/cmd/unix/bind_socat_udp",
@@ -279604,6 +279681,40 @@
     "payload_type": 8,
     "adapter_refname": "php/unix/cmd",
     "adapted_refname": "cmd/unix/bind_socat_sctp",
+    "staged": false
+  },
+  "payload_php/unix/cmd/bind_socat_tcp": {
+    "name": "OS Command Exec, Unix Command Shell, Bind TCP (via socat)",
+    "fullname": "payload/php/unix/cmd/bind_socat_tcp",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": null,
+    "type": "payload",
+    "author": [
+      "Spencer McIntyre",
+      "sfewer-r7"
+    ],
+    "description": "Execute an OS command from PHP.\n\nCreates an interactive shell via socat",
+    "references": [],
+    "platform": "PHP",
+    "arch": "php",
+    "rport": null,
+    "autofilter_ports": null,
+    "autofilter_services": null,
+    "targets": null,
+    "mod_time": "2025-05-09 16:09:15 +0000",
+    "path": "/modules/payloads/adapters/php/unix/cmd.rb",
+    "is_install_path": true,
+    "ref_name": "php/unix/cmd/bind_socat_tcp",
+    "check": false,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {},
+    "session_types": false,
+    "needs_cleanup": false,
+    "payload_type": 8,
+    "adapter_refname": "php/unix/cmd",
+    "adapted_refname": "cmd/unix/bind_socat_tcp",
     "staged": false
   },
   "payload_php/unix/cmd/bind_socat_udp": {
