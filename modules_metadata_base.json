@@ -62796,6 +62796,41 @@
       }
     ]
   },
+  "auxiliary_server/quectel_modem": {
+    "name": "Quectel Cellular Modem Pivot (Serial AT)",
+    "fullname": "auxiliary/server/quectel_modem",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": null,
+    "type": "auxiliary",
+    "author": [
+      "Deral Heiland",
+      "Spencer McIntyre"
+    ],
+    "description": "Opens a serial connection to a Quectel cellular modem and registers it as a 'modem' session capable of network\n          pivoting. The Quectel modems have a limited number of sockets available, configurable using MODEM_SOCKETS. Once\n          the session is established, it can be routed through using the `route` command.",
+    "references": [],
+    "platform": "",
+    "arch": "",
+    "rport": null,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": null,
+    "mod_time": "2026-06-10 09:19:48 +0000",
+    "path": "/modules/auxiliary/server/quectel_modem.rb",
+    "is_install_path": true,
+    "ref_name": "server/quectel_modem",
+    "check": false,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [],
+      "Reliability": [],
+      "SideEffects": []
+    },
+    "session_types": false,
+    "needs_cleanup": false,
+    "actions": []
+  },
   "auxiliary_server/regsvr32_command_delivery_server": {
     "name": "Regsvr32.exe (.sct) Command Delivery Server",
     "fullname": "auxiliary/server/regsvr32_command_delivery_server",
