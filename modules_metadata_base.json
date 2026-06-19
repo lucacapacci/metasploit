@@ -136859,7 +136859,8 @@
     "type": "exploit",
     "author": [
       "MC <mc@metasploit.com>",
-      "darkharper2"
+      "darkharper2",
+      "g0tmi1k"
     ],
     "description": "This module exploits a malicious backdoor that was added to the\n          ProFTPD download archive. This backdoor was present in the proftpd-1.3.3c.tar.[bz2|gz]\n          archive between November 28th 2010 and 2nd December 2010.",
     "references": [
@@ -136867,7 +136868,7 @@
       "OSVDB-69562",
       "BID-45150"
     ],
-    "platform": "Unix",
+    "platform": "Linux,Unix",
     "arch": "cmd",
     "rport": 21,
     "autofilter_ports": [
@@ -136878,24 +136879,24 @@
       "ftp"
     ],
     "targets": [
-      "Automatic"
+      "Linux/Unix Command"
     ],
-    "mod_time": "2026-03-11 13:47:42 +0000",
+    "mod_time": "2026-05-16 19:48:18 +0000",
     "path": "/modules/exploits/unix/ftp/proftpd_133c_backdoor.rb",
     "is_install_path": true,
     "ref_name": "unix/ftp/proftpd_133c_backdoor",
-    "check": false,
+    "check": true,
     "post_auth": false,
     "default_credential": false,
     "notes": {
       "Reliability": [
-        "unknown-reliability"
+        "repeatable-session"
       ],
       "Stability": [
-        "unknown-stability"
+        "crash-safe"
       ],
       "SideEffects": [
-        "unknown-side-effects"
+        "ioc-in-logs"
       ]
     },
     "session_types": false,
