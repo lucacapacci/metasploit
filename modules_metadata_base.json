@@ -99030,7 +99030,8 @@
     "description": "This module adds a lisp based malicious extension to the emacs configuration file.\n          When emacs is opened, the extension will be loaded and the payload will be executed.\n\n          Tested against emacs 29.3 build 1 on Ubuntu Desktop 24.04.",
     "references": [
       "URL-https://twit.tv/posts/transcripts/security-now-1061-transcript",
-      "ATT&CK-T1546"
+      "ATT&CK-T1546",
+      "ATT&CK-T1176"
     ],
     "platform": "Linux",
     "arch": "cmd, x86, x64",
@@ -99040,7 +99041,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-05-07 20:06:32 +0000",
+    "mod_time": "2026-05-22 11:40:23 +0000",
     "path": "/modules/exploits/linux/persistence/emacs_extension.rb",
     "is_install_path": true,
     "ref_name": "linux/persistence/emacs_extension",
@@ -99557,7 +99558,8 @@
     "references": [
       "URL-https://vimways.org/2019/writing-vim-plugin/",
       "URL-https://www.linode.com/docs/guides/writing-a-vim-plugin/",
-      "ATT&CK-T1546"
+      "ATT&CK-T1546",
+      "ATT&CK-T1176"
     ],
     "platform": "Linux",
     "arch": "cmd",
@@ -99567,7 +99569,7 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2026-05-11 05:56:45 +0000",
+    "mod_time": "2026-05-22 11:40:23 +0000",
     "path": "/modules/exploits/linux/persistence/vim_plugin.rb",
     "is_install_path": true,
     "ref_name": "linux/persistence/vim_plugin",
@@ -131699,7 +131701,8 @@
     "description": "This module adds a java based malicious extension to the Burp Suite configuration file.\n          When burp is opened, the extension will be loaded and the payload will be executed.\n\n          Tested against Burp Suite Community Edition v2024.9.4, on Ubuntu Desktop 24.04.\n          Tested against Burp Suite Community Edition v2025.12.3 on Windows 10.",
     "references": [
       "URL-https://portswigger.net/burp/documentation/desktop/extensions/creating",
-      "URL-https://portswigger.net/burp/documentation/desktop/troubleshooting/launch-from-command-line"
+      "URL-https://portswigger.net/burp/documentation/desktop/troubleshooting/launch-from-command-line",
+      "ATT&CK-T1176"
     ],
     "platform": "Java,Unix,Windows",
     "arch": "java, cmd",
@@ -131711,7 +131714,7 @@
       "Linux",
       "Windows"
     ],
-    "mod_time": "2026-03-21 12:21:09 +0000",
+    "mod_time": "2026-05-22 11:40:23 +0000",
     "path": "/modules/exploits/multi/persistence/burp_extension.rb",
     "is_install_path": true,
     "ref_name": "multi/persistence/burp_extension",
@@ -131801,6 +131804,57 @@
     "needs_cleanup": true,
     "actions": []
   },
+  "exploit_multi/persistence/joplin_plugin": {
+    "name": "Joplin Plugin Persistence",
+    "fullname": "exploit/multi/persistence/joplin_plugin",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2017-12-07",
+    "type": "exploit",
+    "author": [
+      "h00die"
+    ],
+    "description": "This module installs a malicious Joplin plugin (.jpl) into the target's\n          Joplin plugin directory. The plugin executes the payload each time Joplin\n          is launched, providing persistent code execution. Joplin can not\n          be running at the time of plugin installation, or it will be overwriten\n          at shutdown. The module can optionally kill Joplin if it is detected running.\n\n          Tested against Joplin 3.6.11 on Windows 10, 3.6.10 on Kali",
+    "references": [
+      "URL-https://joplinapp.org/help/api/get_started/plugins/",
+      "ATT&CK-T1546",
+      "ATT&CK-T1176"
+    ],
+    "platform": "Linux,Unix,Windows",
+    "arch": "cmd",
+    "rport": null,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "Windows",
+      "Linux"
+    ],
+    "mod_time": "2026-06-05 06:21:32 +0000",
+    "path": "/modules/exploits/multi/persistence/joplin_plugin.rb",
+    "is_install_path": true,
+    "ref_name": "multi/persistence/joplin_plugin",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "config-changes"
+      ]
+    },
+    "session_types": [
+      "shell",
+      "meterpreter"
+    ],
+    "needs_cleanup": null,
+    "actions": []
+  },
   "exploit_multi/persistence/obsidian_plugin": {
     "name": "Obsidian Plugin Persistence",
     "fullname": "exploit/multi/persistence/obsidian_plugin",
@@ -131820,7 +131874,8 @@
       "URL-https://github.com/obsidianmd/obsidian-sample-plugin/tree/master",
       "URL-https://forum.obsidian.md/t/can-obsidian-plugins-have-malware/34491",
       "URL-https://help.obsidian.md/Extending+Obsidian/Plugin+security",
-      "URL-https://thomas-byrne.co.uk/research/obsidian-malicious-plugins/obsidian-research/"
+      "URL-https://thomas-byrne.co.uk/research/obsidian-malicious-plugins/obsidian-research/",
+      "ATT&CK-T1176"
     ],
     "platform": "OSX,Unix,Windows",
     "arch": "cmd",
@@ -131833,7 +131888,7 @@
       "OSX",
       "Windows"
     ],
-    "mod_time": "2026-05-07 14:31:12 +0000",
+    "mod_time": "2026-05-22 11:40:23 +0000",
     "path": "/modules/exploits/multi/persistence/obsidian_plugin.rb",
     "is_install_path": true,
     "ref_name": "multi/persistence/obsidian_plugin",
@@ -228371,7 +228426,7 @@
     "autofilter_ports": null,
     "autofilter_services": null,
     "targets": null,
-    "mod_time": "2026-06-05 12:35:30 +0000",
+    "mod_time": "2026-06-18 20:58:33 +0000",
     "path": "/modules/payloads/singles/cmd/unix/bind_socat_tcp.rb",
     "is_install_path": true,
     "ref_name": "cmd/unix/bind_socat_tcp",
