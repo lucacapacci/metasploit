@@ -32855,6 +32855,62 @@
     "needs_cleanup": false,
     "actions": []
   },
+  "auxiliary_scanner/http/audiobookshelf_auth_bypass": {
+    "name": "Audiobookshelf Unauthenticated API Authentication Bypass Scanner",
+    "fullname": "auxiliary/scanner/http/audiobookshelf_auth_bypass",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": "2025-02-12",
+    "type": "auxiliary",
+    "author": [
+      "swiftbird07",
+      "Kenneth LaCroix"
+    ],
+    "description": "This module detects Audiobookshelf servers affected by CVE-2025-25205, an\n          unauthenticated authentication bypass. Affected versions (2.17.0 through\n          2.19.0) decide whether a GET request may skip authentication by testing an\n          unanchored regular expression against the request's full original URL,\n          including the query string, rather than the normalized path. By appending a\n          query parameter whose value contains a whitelisted substring such as\n          /api/items/1/cover, an unauthenticated client reaches protected API\n          endpoints.\n\n          The module fingerprints the server and version through the unauthenticated\n          /status endpoint, then sends two requests to the protected /api/libraries\n          endpoint: a baseline request that must be rejected with HTTP 401, and a\n          bypass request carrying the whitelisted substring in its query string. On a\n          vulnerable server the bypass request is processed instead of rejected, which\n          this module treats as confirmation. It deliberately avoids endpoints such as\n          /api/users that crash the server process (the denial-of-service half of this\n          CVE).",
+    "references": [
+      "CVE-2025-25205",
+      "GHSA-pg8v-5jcv-wrvw",
+      "URL-https://github.com/advplyr/audiobookshelf/commit/ec6537656925a43871b07cfee12c9f383844d224"
+    ],
+    "platform": "",
+    "arch": "",
+    "rport": 13378,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": null,
+    "mod_time": "2026-06-21 11:58:01 +0000",
+    "path": "/modules/auxiliary/scanner/http/audiobookshelf_auth_bypass.rb",
+    "is_install_path": true,
+    "ref_name": "scanner/http/audiobookshelf_auth_bypass",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [],
+      "SideEffects": [
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": false,
+    "actions": []
+  },
   "auxiliary_scanner/http/axis_local_file_include": {
     "name": "Apache Axis2 v1.4.1 Local File Inclusion",
     "fullname": "auxiliary/scanner/http/axis_local_file_include",
