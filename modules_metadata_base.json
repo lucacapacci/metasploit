@@ -40277,6 +40277,62 @@
     "needs_cleanup": false,
     "actions": []
   },
+  "auxiliary_scanner/http/litellm_proxy_sqli": {
+    "name": "BerriAI LiteLLM Proxy Pre-Auth SQL Injection Scanner",
+    "fullname": "auxiliary/scanner/http/litellm_proxy_sqli",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": "2026-04-20",
+    "type": "auxiliary",
+    "author": [
+      "Tencent YunDing Security Lab",
+      "Kenneth LaCroix"
+    ],
+    "description": "This module detects BerriAI LiteLLM proxy servers affected by\n          CVE-2026-42208, an unauthenticated SQL injection. During API-key\n          verification the proxy interpolates the raw Authorization bearer value\n          into a PostgreSQL query (WHERE v.token = '<token>') without\n          parameterization. Because LiteLLM only hashes tokens that begin with\n          \"sk-\", a bearer value that does not start with \"sk-\" reaches the query\n          verbatim and is injectable. The failure path that performs the lookup is\n          reachable before authentication. Affected versions are 1.81.16 through\n          1.83.6 (fixed in 1.83.7).\n\n          The module confirms the flaw with a benign time-based check built on the\n          framework's PostgreSQL time-based blind SQL injection library. It issues a\n          request whose injected predicate sleeps only when a tautology is true and a\n          second request whose predicate never sleeps, and reports the target\n          vulnerable only when the first is delayed while the second returns promptly.\n          A server that is merely slow delays both requests and is not flagged. The\n          module does not read or exfiltrate data.\n\n          Detection requires the target to have provisioned at least one virtual\n          key. The injectable predicate sits in a WHERE clause that PostgreSQL\n          evaluates only against matching rows, so when the token table is empty\n          the pg_sleep never executes and the proxy appears (falsely) safe. Any\n          LiteLLM proxy in real use has issued keys; a freshly initialized proxy\n          with an empty token table may not respond to the time-based probe.",
+    "references": [
+      "CVE-2026-42208",
+      "GHSA-r75f-5x8p-qvmc",
+      "URL-https://bishopfox.com/blog/cve-2026-42208-pre-authentication-sql-injection-in-litellm-proxy"
+    ],
+    "platform": "",
+    "arch": "",
+    "rport": 4000,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": null,
+    "mod_time": "2026-06-19 07:54:56 +0000",
+    "path": "/modules/auxiliary/scanner/http/litellm_proxy_sqli.rb",
+    "is_install_path": true,
+    "ref_name": "scanner/http/litellm_proxy_sqli",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [],
+      "SideEffects": [
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": false,
+    "actions": []
+  },
   "auxiliary_scanner/http/litespeed_source_disclosure": {
     "name": "LiteSpeed Source Code Disclosure/Download",
     "fullname": "auxiliary/scanner/http/litespeed_source_disclosure",
@@ -41354,6 +41410,63 @@
     "post_auth": true,
     "default_credential": false,
     "notes": {},
+    "session_types": false,
+    "needs_cleanup": false,
+    "actions": []
+  },
+  "auxiliary_scanner/http/nextjs_middleware_auth_bypass": {
+    "name": "Next.js Middleware Authorization Bypass Scanner",
+    "fullname": "auxiliary/scanner/http/nextjs_middleware_auth_bypass",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": "2025-03-21",
+    "type": "auxiliary",
+    "author": [
+      "Rachid Allam",
+      "Yasser Allam",
+      "Kenneth LaCroix"
+    ],
+    "description": "This module detects self-hosted Next.js applications affected by\n          CVE-2025-29927, an authorization bypass in the middleware layer. Next.js\n          tags its own internal subrequests with the x-middleware-subrequest header\n          and skips middleware when it sees it. The header is trusted without\n          verifying it originated internally, so an external client that supplies it\n          causes middleware to be skipped entirely, bypassing any authentication,\n          authorization, or redirects implemented there. Affected self-hosted\n          versions are < 12.3.5, < 13.5.9, < 14.2.25, and < 15.2.3.\n\n          The module performs a differential check: it sends a baseline request to a\n          user-supplied, normally middleware-gated path (expecting a redirect or a\n          401/403), then repeats the request with a crafted x-middleware-subrequest\n          header. If the gate disappears (the protected resource is served, or the\n          middleware redirect to login is gone), the target is reported vulnerable.\n          This is detection only; the module does not act on the bypassed response.",
+    "references": [
+      "CVE-2025-29927",
+      "GHSA-f82v-jwr5-mffw",
+      "URL-https://projectdiscovery.io/blog/nextjs-middleware-authorization-bypass"
+    ],
+    "platform": "",
+    "arch": "",
+    "rport": 3000,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": null,
+    "mod_time": "2026-06-21 12:02:08 +0000",
+    "path": "/modules/auxiliary/scanner/http/nextjs_middleware_auth_bypass.rb",
+    "is_install_path": true,
+    "ref_name": "scanner/http/nextjs_middleware_auth_bypass",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [],
+      "SideEffects": [
+        "ioc-in-logs"
+      ]
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
