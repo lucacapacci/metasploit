@@ -310536,6 +310536,47 @@
     "needs_cleanup": null,
     "actions": []
   },
+  "post_windows/manage/smb_to_meterpreter": {
+    "name": "SMB to Meterpreter Upgrade via PsExec",
+    "fullname": "post/windows/manage/smb_to_meterpreter",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": null,
+    "type": "post",
+    "author": [
+      "Dean Welch"
+    ],
+    "description": "Upgrades an authenticated SMB session to a Meterpreter session using PsExec techniques.\n          This module uploads a service-wrapped executable payload to the ADMIN$ share via the\n          existing authenticated SMB connection, then creates and starts a Windows service that\n          executes the payload. This mirrors the approach used by exploit/windows/smb/psexec.\n          Requires administrative privileges on the target.",
+    "references": [],
+    "platform": "Windows",
+    "arch": "x86, x64",
+    "rport": null,
+    "autofilter_ports": null,
+    "autofilter_services": null,
+    "targets": null,
+    "mod_time": "2026-06-24 10:46:02 +0000",
+    "path": "/modules/post/windows/manage/smb_to_meterpreter.rb",
+    "is_install_path": true,
+    "ref_name": "windows/manage/smb_to_meterpreter",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
+    "session_types": [
+      "smb"
+    ],
+    "needs_cleanup": null,
+    "actions": []
+  },
   "post_windows/manage/vmdk_mount": {
     "name": "Windows Manage VMDK Mount Drive",
     "fullname": "post/windows/manage/vmdk_mount",
