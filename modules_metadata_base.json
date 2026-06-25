@@ -73668,6 +73668,65 @@
     "session_types": false,
     "needs_cleanup": null
   },
+  "exploit_linux/http/dalfox_server_rce_cve_2026_45087": {
+    "name": "Dalfox Found-Action Deserialization RCE",
+    "fullname": "exploit/linux/http/dalfox_server_rce_cve_2026_45087",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-05-07",
+    "type": "exploit",
+    "author": [
+      "Emmanuel David",
+      "Takahiro Yokoyama"
+    ],
+    "description": "When dalfox version <= 2.12.0 is started in REST API server mode (dalfox server),\n          the server binds to 0.0.0.0:6664 by default and requires no API key unless the operator explicitly passes --api-key.\n          Because model.Options - including FoundAction and FoundActionShell - is deserialized directly from attacker-supplied JSON in POST /scan,\n          and because dalfox.Initialize explicitly propagates those two fields into the final scan options without stripping them,\n          any unauthenticated caller who can reach the server port can supply an arbitrary shell command that the dalfox process will execute on the host whenever a scan finding is triggered.",
+    "references": [
+      "CVE-2026-45087",
+      "GHSA-v25v-m36w-jp4h"
+    ],
+    "platform": "Linux,Unix",
+    "arch": "cmd",
+    "rport": 6664,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Linux Command"
+    ],
+    "mod_time": "2026-06-24 15:49:53 +0000",
+    "path": "/modules/exploits/linux/http/dalfox_server_rce_cve_2026_45087.rb",
+    "is_install_path": true,
+    "ref_name": "linux/http/dalfox_server_rce_cve_2026_45087",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
   "exploit_linux/http/dcos_marathon": {
     "name": "DC/OS Marathon UI Docker Exploit",
     "fullname": "exploit/linux/http/dcos_marathon",
