@@ -202429,6 +202429,64 @@
     "session_types": false,
     "needs_cleanup": null
   },
+  "exploit_windows/misc/peyara_remote_mouse_rce": {
+    "name": "Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution",
+    "fullname": "exploit/windows/misc/peyara_remote_mouse_rce",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2025-05-30",
+    "type": "exploit",
+    "author": [
+      "tmrswrr"
+    ],
+    "description": "This module exploits an unauthenticated remote code execution vulnerability\n          in Peyara Remote Mouse 1.0.1. The application exposes a Socket.IO\n          WebSocket service on TCP port 1313 and accepts unauthenticated keyboard\n          input events.\n\n          The module sends keyboard events to open the Windows command prompt and\n          type a Metasploit command payload, allowing arbitrary command execution\n          in the context of the user running Peyara Remote Mouse.",
+    "references": [
+      "URL-https://github.com/capture0x/Peyara",
+      "URL-https://peyara-remote-mouse.vercel.app/"
+    ],
+    "platform": "Windows",
+    "arch": "cmd",
+    "rport": 1313,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Windows Command"
+    ],
+    "mod_time": "2026-06-04 23:31:03 +0000",
+    "path": "/modules/exploits/windows/misc/peyara_remote_mouse_rce.rb",
+    "is_install_path": true,
+    "ref_name": "windows/misc/peyara_remote_mouse_rce",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "SideEffects": [
+        "screen-effects",
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
   "exploit_windows/misc/plugx": {
     "name": "PlugX Controller Stack Buffer Overflow",
     "fullname": "exploit/windows/misc/plugx",
