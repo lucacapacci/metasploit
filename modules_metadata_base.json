@@ -274187,6 +274187,41 @@
     "payload_type": 1,
     "staged": false
   },
+  "payload_linux/loongarch64/exec": {
+    "name": "Linux Execute Command",
+    "fullname": "payload/linux/loongarch64/exec",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": null,
+    "type": "payload",
+    "author": [
+      "modexp",
+      "bcoles <bcoles@gmail.com>"
+    ],
+    "description": "Execute an arbitrary command.",
+    "references": [
+      "URL-https://modexp.wordpress.com/2022/05/02/shellcode-risc-v-linux/",
+      "URL-https://github.com/bcoles/shellcode/blob/main/loongarch64/cmd/cmd.s"
+    ],
+    "platform": "Linux",
+    "arch": "loongarch64",
+    "rport": null,
+    "autofilter_ports": null,
+    "autofilter_services": null,
+    "targets": null,
+    "mod_time": "2026-06-29 16:52:24 +0000",
+    "path": "/modules/payloads/singles/linux/loongarch64/exec.rb",
+    "is_install_path": true,
+    "ref_name": "linux/loongarch64/exec",
+    "check": false,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {},
+    "session_types": false,
+    "needs_cleanup": false,
+    "payload_type": 1,
+    "staged": false
+  },
   "payload_linux/loongarch64/reboot": {
     "name": "Linux Reboot",
     "fullname": "payload/linux/loongarch64/reboot",
