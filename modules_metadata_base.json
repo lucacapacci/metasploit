@@ -110363,6 +110363,65 @@
     "session_types": false,
     "needs_cleanup": null
   },
+  "exploit_multi/http/flowise_auth_rce_cve_2026_41264": {
+    "name": "Flowise CSV Agent Prompt Injection RCE",
+    "fullname": "exploit/multi/http/flowise_auth_rce_cve_2026_41264",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-04-22",
+    "type": "exploit",
+    "author": [
+      "zdi-disclosures",
+      "Takahiro Yokoyama"
+    ],
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of FlowiseAI Flowise.\n          Authentication is not required to exploit this vulnerability.\n\n          The specific flaw exists within the run method of the CSV_Agents class.\n          The issue results from the lack of proper sandboxing when evaluating an LLM generated python script.\n          An attacker can leverage this vulnerability to execute code in the context of the user running the server.",
+    "references": [
+      "CVE-2026-41264",
+      "GHSA-3hjv-c53m-58jj"
+    ],
+    "platform": "Linux,Unix,Windows",
+    "arch": "cmd",
+    "rport": 3000,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Linux Command",
+      "Windows Command"
+    ],
+    "mod_time": "2026-06-06 12:25:07 +0000",
+    "path": "/modules/exploits/multi/http/flowise_auth_rce_cve_2026_41264.rb",
+    "is_install_path": true,
+    "ref_name": "multi/http/flowise_auth_rce_cve_2026_41264",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
   "exploit_multi/http/flowise_custommcp_rce": {
     "name": "Flowise Custom MCP Remote Code Execution",
     "fullname": "exploit/multi/http/flowise_custommcp_rce",
