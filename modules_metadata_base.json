@@ -99040,6 +99040,59 @@
     "session_types": false,
     "needs_cleanup": null
   },
+  "exploit_linux/persistence/apache_htaccess": {
+    "name": "Apache .htaccess Persistence",
+    "fullname": "exploit/linux/persistence/apache_htaccess",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "1995-12-01",
+    "type": "exploit",
+    "author": [
+      "wireghoul",
+      "msutovsky-r7",
+      "4ravind-b"
+    ],
+    "description": "This module writes a persistence payload into an Apache\n          .htaccess file using mod_cgi. The .htaccess file itself\n          acts as a CGI shell, executing commands passed via the\n          query string. Inspired by the htshells project by wireghoul.",
+    "references": [
+      "URL-https://github.com/wireghoul/htshells",
+      "ATT&CK-T1546"
+    ],
+    "platform": "Linux,PHP",
+    "arch": "php, cmd",
+    "rport": null,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "PHP",
+      "Linux command"
+    ],
+    "mod_time": "2026-07-03 08:16:38 +0000",
+    "path": "/modules/exploits/linux/persistence/apache_htaccess.rb",
+    "is_install_path": true,
+    "ref_name": "linux/persistence/apache_htaccess",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "repeatable-session",
+        "event-dependent"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "config-changes"
+      ]
+    },
+    "session_types": [
+      "meterpreter",
+      "shell"
+    ],
+    "needs_cleanup": null,
+    "actions": []
+  },
   "exploit_linux/persistence/apt_package_manager": {
     "name": "APT Package Manager Persistence",
     "fullname": "exploit/linux/persistence/apt_package_manager",
