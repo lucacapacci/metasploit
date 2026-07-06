@@ -135040,6 +135040,58 @@
     "needs_cleanup": true,
     "actions": []
   },
+  "exploit_osx/local/packagekit_zshenv_privesc": {
+    "name": "macOS PackageKit ZSH Environment Privilege Escalation",
+    "fullname": "exploit/osx/local/packagekit_zshenv_privesc",
+    "aliases": [],
+    "rank": 0,
+    "disclosure_date": "2024-06-03",
+    "type": "exploit",
+    "author": [
+      "Mykola Grymalyuk",
+      "h00die"
+    ],
+    "description": "This module exploits CVE-2024-27822, a vulnerability in macOS\n          PackageKit.framework where PKG installer scripts using a ZSH shebang\n          (#!/bin/zsh) are executed as root while inheriting the installing user's\n          environment. This causes ZSH to load the user's ~/.zshenv with root\n          privileges before the installer script body runs.\n\n          The module injects a payload into ~/.zshenv that only fires when EUID is 0,\n          uploads a minimal PKG (from data/exploits/CVE-2024-27822/template.pkg) whose\n          install script uses a #!/bin/zsh shebang, and opens it with Installer.app.\n          When the user approves the installation dialog and authenticates, PackageKit\n          runs the install script as root. ZSH sources ~/.zshenv before the script body\n          executes, so the payload fires with root privileges. The original ~/.zshenv\n          content is restored immediately after the payload runs.\n\n          Affected: macOS 14.4 and earlier, 13.6.6 and earlier, 12.7.4 and earlier,\n          and all macOS 11 and older releases.\n          Fixed in: macOS 14.5, 13.6.7, 12.7.5.",
+    "references": [
+      "CVE-2024-27822",
+      "URL-https://khronokernel.com/macos/2024/06/03/CVE-2024-27822.html",
+      "ATT&CK-T1068",
+      "ATT&CK-T1546.004"
+    ],
+    "platform": "OSX,Unix",
+    "arch": "cmd",
+    "rport": null,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "macOS"
+    ],
+    "mod_time": "2026-07-03 18:58:13 +0000",
+    "path": "/modules/exploits/osx/local/packagekit_zshenv_privesc.rb",
+    "is_install_path": true,
+    "ref_name": "osx/local/packagekit_zshenv_privesc",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "event-dependent"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "config-changes"
+      ]
+    },
+    "session_types": [
+      "shell",
+      "meterpreter"
+    ],
+    "needs_cleanup": true,
+    "actions": []
+  },
   "exploit_osx/local/root_no_password": {
     "name": "Mac OS X Root Privilege Escalation",
     "fullname": "exploit/osx/local/root_no_password",
