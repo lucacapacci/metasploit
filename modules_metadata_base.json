@@ -7372,7 +7372,7 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2026-06-04 23:51:23 +0000",
+    "mod_time": "2026-07-06 09:04:47 +0000",
     "path": "/modules/auxiliary/admin/ldap/shadow_credentials.rb",
     "is_install_path": true,
     "ref_name": "admin/ldap/shadow_credentials",
@@ -196910,7 +196910,7 @@
     "targets": [
       "Windows"
     ],
-    "mod_time": "2026-05-07 09:13:00 +0000",
+    "mod_time": "2026-07-06 09:43:23 +0000",
     "path": "/modules/exploits/windows/local/ntlm_relay_2_self.rb",
     "is_install_path": true,
     "ref_name": "windows/local/ntlm_relay_2_self",
