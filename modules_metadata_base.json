@@ -46569,6 +46569,61 @@
     "needs_cleanup": false,
     "actions": []
   },
+  "auxiliary_scanner/http/vllm_multimodal_info_leak": {
+    "name": "vLLM Multimodal Heap-Address Information Leak Scanner",
+    "fullname": "auxiliary/scanner/http/vllm_multimodal_info_leak",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": "2026-02-02",
+    "type": "auxiliary",
+    "author": [
+      "Kenneth LaCroix"
+    ],
+    "description": "This module detects vLLM OpenAI-compatible servers affected by\n          CVE-2026-22778. When an invalid image is sent to a multimodal endpoint,\n          Pillow (PIL) raises UnidentifiedImageError whose message includes the\n          Python repr of the underlying BytesIO buffer\n          (\"<_io.BytesIO object at 0x...>\"), exposing a live heap address.\n          Vulnerable versions return that error message directly to the client,\n          which weakens ASLR and forms the first stage of a chain that ends in a\n          JPEG2000 heap overflow in the bundled FFmpeg/OpenCV video decoder.\n          Affected versions are 0.8.3 through 0.14.0 (fixed in 0.14.1, which\n          sanitizes the address out of the message).\n\n          The module first reads the unauthenticated /version banner and compares\n          it against the affected range. It then issues a single benign request to\n          the chat completions endpoint containing a deliberately malformed\n          base64 image. If the response leaks a \"0x\" heap address the target is\n          reported vulnerable with high confidence; if the address is stripped the\n          fix is present; if the server reports that the model has no image support\n          the leak path is not reachable as deployed. The probe never sends a\n          video URL and never reaches the heap-overflow code path.",
+    "references": [
+      "CVE-2026-22778",
+      "GHSA-4r2x-xpjr-7cvv",
+      "URL-https://orca.security/resources/blog/cve-2026-22778-vllm-rce-vulnerability/"
+    ],
+    "platform": "",
+    "arch": "",
+    "rport": 8000,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": null,
+    "mod_time": "2026-06-25 09:30:10 +0000",
+    "path": "/modules/auxiliary/scanner/http/vllm_multimodal_info_leak.rb",
+    "is_install_path": true,
+    "ref_name": "scanner/http/vllm_multimodal_info_leak",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [],
+      "SideEffects": [
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": false,
+    "actions": []
+  },
   "auxiliary_scanner/http/wangkongbao_traversal": {
     "name": "WANGKONGBAO CNS-1000 and 1100 UTM Directory Traversal",
     "fullname": "auxiliary/scanner/http/wangkongbao_traversal",
