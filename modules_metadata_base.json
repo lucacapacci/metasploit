@@ -25210,6 +25210,59 @@
     "needs_cleanup": false,
     "actions": []
   },
+  "auxiliary_gather/langflow_auth_bypass_cve_2026_93680": {
+    "name": "Langflow AI Authentication Bypass",
+    "fullname": "auxiliary/gather/langflow_auth_bypass_cve_2026_93680",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": "2026-09-22",
+    "type": "auxiliary",
+    "author": [
+      "Richard Howe <rhowe425>"
+    ],
+    "description": "Langflow versions 1.5.0 through 1.11.4 allow unauthenticated\n          connections to the MCP SSE endpoint, allowing attackers to initialize\n          MCP sessions and retrieve privileged MCP-related information.\n\n          The MCP information collected from this module is stored in Metasploit\n          loot as a JSON document.",
+    "references": [
+      "CVE-2026-93680"
+    ],
+    "platform": "",
+    "arch": "",
+    "rport": 7860,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": null,
+    "mod_time": "2026-10-02 13:54:04 +0000",
+    "path": "/modules/auxiliary/gather/langflow_auth_bypass_cve_2026_93680.rb",
+    "is_install_path": true,
+    "ref_name": "gather/langflow_auth_bypass_cve_2026_93680",
+    "check": false,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
+    "session_types": false,
+    "needs_cleanup": false,
+    "actions": []
+  },
   "auxiliary_gather/lansweeper_collector": {
     "name": "Lansweeper Credential Collector",
     "fullname": "auxiliary/gather/lansweeper_collector",
@@ -94672,6 +94725,56 @@
     "needs_cleanup": null,
     "actions": []
   },
+  "exploit_linux/local/cve_2026_3888": {
+    "name": "Local Privilege Escalation in snapd",
+    "fullname": "exploit/linux/local/cve_2026_3888",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-03-17",
+    "type": "exploit",
+    "author": [
+      "msutovsky-r7",
+      "Qualys Security Advisory Team"
+    ],
+    "description": "The `snap-confine` in some Ubuntu versions is vulnerable to race condition, when setting up snap sandbox and creating mimic of /usr/lib/x86_64-linux-gnu.\n          The snapd package is vulnerable up to version 2.74.1+ubuntu26.04.3 - however, each minor version has its own patch.\n          The time window between creating bind-mounted copies of real libraries and copying them into sandbox /usr/lib/x86_64-linux-gnu allows the attacker to take control of content of those libraries by recreating /tmp/.snap folder.\n          This folder is owned by root, but it's auto-deleted after 30 days without activity (by default on Ubuntu 24.04+).\n          The attacker can recreate this folder once it is deleted and take over the sandboxed libraries.\n          After gaining root inside sandbox, it can escape the sandbox by copying setuid binary into host filesystem.",
+    "references": [
+      "URL-https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root",
+      "URL-https://cdn2.qualys.com/advisory/2026/03/17/snap-confine-systemd-tmpfiles.txt",
+      "CVE-2026-3888"
+    ],
+    "platform": "Linux",
+    "arch": "cmd",
+    "rport": null,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "Auto"
+    ],
+    "mod_time": "2026-09-22 18:03:09 +0000",
+    "path": "/modules/exploits/linux/local/cve_2026_3888.rb",
+    "is_install_path": true,
+    "ref_name": "linux/local/cve_2026_3888",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "event-dependent"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk"
+      ]
+    },
+    "session_types": [
+      "shell",
+      "meterpreter"
+    ],
+    "needs_cleanup": true,
+    "actions": []
+  },
   "exploit_linux/local/cve_2026_43284_dirty_frag": {
     "name": "xfrm-ESP Page-Cache Write via CVE-2026-43284",
     "fullname": "exploit/linux/local/cve_2026_43284_dirty_frag",
@@ -116321,6 +116424,64 @@
     "session_types": false,
     "needs_cleanup": null
   },
+  "exploit_multi/http/langflow_auth_rce_cve_2026_7873": {
+    "name": "Langflow AI Code Validation Authenticated RCE",
+    "fullname": "exploit/multi/http/langflow_auth_rce_cve_2026_7873",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-06-30",
+    "type": "exploit",
+    "author": [
+      "Richard Howe <rhowe425>",
+      "n0k0"
+    ],
+    "description": "Langflow versions 1.0.0 through 1.10.0 are susceptible to authenticated remote code\n          execution due to improper validation of code in the `/api/v1/validate/code` endpoint.\n\n          Arbitrary code is executed under the context of the backend Langflow process.",
+    "references": [
+      "CVE-2026-7873",
+      "URL-https://www.ibm.com/support/pages/node/7278441"
+    ],
+    "platform": "Python",
+    "arch": "python",
+    "rport": 7860,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Python payload"
+    ],
+    "mod_time": "2026-10-08 08:39:45 +0000",
+    "path": "/modules/exploits/multi/http/langflow_auth_rce_cve_2026_7873.rb",
+    "is_install_path": true,
+    "ref_name": "multi/http/langflow_auth_rce_cve_2026_7873",
+    "check": true,
+    "post_auth": true,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
   "exploit_multi/http/langflow_rce_cve_2026_0770": {
     "name": "Langflow Unauthenticated RCE (validate endpoint)",
     "fullname": "exploit/multi/http/langflow_rce_cve_2026_0770",
@@ -116491,6 +116652,120 @@
       ],
       "SideEffects": [
         "artifacts-on-disk",
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
+  "exploit_multi/http/langflow_unauth_rce_cve_2026_0768": {
+    "name": "Langflow AI Validate Code Injection unauth RCE",
+    "fullname": "exploit/multi/http/langflow_unauth_rce_cve_2026_0768",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-09-02",
+    "type": "exploit",
+    "author": [
+      "Richard Howe <rhowe425>",
+      "Peter Girnus"
+    ],
+    "description": "Langflow version 1.4.2 is susceptible to unauthenticated\n          remote code execution due to improper handling of the code\n          parameter provided to the `/validate` endpoint.\n\n          Arbitrary code is executed under the context of the backend\n          Langflow process.",
+    "references": [
+      "CVE-2026-0768"
+    ],
+    "platform": "Python",
+    "arch": "python",
+    "rport": 7860,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Python payload"
+    ],
+    "mod_time": "2026-10-01 18:21:13 +0000",
+    "path": "/modules/exploits/multi/http/langflow_unauth_rce_cve_2026_0768.rb",
+    "is_install_path": true,
+    "ref_name": "multi/http/langflow_unauth_rce_cve_2026_0768",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
+  "exploit_multi/http/langflow_unauth_rce_cve_2026_0769": {
+    "name": "Langflow AI Custom Component Eval Injection Unauth RCE",
+    "fullname": "exploit/multi/http/langflow_unauth_rce_cve_2026_0769",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-01-22",
+    "type": "exploit",
+    "author": [
+      "Richard Howe <rhowe425>",
+      "Peter Girnus"
+    ],
+    "description": "Langflow version 1.3.2 is susceptible to\n          unauthenticated remote code execution due to improper\n          input validation in the eval_custom_component_code() function.\n\n          Arbitrary code executes under the context of the backend\n          Langflow process.",
+    "references": [
+      "CVE-2026-0769"
+    ],
+    "platform": "Python",
+    "arch": "python",
+    "rport": 7860,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "Python payload"
+    ],
+    "mod_time": "2026-10-08 11:52:00 +0000",
+    "path": "/modules/exploits/multi/http/langflow_unauth_rce_cve_2026_0769.rb",
+    "is_install_path": true,
+    "ref_name": "multi/http/langflow_unauth_rce_cve_2026_0769",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
         "ioc-in-logs"
       ],
       "Reliability": [
