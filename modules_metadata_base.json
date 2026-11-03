@@ -42580,6 +42580,61 @@
     "needs_cleanup": false,
     "actions": []
   },
+  "auxiliary_scanner/http/openbullet2_unauth_hash_disclosure_cve_2026_39908": {
+    "name": "OpenBullet2 NTLMv2 Hash Disclosure via UNC Path Proxy Source",
+    "fullname": "auxiliary/scanner/http/openbullet2_unauth_hash_disclosure_cve_2026_39908",
+    "aliases": [],
+    "rank": 300,
+    "disclosure_date": "2026-06-08",
+    "type": "auxiliary",
+    "author": [
+      "Maksim Rogov"
+    ],
+    "description": "This Metasploit module exploits a Credential Disclosure vulnerability in OpenBullet2 on Windows.\n\n          An attacker can force the application to disclose the NTLMv2 hash of the process user by configuring a job proxy source with a malicious UNC path.\n          When the job starts, the application attempts to load proxies from the specified path via SMB, allowing the hash to be captured for offline cracking or relaying.\n\n          The affected versions include releases from 0.2.5.",
+    "references": [
+      "CVE-2026-25555",
+      "CVE-2026-39908",
+      "URL-https://hackernoon.com/one-empty-header-to-admin-how-an-auth-bypass-breaks-openbullet2"
+    ],
+    "platform": "",
+    "arch": "",
+    "rport": 80,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": null,
+    "mod_time": "2026-10-25 12:57:15 +0000",
+    "path": "/modules/auxiliary/scanner/http/openbullet2_unauth_hash_disclosure_cve_2026_39908.rb",
+    "is_install_path": true,
+    "ref_name": "scanner/http/openbullet2_unauth_hash_disclosure_cve_2026_39908",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
+    "session_types": false,
+    "needs_cleanup": false,
+    "actions": []
+  },
   "auxiliary_scanner/http/openmind_messageos_login": {
     "name": "OpenMind Message-OS Portal Login Brute Force Utility",
     "fullname": "auxiliary/scanner/http/openmind_messageos_login",
@@ -101779,54 +101834,6 @@
     "needs_cleanup": null,
     "actions": []
   },
-  "exploit_linux/persistence/docker_image": {
-    "name": "Docker Image Persistence",
-    "fullname": "exploit/linux/persistence/docker_image",
-    "aliases": [],
-    "rank": 600,
-    "disclosure_date": "2013-03-20",
-    "type": "exploit",
-    "author": [
-      "h00die"
-    ],
-    "description": "This module maintains persistence on a host by creating a docker image which runs our\n          payload, and has access to the host's file system (/host in the container). Whenever the\n          container restarts, the payload will run, or when the payload dies the executable\n          will run again after a delay. This will allow for writing back\n          into the host through cron entries, ssh keys, or other method.\n\n          Verified on Ubuntu 22.04.",
-    "references": [
-      "ATT&CK-T1610"
-    ],
-    "platform": "Linux",
-    "arch": "x86, x64, armle, aarch64, ppc, mipsle, mipsbe",
-    "rport": null,
-    "autofilter_ports": [],
-    "autofilter_services": [],
-    "targets": [
-      "Auto"
-    ],
-    "mod_time": "2026-09-07 06:56:30 +0000",
-    "path": "/modules/exploits/linux/persistence/docker_image.rb",
-    "is_install_path": true,
-    "ref_name": "linux/persistence/docker_image",
-    "check": true,
-    "post_auth": false,
-    "default_credential": false,
-    "notes": {
-      "Stability": [
-        "crash-safe"
-      ],
-      "Reliability": [
-        "repeatable-session"
-      ],
-      "SideEffects": [
-        "artifacts-on-disk",
-        "config-changes",
-        "ioc-in-logs"
-      ]
-    },
-    "session_types": [
-      "meterpreter"
-    ],
-    "needs_cleanup": true,
-    "actions": []
-  },
   "exploit_linux/persistence/elf": {
     "name": "Linux ELF Executable Payload Injection Persistence",
     "fullname": "exploit/linux/persistence/elf",
@@ -120996,6 +121003,65 @@
     "session_types": false,
     "needs_cleanup": true
   },
+  "exploit_multi/http/openbullet2_unauth_rce_cve_2026_25856": {
+    "name": "OpenBullet2 Unauthenticated RCE via Config Configuration Interface",
+    "fullname": "exploit/multi/http/openbullet2_unauth_rce_cve_2026_25856",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2026-06-08",
+    "type": "exploit",
+    "author": [
+      "Maksim Rogov"
+    ],
+    "description": "This Metasploit module exploits an Unauthenticated Remote Code Execution (RCE) vulnerability in OpenBullet2.\n\n          Attackers can leverage the plain C# execution mode, which lacks reference filtering or API restrictions, to access the file system, spawn processes, and invoke arbitrary .NET APIs as the process user.\n\n          The affected versions include releases from 0.2.5.",
+    "references": [
+      "CVE-2026-25555",
+      "CVE-2026-25856",
+      "URL-https://hackernoon.com/one-empty-header-to-admin-how-an-auth-bypass-breaks-openbullet2"
+    ],
+    "platform": "Linux,Unix,Windows",
+    "arch": "cmd",
+    "rport": 80,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "OpenBullet2 >= 0.2.5 / Unix Command",
+      "OpenBullet2 >= 0.2.5 / Windows Command"
+    ],
+    "mod_time": "2026-11-02 11:34:16 +0000",
+    "path": "/modules/exploits/multi/http/openbullet2_unauth_rce_cve_2026_25856.rb",
+    "is_install_path": true,
+    "ref_name": "multi/http/openbullet2_unauth_rce_cve_2026_25856",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": null
+  },
   "exploit_multi/http/opencats_installer_rce": {
     "name": "OpenCATS Installer PHP Code Injection",
     "fullname": "exploit/multi/http/opencats_installer_rce",
@@ -136405,6 +136471,55 @@
     },
     "session_types": [
       "shell",
+      "meterpreter"
+    ],
+    "needs_cleanup": true,
+    "actions": []
+  },
+  "exploit_multi/persistence/docker_image": {
+    "name": "Docker Image Persistence",
+    "fullname": "exploit/multi/persistence/docker_image",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2013-03-20",
+    "type": "exploit",
+    "author": [
+      "h00die",
+      "Emanuele Cervelli"
+    ],
+    "description": "This module maintains persistence on a host by creating a docker image which runs our\n          payload, and has access to the host's file system (/host in the container). Whenever the\n          container restarts, the payload will run, or when the payload dies the executable\n          will run again after a delay. This will allow for writing back\n          into the host through cron entries, ssh keys, or other method.\n\n          Verified on Ubuntu 22.04.\n          Verified on Windows 11.",
+    "references": [
+      "ATT&CK-T1610"
+    ],
+    "platform": "Linux",
+    "arch": "x86, x64, armle, aarch64, ppc, mipsle, mipsbe",
+    "rport": null,
+    "autofilter_ports": [],
+    "autofilter_services": [],
+    "targets": [
+      "Auto"
+    ],
+    "mod_time": "2026-11-02 21:36:19 +0000",
+    "path": "/modules/exploits/multi/persistence/docker_image.rb",
+    "is_install_path": true,
+    "ref_name": "multi/persistence/docker_image",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "config-changes",
+        "ioc-in-logs"
+      ]
+    },
+    "session_types": [
       "meterpreter"
     ],
     "needs_cleanup": true,
@@ -152088,6 +152203,66 @@
       ],
       "SideEffects": [
         "unknown-side-effects"
+      ]
+    },
+    "session_types": false,
+    "needs_cleanup": true
+  },
+  "exploit_unix/webapp/wp_bug_library_file_upload": {
+    "name": "WordPress Bug Library Plugin Prior To 2.1.1 Unauthenticated PHP File Upload RCE",
+    "fullname": "exploit/unix/webapp/wp_bug_library_file_upload",
+    "aliases": [],
+    "rank": 600,
+    "disclosure_date": "2024-06-22",
+    "type": "exploit",
+    "author": [
+      "Bob Matyas",
+      "TrinityBerserker"
+    ],
+    "description": "The Bug Library WordPress plugin before version 2.1.1 does not validate\n          the file type of attachments submitted via the public bug-report form,\n          allowing an unauthenticated attacker to upload an arbitrary PHP file\n          and achieve remote code execution.\n\n          When the \"Allow Attachments\" setting is enabled and CAPTCHA is either\n          disabled or not deployed, a PHP webshell can be submitted as a bug\n          report attachment. The file is stored under wp-content/uploads/bug-library/\n          and is directly accessible over HTTP, giving the attacker a persistent\n          shell on the server.\n\n          Affected versions: Bug Library < 2.1.1\n          CVSSv3 Score: 10.0 (Critical) - CWE-434: Unrestricted Upload of File\n          with Dangerous Type",
+    "references": [
+      "CVE-2024-5450",
+      "URL-https://nvd.nist.gov/vuln/detail/CVE-2024-5450",
+      "WPVDB-d91217bc-9f8f-4971-885e-89edc45b2a4d"
+    ],
+    "platform": "PHP",
+    "arch": "php",
+    "rport": 80,
+    "autofilter_ports": [
+      80,
+      8080,
+      443,
+      8000,
+      8888,
+      8880,
+      8008,
+      3000,
+      8443
+    ],
+    "autofilter_services": [
+      "http",
+      "https"
+    ],
+    "targets": [
+      "WordPress Bug Library Prior To 2.1.1"
+    ],
+    "mod_time": "2026-10-29 14:07:18 +0000",
+    "path": "/modules/exploits/unix/webapp/wp_bug_library_file_upload.rb",
+    "is_install_path": true,
+    "ref_name": "unix/webapp/wp_bug_library_file_upload",
+    "check": true,
+    "post_auth": false,
+    "default_credential": false,
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk",
+        "ioc-in-logs"
       ]
     },
     "session_types": false,
